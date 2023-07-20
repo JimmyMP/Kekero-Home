@@ -1,11 +1,11 @@
-import { $ } from '/js/domElements.js';
+import { $ } from '/js/Accesibilidad.js';
 (function () {
   const btn = $('#favorito');
   btn.addEventListener('click', ({ target }) => {
     target.querySelector('svg .fill').classList.toggle('text-white');
 
-    // let selected = JSON.parse(target.getAttribute('aria-selected'));
-    // target.setAttribute('aria-selected', !selected);
+    let selected = JSON.parse(target.getAttribute('aria-selected'));
+    target.setAttribute('aria-selected', !selected);
 
     if (localStorage.getItem('fav')) {
       localStorage.removeItem('fav');

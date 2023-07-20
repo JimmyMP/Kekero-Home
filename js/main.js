@@ -1,15 +1,32 @@
 import { $, btnReloadWallpaper, input, input_tema } from './Accesibilidad.js';
 import { quotes } from '../data/quotes.js';
-
+import './marcar_favorito.js';
 let user;
-//Para recargar de nuevo todas las funciones de start, sin recargar la pagina, al dar click
-btnReloadWallpaper.addEventListener('click', () => !JSON.parse($('#favorito')) && start());
+
 // Al iniciar el main se inician todas estas funciones
 const start = () => {
-    getQuote();
+  getQuote();
+  addTime();
+  getWallpaper();
+};
+//Carga todo lo guardado en local storage y luego le da a start
+(function () {
+  if (localStorage.getItem('fav')) {
+    $('#favorito').setAttribute('aria-selected', true);
+    $('#favorito svg .fill').classList.add('text-white');
+    const api = JSON.parse(localStorage.getItem('fav'));
+    $('.wallpaper').style = `${api.wallpaper}`;
+    $('.quote').innerHTML = `${api.quote} `;
+    $('#info-wallpaper').innerHTML = `${api.info}`;
     addTime();
-    getWallpaper();
-  };
+    return;
+  }
+  start();
+})();
+
+
+//Para recargar de nuevo todas las funciones de start, sin recargar la pagina, al dar click
+btnReloadWallpaper.addEventListener('click', () => !JSON.parse($('#favorito').getAttribute('aria-selected')) && start());
 
 //Para buscar
 const form = document.getElementById('form');
@@ -81,9 +98,9 @@ function addWallpaper(data) {
     const wallpaper = $('.wallpaper');
     //Para que aparezca gradualmente el fondo
     wallpaper.className = 'wallpaper animate__animated animate__fadeIn';
-    wallpaper.style = `
+    wallpaper.style = `filter: blur(0px) brightness(90%);
     background: url('${regular.replace('1080', '1440')}') center center no-repeat;
-    background-size: cover;
+    background-size: cover ;
     `;
     setTimeout(() => {
       wallpaper.className = 'wallpaper';
@@ -115,8 +132,8 @@ function handleForm_tema(e) {
   e.target.reset();
   location.reload();
 }
-
 async function getWallpaper() {
+    let url = localStorage.getItem('wallpaper_url') || 'https://api.unsplash.com/photos/random/?client_id=3j0d6XQ7CAPIECX8Srl987CrGxpQLn5g07vL3vgxdco&orientation=landscape&&query=Coffee';
     //Agregar una barra donde pueda escoger el tema que quieras de las fotos
     try {
       console.log(url)
@@ -127,4 +144,3 @@ async function getWallpaper() {
       console.log(e);
     }
   }
-start();
