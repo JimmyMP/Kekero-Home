@@ -5,3 +5,4 @@ export const $ = (selector) => document.querySelector(selector)
 export const btnReloadWallpaper = $('button[title="Reload Wallpaper"]');
 // Dentro de input estará el primer selector que encuentre con id="query"
 export const input = $('#query');
+export const input_tema = $('#query_tema');

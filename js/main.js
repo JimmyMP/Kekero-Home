@@ -1,4 +1,4 @@
-import { $, btnReloadWallpaper, input } from './Accesibilidad.js';
+import { $, btnReloadWallpaper, input, input_tema } from './Accesibilidad.js';
 import { quotes } from '../data/quotes.js';
 
 let user;
@@ -87,11 +87,28 @@ function addWallpaper(data) {
       $('#location').textContent = location;
     }
   }
+
+const form_tema = document.getElementById('form_tema');
+form_tema.addEventListener('submit', handleForm_tema);
+//Se comienza con una tematica de cafe
+let url = localStorage.getItem('wallpaper_url') || 'https://api.unsplash.com/photos/random/?client_id=3j0d6XQ7CAPIECX8Srl987CrGxpQLn5g07vL3vgxdco&orientation=landscape&&query=Coffee';
+function handleForm_tema(e) {
+  e.preventDefault(); //Para que no se recarge la pagina
+  console.log(input_tema.value.trim())
+  if (input_tema.value.trim() != ''){
+    //Se guarda la tematica que pones
+    url = `https://api.unsplash.com/photos/random/?client_id=3j0d6XQ7CAPIECX8Srl987CrGxpQLn5g07vL3vgxdco&orientation=landscape&&query=${input_tema.value.trim()}`;
+    localStorage.setItem('wallpaper_url', url);
+  }
+  console.log(url)
+  e.target.reset();
+  location.reload();
+}
+
 async function getWallpaper() {
     //Agregar una barra donde pueda escoger el tema que quieras de las fotos
-    const url = 'https://api.unsplash.com/photos/random/?client_id=3j0d6XQ7CAPIECX8Srl987CrGxpQLn5g07vL3vgxdco&orientation=landscape&&query=Peru';
-  
     try {
+      console.log(url)
       const resp = await fetch(url);
       const data = await resp.json();
       addWallpaper(data);

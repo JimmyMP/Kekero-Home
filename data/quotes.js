@@ -1,6574 +1,13878 @@
 export const quotes = [
-    {
-      text: 'Genius is one percent inspiration and ninety-nine percent perspiration.',
-      author: 'Thomas Edison',
-    },
-    {
-      text: 'You can observe a lot just by watching.',
-      author: 'Yogi Berra',
-    },
-    {
-      text: 'A house divided against itself cannot stand.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Difficulties increase the nearer we get to the goal.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Fate is in your hands and no one elses',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Be the chief but never the lord.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Nothing happens unless first we dream.',
-      author: 'Carl Sandburg',
-    },
-    {
-      text: 'Well begun is half done.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Life is a learning experience, only if you learn.',
-      author: 'Yogi Berra',
-    },
-    {
-      text: 'Self-complacency is fatal to progress.',
-      author: 'Margaret Sangster',
-    },
-    {
-      text: 'Peace comes from within. Do not seek it without.',
-      author: 'Buddha',
-    },
-    {
-      text: 'What you give is what you get.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'We can only learn to love by loving.',
-      author: 'Iris Murdoch',
-    },
-    {
-      text: 'Life is change. Growth is optional. Choose wisely.',
-      author: 'Karen Clark',
-    },
-    {
-      text: "You'll see it when you believe it.",
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Today is the tomorrow we worried about yesterday.',
-      author: null,
-    },
-    {
-      text: "It's easier to see the mistakes on someone else's paper.",
-      author: null,
-    },
-    {
-      text: 'Every man dies. Not every man really lives.',
-      author: null,
-    },
-    {
-      text: 'To lead people walk behind them.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Having nothing, nothing can he lose.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Trouble is only opportunity in work clothes.',
-      author: 'Henry J. Kaiser',
-    },
-    {
-      text: 'A rolling stone gathers no moss.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: 'Ideas are the beginning points of all fortunes.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Everything in life is luck.',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'Doing nothing is better than being busy doing nothing.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Trust yourself. You know more than you think you do.',
-      author: 'Benjamin Spock',
-    },
-    {
-      text: 'Study the past, if you would divine the future.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The day is already blessed, find peace within it.',
-      author: null,
-    },
-    {
-      text: 'From error to error one discovers the entire truth.',
-      author: 'Sigmund Freud',
-    },
-    {
-      text: 'Well done is better than well said.',
-      author: 'Benjamin Franklin',
-    },
-    {
-      text: 'Bite off more than you can chew, then chew it.',
-      author: 'Ella Williams',
-    },
-    {
-      text: 'Work out your own salvation. Do not depend on others.',
-      author: 'Buddha',
-    },
-    {
-      text: 'One today is worth two tomorrows.',
-      author: 'Benjamin Franklin',
-    },
-    {
-      text: 'Once you choose hope, anythings possible.',
-      author: 'Christopher Reeve',
-    },
-    {
-      text: 'God always takes the simplest way.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'One fails forward toward success.',
-      author: 'Charles Kettering',
-    },
-    {
-      text: 'From small beginnings come great things.',
-      author: null,
-    },
-    {
-      text: 'Learning is a treasure that will follow its owner everywhere',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'Be as you wish to seem.',
-      author: 'Socrates',
-    },
-    {
-      text: 'The world is always in movement.',
-      author: 'V. Naipaul',
-    },
-    {
-      text: 'Never mistake activity for achievement.',
-      author: 'John Wooden',
-    },
-    {
-      text: 'What worries you masters you.',
-      author: 'Haddon Robinson',
-    },
-    {
-      text: 'One faces the future with ones past.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: 'Goals are the fuel in the furnace of achievement.',
-      author: 'Brian Tracy',
-    },
-    {
-      text: 'Who sows virtue reaps honour.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'Be kind whenever possible. It is always possible.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: "Talk doesn't cook rice.",
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'He is able who thinks he is able.',
-      author: 'Buddha',
-    },
-    {
-      text: 'A goal without a plan is just a wish.',
-      author: 'Larry Elder',
-    },
-    {
-      text: 'To succeed, we must first believe that we can.',
-      author: 'Michael Korda',
-    },
-    {
-      text: 'Learn from yesterday, live for today, hope for tomorrow.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'A weed is no more than a flower in disguise.',
-      author: 'James Lowell',
-    },
-    {
-      text: 'Do, or do not. There is no try.',
-      author: 'Yoda',
-    },
-    {
-      text: 'All serious daring starts from within.',
-      author: 'Harriet Beecher Stowe',
-    },
-    {
-      text: 'The best teacher is experience learned from failures.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Think how hard physics would be if particles could think.',
-      author: 'Murray Gell-Mann',
-    },
-    {
-      text: "Love is the flower you've got to let grow.",
-      author: 'John Lennon',
-    },
-    {
-      text: "Don't wait. The time will never be just right.",
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Time is the wisest counsellor of all.',
-      author: 'Pericles',
-    },
-    {
-      text: 'You give before you get.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Wisdom begins in wonder.',
-      author: 'Socrates',
-    },
-    {
-      text: 'Without courage, wisdom bears no fruit.',
-      author: 'Baltasar Gracian',
-    },
-    {
-      text: 'Change in all things is sweet.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'What you fear is that which requires action to overcome.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'When performance exceeds ambition, the overlap is called success.',
-      author: 'Cullen Hightower',
-    },
-    {
-      text: 'When deeds speak, words are nothing.',
-      author: 'African proverb',
-    },
-    {
-      text: 'Real magic in relationships means an absence of judgement of others.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'I never think of the future. It comes soon enough.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Skill to do comes of doing.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Wisdom is the supreme part of happiness.',
-      author: 'Sophocles',
-    },
-    {
-      text: 'I believe that every person is born with talent.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Important principles may, and must, be inflexible.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'The undertaking of a new action brings new strength.',
-      author: 'Richard Evans',
-    },
-    {
-      text: 'The years teach much which the days never know.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Our distrust is very expensive.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'All know the way; few actually walk it.',
-      author: 'Bodhidharma',
-    },
-    {
-      text: 'Great talent finds happiness in execution.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Faith in oneself is the best and safest course.',
-      author: 'Michelangelo',
-    },
-    {
-      text: 'Courage is going from failure to failure without losing enthusiasm.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'The two most powerful warriors are patience and time.',
-      author: 'Leo Tolstoy',
-    },
-    {
-      text: 'Anticipate the difficult by managing the easy.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Those who are free of resentful thoughts surely find peace.',
-      author: 'Buddha',
-    },
-    {
-      text: 'A short saying often contains much wisdom.',
-      author: 'Sophocles',
-    },
-    {
-      text: 'It takes both sunshine and rain to make a rainbow.',
-      author: null,
-    },
-    {
-      text: 'A beautiful thing is never perfect.',
-      author: null,
-    },
-    {
-      text: 'Only do what your heart tells you.',
-      author: 'Princess Diana',
-    },
-    {
-      text: 'Life is movement-we breathe, we eat, we walk, we move!',
-      author: 'John Pierrakos',
-    },
-    {
-      text: 'No one can make you feel inferior without your consent.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'Argue for your limitations, and sure enough theyre yours.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Luck is what happens when preparation meets opportunity.',
-      author: 'Seneca',
-    },
-    {
-      text: 'Victory belongs to the most persevering.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'Love all, trust a few, do wrong to none.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'In order to win, you must expect to win.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'A goal is a dream with a deadline.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'You can do it if you believe you can!',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: "Set your goals high, and don't stop till you get there.",
-      author: 'Bo Jackson',
-    },
-    {
-      text: 'Every new day is another chance to change your life.',
-      author: null,
-    },
-    {
-      text: 'Smile, breathe, and go slowly.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Nobody will believe in you unless you believe in yourself.',
-      author: 'Liberace',
-    },
-    {
-      text: 'Do more than dream: work.',
-      author: 'William Arthur Ward',
-    },
-    {
-      text: 'No man was ever wise by chance.',
-      author: 'Seneca',
-    },
-    {
-      text: 'Some pursue happiness, others create it.',
-      author: null,
-    },
-    {
-      text: 'He that is giddy thinks the world turns round.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: "Don't ruin the present with the ruined past.",
-      author: 'Ellen Gilchrist',
-    },
-    {
-      text: 'Do something wonderful, people may imitate it.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'We do what we do because we believe.',
-      author: null,
-    },
-    {
-      text: 'Do one thing every day that scares you.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'If you cannot be silent be brilliant and thoughtful.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Who looks outside, dreams; who looks inside, awakes.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'What we think, we become.',
-      author: 'Buddha',
-    },
-    {
-      text: 'The shortest answer is doing.',
-      author: 'Lord Herbert',
-    },
-    {
-      text: 'All our knowledge has its origins in our perceptions.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'The harder you fall, the higher you bounce.',
-      author: null,
-    },
-    {
-      text: 'Trusting our intuition often saves us from disaster.',
-      author: 'Anne Wilson Schaef',
-    },
-    {
-      text: 'Truth is powerful and it prevails.',
-      author: 'Sojourner Truth',
-    },
-    {
-      text: 'Light tomorrow with today!',
-      author: 'Elizabeth Browning',
-    },
-    {
-      text: 'Silence is a fence around wisdom.',
-      author: 'German proverb',
-    },
-    {
-      text: 'Society develops wit, but its contemplation alone forms genius.',
-      author: 'Madame de Stael',
-    },
-    {
-      text: 'The simplest things are often the truest.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Everyone smiles in the same language.',
-      author: null,
-    },
-    {
-      text: 'Yesterday I dared to struggle. Today I dare to win.',
-      author: 'Bernadette Devlin',
-    },
-    {
-      text: 'No alibi will save you from accepting the responsibility.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'If you can dream it, you can do it.',
-      author: 'Walt Disney',
-    },
-    {
-      text: 'It is better to travel well than to arrive.',
-      author: 'Buddha',
-    },
-    {
-      text: "Life shrinks or expands in proportion to one's courage.",
-      author: 'Anais Nin',
-    },
-    {
-      text: 'You have to believe in yourself.',
-      author: 'Sun Tzu',
-    },
-    {
-      text: 'Our intention creates our reality.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Silence is a true friend who never betrays.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Character develops itself in the stream of life.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'From little acorns mighty oaks do grow.',
-      author: 'American proverb',
-    },
-    {
-      text: "You can't stop the waves, but you can learn to surf.",
-      author: 'Jon Kabat-Zinn',
-    },
-    {
-      text: 'Reality does not conform to the ideal, but confirms it.',
-      author: 'Gustave Flaubert',
-    },
-    {
-      text: 'Speak low, if you speak love.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'A really great talent finds its happiness in execution.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Reality leaves a lot to the imagination.',
-      author: 'John Lennon',
-    },
-    {
-      text: 'The greatest remedy for anger is delay.',
-      author: 'Seneca',
-    },
-    {
-      text: 'Growth itself contains the germ of happiness.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: "You can do what's reasonable or you can decide what's possible.",
-      author: null,
-    },
-    {
-      text: 'Nothing strengthens authority so much as silence.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'Wherever you go, go with all your heart.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The only real valuable thing is intuition.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Good luck is another name for tenacity of purpose.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Rainbows apologize for angry skies.',
-      author: 'Sylvia Voirol',
-    },
-    {
-      text: "Friendship isn't a big thing. It's a million little things.",
-      author: null,
-    },
-    {
-      text: 'Time is the most valuable thing a man can spend.',
-      author: 'Theophrastus',
-    },
-    {
-      text: 'Whatever happens, take responsibility.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Experience is simply the name we give our mistakes.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'I think and that is all that I am.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'A good plan today is better than a perfect plan tomorrow.',
-      author: null,
-    },
-    {
-      text: "If the shoe doesn't fit, must we change the foot?",
-      author: 'Gloria Steinem',
-    },
-    {
-      text: 'Each day provides its own gifts.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'While we stop to think, we often miss our opportunity.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: "Life isn't about finding yourself. Life is about creating yourself.",
-      author: 'Bernard Shaw',
-    },
-    {
-      text: "To bring anything into your life, imagine that it's already there.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Begin to weave and God will give you the thread.',
-      author: 'German proverb',
-    },
-    {
-      text: 'The more you know yourself, the more you forgive yourself.',
-      author: 'Confucius',
-    },
-    {
-      text: "Someone remembers, someone cares; your name is whispered in someone's prayers.",
-      author: null,
-    },
-    {
-      text: 'Without faith, nothing is possible. With it, nothing is impossible.',
-      author: 'Mary Bethune',
-    },
-    {
-      text: 'Once we accept our limits, we go beyond them.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: "Don't be pushed by your problems; be led by your dreams.",
-      author: null,
-    },
-    {
-      text: 'Whatever we expect with confidence becomes our own self-fulfilling prophecy.',
-      author: 'Brian Tracy',
-    },
-    {
-      text: 'Everything you can imagine is real.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'Fear is a darkroom where negatives develop.',
-      author: 'Usman Asif',
-    },
-    {
-      text: 'The truest wisdom is a resolute determination.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'Life is the flower for which love is the honey.',
-      author: 'Victor Hugo',
-    },
-    {
-      text: 'Freedom is the right to live as we wish.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Change your thoughts, change your life!',
-      author: null,
-    },
-    {
-      text: "Never ignore a gut feeling, but never believe that it's enough.",
-      author: 'Robert Heller',
-    },
-    {
-      text: 'Loss is nothing else but change,and change is Natures delight.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Someone is special only if you tell them.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Today is the tomorrow you worried about yesterday.',
-      author: null,
-    },
-    {
-      text: 'There is no way to happiness, happiness is the way.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'The day always looks brighter from behind a smile.',
-      author: null,
-    },
-    {
-      text: 'A stumble may prevent a fall.',
-      author: null,
-    },
-    {
-      text: 'He who talks more is sooner exhausted.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'He who is contented is rich.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'What we achieve inwardly will change outer reality.',
-      author: 'Plutarch',
-    },
-    {
-      text: 'Our strength grows out of our weaknesses.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'We must become the change we want to see.',
-      author: 'Mahatma Gandhi',
-    },
-    {
-      text: 'Happiness is found in doing, not merely possessing.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Put your future in good hands your own.',
-      author: null,
-    },
-    {
-      text: 'We choose our destiny in the way we treat others.',
-      author: 'Wit',
-    },
-    {
-      text: 'No snowflake in an avalanche ever feels responsible.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'Fortune favours the brave.',
-      author: 'Virgil',
-    },
-    {
-      text: 'I believe in one thing only, the power of human will.',
-      author: 'Joseph Stalin',
-    },
-    {
-      text: 'The best way out is always through.',
-      author: 'Robert Frost',
-    },
-    {
-      text: 'The mind unlearns with difficulty what it has long learned.',
-      author: 'Seneca',
-    },
-    {
-      text: 'I destroy my enemies when I make them my friends.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'No garden is without its weeds.',
-      author: 'Thomas Fuller',
-    },
-    {
-      text: 'There is no failure except in no longer trying.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: 'Kind words will unlock an iron door.',
-      author: 'Turkish proverb',
-    },
-    {
-      text: 'Problems are only opportunities with thorns on them.',
-      author: 'Hugh Miller',
-    },
-    {
-      text: 'Life is just a chance to grow a soul.',
-      author: 'A. Powell Davies',
-    },
-    {
-      text: 'Mountains cannot be surmounted except by winding paths.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'May our hearts garden of awakening bloom with hundreds of flowers.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Fortune befriends the bold.',
-      author: 'John Dryden',
-    },
-    {
-      text: 'Keep true to the dreams of thy youth.',
-      author: 'Friedrich von Schiller',
-    },
-    {
-      text: "You're never a loser until you quit trying.",
-      author: 'Mike Ditka',
-    },
-    {
-      text: 'Science is organized knowledge. Wisdom is organized life.',
-      author: 'Immanuel Kant',
-    },
-    {
-      text: 'Knowing is not enough; we must apply!',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Strong beliefs win strong men, and then make them stronger.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Autumn is a second spring when every leaf is a flower.',
-      author: 'Albert Camus',
-    },
-    {
-      text: 'If you surrender to the wind, you can ride it.',
-      author: 'Toni Morrison',
-    },
-    {
-      text: 'Keep yourself to the sunshine and you cannot see the shadow.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'Write your plans in pencil and give God the eraser.',
-      author: 'Paulo Coelho',
-    },
-    {
-      text: 'Inspiration exists, but it has to find us working.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'Pick battles big enough to matter, small enough to win.',
-      author: 'Jonathan Kozol',
-    },
-    {
-      text: "Don't compromise yourself. You are all you've got.",
-      author: 'Janis Joplin',
-    },
-    {
-      text: 'A short saying oft contains much wisdom.',
-      author: 'Sophocles',
-    },
-    {
-      text: 'Difficulties are things that show a person what they are.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'When you doubt your power, you give power to your doubt.',
-      author: 'Honore de Balzac',
-    },
-    {
-      text: 'The cause is hidden. The effect is visible to all.',
-      author: 'Ovid',
-    },
-    {
-      text: 'A prudent question is one half of wisdom.',
-      author: 'Francis Bacon',
-    },
-    {
-      text: 'The path to success is to take massive, determined action.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'I allow my intuition to lead my path.',
-      author: 'Manuel Puig',
-    },
-    {
-      text: 'Nature takes away any faculty that is not used.',
-      author: 'William R. Inge',
-    },
-    {
-      text: 'If you wish to be a writer, write.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'There is no way to prosperity, prosperity is the way.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Either you run the day or the day runs you.',
-      author: 'Jim Rohn',
-    },
-    {
-      text: 'Better be ignorant of a matter than half know it.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: 'Follow your instincts. That is where true wisdom manifests itself.',
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'There never was a good knife made of bad steel.',
-      author: 'Benjamin Franklin',
-    },
-    {
-      text: 'To accomplish great things, we must dream as well as act.',
-      author: 'Anatole France',
-    },
-    {
-      text: 'Patience is the companion of wisdom.',
-      author: 'Saint Augustine',
-    },
-    {
-      text: 'The mind is everything. What you think you become.',
-      author: 'Buddha',
-    },
-    {
-      text: 'To enjoy life, we must touch much of it lightly.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'To fly, we have to have resistance.',
-      author: 'Maya Lin',
-    },
-    {
-      text: "What you see depends on what you're looking for.",
-      author: null,
-    },
-    {
-      text: 'The heart has its reasons which reason knows not of.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'Be great in act, as you have been in thought.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Imagination rules the world.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'Kind words do not cost much. Yet they accomplish much.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'There is no greater harm than that of time wasted.',
-      author: 'Michelangelo',
-    },
-    {
-      text: 'Intuition will tell the thinking mind where to look next.',
-      author: 'Jonas Salk',
-    },
-    {
-      text: 'Worry gives a small thing a big shadow.',
-      author: null,
-    },
-    {
-      text: 'Fears are nothing more than a state of mind.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'The journey of a thousand miles begins with one step.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Efficiency is doing things right; effectiveness is doing the right things.',
-      author: 'Peter Drucker',
-    },
-    {
-      text: 'Blaze with the fire that is never extinguished.',
-      author: 'Luisa Sigea',
-    },
-    {
-      text: "Don't cry because it's over. Smile because it happened.",
-      author: 'Dr. Seuss',
-    },
-    {
-      text: 'No is easier to do. Yes is easier to say.',
-      author: 'Jason Fried',
-    },
-    {
-      text: 'To be wrong is nothing unless you continue to remember it.',
-      author: 'Confucius',
-    },
-    {
-      text: "Yesterdays home runs don't win today's games.",
-      author: 'Babe Ruth',
-    },
-    {
-      text: 'Silence is deep as Eternity, Speech is shallow as Time.',
-      author: 'Carlyle',
-    },
-    {
-      text: "Don't smother each other. No one can grow in the shade.",
-      author: 'Leo F. Buscaglia',
-    },
-    {
-      text: 'An ant on the move does more than a dozing ox',
-      author: 'Lao Tzu',
-    },
-    {
-      text: "You can't shake hands with a clenched fist.",
-      author: 'Indira Gandhi',
-    },
-    {
-      text: 'A good decision is based on knowledge and not on numbers.',
-      author: 'Plato',
-    },
-    {
-      text: 'The cautious seldom err.',
-      author: 'Confucius',
-    },
-    {
-      text: 'If there is no struggle, there is no progress.',
-      author: 'Frederick Douglass',
-    },
-    {
-      text: 'Where there is great love, there are always miracles.',
-      author: 'Willa Cather',
-    },
-    {
-      text: 'Time you enjoy wasting, was not wasted.',
-      author: 'John Lennon',
-    },
-    {
-      text: 'Every problem has a gift for you in its hands.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Sadness flies away on the wings of time.',
-      author: 'Jean de la Fontaine',
-    },
-    {
-      text: 'I have often regretted my speech, never my silence.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: 'Never put off till tomorrow what you can do today.',
-      author: 'Thomas Jefferson',
-    },
-    {
-      text: 'Minds are like parachutes. They only function when open.',
-      author: 'Thomas Dewar',
-    },
-    {
-      text: 'If a man does his best, what else is there?',
-      author: 'George Patton',
-    },
-    {
-      text: 'The secret of success is constancy to purpose.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'Life is a progress, and not a station.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'All seasons are beautiful for the person who carries happiness within.',
-      author: 'Horace Friess',
-    },
-    {
-      text: 'To avoid criticism, do nothing, say nothing, be nothing.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: 'All things change; nothing perishes.',
-      author: 'Ovid',
-    },
-    {
-      text: 'Absence makes the heart grow fonder.',
-      author: 'Haynes Bayly',
-    },
-    {
-      text: 'Imagination is the highest kite one can fly.',
-      author: 'Lauren Bacall',
-    },
-    {
-      text: 'The beginning of knowledge is the discovery of something we do not understand.',
-      author: 'Frank Herbert',
-    },
-    {
-      text: "Love doesn't make the world go round, love is what makes the ride worthwhile.",
-      author: 'Elizabeth Browning',
-    },
-    {
-      text: 'Whenever you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
-      author: 'Arthur Conan Doyle',
-    },
-    {
-      text: 'Good timber does not grow with ease; the stronger the wind, the stronger the trees.',
-      author: 'J. Willard Marriott',
-    },
-    {
-      text: 'I believe that we are fundamentally the same and have the same basic potential.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'The winds and waves are always on the side of the ablest navigators.',
-      author: 'Edward Gibbon',
-    },
-    {
-      text: 'The future belongs to those who believe in the beauty of their dreams.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'To get something you never had, you have to do something you never did.',
-      author: null,
-    },
-    {
-      text: "Be thankful when you don't know something for it gives you the opportunity to learn.",
-      author: null,
-    },
-    {
-      text: 'Strength does not come from physical capacity. It comes from an indomitable will.',
-      author: 'Mahatma Gandhi',
-    },
-    {
-      text: 'Each misfortune you encounter will carry in it the seed of tomorrows good luck.',
-      author: 'Og Mandino',
-    },
-    {
-      text: 'To forgive is to set a prisoner free and realize that prisoner was you.',
-      author: 'Lewis B. Smedes',
-    },
-    {
-      text: "In separateness lies the world's great misery, in compassion lies the world's true strength.",
-      author: 'Buddha',
-    },
-    {
-      text: 'By believing passionately in something that does not yet exist, we create it.',
-      author: 'Nikos Kazantzakis',
-    },
-    {
-      text: 'Letting go is not the end of the world; it is the beginning of a new life.',
-      author: null,
-    },
-    {
-      text: 'All the great performers I have worked with are fuelled by a personal dream.',
-      author: 'John Eliot',
-    },
-    {
-      text: 'One of the advantages of being disorderly is that one is constantly making exciting discoveries.',
-      author: 'A. A. Milne',
-    },
-    {
-      text: 'I never see what has been done; I only see what remains to be done.',
-      author: 'Marie Curie',
-    },
-    {
-      text: 'Begin at once to live and count each separate day as a separate life.',
-      author: 'Seneca',
-    },
-    {
-      text: "If you don't know where you are going, you will probably end up somewhere else.",
-      author: 'Lawrence Peter',
-    },
-    {
-      text: 'It is not so important to know everything as to appreciate what we learn.',
-      author: 'Hannah More',
-    },
-    {
-      text: 'The bird of paradise alights only upon the hand that does not grasp.',
-      author: 'John Berry',
-    },
-    {
-      text: 'Think as a wise man but communicate in the language of the people.',
-      author: 'William Yeats',
-    },
-    {
-      text: 'Practice yourself, for heavens sake in little things, and then proceed to greater.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'If one does not know to which port is sailing, no wind is favorable.',
-      author: 'Seneca',
-    },
-    {
-      text: 'Our greatest glory is not in never failing but rising everytime we fall.',
-      author: null,
-    },
-    {
-      text: 'Being right is highly overrated. Even a stopped clock is right twice a day.',
-      author: null,
-    },
-    {
-      text: "To be upset over what you don't have is to waste what you do have.",
-      author: 'Ken S. Keyes',
-    },
-    {
-      text: 'If we did the things we are capable of, we would astound ourselves.',
-      author: 'Thomas Edison',
-    },
-    {
-      text: 'Nothing in life is to be feared. It is only to be understood.',
-      author: 'Marie Curie',
-    },
-    {
-      text: 'Successful people ask better questions, and as a result, they get better answers.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Love is not blind; it simply enables one to see things others fail to see.',
-      author: null,
-    },
-    {
-      text: 'Life is a process. We are a process. The universe is a process.',
-      author: 'Anne Schaef',
-    },
-    {
-      text: 'I think somehow we learn who we really are and then live with that decision.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'We learn what we have said from those who listen to our speaking.',
-      author: 'Kenneth Patton',
-    },
-    {
-      text: 'A little knowledge that acts is worth infinitely more than much knowledge that is idle.',
-      author: 'Kahlil Gibran',
-    },
-    {
-      text: 'If you get up one more time than you fall, you will make it through.',
-      author: null,
-    },
-    {
-      text: 'The doors we open and close each day decide the lives we live.',
-      author: 'Flora Whittemore',
-    },
-    {
-      text: 'The worst bankrupt in the world is the person who has lost his enthusiasm.',
-      author: 'H. W. Arnold',
-    },
-    {
-      text: 'Happiness comes when your work and words are of benefit to yourself and others.',
-      author: 'Buddha',
-    },
-    {
-      text: "Don't focus on making the right decision, focus on making the decision the right one.",
-      author: null,
-    },
-    {
-      text: 'Everything is perfect in the universe even your desire to improve it.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'The universe is full of magical things, patiently waiting for our wits to grow sharper.',
-      author: 'Eden Phillpotts',
-    },
-    {
-      text: 'Just as a candle cannot burn without fire, men cannot live without a spiritual life.',
-      author: 'Buddha',
-    },
-    {
-      text: 'A thing long expected takes the form of the unexpected when at last it comes.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Action may not always bring happiness; but there is no happiness without action.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: "I don't believe in failure. It is not failure if you enjoyed the process.",
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'What you do not want done to yourself, do not do to others.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Short words are best and the old words when short are best of all.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'If you light a lamp for somebody, it will also brighten your path.',
-      author: 'Buddha',
-    },
-    {
-      text: 'I have done my best: that is about all the philosophy of living one needs.',
-      author: 'Lin-yutang',
-    },
-    {
-      text: 'Through perseverance many people win success out of what seemed destined to be certain failure.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'Give thanks for the rain of life that propels us to reach new horizons.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Love is just a word until someone comes along and gives it meaning.',
-      author: null,
-    },
-    {
-      text: 'We all have problems. The way we solve them is what makes us different.',
-      author: null,
-    },
-    {
-      text: 'The secret to a rich life is to have more beginnings than endings.',
-      author: 'Dave Weinbaum',
-    },
-    {
-      text: 'It is only when the mind and character slumber that the dress can be seen.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: "If you don't like something, change it. If you can't change it, change your attitude.",
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Reviewing what you have learned and learning anew, you are fit to be a teacher.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The world is a book, and those who do not travel read only a page.',
-      author: 'Augustinus Sanctus',
-    },
-    {
-      text: 'So long as a person is capable of self-renewal they are a living being.',
-      author: 'Henri-Frederic Amiel',
-    },
-    {
-      text: "I'm not afraid of storms, for I'm learning how to sail my ship.",
-      author: 'Louisa Alcott',
-    },
-    {
-      text: 'Think for yourselves and let others enjoy the privilege to do so too.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'How we spend our days is, of course, how we spend our lives.',
-      author: 'Annie Dillard',
-    },
-    {
-      text: 'It has never been my object to record my dreams, just to realize them.',
-      author: 'Man Ray',
-    },
-    {
-      text: 'The most complicated achievements of thought are possible without the assistance of consciousness.',
-      author: 'Sigmund Freud',
-    },
-    {
-      text: "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Most great people have attained their greatest success just one step beyond their greatest failure.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: "If you think you can, you can. And if you think you can't, you're right.",
-      author: 'Henry Ford',
-    },
-    {
-      text: 'Better to have loved and lost, than to have never loved at all.',
-      author: 'St. Augustine',
-    },
-    {
-      text: 'Everyone thinks of changing the world, but no one thinks of changing himself.',
-      author: 'Leo Tolstoy',
-    },
-    {
-      text: 'The best way to pay for a lovely moment is to enjoy it.',
-      author: 'Richard Bach',
-    },
-    {
-      text: "You have enemies? Good. That means you've stood up for something, sometime in your life.",
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'Slow down and everything you are chasing will come around and catch you.',
-      author: 'John De Paola',
-    },
-    {
-      text: 'Your worst enemy cannot harm you as much as your own unguarded thoughts.',
-      author: 'Buddha',
-    },
-    {
-      text: 'I always wanted to be somebody, but I should have been more specific.',
-      author: 'Lily Tomlin',
-    },
-    {
-      text: 'Yeah we all shine on, like the moon, and the stars, and the sun.',
-      author: 'John Lennon',
-    },
-    {
-      text: 'Knowledge is a process of piling up facts; wisdom lies in their simplification.',
-      author: 'Martin Fischer',
-    },
-    {
-      text: 'Life is like riding a bicycle. To keep your balance you must keep moving.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'We should all be thankful for those people who rekindle the inner spirit.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'Opportunity is missed by most because it is dressed in overalls and looks like work.',
-      author: 'Thomas Edison',
-    },
-    {
-      text: 'Feeling and longing are the motive forces behind all human endeavor and human creations.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'In the end we retain from our studies only that which we practically apply.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'If you correct your mind, the rest of your life will fall into place.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'The world makes way for the man who knows where he is going.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'When your desires are strong enough you will appear to possess superhuman powers to achieve.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.',
-      author: 'John Adams',
-    },
-    {
-      text: 'I cannot make my days longer so I strive to make them better.',
-      author: 'Henry David Thoreau',
-    },
-    {
-      text: 'Tension is who you think you should be. Relaxation is who you are.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'Never bend your head. Always hold it high. Look the world right in the eye.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'One who gains strength by overcoming obstacles possesses the only strength which can overcome adversity.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'We cannot do everything at once, but we can do something at once.',
-      author: 'Calvin Coolidge',
-    },
-    {
-      text: 'You have to do your own growing no matter how tall your grandfather was.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Invent your world. Surround yourself with people, color, sounds, and work that nourish you.',
-      author: null,
-    },
-    {
-      text: 'It is fatal to enter any war without the will to win it.',
-      author: 'General Douglas MacArthur',
-    },
-    {
-      text: 'Be what you are. This is the first step toward becoming better than you are.',
-      author: 'Julius Charles Hare',
-    },
-    {
-      text: "There is nothing in a caterpillar that tells you it's going to be a butterfly.",
-      author: 'Buckminster Fuller',
-    },
-    {
-      text: 'Love and compassion open our own inner life, reducing stress, distrust and loneliness.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Ideals are an imaginative understanding of that which is desirable in that which is possible.',
-      author: 'Walter Lippmann',
-    },
-    {
-      text: 'The superior man is satisfied and composed; the mean man is always full of distress.',
-      author: 'Confucius',
-    },
-    {
-      text: "If you spend too much time thinking about a thing, you'll never get it done.",
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'The way is not in the sky. The way is in the heart.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Most people are about as happy as they make up their minds to be',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Three things cannot be long hidden: the sun, the moon, and the truth.',
-      author: 'Buddha',
-    },
-    {
-      text: 'More often than not, anger is actually an indication of weakness rather than of strength.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Before you put on a frown, make absolutely sure there are no smiles available.',
-      author: 'Jim Beggs',
-    },
-    {
-      text: 'A man of ability and the desire to accomplish something can do anything.',
-      author: 'Donald Kircher',
-    },
-    {
-      text: 'You, yourself, as much as anybody in the entire universe, deserve your love and affection.',
-      author: 'Buddha',
-    },
-    {
-      text: 'It is not uncommon for people to spend their whole life waiting to start living.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: "Don't be afraid to go out on a limb. That's where the fruit is.",
-      author: 'H. Jackson Browne',
-    },
-    {
-      text: 'Wicked people are always surprised to find ability in those that are good.',
-      author: 'Marquis Vauvenargues',
-    },
-    {
-      text: 'Life is so constructed that an event does not, cannot, will not, match the expectation.',
-      author: 'Charlotte Bronte',
-    },
-    {
-      text: 'If you change the way you look at things, the things you look at change.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'No man can succeed in a line of endeavor which he does not like.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'You will not be punished for your anger, you will be punished by your anger.',
-      author: 'Buddha',
-    },
-    {
-      text: "Don't judge each day by the harvest you reap but by the seeds you plant.",
-      author: 'Robert Stevenson',
-    },
-    {
-      text: 'They say that time changes things, but you actually have to change them yourself.',
-      author: 'Andy Warhol',
-    },
-    {
-      text: 'Never apologize for showing feelings. When you do so, you apologize for the truth.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'The truth you believe and cling to makes you unavailable to hear anything new.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'Adversity has the effect of eliciting talents, which in prosperous circumstances would have lain dormant.',
-      author: 'Horace',
-    },
-    {
-      text: "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.",
-      author: 'Morris West',
-    },
-    {
-      text: 'The only limit to our realization of tomorrow will be our doubts of today.',
-      author: 'Franklin Roosevelt',
-    },
-    {
-      text: 'Every action of our lives touches on some chord that will vibrate in eternity.',
-      author: 'Edwin Chapin',
-    },
-    {
-      text: "Shoot for the moon. Even if you miss, you'll land among the stars.",
-      author: 'Les Brown',
-    },
-    {
-      text: 'It does not matter how slowly you go as long as you do not stop.',
-      author: 'Confucius',
-    },
-    {
-      text: "Every day may not be good, but there's something good in every day.",
-      author: null,
-    },
-    {
-      text: 'Most folks are about as happy as they make up their minds to be.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'If you would take, you must first give, this is the beginning of intelligence.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: "Some people think it's holding that makes one strong sometimes it's letting go.",
-      author: null,
-    },
-    {
-      text: 'It is on our failures that we base a new and different and better success.',
-      author: 'Havelock Ellis',
-    },
-    {
-      text: 'Quality is never an accident; it is always the result of intelligent effort.',
-      author: 'John Ruskin',
-    },
-    {
-      text: 'To study and not think is a waste. To think and not study is dangerous.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Life is a succession of lessons, which must be lived to be understood.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Time changes everything except something within us which is always surprised by change.',
-      author: 'Thomas Hardy',
-    },
-    {
-      text: 'You are important enough to ask and you are blessed enough to receive back.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'If you cannot do great things, do small things in a great way.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'If you want your life to be more rewarding, you have to change the way you think.',
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: "Transformation doesn't take place with a vacuum; instead, it occurs when we are indirectly and directly connected to all those around us.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'The only difference between your abilities and others is the ability to put yourself in their shoes and actually try.',
-      author: 'Leonardo Ruiz',
-    },
-    {
-      text: 'The free man is he who does not fear to go to the end of his thought.',
-      author: 'Leon Blum',
-    },
-    {
-      text: 'Great are they who see that spiritual is stronger than any material force, that thoughts rule the world.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing.',
-      author: 'Bernard Shaw',
-    },
-    {
-      text: 'The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: "Don't leave a stone unturned. It's always something, to know you have done the most you could.",
-      author: 'Charles Dickens',
-    },
-    {
-      text: 'By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly.',
-      author: 'Sam Keen',
-    },
-    {
-      text: 'What lies behind us and what lies before us are tiny matters compared to what lies within us.',
-      author: 'Walt Emerson',
-    },
-    {
-      text: 'There are things so deep and complex that only intuition can reach it in our stage of development as human beings.',
-      author: 'John Astin',
-    },
-    {
-      text: 'A little more persistence, a little more effort, and what seemed hopeless failure may turn to glorious success.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: "There is no retirement for an artist, it's your way of living so there is no end to it.",
-      author: 'Henry Moore',
-    },
-    {
-      text: 'I will not be concerned at other men is not knowing me;I will be concerned at my own want of ability.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Why worry about things you cannot control when you can keep yourself busy controlling the things that depend on you?',
-      author: null,
-    },
-    {
-      text: "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
-      author: 'Laozi',
-    },
-    {
-      text: 'Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Success means having the courage, the determination, and the will to become the person you believe you were meant to be.',
-      author: 'George Sheehan',
-    },
-    {
-      text: "Do you want to know who you are? Don't ask. Act! Action will delineate and define you.",
-      author: 'Thomas Jefferson',
-    },
-    {
-      text: 'It is only with the heart that one can see rightly, what is essential is invisible to the eye.',
-      author: 'Antoine de Saint-Exupery',
-    },
-    {
-      text: 'Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom.',
-      author: 'Marcel Proust',
-    },
-    {
-      text: 'Make the best use of what is in your power, and take the rest as it happens.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'The thoughts we choose to think are the tools we use to paint the canvas of our lives.',
-      author: 'Louise Hay',
-    },
-    {
-      text: 'No matter how carefully you plan your goals they will never be more that pipe dreams unless you pursue them with gusto.',
-      author: 'W. Clement Stone',
-    },
-    {
-      text: 'The reason most goals are not achieved is that we spend our time doing second things first.',
-      author: 'Robert McKain',
-    },
-    {
-      text: 'If your actions inspire others to dream more, learn more, do more and become more, you are a leader.',
-      author: 'John Quincy Adams',
-    },
-    {
-      text: "I'm a great believer in luck and I find the harder I work, the more I have of it.",
-      author: 'Thomas Jefferson',
-    },
-    {
-      text: 'Do not waste yourself in rejection, nor bark against the bad, but chant the beauty of the good.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The person born with a talent they are meant to use will find their greatest happiness in using it.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: "Good people are good because they've come to wisdom through failure. We get very little wisdom from success, you know.",
-      author: 'William Saroyan',
-    },
-    {
-      text: "Your destiny isn't just fate; it is how you use your own developed abilities to get what you want.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigour of the mind.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'A subtle thought that is in error may yet give rise to fruitful inquiry that can establish truths of great value.',
-      author: 'Isaac Asimov',
-    },
-    {
-      text: 'Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars.',
-      author: 'Henry Van Dyke',
-    },
-    {
-      text: "You got to be careful if you don't know where you're going, because you might not get there.",
-      author: 'Yogi Berra',
-    },
-    {
-      text: 'You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.',
-      author: 'Naguib Mahfouz',
-    },
-    {
-      text: 'Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more',
-      author: 'Anthony Robbins',
-    },
-    {
-      text: "You can't let praise or criticism get to you. It's a weakness to get caught up in either one.",
-      author: 'John Wooden',
-    },
-    {
-      text: 'I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.',
-      author: 'Og Mandino',
-    },
-    {
-      text: 'Our doubts are traitors and make us lose the good we often might win, by fearing to attempt.',
-      author: 'Jane Addams',
-    },
-    {
-      text: 'By nature man hates change; seldom will he quit his old home till it has actually fallen around his ears.',
-      author: 'Thomas Carlyle',
-    },
-    {
-      text: "Until you value yourself, you won't value your time. Until you value your time, you won't do anything with it.",
-      author: 'M. Scott Peck',
-    },
-    {
-      text: 'The minute you settle for less than you deserve, you get even less than you settled for.',
-      author: 'Maureen Dowd',
-    },
-    {
-      text: 'The highest stage in moral ure at which we can arrive is when we recognize that we ought to control our thoughts.',
-      author: 'Charles Darwin',
-    },
-    {
-      text: 'It is better to take many small steps in the right direction than to make a great leap forward only to stumble backward.',
-      author: null,
-    },
-    {
-      text: 'If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'There is only one success to be able to spend your life in your own way.',
-      author: 'Christopher Morley',
-    },
-    {
-      text: 'Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible.',
-      author: 'Hannah Arendt',
-    },
-    {
-      text: 'Appreciation is the highest form of prayer, for it acknowledges the presence of good wherever you shine the light of your thankful thoughts.',
-      author: 'Alan Cohen',
-    },
-    {
-      text: "There is only one corner of the universe you can be certain of improving, and that's your own self.",
-      author: 'Aldous Huxley',
-    },
-    {
-      text: "You're not obligated to win. You're obligated to keep trying to do the best you can every day.",
-      author: 'Marian Edelman',
-    },
-    {
-      text: 'Everyone can taste success when the going is easy, but few know how to taste victory when times get tough.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Deep listening is miraculous for both listener and speaker.When someone receives us with open-hearted, non-judging, intensely interested listening, our spirits expand.',
-      author: 'Sue Patton Thoele',
-    },
-    {
-      text: "You may be deceived if you trust too much, but you will live in torment if you don't trust enough.",
-      author: 'Frank Crane',
-    },
-    {
-      text: 'Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'All that is necessary is to accept the impossible, do without the indispensable, and bear the intolerable.',
-      author: 'Kathleen Norris',
-    },
-    {
-      text: 'Choose a job you love, and you will never have to work a day in your life.',
-      author: 'Confucius',
-    },
-    {
-      text: 'You cannot find yourself by going into the past. You can find yourself by coming into the present.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: 'All our talents increase in the using, and the every faculty, both good and bad, strengthen by exercise.',
-      author: 'Anne Bronte',
-    },
-    {
-      text: 'In order to live free and happily you must sacrifice boredom. It is not always an easy sacrifice.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'The fox has many tricks. The hedgehog has but one. But that is the best of all.',
-      author: 'Desiderius Erasmus',
-    },
-    {
-      text: 'Of course there is no formula for success except perhaps an unconditional acceptance of life and what it brings.',
-      author: 'Arthur Rubinstein',
-    },
-    {
-      text: 'Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity',
-      author: 'Louis Pasteur',
-    },
-    {
-      text: 'Something opens our wings. Something makes boredom and hurt disappear. Someone fills the cup in front of us: We taste only sacredness.',
-      author: 'Rumi',
-    },
-    {
-      text: 'We must never forget that it is through our actions, words, and thoughts that we have a choice.',
-      author: 'Sogyal Rinpoche',
-    },
-    {
-      text: 'We see things not as they are, but as we are. Our perception is shaped by our previous experiences.',
-      author: 'Dennis Kimbro',
-    },
-    {
-      text: 'True silence is the rest of the mind; it is to the spirit what sleep is to the body, nourishment and refreshment.',
-      author: 'William Penn',
-    },
-    {
-      text: 'All our knowledge begins with the senses, proceeds then to the understanding, and ends with reason. There is nothing higher than reason.',
-      author: 'Immanuel Kant',
-    },
-    {
-      text: 'The thought manifests as the word. The word manifests as the deed. The deed develops into habit. And the habit hardens into character.',
-      author: 'Buddha',
-    },
-    {
-      text: 'As the rest of the world is walking out the door, your best friends are the ones walking in.',
-      author: null,
-    },
-    {
-      text: "Patience is a virtue but you will never ever accomplish anything if you don't exercise action over patience.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Any of us can achieve virtue, if by virtue we merely mean the avoidance of the vices that do not attract us.',
-      author: 'Robert Lynd',
-    },
-    {
-      text: 'If the single man plant himself indomitably on his instincts, and there abide, the huge world will come round to him.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'Friendship with oneself is all important because without it one cannot be friends with anybody else in the world.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: "Peace is not something you wish for. It's something you make, something you do, something you are, and something you give away.",
-      author: 'Robert Fulghum',
-    },
-    {
-      text: 'A wise man can learn more from a foolish question than a fool can learn from a wise answer.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'Every man takes the limits of his own field of vision for the limits of the world.',
-      author: 'Arthur Schopenhauer',
-    },
-    {
-      text: 'One does not discover new lands without consenting to lose sight of the shore for a very long time.',
-      author: 'Andre Gide',
-    },
-    {
-      text: 'What is new in the world? Nothing. What is old in the world? Nothing. Everything has always been and will always be.',
-      author: 'Sai Baba',
-    },
-    {
-      text: 'Genuine love should first be directed at oneself if we do not love ourselves, how can we love others?',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Life is like a sewer. What you get out of it depends on what you put into it.',
-      author: 'Tom Lehrer',
-    },
-    {
-      text: 'Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: "Learn all you can from the mistakes of others. You won't have time to make them all yourself.",
-      author: 'Alfred Sheinwold',
-    },
-    {
-      text: 'Judge nothing, you will be happy. Forgive everything, you will be happier. Love everything, you will be happiest.',
-      author: 'Sri Chinmoy',
-    },
-    {
-      text: 'People are so constituted that everybody would rather undertake what they see others do, whether they have an aptitude for it or not.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'We are either progressing or retrograding all the while. There is no such thing as remaining stationary in this life.',
-      author: 'James Freeman Clarke',
-    },
-    {
-      text: 'The possession of knowledge does not kill the sense of wonder and mystery. There is always more mystery.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'Everything that happens happens as it should, and if you observe carefully, you will find this to be so.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves.',
-      author: 'Buddha',
-    },
-    {
-      text: 'It is the greatest of all mistakes to do nothing because you can only do little do what you can.',
-      author: 'Sydney Smith',
-    },
-    {
-      text: 'When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself.',
-      author: 'Confucius',
-    },
-    {
-      text: "Aerodynamically the bumblebee shouldn't be able to fly, but the bumblebee doesn't know that so it goes on flying anyway.",
-      author: 'Mary Kay Ash',
-    },
-    {
-      text: 'Those who try to do something and fail are infinitely better than those who try nothing and succeed.',
-      author: 'Lloyd Jones',
-    },
-    {
-      text: 'Snowflakes are one of natures most fragile things, but just look what they can do when they stick together.',
-      author: 'Vista Kelly',
-    },
-    {
-      text: 'The first step to getting the things you want out of life is this: decide what you want.',
-      author: 'Ben Stein',
-    },
-    {
-      text: 'Why compare yourself with others? No one in the entire world can do a better job of being you than you.',
-      author: null,
-    },
-    {
-      text: 'Experience is not what happens to a man. It is what a man does with what happens to him.',
-      author: 'Aldous Huxley',
-    },
-    {
-      text: 'A good teacher is like a candle it consumes itself to light the way for others.',
-      author: null,
-    },
-    {
-      text: 'The only thing to do with good advice is to pass it on. It is never of any use to oneself.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'Life is not measured by the breaths we take, but by the moments that take our breath.',
-      author: null,
-    },
-    {
-      text: 'The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition.',
-      author: 'Honore de Balzac',
-    },
-    {
-      text: "Consider how hard it is to change yourself and you'll understand what little chance you have in trying to change others.",
-      author: 'Jacob Braude',
-    },
-    {
-      text: "If you'll not settle for anything less than your best, you will be amazed at what you can accomplish in your lives.",
-      author: 'Vince Lombardi',
-    },
-    {
-      text: 'What lies behind us and what lies before us are small matters compared to what lies within us.',
-      author: 'Oliver Holmes',
-    },
-    {
-      text: 'With the realization of ones own potential and self-confidence in ones ability, one can build a better world.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered.',
-      author: 'Nelson Mandela',
-    },
-    {
-      text: 'Forget about all the reasons why something may not work. You only need to find one good reason why it will.',
-      author: 'Robert Anthony',
-    },
-    {
-      text: 'It is the mark of an educated mind to be able to entertain a thought without accepting it.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Love is never lost. If not reciprocated, it will flow back and soften and purify the heart.',
-      author: 'Washington Irving',
-    },
-    {
-      text: 'We all live with the objective of being happy; our lives are all different and yet the same.',
-      author: 'Anne Frank',
-    },
-    {
-      text: 'Many people think of prosperity that concerns money only to forget that true prosperity is of the mind.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'To be beautiful means to be yourself. You do not need to be accepted by others. You need to accept yourself.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind.',
-      author: 'Buddha',
-    },
-    {
-      text: 'It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own.',
-      author: 'Jessamyn West',
-    },
-    {
-      text: 'Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind.',
-      author: 'Plato',
-    },
-    {
-      text: 'Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'Let us revere, let us worship, but erect and open-eyed, the highest, not the lowest; the future, not the past!',
-      author: 'Charlotte Gilman',
-    },
-    {
-      text: 'Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'Silences make the real conversations between friends. Not the saying but the never needing to say is what counts.',
-      author: 'Margaret Runbeck',
-    },
-    {
-      text: 'The key to transforming our hearts and minds is to have an understanding of how our thoughts and emotions work.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Chance is always powerful. Let your hook be always cast; in the pool where you least expect it, there will be a fish.',
-      author: 'Ovid',
-    },
-    {
-      text: 'I seek constantly to improve my manners and graces, for they are the sugar to which all are attracted.',
-      author: 'Og Mandino',
-    },
-    {
-      text: 'We never understand how little we need in this world until we know the loss of it.',
-      author: 'James Barrie',
-    },
-    {
-      text: 'The real measure of your wealth is how much youd be worth if you lost all your money.',
-      author: null,
-    },
-    {
-      text: 'To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Take no thought of who is right or wrong or who is better than. Be not for or against.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'I am a man of fixed and unbending principles, the first of which is to be flexible at all times.',
-      author: 'Everett Dirksen',
-    },
-    {
-      text: 'Today, give a stranger a smile without waiting for it may be the joy they need to have a great day.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself.',
-      author: 'Henry Miller',
-    },
-    {
-      text: 'At the center of your being you have the answer; you know who you are and you know what you want.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'How wonderful that we have met with a paradox. Now we have some hope of making progress.',
-      author: 'Niels Bohr',
-    },
-    {
-      text: 'Everyone is a genius at least once a year. A real genius has his original ideas closer together.',
-      author: 'Georg Lichtenberg',
-    },
-    {
-      text: 'Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'Without leaps of imagination, or dreaming, we lose the excitement of possibilities. Dreaming, after all, is a form of planning.',
-      author: 'Gloria Steinem',
-    },
-    {
-      text: 'Sadness may be part of life but there is no need to let it dominate your entire life.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Keeping a little ahead of conditions is one of the secrets of business, the trailer seldom goes far.',
-      author: 'Charles Schwab',
-    },
-    {
-      text: 'Nature gave us one tongue and two ears so we could hear twice as much as we speak.',
-      author: 'Epictetus',
-    },
-    {
-      text: "Don't wait for your feelings to change to take the action. Take the action and your feelings will change.",
-      author: 'Barbara Baron',
-    },
-    {
-      text: 'You are always free to change your mind and choose a different future, or a different past.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'You were not born a winner, and you were not born a loser. You are what you make yourself be.',
-      author: 'Lou Holtz',
-    },
-    {
-      text: 'Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Cherish your visions and your dreams as they are the children of your soul; the blueprints of your ultimate achievements.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'To be what we are, and to become what we are capable of becoming, is the only end of life.',
-      author: 'Robert Stevenson',
-    },
-    {
-      text: 'The road leading to a goal does not separate you from the destination; it is essentially a part of it.',
-      author: 'Charles DeLint',
-    },
-    {
-      text: 'Take things as they are. Punch when you have to punch. Kick when you have to kick.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.',
-      author: null,
-    },
-    {
-      text: 'Mind is everything: muscle, pieces of rubber. All that I am, I am because of my mind.',
-      author: 'Paavo Nurmi',
-    },
-    {
-      text: 'How wonderful it is that nobody need wait a single moment before starting to improve the world.',
-      author: 'Anne Frank',
-    },
-    {
-      text: 'A friend is someone who understands your past, believes in your future, and accepts you just the way you are.',
-      author: null,
-    },
-    {
-      text: 'It is one of the blessings of old friends that you can afford to be stupid with them.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'He that never changes his opinions, never corrects his mistakes, and will never be wiser on the morrow than he is today.',
-      author: 'Tryon Edwards',
-    },
-    {
-      text: 'Give me six hours to chop down a tree and I will spend the first four sharpening the axe.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'One must be fond of people and trust them if one is not to make a mess of life.',
-      author: 'E. M. Forster',
-    },
-    {
-      text: 'We cannot change our memories, but we can change their meaning and the power they have over us.',
-      author: 'David Seamans',
-    },
-    {
-      text: 'Being in humaneness is good. If we select other goodness and thus are far apart from humaneness, how can we be the wise?',
-      author: 'Confucius',
-    },
-    {
-      text: 'To give hope to someone occurs when you teach them how to use the tools to do it for themselves.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Id rather regret the things that I have done than the things that I have not done.',
-      author: 'Lucille Ball',
-    },
-    {
-      text: 'The past has no power to stop you from being present now. Only your grievance about the past can do that.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: 'If the stars should appear but one night every thousand years how man would marvel and adore.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'There are two kinds of failures: those who thought and never did, and those who did and never thought.',
-      author: 'Laurence J. Peter',
-    },
-    {
-      text: "I'm not interested in age. People who tell me their age are silly. You're as old as you feel.",
-      author: 'Elizabeth Arden',
-    },
-    {
-      text: 'I find hope in the darkest of days, and focus in the brightest. I do not judge the universe.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.",
-      author: 'Confucius',
-    },
-    {
-      text: 'Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.',
-      author: 'Nikola Tesla',
-    },
-    {
-      text: 'Blessed is the person who is too busy to worry in the daytime, and too sleepy to worry at night.',
-      author: 'Leo Aikman',
-    },
-    {
-      text: "He can who thinks he can, and he can't who thinks he can't. This is an inexorable, indisputable law.",
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'These days people seek knowledge, not wisdom. Knowledge is of the past, wisdom is of the future.',
-      author: 'Vernon Cooper',
-    },
-    {
-      text: 'One secret of success in life is for a man to be ready for his opportunity when it comes.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: "People take different roads seeking fulfilment and happiness. Just because theyre not on your road doesn't mean they've gotten lost.",
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'The shoe that fits one person pinches another; there is no recipe for living that suits all cases.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'There are only two mistakes one can make along the road to truth; not going all the way, and not starting.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Very little is needed to make a happy life; it is all within yourself, in your way of thinking.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: "Giving up doesn't always mean you are weak. Sometimes it means that you are strong enough to let go.",
-      author: null,
-    },
-    {
-      text: 'Treat people as if they were what they ought to be and you help them to become what they are capable of being.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'The most precious gift we can offer anyone is our attention. When mindfulness embraces those we love, they will bloom like flowers.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'If you focus on results, you will never change. If you focus on change, you will get results.',
-      author: 'Jack Dixon',
-    },
-    {
-      text: 'I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder.',
-      author: 'G. K. Chesterton',
-    },
-    {
-      text: 'There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: 'All difficult things have their origin in that which is easy, and great things in that which is small.',
-      author: 'Lao-Tzu',
-    },
-    {
-      text: 'You can be what you want to be. You have the power within and we will help you always.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'To speak gratitude is courteous and pleasant, to enact gratitude is generous and noble, but to live gratitude is to touch Heaven.',
-      author: 'Johannes Gaertner',
-    },
-    {
-      text: "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
-      author: 'Doug Larson',
-    },
-    {
-      text: 'The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident.',
-      author: 'Charles Lamb',
-    },
-    {
-      text: 'When one tugs at a single thing in nature, he finds it attached to the rest of the world.',
-      author: 'John Muir',
-    },
-    {
-      text: 'Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'The most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'To live a pure unselfish life, one must count nothing as ones own in the midst of abundance.',
-      author: 'Buddha',
-    },
-    {
-      text: "Many of life's failures are people who did not realize how close they were to success when they gave up.",
-      author: 'Thomas Edison',
-    },
-    {
-      text: 'When we seek to discover the best in others, we somehow bring out the best in ourselves.',
-      author: 'William Ward',
-    },
-    {
-      text: 'If you accept the expectations of others, especially negative ones, then you never will change the outcome.',
-      author: 'Michael Jordan',
-    },
-    {
-      text: 'A man may fulfil the object of his existence by asking a question he cannot answer, and attempting a task he cannot achieve.',
-      author: 'Oliver Holmes',
-    },
-    {
-      text: 'I am not bothered by the fact that I am unknown. I am bothered when I do not know others.',
-      author: 'Confucius',
-    },
-    {
-      text: 'He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'I am always doing that which I cannot do, in order that I may learn how to do it.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: "If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.",
-      author: 'Barack Obama',
-    },
-    {
-      text: 'The world is round and the place which may seem like the end may also be the beginning.',
-      author: 'Ivy Baker Priest',
-    },
-    {
-      text: 'Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it.',
-      author: null,
-    },
-    {
-      text: "Give it all you've got because you never know if there's going to be a next time.",
-      author: 'Danielle Ingrum',
-    },
-    {
-      text: 'You have to take it as it happens, but you should try to make it happen the way you want to take it.',
-      author: 'Old German proverb',
-    },
-    {
-      text: 'Nothing is predestined: The obstacles of your past can become the gateways that lead to new beginnings.',
-      author: 'Ralph Blum',
-    },
-    {
-      text: "I'm not in this world to live up to your expectations and you're not in this world to live up to mine.",
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: "I can't imagine a person becoming a success who doesn't give this game of life everything hes got.",
-      author: 'Walter Cronkite',
-    },
-    {
-      text: 'The greatest way to live with honor in this world is to be what we pretend to be.',
-      author: 'Socrates',
-    },
-    {
-      text: 'The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back.',
-      author: 'Seneca',
-    },
-    {
-      text: 'The grand essentials of happiness are: something to do, something to love, and something to hope for.',
-      author: 'Chalmers',
-    },
-    {
-      text: 'By living deeply in the present moment we can understand the past better and we can prepare for a better future.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Do not be too timid and squeamish about your reactions. All life is an experiment. The more experiments you make the better.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Do not go where the path may lead, go instead where there is no path and leave a trail.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world.',
-      author: 'Robert Louis Stevenson',
-    },
-    {
-      text: 'Edison failed 10,000 times before he made the electric light. Do not be discouraged if you fail a few times.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift that's why they call it the present.",
-      author: null,
-    },
-    {
-      text: 'The only way to tell the truth is to speak with kindness. Only the words of a loving man can be heard.',
-      author: 'Henry Thoreau',
-    },
-    {
-      text: 'The greatest good you can do for another is not just to share your riches but to reveal to him his own.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: "You can only grow if you're willing to feel awkward and uncomfortable when you try something new.",
-      author: 'Brian Tracy',
-    },
-    {
-      text: 'To free us from the expectations of others, to give us back to ourselves there lies the great, singular power of self-respect.',
-      author: 'Joan Didion',
-    },
-    {
-      text: 'It is more important to know where you are going than to get there quickly. Do not mistake activity for achievement.',
-      author: 'Mabel Newcomber',
-    },
-    {
-      text: "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious.",
-      author: null,
-    },
-    {
-      text: 'Intuition is the supra-logic that cuts out all the routine processes of thought and leaps straight from the problem to the answer.',
-      author: 'Robert Graves',
-    },
-    {
-      text: 'The thing always happens that you really believe in; and the belief in a thing makes it happen.',
-      author: 'Frank Wright',
-    },
-    {
-      text: 'A true friend is the most precious of all possessions and the one we take the least thought about acquiring.',
-      author: 'Francois de La Rochefoucauld',
-    },
-    {
-      text: 'There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary.',
-      author: 'Margaret Cousins',
-    },
-    {
-      text: 'Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you will never get back.',
-      author: null,
-    },
-    {
-      text: 'This world, after all our science and sciences, is still a miracle; wonderful, inscrutable, magical and more, to whosoever will think of it.',
-      author: 'Thomas Carlyle',
-    },
-    {
-      text: 'Every great mistake has a halfway moment, a split second when it can be recalled and perhaps remedied.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: 'You can adopt the attitude there is nothing you can do, or you can see the challenge as your call to action.',
-      author: 'Catherine Pulsifer',
-    },
-    {
-      text: 'The happiness of a man in this life does not consist in the absence but in the mastery of his passions.',
-      author: 'Alfred Tennyson',
-    },
-    {
-      text: 'Never doubt that a small group of thoughtful, committed people can change the world. Indeed. It is the only thing that ever has.',
-      author: 'Margaret Mead',
-    },
-    {
-      text: 'Let your hook always be cast; in the pool where you least expect it, there will be a fish.',
-      author: 'Ovid',
-    },
-    {
-      text: 'You get peace of mind not by thinking about it or imagining it, but by quietening and relaxing the restless mind.',
-      author: 'Remez Sasson',
-    },
-    {
-      text: 'Your friends will know you better in the first minute you meet than your acquaintances will know you in a thousand years.',
-      author: 'Richard Bach',
-    },
-    {
-      text: "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
-      author: 'Lao Tzu',
-    },
-    {
-      text: "When you begin to touch your heart or let your heart be touched, you begin to discover that it's bottomless.",
-      author: 'Pema Chodron',
-    },
-    {
-      text: "If you love someone, set them free. If they come back they're yours; if they don't they never were.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it.',
-      author: 'David Jordan',
-    },
-    {
-      text: 'Bad things are not the worst things that can happen to us. Nothing is the worst thing that can happen to us!',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'No valid plans for the future can be made by those who have no capacity for living now.',
-      author: 'Alan Watts',
-    },
-    {
-      text: 'The aim of life is self-development. To realize ones nature perfectly that is what each of us is here for.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'To accomplish great things, we must not only act, but also dream; not only plan, but also believe.',
-      author: 'Anatole France',
-    },
-    {
-      text: 'The first requisite for success is the ability to apply your physical and mental energies to one problem incessantly without growing weary.',
-      author: 'Thomas Edison',
-    },
-    {
-      text: 'If we could learn to like ourselves, even a little, maybe our cruelties and angers might melt away.',
-      author: 'John Steinbeck',
-    },
-    {
-      text: 'If we are facing in the right direction, all we have to do is keep on walking.',
-      author: null,
-    },
-    {
-      text: 'Remember always that you not only have the right to be an individual, you have an obligation to be one.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'There are two primary choices in life: to accept conditions as they exist, or accept responsibility for changing them.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: 'If you seek truth you will not seek victory by dishonourable means, and if you find truth you will become invincible.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Through meditation and by giving full attention to one thing at a time, we can learn to direct attention where we choose.',
-      author: 'Eknath Easwaran',
-    },
-    {
-      text: 'We could never learn to be brave and patient if there were only joy in the world.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'If it is not right do not do it; if it is not true do not say it.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'The truth of the matter is that you always know the right thing to do. The hard part is doing it.',
-      author: 'Norman Schwarzkopf',
-    },
-    {
-      text: "Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.",
-      author: 'Julie Morgenstern',
-    },
-    {
-      text: 'Man is equally incapable of seeing the nothingness from which he emerges and the infinity in which he is engulfed.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'Arrogance and rudeness are training wheels on the bicycle of life for weak people who cannot keep their balance without them.',
-      author: 'Laura Teresa Marquez',
-    },
-    {
-      text: 'If you are patient in one moment of anger, you will escape one hundred days of sorrow.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: "When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run.",
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Courage is not about taking risks unknowingly, but putting your own being in front of challenges that others may not be able to.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: "Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'The poor man is not he who is without a cent, but he who is without a dream.',
-      author: 'Harry Kemp',
-    },
-    {
-      text: 'The greatest good you can do for another is not just share your riches, but reveal to them their own.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Peace of mind is not the absence of conflict from life, but the ability to cope with it.',
-      author: null,
-    },
-    {
-      text: 'Face your deficiencies and acknowledge them; but do not let them master you. Let them teach you patience, sweetness, insight.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'Change is the law of life. And those who look only to the past or present are certain to miss the future.',
-      author: 'John Kennedy',
-    },
-    {
-      text: 'You have power over your mind not outside events. Realize this, and you will find strength.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity.',
-      author: 'Louis Pasteur',
-    },
-    {
-      text: 'We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world.',
-      author: 'Buddha',
-    },
-    {
-      text: 'He that respects himself is safe from others; he wears a coat of mail that none can pierce.',
-      author: 'Henry Longfellow',
-    },
-    {
-      text: 'I cannot always control what goes on outside. But I can always control what goes on inside.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: "What matters is the value we've created in our lives, the people we've made happy and how much we've grown as people.",
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: "When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger.",
-      author: 'Epictetus',
-    },
-    {
-      text: 'Everyone has been made for some particular work, and the desire for that work has been put in every heart.',
-      author: 'Rumi',
-    },
-    {
-      text: 'Take time to deliberate, but when the time for action has arrived, stop thinking and go in.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'With realization of ones own potential and self-confidence in ones ability, one can build a better world.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.',
-      author: 'Franklin Roosevelt',
-    },
-    {
-      text: 'You cannot make yourself feel something you do not feel, but you can make yourself do right in spite of your feelings.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: "Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel.",
-      author: 'Mary Kay Ash',
-    },
-    {
-      text: 'Try not to become a man of success, but rather try to become a man of value.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'All difficult things have their origin in that which is easy, and great things in that which is small.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Men of perverse opinion do not know the excellence of what is in their hands, till some one dash it from them.',
-      author: 'Sophocles',
-    },
-    {
-      text: 'It is not enough to have a good mind; the main thing is to use it well.',
-      author: 'Rene Descartes',
-    },
-    {
-      text: 'Responsibility is not inherited, it is a choice that everyone needs to make at some point in their life.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Never do things others can do and will do, if there are things others cannot do or will not do.',
-      author: 'Amelia Earhart',
-    },
-    {
-      text: "I can't change the direction of the wind, but I can adjust my sails to always reach my destination.",
-      author: 'Jimmy Dean',
-    },
-    {
-      text: "People of mediocre ability sometimes achieve outstanding success because they don't know when to quit. Most men succeed because they are determined to.",
-      author: 'George Allen',
-    },
-    {
-      text: 'A fine quotation is a diamond on the finger of a man of wit, and a pebble in the hand of a fool.',
-      author: 'Joseph Roux',
-    },
-    {
-      text: "Life's challenges are not supposed to paralyse you, they're supposed to help you discover who you are.",
-      author: 'Bernice Reagon',
-    },
-    {
-      text: 'The greatest way to live with honour in this world is to be what we pretend to be.',
-      author: 'Socrates',
-    },
-    {
-      text: 'To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly.',
-      author: 'Henri Bergson',
-    },
-    {
-      text: 'Try not to become a man of success but rather try to become a man of value.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: "You can't create in a vacuum. Life gives you the material and dreams can propel new beginnings.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Your work is to discover your world and then with all your heart give yourself to it.',
-      author: 'Buddha',
-    },
-    {
-      text: "The person who lives life fully, glowing with life's energy, is the person who lives a successful life.",
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: "Don't turn away from possible futures before you're certain you don't have anything to learn from them.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'A successful person is one who can lay a firm foundation with the bricks that others throw at him or her.',
-      author: 'David Brinkley',
-    },
-    {
-      text: 'All that we are is the result of what we have thought. The mind is everything. What we think we become.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Work while you have the light. You are responsible for the talent that has been entrusted to you.',
-      author: 'Henri-Frederic Amiel',
-    },
-    {
-      text: 'How far that little candle throws its beams! So shines a good deed in a naughty world.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'It is in your moments of decision that your destiny is shaped.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'An obstacle may be either a stepping stone or a stumbling block.',
-      author: null,
-    },
-    {
-      text: 'The pain passes, but the beauty remains.',
-      author: 'Pierre Auguste Renoir',
-    },
-    {
-      text: 'All I can say about life is, Oh God, enjoy it!',
-      author: 'Bob Newhart',
-    },
-    {
-      text: 'Creativity comes from trust. Trust your instincts. And never hope more than you work.',
-      author: 'Rita Mae Brown',
-    },
-    {
-      text: 'Your outlook on life is a direct reflection on how much you like yourself.',
-      author: 'Lululemon',
-    },
-    {
-      text: 'I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: "You won't skid if you stay in a rut.",
-      author: 'Kin Hubbard',
-    },
-    {
-      text: 'You block your dream when you allow your fear to grow bigger than your faith.',
-      author: 'Mary Morrissey',
-    },
-    {
-      text: 'Happiness depends upon ourselves.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Wherever a man turns he can find someone who needs him.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'If one is lucky, a solitary fantasy can totally transform one million realities.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Never idealize others. They will never live up to your expectations.',
-      author: 'Leo Buscaglia',
-    },
-    {
-      text: 'When you realize there is nothing lacking, the whole world belongs to you.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Happiness is not something ready made. It comes from your own actions.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Meaning is not what you start with but what you end up with.',
-      author: 'Peter Elbow',
-    },
-    {
-      text: 'No one has ever become poor by giving.',
-      author: 'Anne Frank',
-    },
-    {
-      text: 'Be faithful in small things because it is in them that your strength lies.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'All is flux; nothing stays still.',
-      author: 'Heraclitus',
-    },
-    {
-      text: 'He who is fixed to a star does not change his mind.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'He who lives in harmony with himself lives in harmony with the universe.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: "Ignorant men don't know what good they hold in their hands until they've flung it away.",
-      author: 'Sophocles',
-    },
-    {
-      text: 'When the solution is simple, God is answering.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'All achievements, all earned riches, have their beginning in an idea.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Do not turn back when you are just at the goal.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: "You can't trust without risk but neither can you live in a cocoon.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'All perceiving is also thinking, all reasoning is also intuition, all observation is also invention.',
-      author: 'Rudolf Arnheim',
-    },
-    {
-      text: 'Error is discipline through which we advance.',
-      author: 'Channing',
-    },
-    {
-      text: 'The truth is always exciting. Speak it, then. Life is dull without it.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: 'The superior man is modest in his speech, but exceeds in his actions.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The longer we dwell on our misfortunes, the greater is their power to harm us.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'Those who will play with cats must expect to be scratched.',
-      author: 'Cervantes',
-    },
-    {
-      text: "I've never seen a smiling face that was not beautiful.",
-      author: null,
-    },
-    {
-      text: 'In all things of nature there is something of the marvellous.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'The universe is transformation; our life is what our thoughts make it.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Memory is the mother of all wisdom.',
-      author: 'Samuel Johnson',
-    },
-    {
-      text: 'Silence is the true friend that never betrays.',
-      author: 'Confucius',
-    },
-    {
-      text: 'You might well remember that nothing can bring you success but yourself.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'Watch the little things; a small leak will sink a great ship.',
-      author: 'Benjamin Franklin',
-    },
-    {
-      text: 'God has given you one face, and you make yourself another.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'To be wronged is nothing unless you continue to remember it.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Kindness is the greatest wisdom.',
-      author: null,
-    },
-    {
-      text: 'Action will remove the doubts that theory cannot solve.',
-      author: 'Tehyi Hsieh',
-    },
-    {
-      text: "Don't miss all the beautiful colors of the rainbow looking for that pot of gold.",
-      author: null,
-    },
-    {
-      text: 'Your big opportunity may be right where you are now.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'People who say it cannot be done should not interrupt those who are doing it.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'The day you decide to do it is your lucky day.',
-      author: 'Japanese proverb',
-    },
-    {
-      text: 'We must not say every mistake is a foolish one.',
-      author: 'Cicero',
-    },
-    {
-      text: 'Accept challenges, so that you may feel the exhilaration of victory.',
-      author: 'George Patton',
-    },
-    {
-      text: 'It is better to understand a little than to misunderstand a lot.',
-      author: 'Anatole France',
-    },
-    {
-      text: "You don't drown by falling in water. You drown by staying there.",
-      author: null,
-    },
-    {
-      text: 'Never be afraid to try, remember... Amateurs built the ark, Professionals built the Titanic.',
-      author: null,
-    },
-    {
-      text: 'Correction does much, but encouragement does more.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Know, first, who you are, and then adorn yourself accordingly.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'The biggest adventure you can ever take is to live the life of your dreams.',
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'Life is 10% what happens to you and 90% how you react to it.',
-      author: 'Charles Swindoll',
-    },
-    {
-      text: 'To want to be what one can be is purpose in life.',
-      author: 'Cynthia Ozick',
-    },
-    {
-      text: 'Remember that sometimes not getting what you want is a wonderful stroke of luck.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'History will be kind to me for I intend to write it.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'Our lives are a sum total of the choices we have made.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Time stays long enough for anyone who will use it.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'You must welcome change as the rule but not as your ruler.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: 'Give whatever you are doing and whoever you are with the gift of your attention.',
-      author: 'Jim Rohn',
-    },
-    {
-      text: 'Always be smarter than the people who hire you.',
-      author: 'Lena Horne',
-    },
-    {
-      text: 'Formula for success: under promise and over deliver.',
-      author: 'Tom Peters',
-    },
-    {
-      text: 'The eye sees only what the mind is prepared to comprehend.',
-      author: 'Henri Bergson',
-    },
-    {
-      text: 'People seldom notice old clothes if you wear a big smile.',
-      author: 'Lee Mildon',
-    },
-    {
-      text: 'The more light you allow within you, the brighter the world you live in will be.',
-      author: 'Shakti Gawain',
-    },
-    {
-      text: 'Nothing diminishes anxiety faster than action.',
-      author: 'Walter Anderson',
-    },
-    {
-      text: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.',
-      author: 'Andre Gide',
-    },
-    {
-      text: 'Everything that irritates us about others can lead us to an understanding about ourselves.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'Can you imagine what I would do if I could do all I can?',
-      author: 'Sun Tzu',
-    },
-    {
-      text: 'Ignorance never settle a question.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'The awareness of our own strength makes us modest.',
-      author: 'Paul Cezanne',
-    },
-    {
-      text: 'They must often change, who would be constant in happiness or wisdom.',
-      author: 'Confucius',
-    },
-    {
-      text: 'There are no failures. Just experiences and your reactions to them.',
-      author: 'Tom Krause',
-    },
-    {
-      text: 'Your future depends on many things, but mostly on you.',
-      author: 'Frank Tyger',
-    },
-    {
-      text: 'Fear grows in darkness; if you think theres a bogeyman around, turn on the light.',
-      author: 'Dorothy Thompson',
-    },
-    {
-      text: 'The most important point is to accept yourself and stand on your two feet.',
-      author: 'Shunryu Suzuki',
-    },
-    {
-      text: 'Do not expect the world to look bright, if you habitually wear gray-brown glasses.',
-      author: 'Tomas Eliot',
-    },
-    {
-      text: 'As long as your going to be thinking anyway, think big.',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'Without some goals and some efforts to reach it, no man can live.',
-      author: 'John Dewey',
-    },
-    {
-      text: 'He who obtains has little. He who scatters has much.',
-      author: 'Richard Braunstein',
-    },
-    {
-      text: 'Myths which are believed in tend to become true.',
-      author: 'George Orwell',
-    },
-    {
-      text: 'The foot feels the foot when it feels the ground.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Not what we have but what we enjoy constitutes our abundance.',
-      author: 'John Petit-Senn',
-    },
-    {
-      text: 'It is never too late to be what you might have been.',
-      author: 'George Eliot',
-    },
-    {
-      text: 'The beginning is always today.',
-      author: 'Mary Wollstonecraft',
-    },
-    {
-      text: 'In the long run we get no more than we have been willing to risk giving.',
-      author: 'Sheldon Kopp',
-    },
-    {
-      text: 'Self-trust is the first secret of success.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: "Don't look back. Something might be gaining on you.",
-      author: 'Satchel Paige',
-    },
-    {
-      text: 'Look back over the past, with its changing empires that rose and fell, and you can foresee the future, too.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'A life spent making mistakes is not only more honourable, but more useful than a life spent doing nothing.',
-      author: 'George Bernard Shaw',
-    },
-    {
-      text: 'Men are disturbed not by things, but by the view which they take of them.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Imagination disposes of everything; it creates beauty, justice, and happiness, which are everything in this world.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'Happiness is a Swedish sunset it is there for all, but most of us look the other way and lose it.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'A smile is a light in the window of your face to show your heart is at home.',
-      author: null,
-    },
-    {
-      text: 'Look forward to spring as a time when you can start to see what nature has to offer once again.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Trust your own instinct. Your mistakes might as well be your own, instead of someone elses.',
-      author: 'Billy Wilder',
-    },
-    {
-      text: 'The least movement is of importance to all nature. The entire ocean is affected by a pebble.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'I am always doing that which I can not do, in order that I may learn how to do it.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'Men in general judge more from appearances than from reality. All men have eyes, but few have the gift of penetration.',
-      author: 'Niccolo Machiavelli',
-    },
-    {
-      text: 'You may only be someone in the world, but to someone else, you may be the world.',
-      author: null,
-    },
-    {
-      text: 'Every artist dips his brush in his own soul, and paints his own nature into his pictures.',
-      author: 'Henry Ward Beecher',
-    },
-    {
-      text: 'If you take each challenge one step at a time, with faith in every footstep, your strength and understanding will increase.',
-      author: 'James Faust',
-    },
-    {
-      text: 'Happiness cannot be travelled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace and gratitude.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: 'Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength.',
-      author: 'Hasidic saying',
-    },
-    {
-      text: 'When we quit thinking primarily about ourselves and our own self-preservation, we undergo a truly heroic transformation of consciousness.',
-      author: 'Joseph Campbell',
-    },
-    {
-      text: 'Follow effective action with quiet reflection. From the quiet reflection will come even more effective action.',
-      author: 'Peter Drucker',
-    },
-    {
-      text: "Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are.",
-      author: 'Bernice Reagon',
-    },
-    {
-      text: 'There is one thing you have got to learn about our movement. Three people are better than no people.',
-      author: 'Fannie Hamer',
-    },
-    {
-      text: 'Happiness is a perfume you cannot pour on others without getting a few drops on yourself.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'It is not the mistake that has the most power, instead, it is learning from the mistake to advance your own attributes.',
-      author: 'Byron Roberts',
-    },
-    {
-      text: 'The amount of happiness that you have depends on the amount of freedom you have in your heart.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Your vision will become clear only when you look into your heart. Who looks outside, dreams. Who looks inside, awakens.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'Yesterday is history. Tomorrow is a mystery. And today? Today is a gift. That is why we call it the present.',
-      author: 'Babatunde Olatunji',
-    },
-    {
-      text: 'The way we communicate with others and with ourselves ultimately determines the quality of our lives.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Sometimes it is better to lose and do the right thing than to win and do the wrong thing.',
-      author: 'Tony Blair',
-    },
-    {
-      text: 'Let us always meet each other with smile, for the smile is the beginning of love.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'A bend in the road is not the end of the road...unless you fail to make the turn.',
-      author: null,
-    },
-    {
-      text: 'We are what we repeatedly do. Excellence, then, is not an act, but a habit.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Living at risk is jumping off the cliff and building your wings on the way down.',
-      author: 'Ray Bradbury',
-    },
-    {
-      text: 'In the depth of winter, I finally learned that there was within me an invincible summer.',
-      author: 'Albert Camus',
-    },
-    {
-      text: 'Wit lies in recognizing the resemblance among things which differ and the difference between things which are alike.',
-      author: 'Madame de Stael',
-    },
-    {
-      text: 'A failure is a man who has blundered but is not capable of cashing in on the experience.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: 'I cannot give you the formula for success, but I can give you the formula for failure: which is: Try to please everybody.',
-      author: 'Herbert Swope',
-    },
-    {
-      text: 'One who asks a question is a fool for five minutes; one who does not ask a question remains a fool forever.',
-      author: null,
-    },
-    {
-      text: 'The power of intuitive understanding will protect you from harm until the end of your days.',
-      author: 'Laozi',
-    },
-    {
-      text: 'The best thing about the future is that it only comes one day at a time.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'We have two ears and one mouth so that we can listen twice as much as we speak.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Fear of failure is one attitude that will keep you at the same point in your life.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Friends are those rare people who ask how we are and then wait to hear the answer.',
-      author: 'Ed Cunningham',
-    },
-    {
-      text: 'If we learn to open our hearts, anyone, including the people who drive us crazy, can be our teacher.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'People grow through experience if they meet life honestly and courageously. This is how character is built.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'A hero is no braver than an ordinary man, but he is braver five minutes longer.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'While we try to teach our children all about life, our children teach us what life is all about.',
-      author: 'Angela Schwindt',
-    },
-    {
-      text: "When you dance, your purpose is not to get to a certain place on the floor. It's to enjoy each step along the way.",
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'The Creator has not given you a longing to do that which you have no ability to do.',
-      author: 'Orison Marden',
-    },
-    {
-      text: "It's so simple to be wise. Just think of something stupid to say and then don't say it.",
-      author: 'Sam Levenson',
-    },
-    {
-      text: 'Consider that not only do negative thoughts and emotions destroy our experience of peace, they also undermine our health.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Until you make peace with who you are, you will never be content with what you have.',
-      author: 'Doris Mortman',
-    },
-    {
-      text: 'No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.',
-      author: 'Buddha',
-    },
-    {
-      text: 'The moment one gives close attention to anything, it becomes a mysterious, awesome, indescribably magnificent world in itself.',
-      author: 'Henry Miller',
-    },
-    {
-      text: 'Happiness is when what you think, what you say, and what you do are in harmony.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: "The greatest antidote to insecurity and the sense of fear is compassion it brings one back to the basis of one's inner strength",
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Courage is the discovery that you may not win, and trying when you know you can lose.',
-      author: null,
-    },
-    {
-      text: 'To be thoughtful and kind only takes a few seconds compared to the timeless hurt caused by one rude gesture.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'The purpose of learning is growth, and our minds, unlike our bodies, can continue growing as we continue to live.',
-      author: 'Mortimer Adler',
-    },
-    {
-      text: 'When you realize how perfect everything is you will tilt your head back and laugh at the sky.',
-      author: 'Buddha',
-    },
-    {
-      text: "For every failure, there's an alternative course of action. You just have to find it. When you come to a roadblock, take a detour.",
-      author: 'Mary Kay Ash',
-    },
-    {
-      text: "It is surprising what a man can do when he has to, and how little most men will do when they don't have to.",
-      author: 'Walter Linn',
-    },
-    {
-      text: 'To be aware of a single shortcoming in oneself is more useful than to be aware of a thousand in someone else.',
-      author: 'Tenzin Gyatso',
-    },
-    {
-      text: 'Nobody made a greater mistake than he who did nothing because he could do only a little.',
-      author: 'Edmund Burke',
-    },
-    {
-      text: 'Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'The greatest minds are capable of the greatest vices as well as of the greatest virtues.',
-      author: 'Rene Descartes',
-    },
-    {
-      text: 'A man should look for what is, and not for what he thinks should be.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Difficulties are meant to rouse, not discourage. The human spirit is to grow strong by conflict.',
-      author: 'William Channing',
-    },
-    {
-      text: 'If you have no respect for your own values how can you be worthy of respect from others.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Some people are always grumbling because roses have thorns; I am thankful that thorns have roses.',
-      author: 'Alphonse Karr',
-    },
-    {
-      text: 'To choose what is difficult all ones days, as if it were easy, that is faith.',
-      author: 'W. H. Auden',
-    },
-    {
-      text: "Ability is what you're capable of doing. Motivation determines what you do.Attitude determines how well you do it.",
-      author: 'Lou Holtz',
-    },
-    {
-      text: 'Do not be embarrassed by your mistakes. Nothing can teach us better than our understanding of them. This is one of the best ways of self-education.',
-      author: 'Thomas Carlyle',
-    },
-    {
-      text: 'Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.',
-      author: 'Buddha',
-    },
-    {
-      text: 'I care not so much what I am to others as what I am to myself. I will be rich by myself, and not by borrowing.',
-      author: 'Michel de Montaigne',
-    },
-    {
-      text: 'Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world.',
-      author: 'Margaret Laurence',
-    },
-    {
-      text: 'To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace.',
-      author: 'Ajahn Chah',
-    },
-    {
-      text: 'There is no need for temples, no need for complicated philosophies. My brain and my heart are my temples; my philosophy is kindness.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'The spirit, the will to win, and the will to excel, are the things that endure. These qualities are so much more important than the events that occur.',
-      author: 'Vincent Lombardi',
-    },
-    {
-      text: 'Man is not sum of what he has already, but rather the sum of what he does not yet have, of what he could have.',
-      author: 'Jean-Paul Sartre',
-    },
-    {
-      text: "Don't believe what your eyes are telling you. All they show is limitation. Look with your understanding, find out what you already know, and you'll see the way to fly.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'I believe that we are solely responsible for our choices, and we have to accept the consequences of every deed, word, and thought throughout our lifetime.',
-      author: 'Elisabeth Kubler-Ross',
-    },
-    {
-      text: 'Wishes can be your best avenue of getting what you want when you turn wishes into action. Action moves your wish to the forefront from thought to reality.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'To understand the heart and mind of a person, look not at what he has already achieved, but at what he aspires to do.',
-      author: 'Kahlil Gibran',
-    },
-    {
-      text: 'I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can.',
-      author: 'Bernard Shaw',
-    },
-    {
-      text: 'Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'When you see a good person, think of becoming like him. When you see someone not so good, reflect on your own weak points.',
-      author: 'Confucius',
-    },
-    {
-      text: 'If one is estranged from oneself, then one is estranged from others too. If one is out of touch with oneself, then one cannot touch others.',
-      author: 'Anne Lindbergh',
-    },
-    {
-      text: 'Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.',
-      author: 'Dale Carnegie',
-    },
-    {
-      text: "You may say I'm a dreamer, but I'm not the only one, I hope someday you will join us, and the world will live as one.",
-      author: 'John Lennon',
-    },
-    {
-      text: 'Happiness is as a butterfly which, when pursued, is always beyond our grasp, but which if you will sit down quietly, may alight upon you.',
-      author: 'Nathaniel Hawthorne',
-    },
-    {
-      text: 'He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks on everything with an impartial eye.',
-      author: 'Buddha',
-    },
-    {
-      text: 'In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true.',
-      author: 'Buddha',
-    },
-    {
-      text: "You cannot change anything in your life with intention alone, which can become a watered-down, occasional hope that you'll get to tomorrow. Intention without action is useless.",
-      author: 'Caroline Myss',
-    },
-    {
-      text: 'Before you can inspire with emotion, you must be swamped with it yourself. Before you can move their tears, your own must flow. To convince them, you must yourself believe.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'The greatest discovery of our generation is that human beings can alter their lives by altering their attitudes of mind. As you think, so shall you be.',
-      author: 'William James',
-    },
-    {
-      text: 'If one advances confidently in the direction of his dream, and endeavours to live the life which he had imagines, he will meet with a success unexpected in common hours.',
-      author: 'Henry David Thoreau',
-    },
-    {
-      text: 'The secret of joy in work is contained in one word excellence. To know how to do something well is to enjoy it.',
-      author: 'Pearl Buck',
-    },
-    {
-      text: 'When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self.',
-      author: 'Confucius',
-    },
-    {
-      text: 'We must overcome the notion that we must be regular. It robs you of the chance to be extraordinary and leads you to the mediocre.',
-      author: 'Uta Hagen',
-    },
-    {
-      text: 'Most of our obstacles would melt away if, instead of cowering before them, we should make up our minds to walk boldly through them.',
-      author: 'Orison Marden',
-    },
-    {
-      text: 'Everything can be taken from a man but ... the last of the human freedoms to choose ones attitude in any given set of circumstances, to choose ones own way.',
-      author: 'Victor Frankl',
-    },
-    {
-      text: 'It is better to have enough ideas for some of them to be wrong, than to be always right by having no ideas at all.',
-      author: 'Edward de Bono',
-    },
-    {
-      text: 'Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever.',
-      author: 'Amy Tan',
-    },
-    {
-      text: 'Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'We are not animals. We are not a product of what has happened to us in our past. We have the power of choice.',
-      author: 'Stephen Covey',
-    },
-    {
-      text: "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent.",
-      author: 'Paul Graham',
-    },
-    {
-      text: 'Thousands of candles can be lit from a single, and the life of the candle will not be shortened. Happiness never decreases by being shared.',
-      author: 'Buddha',
-    },
-    {
-      text: "A lot of times people look at the negative side of what they feel they can't do. I always look on the positive side of what I can do.",
-      author: 'Chuck Norris',
-    },
-    {
-      text: 'Without passion man is a mere latent force and possibility, like the flint which awaits the shock of the iron before it can give forth its spark.',
-      author: 'Amiel',
-    },
-    {
-      text: 'Love at first sight is easy to understand; its when two people have been looking at each other for a lifetime that it becomes a miracle.',
-      author: 'Amy Bloom',
-    },
-    {
-      text: 'With courage you will dare to take risks, have the strength to be compassionate, and the wisdom to be humble. Courage is the foundation of integrity.',
-      author: 'Keshavan Nair',
-    },
-    {
-      text: 'The right way is not always the popular and easy way. Standing for right when it is unpopular is a true test of moral character.',
-      author: 'Margaret Smith',
-    },
-    {
-      text: 'I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence.',
-      author: 'Frederick Douglass',
-    },
-    {
-      text: 'No pessimist ever discovered the secrets of the stars, or sailed to an uncharted land, or opened a new heaven to the human spirit.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'When you arise in the morning, think of what a precious privilege it is to be alive to breathe, to think, to enjoy, to love.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved.',
-      author: 'Helen Keller',
-    },
-    {
-      text: "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'You must train your intuition you must trust the small voice inside you which tells you exactly what to say, what to decide.',
-      author: 'Ingrid Bergman',
-    },
-    {
-      text: 'Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Let us resolve to be masters, not the victims, of our history, controlling our own destiny without giving way to blind suspicions and emotions.',
-      author: 'John Kennedy',
-    },
-    {
-      text: 'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.',
-      author: 'Marie Curie',
-    },
-    {
-      text: 'Parents can only give good advice or put them on the right paths, but the final forming of a persons character lies in their own hands.',
-      author: 'Anne Frank',
-    },
-    {
-      text: "Adversity isn't set against you to fail; adversity is a way to build your character so that you can succeed over and over again through perseverance.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'If you break your neck, if you have nothing to eat, if your house is on fire, then you got a problem. Everything else is inconvenience.',
-      author: 'Robert Fulghum',
-    },
-    {
-      text: 'Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate that's my philosophy.",
-      author: 'Thornton Wilder',
-    },
-    {
-      text: 'Conflict is the gadfly of thought. It stirs us to observation and memory. It instigates to invention. It shocks us out of sheeplike passivity, and sets us at noting and contriving.',
-      author: 'John Dewey',
-    },
-    {
-      text: 'He who conquers others is strong; He who conquers himself is mighty.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Anything you really want, you can attain, if you really go after it.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Arriving at one point is the starting point to another.',
-      author: 'John Dewey',
-    },
-    {
-      text: 'The foolish man seeks happiness in the distance, the wise grows it under his feet.',
-      author: 'James Oppenheim',
-    },
-    {
-      text: 'The greatest part of our happiness depends on our dispositions, not our circumstances.',
-      author: 'Martha Washington',
-    },
-    {
-      text: 'It is only possible to live happily ever after on a day to day basis.',
-      author: 'Margaret Bonnano',
-    },
-    {
-      text: 'A man sees in the world what he carries in his heart.',
-      author: 'Goethe',
-    },
-    {
-      text: 'Action may not always bring happiness, but there is no happiness without action.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: "Believe deep down in your heart that you're destined to do great things.",
-      author: 'Joe Paterno',
-    },
-    {
-      text: 'Sooner or later, those who win are those who think they can.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'The only limit to your impact is your imagination and commitment.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'You are special, you are unique, you are the best!',
-      author: 'Cathy Pulsifer',
-    },
-    {
-      text: 'Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently.',
-      author: 'William Arthur Ward',
-    },
-    {
-      text: 'To know oneself is to study oneself in action with another person.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'We must not allow ourselves to become like the system we oppose.',
-      author: 'Bishop Desmond Tutu',
-    },
-    {
-      text: 'Smile, breathe and go slowly.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'Reality is merely an illusion, albeit a very persistent one.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'When you come to the end of your rope, tie a knot and hang on.',
-      author: 'Franklin Roosevelt',
-    },
-    {
-      text: 'Always be mindful of the kindness and not the faults of others.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Everything that irritates us about others can lead us to an understanding of ourselves.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'When fate hands us a lemon, lets try to make lemonade.',
-      author: 'Dale Carnegie',
-    },
-    {
-      text: 'The weak can never forgive. Forgiveness is the attribute of the strong.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: 'A man is great by deeds, not by birth.',
-      author: 'Chanakya',
-    },
-    {
-      text: 'Success is getting what you want. Happiness is wanting what you get.',
-      author: 'Dale Carnegie',
-    },
-    {
-      text: "Truth isn't all about what actually happens but more about how what has happened is interpreted.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'A good rest is half the work.',
-      author: null,
-    },
-    {
-      text: "Don't judge each day by the harvest you reap but by the seeds that you plant.",
-      author: 'Robert Stevenson',
-    },
-    {
-      text: 'Small opportunities are often the beginning of great enterprises.',
-      author: 'Demosthenes',
-    },
-    {
-      text: 'To be tested is good. The challenged life may be the best therapist.',
-      author: 'Gail Sheehy',
-    },
-    {
-      text: 'Take heed: you do not find what you do not seek.',
-      author: 'English proverb',
-    },
-    {
-      text: 'Happiness is the reward we get for living to the highest right we know.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Be slow of tongue and quick of eye.',
-      author: 'Cervantes',
-    },
-    {
-      text: 'Freedom is not worth having if it does not connote freedom to err.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: 'I have always thought the actions of men the best interpreters of their thoughts.',
-      author: 'John Locke',
-    },
-    {
-      text: 'He who obtains has little. He who scatters has much.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'To dare is to lose ones footing momentarily. To not dare is to lose oneself.',
-      author: 'Soren Kierkegaard',
-    },
-    {
-      text: 'No day in which you learn something is a complete loss.',
-      author: 'David Eddings',
-    },
-    {
-      text: 'Peace cannot be kept by force. It can only be achieved by understanding.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Real success is finding your lifework in the work that you love.',
-      author: 'David McCullough',
-    },
-    {
-      text: 'Better than a thousand hollow words, is one word that brings peace.',
-      author: 'Buddha',
-    },
-    {
-      text: 'All the flowers of all the tomorrows are in the seeds of today.',
-      author: null,
-    },
-    {
-      text: 'Your sacred space is where you can find yourself again and again.',
-      author: 'Joseph Campbell',
-    },
-    {
-      text: 'As you think, so shall you become.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'In seed time learn, in harvest teach, in winter enjoy.',
-      author: 'William Blake',
-    },
-    {
-      text: 'Happiness does not come from having much, but from being attached to little.',
-      author: 'Cheng Yen',
-    },
-    {
-      text: 'Every gift from a friend is a wish for your happiness.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Go put your creed into the deed. Nor speak with double tongue.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The wisest men follow their own direction.',
-      author: 'Euripides',
-    },
-    {
-      text: 'Hope arouses, as nothing else can arouse, a passion for the possible.',
-      author: 'William Sloane Coffin',
-    },
-    {
-      text: 'Everything has beauty, but not everyone sees it.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Nothing ever goes away until it has taught us what we need to know.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'When you learn, teach. When you get, give.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Only when we are no longer afraid do we begin to live.',
-      author: 'Dorothy Thompson',
-    },
-    {
-      text: 'If you smile when no one else is around, you really mean it.',
-      author: 'Andy Rooney',
-    },
-    {
-      text: 'Love is the only force capable of transforming an enemy into friend.',
-      author: 'Martin Luther King, Jr.',
-    },
-    {
-      text: 'In all chaos there is a cosmos, in all disorder a secret order.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'A man is not where he lives but where he loves.',
-      author: null,
-    },
-    {
-      text: 'The price of greatness is responsibility.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'Decision is a risk rooted in the courage of being free.',
-      author: 'Paul Tillich',
-    },
-    {
-      text: 'Your mind will answer most questions if you learn to relax and wait for the answer.',
-      author: 'William Burroughs',
-    },
-    {
-      text: 'The world does not happen to you it happens from you.',
-      author: null,
-    },
-    {
-      text: 'We cannot solve our problems with the same thinking we used when we created them.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'More powerful than the will to win is the courage to begin.',
-      author: null,
-    },
-    {
-      text: 'Learning is finding out what you already know.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Saying thank you is more than good manners. It is good spirituality.',
-      author: 'Alfred Painter',
-    },
-    {
-      text: 'Silence is a source of great strength.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Joy is the best makeup.',
-      author: 'Anne Lamott',
-    },
-    {
-      text: 'There is no great genius without some touch of madness.',
-      author: 'Seneca',
-    },
-    {
-      text: 'A jug fills drop by drop.',
-      author: 'Buddha',
-    },
-    {
-      text: "Until you make peace with who you are, you'll never be content with what you have.",
-      author: 'Doris Mortman',
-    },
-    {
-      text: 'We aim above the mark to hit the mark.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Being angry never solves anything.',
-      author: 'Catherine Pulsifer',
-    },
-    {
-      text: 'All men who have achieved great things have been great dreamers.',
-      author: 'Orison Marden',
-    },
-    {
-      text: 'Mediocrity knows nothing higher than itself, but talent instantly recognizes genius.',
-      author: 'Arthur Conan Doyle',
-    },
-    {
-      text: 'Where all think alike, no one thinks very much.',
-      author: 'Walter Lippmann',
-    },
-    {
-      text: 'Everything that exists is in a manner the seed of that which will be.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Be less curious about people and more curious about ideas.',
-      author: 'Marie Curie',
-    },
-    {
-      text: 'The heart has eyes which the brain knows nothing of.',
-      author: 'Charles Perkhurst',
-    },
-    {
-      text: 'Only those who dare to fail greatly can ever achieve greatly.',
-      author: 'Robert Kennedy',
-    },
-    {
-      text: 'Lose an hour in the morning, and you will spend all day looking for it.',
-      author: 'Richard Whately',
-    },
-    {
-      text: 'Mistakes are always forgivable, if one has the courage to admit them.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'Go to your bosom: Knock there, and ask your heart what it doth know.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Happiness mainly comes from our own attitude, rather than from external factors.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'If you do not change direction, you may end up where you are heading.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'What we see is mainly what we look for.',
-      author: null,
-    },
-    {
-      text: 'Stay away from what might have been and look at what will be.',
-      author: 'Marsha Petrie Sue',
-    },
-    {
-      text: 'Act as if what you do makes a difference. It does.',
-      author: 'William James',
-    },
-    {
-      text: 'Passion creates the desire for more and action fuelled by passion creates a future.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Do good by stealth, and blush to find it fame.',
-      author: 'Alexander Pope',
-    },
-    {
-      text: 'Opportunity often comes disguised in the form of misfortune, or temporary defeat.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: "Don't talk about what you have done or what you are going to do.",
-      author: 'Thomas Jefferson',
-    },
-    {
-      text: 'Most powerful is he who has himself in his own power.',
-      author: 'Seneca',
-    },
-    {
-      text: "We don't stop playing because we grow old; we grow old because we stop playing.",
-      author: 'Bernard Shaw',
-    },
-    {
-      text: 'Experience can only be gained by doing not by thinking or dreaming.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: "Always tell the truth. That way, you don't have to remember what you said.",
-      author: 'Mark Twain',
-    },
-    {
-      text: 'From wonder into wonder existence opens.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'He who fears being conquered is sure of defeat.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'Life is what happens while you are making other plans.',
-      author: 'John Lennon',
-    },
-    {
-      text: 'Doing what you love is the cornerstone of having abundance in your life.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Kindness is the golden chain by which society is bound together.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'You need chaos in your soul to give birth to a dancing star.',
-      author: 'Nietzsche',
-    },
-    {
-      text: "It can't be spring if your heart is filled with past failures.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'No yesterdays are ever wasted for those who give themselves to today.',
-      author: 'Brendan Francis',
-    },
-    {
-      text: 'There are no failures just experiences and your reactions to them.',
-      author: 'Tom Krause',
-    },
-    {
-      text: 'Action is the foundational key to all success.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'What is necessary to change a person is to change his awareness of himself.',
-      author: 'Abraham Maslow',
-    },
-    {
-      text: 'Positive thinking will let you do everything better than negative thinking will.',
-      author: 'Zig Ziglar',
-    },
-    {
-      text: 'We shall never know all the good that a simple smile can do.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'Nothing is so strong as gentleness. Nothing is so gentle as real strength.',
-      author: 'Frances de Sales',
-    },
-    {
-      text: 'Imagination is not a talent of some men but is the health of every man.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'We must embrace pain and burn it as fuel for our journey.',
-      author: 'Kenji Miyazawa',
-    },
-    {
-      text: "Don't wait for people to be friendly. Show them how.",
-      author: null,
-    },
-    {
-      text: 'A gem cannot be polished without friction, nor a man perfected without trials.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'Each day can be one of triumph if you keep up your interests.',
-      author: 'George Matthew Adams',
-    },
-    {
-      text: "The place to improve the world is first in one's own heart and head and hands.",
-      author: 'Robert M. Pirsig',
-    },
-    {
-      text: 'The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: "Winners have simply formed the habit of doing things losers don't like to do.",
-      author: 'Albert Gray',
-    },
-    {
-      text: 'Nature is a mutable cloud which is always and never the same.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Life is what you make of it. Always has been, always will be.',
-      author: 'Grandma Moses',
-    },
-    {
-      text: 'Worry often gives a small thing a big shadow.',
-      author: 'Swedish proverb',
-    },
-    {
-      text: "I want you to be everything that's you, deep at the center of your being.",
-      author: 'Confucius',
-    },
-    {
-      text: 'We know what we are, but know not what we may be.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: "Freedom is what you do with what's been done to you.",
-      author: 'Jean-Paul Sartre',
-    },
-    {
-      text: 'The truth which has made us free will in the end make us glad also.',
-      author: 'Felix Adler',
-    },
-    {
-      text: 'He who has imagination without learning has wings but no feet.',
-      author: 'Joseph Joubert',
-    },
-    {
-      text: 'Whoso loves, believes the impossible.',
-      author: 'Elizabeth Browning',
-    },
-    {
-      text: "It isn't where you come from, it's where you're going that counts.",
-      author: 'Ella Fitzgerald',
-    },
-    {
-      text: 'The greatest obstacle to connecting with our joy is resentment.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'When anger use your energy to do something productive.',
-      author: 'C. Pulsifer',
-    },
-    {
-      text: 'We are all something, but none of us are everything.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: "If you can't explain it simply, you don't understand it well enough.",
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'He who lives in harmony with himself lives in harmony with the world.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'He who knows himself is enlightened.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Build a better mousetrap and the world will beat a path to your door.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'As our case is new, we must think and act anew.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: "If you can't feed a hundred people, then feed just one.",
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'In three words I can sum up everything Ive learned about life: it goes on.',
-      author: 'Robert Frost',
-    },
-    {
-      text: "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
-      author: null,
-    },
-    {
-      text: 'You always succeed in producing a result.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Everything you are against weakens you. Everything you are for empowers you.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'As we risk ourselves, we grow. Each new experience is a risk.',
-      author: 'Fran Watson',
-    },
-    {
-      text: 'Who we are never changes. Who we think we are does.',
-      author: 'Mary Almanac',
-    },
-    {
-      text: 'The final proof of greatness lies in being able to endure criticism without resentment.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: 'An invasion of armies can be resisted, but not an idea whose time has come.',
-      author: 'Victor Hugo',
-    },
-    {
-      text: 'Never let lack of money interfere with having fun.',
-      author: null,
-    },
-    {
-      text: 'Excellence is not a skill. It is an attitude.',
-      author: 'Ralph Marston',
-    },
-    {
-      text: 'People may doubt what you say, but they will believe what you do.',
-      author: 'Lewis Cass',
-    },
-    {
-      text: 'The most formidable weapon against errors of every kind is reason.',
-      author: 'Thomas Paine',
-    },
-    {
-      text: "It's important to know that words don't move mountains. Work, exacting work moves mountains.",
-      author: 'Danilo Dolci',
-    },
-    {
-      text: 'Beware of missing chances; otherwise it may be altogether too late some day.',
-      author: 'Franz Liszt',
-    },
-    {
-      text: 'You only lose what you cling to.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Life is a succession of moments. To live each one is to succeed.',
-      author: 'Corita Kent',
-    },
-    {
-      text: 'Most of the shadows of life are caused by standing in our own sunshine.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'Good actions give strength to ourselves and inspire good actions in others.',
-      author: 'Plato',
-    },
-    {
-      text: 'I know but one freedom and that is the freedom of the mind.',
-      author: 'Antoine de Saint-Exupery',
-    },
-    {
-      text: 'In the middle of every difficulty lies opportunity.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Every human being is the author of his own health or disease.',
-      author: 'Buddha',
-    },
-    {
-      text: 'When in doubt, tell the truth.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Every great advance in science has issued from a new audacity of the imagination.',
-      author: 'John Dewey',
-    },
-    {
-      text: 'The path to success is to take massive, determined action.',
-      author: 'Anthony Robbins',
-    },
-    {
-      text: 'The ladder of success is never crowded at the top.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'He who has health has hope, and he who has hope has everything.',
-      author: null,
-    },
-    {
-      text: 'All great achievements require time.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'No person is your friend who demands your silence, or denies your right to grow.',
-      author: 'Alice Walker',
-    },
-    {
-      text: 'Impossibilities are merely things which we have not yet learned.',
-      author: 'Charles Chesnutt',
-    },
-    {
-      text: 'Vision without action is a daydream. Action without vision is a nightmare.',
-      author: 'Japanese proverb',
-    },
-    {
-      text: 'The Superior Man is aware of Righteousness, the inferior man is aware of advantage.',
-      author: 'Confucius',
-    },
-    {
-      text: 'He who angers you conquers you.',
-      author: 'Elizabeth Kenny',
-    },
-    {
-      text: 'I never worry about action, but only inaction.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'No man is free who is not master of himself.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Those that know, do. Those that understand, teach.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'If we are not fully ourselves, truly in the present moment, we miss everything.',
-      author: 'Thich Nhat Hanh',
-    },
-    {
-      text: 'No act of kindness, no matter how small, is ever wasted.',
-      author: 'Aesop',
-    },
-    {
-      text: 'Every man is a volume if you know how to read him.',
-      author: 'Channing',
-    },
-    {
-      text: 'The difficulties of life are intended to make us better, not bitter.',
-      author: null,
-    },
-    {
-      text: 'Quality means doing it right when no one is looking.',
-      author: 'Henry Ford',
-    },
-    {
-      text: 'Change your words. Change your world.',
-      author: null,
-    },
-    {
-      text: 'Great acts are made up of small deeds.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'The odds of hitting your target go up dramatically when you aim at it.',
-      author: 'Mal Pancoast',
-    },
-    {
-      text: 'Open minds lead to open doors.',
-      author: null,
-    },
-    {
-      text: 'They can do all because they think they can.',
-      author: 'Virgil',
-    },
-    {
-      text: 'You have to think anyway, so why not think big?',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'On every thorn, delightful wisdom grows, In every rill a sweet instruction flows.',
-      author: 'Edward Young',
-    },
-    {
-      text: 'Your body is precious. It is our vehicle for awakening. Treat it with care.',
-      author: 'Buddha',
-    },
-    {
-      text: 'The one who always loses, is the only person who gets the reward.',
-      author: 'Claire Charmont',
-    },
-    {
-      text: 'The future is completely open, and we are writing it moment to moment.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'Each time we face a fear, we gain strength, courage, and confidence in the doing.',
-      author: null,
-    },
-    {
-      text: 'Ask yourself the secret of your success. Listen to your answer, and practice it.',
-      author: 'Richard Bach',
-    },
-    {
-      text: "Don't frown because you never know who is falling in love with your smile.",
-      author: 'Sinvyest Tan',
-    },
-    {
-      text: "Trust your hunches. They're usually based on facts filed away just below the conscious level.",
-      author: 'Joyce Brothers',
-    },
-    {
-      text: 'Nothing is at last sacred but the integrity of your own mind.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Listen to your intuition. It will tell you everything you need to know.',
-      author: "Anthony D'Angelo",
-    },
-    {
-      text: 'The personal life deeply lived always expands into truths beyond itself.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'Whenever something negative happens to you, there is a deep lesson concealed within it.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: 'What is not started today is never finished tomorrow.',
-      author: 'Goethe',
-    },
-    {
-      text: 'Our kindness may be the most persuasive argument for that which we believe.',
-      author: 'Gordon Hinckley',
-    },
-    {
-      text: 'Chaos is inherent in all compounded things. Strive on with diligence.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Be sure you put your feet in the right place, then stand firm.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Nothing great was ever achieved without enthusiasm.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The meaning I picked, the one that changed my life: Overcome fear, behold wonder.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Know how to listen, and you will profit even from those who talk badly.',
-      author: 'Plutarch',
-    },
-    {
-      text: 'A man is not old as long as he is seeking something.',
-      author: 'Edmond Rostand',
-    },
-    {
-      text: "The time you think you're missing, misses you too.",
-      author: 'Ymber Delecto',
-    },
-    {
-      text: 'Life is not measured by the breaths you take, but by its breathtaking moments.',
-      author: 'Michael Vance',
-    },
-    {
-      text: 'Much wisdom often goes with fewer words.',
-      author: 'Sophocles',
-    },
-    {
-      text: "If you love life, don't waste time, for time is what life is made up of.",
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'Imagination is the living power and prime agent of all human perception.',
-      author: 'Samuel Taylor Coleridge',
-    },
-    {
-      text: 'It is impossible to feel grateful and depressed in the same moment.',
-      author: 'Naomi Williams',
-    },
-    {
-      text: "Progress always involves risks. You can't steal second base and keep your foot on first.",
-      author: 'Frederick Wilcox',
-    },
-    {
-      text: 'Liberty, taking the word in its concrete sense, consists in the ability to choose.',
-      author: 'Simone Weil',
-    },
-    {
-      text: 'A thing well said will be wit in all languages.',
-      author: 'John Dryden',
-    },
-    {
-      text: 'Always do your best. What you plant now, you will harvest later.',
-      author: 'Og Mandino',
-    },
-    {
-      text: "My mama always said: life's like a box of chocolate you never know what you gonna get.",
-      author: 'Forrest Gump',
-    },
-    {
-      text: 'We are the leaves of one branch, the drops of one sea, the flowers of one garden.',
-      author: 'Jean Lacordaire',
-    },
-    {
-      text: 'If you come to a fork in the road, take it.',
-      author: null,
-    },
-    {
-      text: 'It is not only for what we do that we are held responsible, but also for what we do not do.',
-      author: 'Moliere',
-    },
-    {
-      text: 'Nobody can do everything, but everybody can do something.',
-      author: null,
-    },
-    {
-      text: 'The world has the habit of making room for the man whose actions show that he knows where he is going.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'You cannot step twice into the same river, for other waters are continually flowing in.',
-      author: 'Heraclitus',
-    },
-    {
-      text: 'Excellence is to do a common thing in an uncommon way.',
-      author: 'Booker Washington',
-    },
-    {
-      text: 'No matter how hard the past, you can always begin again.',
-      author: 'Buddha',
-    },
-    {
-      text: 'I begin with an idea and then it becomes something else.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'Whoever is happy will make others happy, too.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Your work is to discover your work and then with all your heart to give yourself to it.',
-      author: 'Buddha',
-    },
-    {
-      text: "It's not what happens to you, but how you react to it that matters.",
-      author: 'Epictetus',
-    },
-    {
-      text: 'Take it easy, but take it.',
-      author: 'Woody Guthrie',
-    },
-    {
-      text: 'Never apologize for showing feeling. When you do so, you apologize for truth.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: 'Take rest; a field that has rested gives a bountiful crop.',
-      author: 'Ovid',
-    },
-    {
-      text: 'Age does not protect you from love. But love, to some extent, protects you from age.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'Do what you can. Want what you have. Be who you are.',
-      author: 'Forrest Church',
-    },
-    {
-      text: 'There are people who have money and people who are rich.',
-      author: 'Coco Chanel',
-    },
-    {
-      text: 'Why worry about tomorrow, when today is all we have?',
-      author: null,
-    },
-    {
-      text: 'Speak when you are angry and you will make the best speech you will ever regret.',
-      author: 'Ambrose Bierce',
-    },
-    {
-      text: 'Things do not change, we change.',
-      author: 'Henry Thoreau',
-    },
-    {
-      text: 'The exercise of an extraordinary gift is the supremest pleasure in life.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Sometimes the most important thing in a whole day is the rest we take between two deep breaths.',
-      author: 'Etty Hillesum',
-    },
-    {
-      text: 'Forgiveness is choosing to love. It is the first skill of self-giving love.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: 'To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life.',
-      author: 'William Londen',
-    },
-    {
-      text: 'Most smiles are started by another smile.',
-      author: null,
-    },
-    {
-      text: 'Nothing is softer or more flexible than water, yet nothing can resist it.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'It is difficult to achieve a spirit of genuine cooperation as long as people remain indifferent to the feelings and happiness of others.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Experience keeps a dear school, but fools will learn in no other.',
-      author: 'Benjamin Franklin',
-    },
-    {
-      text: 'We can only be said to be alive in those moments when our hearts are conscious of our treasures.',
-      author: 'Thornton Wilder',
-    },
-    {
-      text: 'Fine words and an insinuating appearance are seldom associated with true virtue',
-      author: 'Confucius',
-    },
-    {
-      text: 'We do not quit playing because we grow old, we grow old because we quit playing.',
-      author: 'Oliver Holmes',
-    },
-    {
-      text: "You can't choose up sides on a round world.",
-      author: 'Wayne Dyer',
-    },
-    {
-      text: "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate, that's my philosophy.",
-      author: 'Thornton Wilder',
-    },
-    {
-      text: 'Kindness is the language which the deaf can hear and the blind can see.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'I may not know everything, but everything is not known yet anyway.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'If we could see the miracle of a single flower clearly, our whole life would change.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Without this playing with fantasy no creative work has ever yet come to birth. The debt we owe to the play of the imagination is incalculable.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'You cannot travel the path until you have become the path itself.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Keep your eyes on the stars and your feet on the ground.',
-      author: 'Theodore Roosevelt',
-    },
-    {
-      text: 'I am not afraid of tomorrow, for I have seen yesterday and I love today.',
-      author: 'William White',
-    },
-    {
-      text: 'Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.',
-      author: 'Jamie Paolinetti',
-    },
-    {
-      text: "When you lose, don't lose the lesson.",
-      author: null,
-    },
-    {
-      text: 'If you want a thing done well, do it yourself.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'The greatest barrier to success is the fear of failure.',
-      author: 'Eriksson',
-    },
-    {
-      text: 'Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather.',
-      author: 'John Ruskin',
-    },
-    {
-      text: "If you aren't going all the way, why go at all?",
-      author: 'Joe Namath',
-    },
-    {
-      text: 'Our greatest glory is not in never falling, but in rising every time we fall.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The beginning of wisdom is found in doubting; by doubting we come to the question, and by seeking we may come upon the truth.',
-      author: 'Pierre Abelard',
-    },
-    {
-      text: "If I could reach up and hold a star for every time you've made me smile, the entire evening sky would be in the palm of my hand.",
-      author: null,
-    },
-    {
-      text: 'We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Stay committed to your decisions, but stay flexible in your approach.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is colour-blind.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'What separates the winners from the losers is how a person reacts to each new twist of fate.',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'Each man has his own vocation; his talent is his call. There is one direction in which all space is open to him.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'To change ones life, start immediately, do it flamboyantly, no exceptions.',
-      author: 'William James',
-    },
-    {
-      text: 'As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.',
-      author: 'John F. Kennedy',
-    },
-    {
-      text: 'The world cares very little about what a man or woman knows; it is what a man or woman is able to do that counts.',
-      author: 'Booker Washington',
-    },
-    {
-      text: 'The steeper the mountain the harder the climb the better the view from the finishing line',
-      author: null,
-    },
-    {
-      text: 'Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability to learn new things and move forward with your life.',
-      author: 'Dr. David M. Burns',
-    },
-    {
-      text: 'When I let go of what I am, I become what I might be.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Transformation does not start with some one else changing you; transformation is an inner self reworking of what you are now to what you will be.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Time is not a measure the length of a day or month or year but more a measure of what you have accomplished.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Wherever a man may happen to turn, whatever a man may undertake, he will always end up by returning to the path which nature has marked out for him.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.',
-      author: 'Buddha',
-    },
-    {
-      text: 'When there is no enemy within, the enemies outside cannot hurt you.',
-      author: 'African proverb',
-    },
-    {
-      text: 'He who controls others may be powerful, but he who has mastered himself is mightier still.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'There is no scarcity of opportunity to make a living at what you love; theres only scarcity of resolve to make it happen.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius.',
-      author: 'Wolfgang Amadeus Mozart',
-    },
-    {
-      text: 'The happy and efficient people in this world are those who accept trouble as a normal detail of human life and resolve to capitalize it when it comes along.',
-      author: 'H. Bertram Lewis',
-    },
-    {
-      text: 'As an organizer I start from where the world is, as it is, not as I would like it to be.',
-      author: 'Saul Alinsky',
-    },
-    {
-      text: 'You are the only person on Earth who can use your ability.',
-      author: 'Zig Ziglar',
-    },
-    {
-      text: "Don't let what you can't do stop you from doing what you can do.",
-      author: null,
-    },
-    {
-      text: "Complaining doesn't change a thing only taking action does.",
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Life a culmination of the past, an awareness of the present, an indication of the future beyond knowledge, the quality that gives a touch of divinity to matter.',
-      author: 'Charles A. Lindbergh',
-    },
-    {
-      text: 'Enjoy the little things, for one day you may look back and realize they were the big things.',
-      author: 'Robert Brault',
-    },
-    {
-      text: 'With every experience, you alone are painting your own canvas, thought by thought, choice by choice.',
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'Let the beauty of what you love be what you do.',
-      author: 'Rumi',
-    },
-    {
-      text: 'The world turns aside to let any man pass who knows where he is going.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Beauty is not in the face; beauty is a light in the heart.',
-      author: 'Kahlil Gibran',
-    },
-    {
-      text: 'A day of worry is more exhausting than a day of work.',
-      author: 'John Lubbock',
-    },
-    {
-      text: 'Truth, and goodness, and beauty are but different faces of the same all.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'To be great is to be misunderstood.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Trust only movement. Life happens at the level of events, not of words. Trust movement.',
-      author: 'Alfred Adler',
-    },
-    {
-      text: 'Never, never, never give up.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'The most decisive actions of our life... are most often unconsidered actions.',
-      author: 'Andre Gide',
-    },
-    {
-      text: 'As we grow as unique persons, we learn to respect the uniqueness of others.',
-      author: 'Robert Schuller',
-    },
-    {
-      text: "Failure doesn't mean you are a failure it just means you haven't succeeded yet.",
-      author: 'Robert Schuller',
-    },
-    {
-      text: 'It is the quality of our work which will please God, not the quantity.',
-      author: 'Mahatma Gandhi',
-    },
-    {
-      text: "Try and fail, but don't fail to try.",
-      author: 'Stephen Kaggwa',
-    },
-    {
-      text: 'First say to yourself what you would be; and then do what you have to do.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Through pride we are ever deceiving ourselves. But deep down below the surface of the average conscience a still, small voice says to us, Something is out of tune.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'Keep silence for the most part, and speak only when you must, and then briefly.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'Fear not for the future, weep not for the past.',
-      author: 'Percy Shelley',
-    },
-    {
-      text: 'We are Divine enough to ask and we are important enough to receive.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: "If you kick a stone in anger, you'll hurt your own foot.",
-      author: 'Korean proverb',
-    },
-    {
-      text: 'To see things in the seed, that is genius.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'The happiness that is genuinely satisfying is accompanied by the fullest exercise of our faculties and the fullest realization of the world in which we live.',
-      author: 'Bertrand Russell',
-    },
-    {
-      text: 'Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.',
-      author: 'Douglas Adams',
-    },
-    {
-      text: 'Make the most of yourself, for that is all there is of you.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The universe is made of stories, not atoms.',
-      author: 'Muriel Rukeyser',
-    },
-    {
-      text: 'Respect should be earned by actions, and not acquired by years.',
-      author: 'Frank Wright',
-    },
-    {
-      text: 'I hear and I forget. I see and I remember. I do and I understand.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The trouble with most people is that they think with their hopes or fears or wishes rather than with their minds.',
-      author: 'Will Durant',
-    },
-    {
-      text: 'A lot of people give up just before theyre about to make it. You know you never know when that next obstacle is going to be the last one.',
-      author: 'Chuck Norris',
-    },
-    {
-      text: 'Sometimes the biggest act of courage is a small one.',
-      author: 'Lauren Raffo',
-    },
-    {
-      text: 'People are not lazy. They simply have impotent goals that is, goals that do not inspire them.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'You do not become good by trying to be good, but by finding the goodness that is already within you.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: 'Waste no more time arguing about what a good man should be. Be one.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: "Happiness often sneaks in through a door you didn't know you left open.",
-      author: 'John Barrymore',
-    },
-    {
-      text: 'There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'The things that one most wants to do are the things that are probably most worth doing.',
-      author: 'Winifred Holtby',
-    },
-    {
-      text: 'Always bear in mind that your own resolution to succeed is more important than any one thing.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Setting an example is not the main means of influencing another, it is the only means.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Chaos and Order are not enemies, only opposites.',
-      author: 'Richard Garriott',
-    },
-    {
-      text: 'Perseverance is a great element of success. If you only knock long enough and loud enough at the gate, you are sure to wake up somebody.',
-      author: 'Henry Longfellow',
-    },
-    {
-      text: 'Only through our connectedness to others can we really know and enhance the self. And only through working on the self can we begin to enhance our connectedness to others.',
-      author: 'Harriet Lerner',
-    },
-    {
-      text: 'He who deliberates fully before taking a step will spend his entire life on one leg.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'Peace begins with a smile.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: "Be your own hero, it's cheaper than a movie ticket.",
-      author: 'Doug Horton',
-    },
-    {
-      text: 'Turn your face toward the sun and the shadows will fall behind you.',
-      author: 'Maori proverb',
-    },
-    {
-      text: 'Things turn out best for those who make the best of the way things turn out.',
-      author: 'Jack Buck',
-    },
-    {
-      text: 'Were here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark.',
-      author: 'Whoopi Goldberg',
-    },
-    {
-      text: 'To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others.',
-      author: 'Anthony Robbins',
-    },
-    {
-      text: 'Ability will never catch up with the demand for it.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Never say there is nothing beautiful in the world any more. There is always something to make you wonder in the shape of a tree, the trembling of a leaf.',
-      author: 'Albert Schweitzer',
-    },
-    {
-      text: 'Intuition is the very force or activity of the soul in its experience through whatever has been the experience of the soul itself.',
-      author: 'Henry Reed',
-    },
-    {
-      text: 'Setting goals is the first step in turning the invisible into the visible.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Courage is not the absence of fear, but simply moving on with dignity despite that fear.',
-      author: 'Pat Riley',
-    },
-    {
-      text: 'All truths are easy to understand once they are discovered; the point is to discover them.',
-      author: 'Galileo Galilei',
-    },
-    {
-      text: 'The smallest act of kindness is worth more than the grandest intention.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'We know from science that nothing in the universe exists as an isolated or independent entity.',
-      author: 'Margaret Wheatley',
-    },
-    {
-      text: 'Everything in the universe goes by indirection. There are no straight lines.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'What do we live for, if it is not to make life less difficult for each other?',
-      author: 'George Eliot',
-    },
-    {
-      text: 'When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace.',
-      author: 'Tenzin Gyatso',
-    },
-    {
-      text: 'We may encounter many defeats but we must not be defeated.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Every person, all the events of your life are there because you have drawn them there. What you choose to do with them is up to you.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Logic will get you from A to B. Imagination will take you everywhere.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Our deepest wishes are whispers of our authentic selves. We must learn to respect them. We must learn to listen.',
-      author: 'Sarah Breathnach',
-    },
-    {
-      text: 'The world is but a canvas to the imagination.',
-      author: 'Henry Thoreau',
-    },
-    {
-      text: "Thats the risk you take if you change: that people you've been involved with won't like the new you. But other people who do will come along.",
-      author: 'Lisa Alther',
-    },
-    {
-      text: 'To be happy is to be able to become aware of oneself without fright.',
-      author: 'Walter Benjamin',
-    },
-    {
-      text: 'Strength to carry on despite the odds means you have faith in your own abilities and know how.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Make the most of yourself for that is all there is of you.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Be gentle first with yourself if you wish to be gentle with others.',
-      author: 'Lama Yeshe',
-    },
-    {
-      text: "A man who doesn't trust himself can never really trust anyone else.",
-      author: 'Cardinal Retz',
-    },
-    {
-      text: 'We make our own fortunes and we call them fate.',
-      author: 'Benjamin Disraeli',
-    },
-    {
-      text: "Leaders aren't born they are made. And they are made just like anything else, through hard work. And that's the price well have to pay to achieve that goal, or any goal.",
-      author: 'Vince Lombardi',
-    },
-    {
-      text: 'It takes courage to grow up and become who you really are.',
-      author: 'E. E. Cummings',
-    },
-    {
-      text: 'Always seek out the seed of triumph in every adversity.',
-      author: 'Og Mandino',
-    },
-    {
-      text: 'Rather than wishing for change, you first must be prepared to change.',
-      author: 'Catherine Pulsifer',
-    },
-    {
-      text: 'I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Fame usually comes to those who are thinking about something else.',
-      author: 'Holmes',
-    },
-    {
-      text: 'First comes thought; then organization of that thought, into ideas and plans; then transformation of those plans into reality. The beginning, as you will observe, is in your imagination.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'The superior man acts before he speaks, and afterwards speaks according to his action.',
-      author: 'Confucius',
-    },
-    {
-      text: 'A single conversation across the table with a wise person is worth a months study of books.',
-      author: 'Chinese proverb',
-    },
-    {
-      text: 'The difference between what we do and what we are capable of doing would suffice to solve most of the worlds problems.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: 'You can never cross the ocean unless you have the courage to lose sight of the shore.',
-      author: null,
-    },
-    {
-      text: 'Work for something because it is good, not just because it stands a chance to succeed.',
-      author: 'Vaclav Havel',
-    },
-    {
-      text: 'Knowledge rests not upon truth alone, but upon error also.',
-      author: 'Carl Jung',
-    },
-    {
-      text: "Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it; it's only for wallowing in.",
-      author: 'Katherine Mansfield',
-    },
-    {
-      text: "Never regret. If it's good, it's wonderful. If it's bad, it's experience.",
-      author: 'Victoria Holt',
-    },
-    {
-      text: 'When deeds and words are in accord, the whole world is transformed.',
-      author: 'Chuang Tzu',
-    },
-    {
-      text: 'Kind words can be short and easy to speak but their echoes are truly endless.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'For everything that lives is holy, life delights in life.',
-      author: 'William Blake',
-    },
-    {
-      text: 'The most important thing is transforming our minds, for a new way of thinking, a new outlook: we should strive to develop a new inner world.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'Our passion is our strength.',
-      author: 'Billie Armstrong',
-    },
-    {
-      text: 'In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'Spring is a time for rebirth and the fulfilment of new life.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'There is nothing happens to any person but what was in his power to go through with.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'There are two ways to slide easily through life: to believe everything or to doubt everything; both ways save us from thinking.',
-      author: 'Alfred Korzybski',
-    },
-    {
-      text: 'The art of progress is to preserve order amid change, and to preserve change amid order.',
-      author: 'Alfred Whitehead',
-    },
-    {
-      text: 'We make a living by what we get, but we make a life by what we give.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'If you want to study yourself look into the hearts of other people. If you want to study other people look into your own heart.',
-      author: 'Friedrich von Schiller',
-    },
-    {
-      text: 'Maxim for life: You get treated in life the way you teach people to treat you.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'The first duty of a human being is to assume the right functional relationship to society more briefly, to find your real job, and do it.',
-      author: 'Charlotte Perkins Gilman',
-    },
-    {
-      text: 'The key to growth is the introduction of higher dimensions of consciousness into our awareness.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Thought is the blossom; language the bud; action the fruit behind it.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'True happiness means forging a strong spirit that is undefeated, no matter how trying our circumstances.',
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: 'There is nothing so useless as doing efficiently that which should not be done at all.',
-      author: 'Peter Drucker',
-    },
-    {
-      text: 'I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.',
-      author: 'Leonardo da Vinci',
-    },
-    {
-      text: 'All the world is a stage, And all the men and women merely players.They have their exits and entrances; Each man in his time plays many parts.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'As we are liberated from our own fear, our presence automatically liberates others.',
-      author: 'Nelson Mandela',
-    },
-    {
-      text: 'The most successful people are those who are good at plan B.',
-      author: 'James Yorke',
-    },
-    {
-      text: 'Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'To fly as fast as thought, you must begin by knowing that you have already arrived.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Obstacles are those things you see when you take your eyes off the goal.',
-      author: 'Hannah More',
-    },
-    {
-      text: 'The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.',
-      author: 'Michelangelo',
-    },
-    {
-      text: 'Great ideas often receive violent opposition from mediocre minds.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'We can change our lives. We can do, have, and be exactly what we wish.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'You are the only person on earth who can use your ability.',
-      author: 'Zig Ziglar',
-    },
-    {
-      text: 'Neither genius, fame, nor love show the greatness of the soul. Only kindness can do that.',
-      author: 'Jean Lacordaire',
-    },
-    {
-      text: 'The least of things with a meaning is worth more in life than the greatest of things without it.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'The noblest worship is to make yourself as good and as just as you can.',
-      author: 'Isocrates',
-    },
-    {
-      text: 'Though no one can go back and make a brand new start, anyone can start from not and make a brand new ending.',
-      author: 'Carl Bard',
-    },
-    {
-      text: 'A dream is your creative vision for your life in the future. You must break out of your current comfort zone and become comfortable with the unfamiliar and the unknown.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: "Don't think of it as failure. Think of it as time-released success.",
-      author: 'Robert Orben',
-    },
-    {
-      text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'I walk slowly, but I never walk backward.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Divide each difficulty into as many parts as is feasible and necessary to resolve it.',
-      author: 'Rene Descartes',
-    },
-    {
-      text: 'The best place to find a helping hand is at the end of your own arm.',
-      author: null,
-    },
-    {
-      text: 'We know the truth, not only by the reason, but by the heart.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'We choose our joys and sorrows long before we experience them.',
-      author: 'Kahlil Gibran',
-    },
-    {
-      text: 'Anybody can make history. Only a great man can write it.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'If I know what love is, it is because of you.',
-      author: 'Hermann Hesse',
-    },
-    {
-      text: 'Allow the world to live as it chooses, and allow yourself to live as you choose.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Focusing your life solely on making a buck shows a poverty of ambition. It asks too little of yourself. And it will leave you unfulfilled.',
-      author: 'Barack Obama',
-    },
-    {
-      text: 'Compassion and happiness are not a sign of weakness but a sign of strength.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'It is common sense to take a method and try it. If it fails, admit it frankly and try another. But above all, try something.',
-      author: 'Franklin D. Roosevelt',
-    },
-    {
-      text: 'Be here now. Be someplace else later. Is that so complicated?',
-      author: 'David Bader',
-    },
-    {
-      text: 'To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich.',
-      author: 'Mahummad Ali',
-    },
-    {
-      text: 'Learning without reflection is a waste, reflection without learning is dangerous.',
-      author: 'Confucius',
-    },
-    {
-      text: "Don't fear failure so much that you refuse to try new things. The saddest summary of life contains three descriptions: could have, might have, and should have.",
-      author: null,
-    },
-    {
-      text: 'All fixed set patterns are incapable of adaptability or pliability. The truth is outside of all fixed patterns.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: "I don't believe in failure. It's not failure if you enjoyed the process.",
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'The best and most beautiful things in the world cannot be seen, nor touched... but are felt in the heart.',
-      author: 'Helen Keller',
-    },
-    {
-      text: "Success in business requires training and discipline and hard work. But if you're not frightened by these things, the opportunities are just as great today as they ever were.",
-      author: 'David Rockefeller',
-    },
-    {
-      text: 'The man who trusts men will make fewer mistakes than he who distrusts them.',
-      author: 'Cavour',
-    },
-    {
-      text: 'The less effort, the faster and more powerful you will be.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'The cure for boredom is curiosity. There is no cure for curiosity.',
-      author: 'Ellen Parr',
-    },
-    {
-      text: 'We can do no great things, only small things with great love.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'Be like the flower, turn your face to the sun.',
-      author: 'Kahlil Gibran',
-    },
-    {
-      text: 'Remembering a wrong is like carrying a burden on the mind.',
-      author: 'Buddha',
-    },
-    {
-      text: 'The foolish man seeks happiness in the distance; the wise grows it under his feet.',
-      author: 'James Openheim',
-    },
-    {
-      text: 'Gratitude is the fairest blossom which springs from the soul.',
-      author: 'Henry Beecher',
-    },
-    {
-      text: 'If you look into your own heart, and you find nothing wrong there, what is there to worry about? What is there to fear?',
-      author: 'Confucius',
-    },
-    {
-      text: 'You cannot have what you do not want.',
-      author: 'John Acosta',
-    },
-    {
-      text: 'Do not follow where the path may lead. Go, instead, where there is no path and leave a trail.',
-      author: 'Ralph Waldo Emerson',
-    },
-    {
-      text: 'It is not fair to ask of others what you are unwilling to do yourself.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'Knowing your own darkness is the best method for dealing with the darknesses of other people.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'The best thing in every noble dream is the dreamer...',
-      author: 'Moncure Conway',
-    },
-    {
-      text: 'Weve got to have a dream if we are going to make a dream come true.',
-      author: 'Walt Disney',
-    },
-    {
-      text: 'If you want things to be different, perhaps the answer is to become different yourself.',
-      author: 'Norman Peale',
-    },
-    {
-      text: 'There is nothing impossible to him who will try.',
-      author: 'Alexander the Great',
-    },
-    {
-      text: 'Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom.',
-      author: 'Theodore Rubin',
-    },
-    {
-      text: 'Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.',
-      author: 'Harriet Tubman',
-    },
-    {
-      text: 'The only real failure in life is not to be true to the best one knows.',
-      author: 'Buddha',
-    },
-    {
-      text: "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either.",
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Change will not come if we wait for some other person or some other time. We are the ones weve been waiting for. We are the change that we seek.',
-      author: 'Barack Obama',
-    },
-    {
-      text: 'Those who cannot learn from history are doomed to repeat it.',
-      author: 'George Santayan',
-    },
-    {
-      text: 'The trick is in what one emphasizes. We either make ourselves miserable, or we make ourselves happy. The amount of work is the same.',
-      author: 'Carlos Castaneda',
-    },
-    {
-      text: 'Just as a flower, which seems beautiful has color but no perfume, so are the fruitless words of a man who speaks them but does them not.',
-      author: 'Dhammapada',
-    },
-    {
-      text: 'Things that were hard to bear are sweet to remember.',
-      author: 'Seneca',
-    },
-    {
-      text: 'Three things in human life are important. The first is to be kind. The second is to be kind. The third is to be kind.',
-      author: 'Henry James',
-    },
-    {
-      text: 'However many holy words you read, However many you speak, What good will they do you If you do not act on upon them?',
-      author: 'Buddha',
-    },
-    {
-      text: 'They can conquer who believe they can.',
-      author: 'Virgil',
-    },
-    {
-      text: 'Learn to listen. Opportunity could be knocking at your door very softly.',
-      author: 'Frank Tyger',
-    },
-    {
-      text: 'All action results from thought, so it is thoughts that matter.',
-      author: 'Sai Baba',
-    },
-    {
-      text: 'There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: "I love my past. I love my present. I'm not ashamed of what Ive had, and I'm not sad because I have it no longer.",
-      author: 'Colette',
-    },
-    {
-      text: 'Prejudice is a burden that confuses the past, threatens the future and renders the present inaccessible.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Just as much as we see in others we have in ourselves.',
-      author: 'William Hazlitt',
-    },
-    {
-      text: 'Prosperity depends more on wanting what you have than having what you want.',
-      author: 'Geoffrey F. Abert',
-    },
-    {
-      text: 'How many cares one loses when one decides not to be something but to be someone.',
-      author: 'Coco Chanel',
-    },
-    {
-      text: 'He who knows, does not speak. He who speaks, does not know.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'We cannot direct the wind but we can adjust the sails.',
-      author: null,
-    },
-    {
-      text: 'One may say the eternal mystery of the world is its comprehensibility.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'The self is not something ready-made, but something in continuous formation through choice of action.',
-      author: 'John Dewey',
-    },
-    {
-      text: 'Our greatness lies not so much in being able to remake the world as being able to remake ourselves.',
-      author: 'Mahatma Gandhi',
-    },
-    {
-      text: 'Moments of complete apathy are the best for new creations.',
-      author: 'Philip Breedveld',
-    },
-    {
-      text: 'The only real mistake is the one from which we learn nothing.',
-      author: 'John Powell',
-    },
-    {
-      text: 'To dream of the person you would like to be is to waste the person you are.',
-      author: 'Tim Menchen',
-    },
-    {
-      text: 'The important thing is this: to be able at any moment to sacrifice what we are for what we could become.',
-      author: 'Charles Dubois',
-    },
-    {
-      text: "Gratitude is not only the greatest of virtues, but the paren't of all the others.",
-      author: 'Cicero',
-    },
-    {
-      text: 'It is never too late. Even if you are going to die tomorrow, keep yourself straight and clear and be a happy human being today.',
-      author: 'Lama Yeshe',
-    },
-    {
-      text: 'Respect is not something that you can ask for, buy or borrow. Respect is what you earn from each person no matter their background or status.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Things do not change; we change.',
-      author: 'Henry Thoreau',
-    },
-    {
-      text: 'We must learn our limits. We are all something, but none of us are everything.',
-      author: 'Blaise Pascal',
-    },
-    {
-      text: 'Learn wisdom from the ways of a seedling. A seedling which is never hardened off through stressful situations will never become a strong productive plant.',
-      author: 'Stephen Sigmund',
-    },
-    {
-      text: 'We are all faced with a series of great opportunities brilliantly disguised as impossible situations.',
-      author: 'Charles R. Swindoll',
-    },
-    {
-      text: 'All men have a sweetness in their life. That is what helps them go on. It is towards that they turn when they feel too worn out.',
-      author: 'Albert Camus',
-    },
-    {
-      text: 'Be a good listener. Your ears will never get you in trouble.',
-      author: 'Frank Tyger',
-    },
-    {
-      text: 'Meditation brings wisdom; lack of mediation leaves ignorance. Know well what leads you forward and what hold you back, and choose the path that leads to wisdom.',
-      author: 'Buddha',
-    },
-    {
-      text: 'You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving.',
-      author: 'Anatole France',
-    },
-    {
-      text: 'To listen well is as powerful a means of communication and influence as to talk well.',
-      author: 'John Marshall',
-    },
-    {
-      text: 'There is only one happiness in life, to love and be loved.',
-      author: 'George Sand',
-    },
-    {
-      text: 'Live through feeling and you will live through love. For feeling is the language of the soul, and feeling is truth.',
-      author: 'Matt Zotti',
-    },
-    {
-      text: 'Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Reason and free inquiry are the only effectual agents against error.',
-      author: 'Thomas Jefferson',
-    },
-    {
-      text: 'The best cure for the body is a quiet mind.',
-      author: 'Napoleon Bonaparte',
-    },
-    {
-      text: 'See the positive side, the potential, and make an effort.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'By accepting yourself and being fully what you are, your presence can make others happy.',
-      author: 'Jane Roberts',
-    },
-    {
-      text: 'Never deny a diagnosis, but do deny the negative verdict that may go with it.',
-      author: 'Norman Cousins',
-    },
-    {
-      text: "The really unhappy person is the one who leaves undone what they can do, and starts doing what they don't understand; no wonder they come to grief.",
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: "You cannot be lonely if you like the person you're alone with.",
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on man unless they act.',
-      author: 'G. K. Chesterton',
-    },
-    {
-      text: 'If you propose to speak, always ask yourself, is it true, is it necessary, is it kind.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Risk more than others think is safe. Care more than others think is wise. Dream more than others think is practical.Expect more than others think is possible.',
-      author: 'Cadet Maxim',
-    },
-    {
-      text: 'Failure will never overtake me if my determination to succeed is strong enough.',
-      author: 'Og Mandino',
-    },
-    {
-      text: "Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement.",
-      author: 'Ralph Marston',
-    },
-    {
-      text: 'Wrinkles should merely indicate where smiles have been.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Your attitude, not your aptitude, will determine your altitude.',
-      author: 'Zig Ziglar',
-    },
-    {
-      text: 'Let yourself be silently drawn by the stronger pull of what you really love.',
-      author: 'Rumi',
-    },
-    {
-      text: 'I gave my life to become the person I am right now. Was it worth it?',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Give thanks for a little and you will find a lot.',
-      author: 'Hausa',
-    },
-    {
-      text: 'Your ability to learn faster than your competition is your only sustainable competitive advantage.',
-      author: 'Arie de Gues',
-    },
-    {
-      text: 'Forgiveness does not change the past, but it does enlarge the future.',
-      author: 'Paul Boese',
-    },
-    {
-      text: 'Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.',
-      author: 'Nikola Tesla',
-    },
-    {
-      text: 'Moral excellence comes about as a result of habit. We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'The deepest craving of human nature is the need to be appreciated.',
-      author: 'William James',
-    },
-    {
-      text: 'Love does not consist of gazing at each other, but in looking together in the same direction.',
-      author: 'Antoine de Saint-Exupery',
-    },
-    {
-      text: 'We have committed the Golden Rule to memory; let us now commit it to life.',
-      author: 'Edwin Markham',
-    },
-    {
-      text: 'It is with words as with sunbeams. The more they are condensed, the deeper they burn.',
-      author: 'Robert Southey',
-    },
-    {
-      text: 'When people are like each other they tend to like each other.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Sincerity is the way of Heaven. The attainment of sincerity is the way of men.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Be the change that you want to see in the world.',
-      author: 'Mohandas Gandhi',
-    },
-    {
-      text: 'The more you care, the stronger you can be.',
-      author: 'Jim Rohn',
-    },
-    {
-      text: 'Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.',
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'Just trust yourself, then you will know how to live.',
-      author: 'Goethe',
-    },
-    {
-      text: 'To be fully alive, fully human, and completely awake is to be continually thrown out of the nest.',
-      author: 'Pema Chodron',
-    },
-    {
-      text: "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much.",
-      author: 'Jim Rohn',
-    },
-    {
-      text: 'It all depends on how we look at things, and not how they are in themselves.',
-      author: 'Carl Jung',
-    },
-    {
-      text: "Giving up doesn't always mean you are weak; sometimes it means that you are strong enough to let go.",
-      author: null,
-    },
-    {
-      text: 'To climb steep hills requires a slow pace at first.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'An idea that is developed and put into action is more important than an idea that exists only as an idea.',
-      author: 'Buddha',
-    },
-    {
-      text: 'It is not the possession of truth, but the success which attends the seeking after it, that enriches the seeker and brings happiness to him.',
-      author: 'Max Planck',
-    },
-    {
-      text: 'Truth is generally the best vindication against slander.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'To follow, without halt, one aim: There is the secret of success.',
-      author: 'Anna Pavlova',
-    },
-    {
-      text: 'And as we let our own light shine, we unconsciously give other people permission to do the same.',
-      author: 'Nelson Mandela',
-    },
-    {
-      text: 'What is a weed? A plant whose virtues have not yet been discovered.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Belief consists in accepting the affirmations of the soul; Unbelief, in denying them.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Many people have gone further than they thought they could because someone else thought they could.',
-      author: null,
-    },
-    {
-      text: 'We read the world wrong and say that it deceives us.',
-      author: 'Rabindranath Tagore',
-    },
-    {
-      text: 'If only wed stop trying to be happy wed have a pretty good time.',
-      author: 'Edith Wharton',
-    },
-    {
-      text: 'You must do the things you think you cannot do.',
-      author: 'Eleanor Roosevelt',
-    },
-    {
-      text: 'Be yourself; everyone else is already taken.',
-      author: 'Oscar Wilde',
-    },
-    {
-      text: 'The mark of your ignorance is the depth of your belief in injustice and tragedy. What the caterpillar calls the end of the world, the Master calls the butterfly.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'I am glad that I paid so little attention to good advice; had I abided by it I might have been saved from some of my most valuable mistakes.',
-      author: 'Edna Millay',
-    },
-    {
-      text: 'Most folks are as happy as they make up their minds to be.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Love is the master key that opens the gates of happiness.',
-      author: 'Oliver Holmes',
-    },
-    {
-      text: 'The person who makes a success of living is the one who see his goal steadily and aims for it unswervingly. That is dedication.',
-      author: 'Cecil B. DeMille',
-    },
-    {
-      text: 'My reputation grows with every failure.',
-      author: 'George Shaw',
-    },
-    {
-      text: 'Good thoughts are no better than good dreams, unless they be executed.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'Happiness does not come about only due to external circumstances; it mainly derives from inner attitudes.',
-      author: 'Dalai Lama',
-    },
-    {
-      text: 'However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?',
-      author: 'Buddha',
-    },
-    {
-      text: 'For success, attitude is equally as important as ability.',
-      author: 'Harry Banks',
-    },
-    {
-      text: 'If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception, it is a prevailing attitude.',
-      author: 'Colin Powell',
-    },
-    {
-      text: 'A person who never made a mistake never tried anything new.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'Better than a thousand hollow words is one word that brings peace.',
-      author: 'Buddha',
-    },
-    {
-      text: 'The possibilities are numerous once we decide to act and not react.',
-      author: 'George Bernard Shaw',
-    },
-    {
-      text: 'Almost everything comes from nothing.',
-      author: 'Henri Amiel',
-    },
-    {
-      text: 'Sometimes by losing a battle you find a new way to win the war.',
-      author: 'Donald Trump',
-    },
-    {
-      text: 'Listen to what you know instead of what you fear.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'It is easier to live through someone else than to become complete yourself.',
-      author: 'Betty Friedan',
-    },
-    {
-      text: "If you're in a bad situation, don't worry it'll change. If you're in a good situation, don't worry it'll change.",
-      author: 'John Simone',
-    },
-    {
-      text: 'Remember that failure is an event, not a person.',
-      author: 'Zig Ziglar',
-    },
-    {
-      text: "Don't settle for a relationship that won't let you be yourself.",
-      author: 'Oprah Winfrey',
-    },
-    {
-      text: 'What the caterpillar calls the end of the world, the master calls a butterfly.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Instead of saying that man is the creature of circumstance, it would be nearer the mark to say that man is the architect of circumstance.',
-      author: 'Thomas Carlyle',
-    },
-    {
-      text: "If you do what you've always done, you'll get what youve always gotten.",
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'Do not wait for leaders; do it alone, person to person.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'Knowledge has three degrees opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.',
-      author: 'Plotinus',
-    },
-    {
-      text: 'Love vanquishes time. To lovers, a moment can be eternity, eternity can be the tick of a clock.',
-      author: 'Mary Parrish',
-    },
-    {
-      text: 'We never live; we are always in the expectation of living.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'Think like a man of action; act like a man of thought.',
-      author: 'Henri L. Bergson',
-    },
-    {
-      text: 'You can complain because roses have thorns, or you can rejoice because thorns have roses.',
-      author: 'Ziggy',
-    },
-    {
-      text: 'There is not one big cosmic meaning for all, there is only the meaning we each give to our life.',
-      author: 'Anais Nin',
-    },
-    {
-      text: 'A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Time you enjoyed wasting was not wasted.',
-      author: 'John Lennon',
-    },
-    {
-      text: 'You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.',
-      author: 'Albert Camus',
-    },
-    {
-      text: "Genuine sincerity opens people's hearts, while manipulation causes them to close.",
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: 'To give ones self earnestly to the duties due to men, and, while respecting spiritual beings, to keep aloof from them, may be called wisdom.',
-      author: 'Confucius',
-    },
-    {
-      text: "A man's dreams are an index to his greatness.",
-      author: 'Zadok Rabinowitz',
-    },
-    {
-      text: 'This is the final test of a gentleman: his respect for those who can be of no possible value to him.',
-      author: 'William Lyon Phelps',
-    },
-    {
-      text: 'You teach best what you most need to learn.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Continuous effort, not strength or intelligence is the key to unlocking our potential.',
-      author: 'Winston Churchill',
-    },
-    {
-      text: 'Obstacles are those frightful things you see when you take your eyes off your goal.',
-      author: 'Henry Ford',
-    },
-    {
-      text: 'Go for it now. The future is promised to no one.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Never tell a young person that anything cannot be done. God may have been waiting centuries for someone ignorant enough of the impossible to do that very thing.',
-      author: 'John Holmes',
-    },
-    {
-      text: 'Bold is not the act of foolishness but the attribute and inner strength to act when others will not so as to move forward not backward.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'If we look at the world with a love of life, the world will reveal its beauty to us.',
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: 'In skating over thin ice our safety is in our speed.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it.',
-      author: 'W. Clement Stone',
-    },
-    {
-      text: 'Never promise more than you can perform.',
-      author: 'Publilius Syrus',
-    },
-    {
-      text: "If you don't go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't step forward, you're always in the same place.",
-      author: 'Nora Roberts',
-    },
-    {
-      text: "I can't believe that God put us on this earth to be ordinary.",
-      author: 'Lou Holtz',
-    },
-    {
-      text: 'There are no limitations to the mind except those we acknowledge.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'It is through science that we prove, but through intuition that we discover.',
-      author: 'Jules Poincare',
-    },
-    {
-      text: "Don't be dismayed by good-byes. A farewell is necessary before you can meet again. And meeting again, after moments or lifetimes, is certain for those who are friends.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'If someone in your life talked to you the way you talk to yourself, you would have left them long ago.',
-      author: 'Carla Gordon',
-    },
-    {
-      text: 'The cosmos is neither moral or immoral; only people are. He who would move the world must first move himself.',
-      author: 'Edward Ericson',
-    },
-    {
-      text: 'If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor.',
-      author: 'Daisaku Ikeda',
-    },
-    {
-      text: 'There is a way that nature speaks, that land speaks. Most of the time we are simply not patient enough, quiet enough, to pay attention to the story.',
-      author: 'Linda Hogan',
-    },
-    {
-      text: 'Never tell me the sky is the limit when there are footprints on the moon.',
-      author: null,
-    },
-    {
-      text: 'I cannot say whether things will get better if we change; what I can say is they must change if they are to get better.',
-      author: 'Georg Lichtenberg',
-    },
-    {
-      text: 'The greater part of human pain is unnecessary. It is self-created as long as the unobserved mind runs your life.',
-      author: 'Eckhart Tolle',
-    },
-    {
-      text: 'Take it easy but take it.',
-      author: 'Woody Guthrie',
-    },
-    {
-      text: 'Blessed is the man who expects nothing, for he shall never be disappointed.',
-      author: 'Alexander Pope',
-    },
-    {
-      text: 'He who knows others is wise. He who knows himself is enlightened.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'The best way to predict your future is to create it.',
-      author: 'Peter Drucker',
-    },
-    {
-      text: 'A garden is always a series of losses set against a few triumphs, like life itself.',
-      author: 'May Sarton',
-    },
-    {
-      text: 'If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow.',
-      author: 'Rachel Carson',
-    },
-    {
-      text: 'Never mistake motion for action.',
-      author: 'Ernest Hemingway',
-    },
-    {
-      text: 'One needs something to believe in, something for which one can have whole-hearted enthusiasm. One needs to feel that ones life has meaning, that one is needed in this world.',
-      author: 'Hannah Senesh',
-    },
-    {
-      text: 'One who is too insistent on his own views, finds few to agree with him.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'Translation is the paradigm, the exemplar of all writing. It is translation that demonstrates most vividly the yearning for transformation that underlies every act involving speech, that supremely human gift.',
-      author: 'Harry Burchell Mathews',
-    },
-    {
-      text: 'Meditation is the dissolution of thoughts in eternal awareness or Pure consciousness without objectification, knowing without thinking, merging finitude in infinity.',
-      author: 'Voltaire',
-    },
-    {
-      text: 'The reasonable man adapts himself to the world; the unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man.',
-      author: 'George Shaw',
-    },
-    {
-      text: 'Good instincts usually tell you what to do long before your head has figured it out.',
-      author: 'Michael Burke',
-    },
-    {
-      text: "It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens.",
-      author: 'Pema Chodron',
-    },
-    {
-      text: 'Those who dream by day are cognizant of many things which escape those who dream only by night.',
-      author: 'Edgar Allan Poe',
-    },
-    {
-      text: "We cannot hold a torch to light another's path without brightening our own.",
-      author: 'Ben Sweetland',
-    },
-    {
-      text: 'You are never given a wish without also being given the power to make it come true. You may have to work for it, however.',
-      author: 'Richard Bach',
-    },
-    {
-      text: 'Kind words can be short and easy to speak, but their echoes are truly endless.',
-      author: 'Mother Teresa',
-    },
-    {
-      text: 'Count your joys instead of your woes. Count your friends instead of your foes.',
-      author: null,
-    },
-    {
-      text: 'Dreams come true. Without that possibility, nature would not incite us to have them.',
-      author: 'John Updike',
-    },
-    {
-      text: 'Staying in one place is the best path to be taken over and surpassed by many.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'Imagination will often carry us to worlds that never were. But without it we go nowhere.',
-      author: 'Carl Sagan',
-    },
-    {
-      text: 'When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.',
-      author: 'Helen Keller',
-    },
-    {
-      text: 'A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action.',
-      author: 'Jawaharlal Nehru',
-    },
-    {
-      text: 'I have no special talent. I am only passionately curious.',
-      author: 'Albert Einstein',
-    },
-    {
-      text: 'I endeavour to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress.',
-      author: 'Elizabeth Montagu',
-    },
-    {
-      text: 'The height of your accomplishments will equal the depth of your convictions.',
-      author: 'William Scolavino',
-    },
-    {
-      text: 'If I am not for myself, who will be for me? If I am not for others, what am I? And if not now, when?',
-      author: 'Rabbi Hillel',
-    },
-    {
-      text: 'When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.',
-      author: 'Audre Lorde',
-    },
-    {
-      text: 'All great men are gifted with intuition. They know without reasoning or analysis, what they need to know.',
-      author: 'Alexis Carrel',
-    },
-    {
-      text: 'To get the full value of joy you must have someone to divide it with.',
-      author: 'Mark Twain',
-    },
-    {
-      text: 'Sometimes our fate resembles a fruit tree in winter. Who would think that those branches would turn green again and blossom, but we hope it, we know it.',
-      author: 'Johann Wolfgang von Goethe',
-    },
-    {
-      text: 'We lost because we told ourselves we lost.',
-      author: 'Leo Tolstoy',
-    },
-    {
-      text: 'Success is determined by those whom prove the impossible, possible.',
-      author: 'James Pence',
-    },
-    {
-      text: "Good advice is always certain to be ignored, but that's no reason not to give it.",
-      author: 'Agatha Christie',
-    },
-    {
-      text: "The winner ain't the one with the fastest car it's the one who refuses to lose.",
-      author: 'Dale Earnhardt',
-    },
-    {
-      text: 'Spirituality can be severed from both vicious sectarianism and thoughtless banalities. Spirituality, I have come to see, is nothing less than the thoughtful love of life.',
-      author: 'Robert C. Solomon',
-    },
-    {
-      text: 'No one has a finer command of language than the person who keeps his mouth shut.',
-      author: 'Sam Rayburn',
-    },
-    {
-      text: 'The only person who never makes mistakes is the person who never does anything.',
-      author: 'Denis Waitley',
-    },
-    {
-      text: "Life is what happens to you while you're busy making other plans.",
-      author: 'John Lennon',
-    },
-    {
-      text: 'Discovery consists of seeing what everybody has seen and thinking what nobody else has thought.',
-      author: 'Jonathan Swift',
-    },
-    {
-      text: 'If you have knowledge, let others light their candles in it.',
-      author: 'Margaret Fuller',
-    },
-    {
-      text: 'It is impossible for a man to learn what he thinks he already knows.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'If you find yourself in a hole, the first thing to do is stop digging.',
-      author: 'Will Rogers',
-    },
-    {
-      text: 'To make no mistakes is not in the power of man; but from their errors and mistakes the wise and good learn wisdom for the future.',
-      author: 'Plutarch',
-    },
-    {
-      text: 'I think you can have moderate success by copying something else, but if you really want to knock it out of the park, you have to do something different and take chances.',
-      author: 'Lee Womack',
-    },
-    {
-      text: 'Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.',
-      author: 'Marcus Aurelius',
-    },
-    {
-      text: 'Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity.',
-      author: 'William Menninger',
-    },
-    {
-      text: 'I have an everyday religion that works for me. Love yourself first, and everything else falls into line.',
-      author: 'Lucille Ball',
-    },
-    {
-      text: 'Flow with whatever is happening and let your mind be free. Stay centred by accepting whatever you are doing. This is the ultimate.',
-      author: 'Chuang Tzu',
-    },
-    {
-      text: 'Nothing could be worse than the fear that one had given up too soon, and left one unexpended effort that might have saved the world.',
-      author: 'Jane Addams',
-    },
-    {
-      text: 'The energy of the mind is the essence of life.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Begin, be bold, and venture to be wise.',
-      author: 'Horace',
-    },
-    {
-      text: 'Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'A wise man will make more opportunities than he finds.',
-      author: 'Francis Bacon',
-    },
-    {
-      text: "Slow down and enjoy life. It's not only the scenery you miss by going too fast you also miss the sense of where you are going and why.",
-      author: 'Eddie Cantor',
-    },
-    {
-      text: 'Miracles come in moments. Be ready and willing.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Numberless are the worlds wonders, but none more wonderful than man.',
-      author: 'Sophocles',
-    },
-    {
-      text: 'So is cheerfulness, or a good temper, the more it is spent, the more remains.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'The true way to render ourselves happy is to love our work and find in it our pleasure.',
-      author: 'Francoise de Motteville',
-    },
-    {
-      text: 'When you judge another, you do not define them, you define yourself.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: "Argue for your limitations, and sure enough they're yours.",
-      author: 'Richard Bach',
-    },
-    {
-      text: 'He who wishes to secure the good of others, has already secured his own.',
-      author: 'Confucius',
-    },
-    {
-      text: 'Wise men talk because they have something to say; fools, because they have to say something.',
-      author: 'Plato',
-    },
-    {
-      text: 'Life is really simple, but we insist on making it complicated.',
-      author: 'Confucius',
-    },
-    {
-      text: 'The future is an opaque mirror. Anyone who tries to look into it sees nothing but the dim outlines of an old and worried face.',
-      author: 'Jim Bishop',
-    },
-    {
-      text: 'Everything that irritates us about others can lead us to a better understanding of ourselves.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'Beware of the half truth. You may have gotten hold of the wrong half.',
-      author: null,
-    },
-    {
-      text: 'The greatest mistake you can make in life is to be continually fearing you will make one.',
-      author: 'Elbert Hubbard',
-    },
-    {
-      text: "I have never been hurt by anything I didn't say.",
-      author: 'Calvin Coolidge',
-    },
-    {
-      text: 'Be not angry that you cannot make others as you wish them to be, since you cannot make yourself as you wish to be.',
-      author: 'Thomas Kempis',
-    },
-    {
-      text: 'Adversity causes some men to break, others to break records.',
-      author: 'William Ward',
-    },
-    {
-      text: 'An invincible determination can accomplish almost anything and in this lies the great distinction between great men and little men.',
-      author: 'Thomas Fuller',
-    },
-    {
-      text: 'The industrial landscape is already littered with remains of once successful companies that could not adapt their strategic vision to altered conditions of competition.',
-      author: 'Abernathy',
-    },
-    {
-      text: 'Example has more followers than reason.',
-      author: 'Christian Bovee',
-    },
-    {
-      text: 'One that desires to excel should endeavour in those things that are in themselves most excellent.',
-      author: 'Epictetus',
-    },
-    {
-      text: 'If you have made mistakes, there is always another chance for you. You may have a fresh start any moment you choose.',
-      author: 'Mary Pickford',
-    },
-    {
-      text: 'The only Zen you find on the tops of mountains is the Zen you bring up there.',
-      author: 'Robert Pirsig',
-    },
-    {
-      text: 'Gratitude is riches. Complaint is poverty.',
-      author: 'Doris Day',
-    },
-    {
-      text: 'Strong people make as many mistakes as weak people. Difference is that strong people admit their mistakes, laugh at them, learn from them. That is how they become strong.',
-      author: 'Richard Needham',
-    },
-    {
-      text: 'To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'You can stand tall without standing on someone. You can be a victor without having victims.',
-      author: 'Harriet Woods',
-    },
-    {
-      text: 'Bad times have a scientific value. These are occasions a good learner would not miss.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: "It's not who you are that holds you back, it's who you think you're not.",
-      author: null,
-    },
-    {
-      text: 'All children are artists. The problem is how to remain an artist once he grows up.',
-      author: 'Pablo Picasso',
-    },
-    {
-      text: 'Either I will find a way, or I will make one.',
-      author: 'Philip Sidney',
-    },
-    {
-      text: 'He who knows that enough is enough will always have enough.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'The only way to have a friend is to be one.',
-      author: 'Ralph Emerson',
-    },
-    {
-      text: 'If we had no winter, the spring would not be so pleasant; if we did not sometimes taste of adversity, prosperity would not be so welcome.',
-      author: 'Anne Bradstreet',
-    },
-    {
-      text: 'Joy is what happens to us when we allow ourselves to recognize how good things really are.',
-      author: 'Marianne Williamson',
-    },
-    {
-      text: 'Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.',
-      author: 'Carl Jung',
-    },
-    {
-      text: 'There is never enough time to do everything, but there is always enough time to do the most important thing.',
-      author: 'Brian Tracy',
-    },
-    {
-      text: 'You really can change the world if you care enough.',
-      author: 'Marian Edelman',
-    },
-    {
-      text: 'What you are is what you have been. What you will be is what you do now.',
-      author: 'Buddha',
-    },
-    {
-      text: 'Our lives are the only meaningful expression of what we believe and in Whom we believe. And the only real wealth, for any of us, lies in our faith.',
-      author: 'Gordon Hinckley',
-    },
-    {
-      text: 'There surely is in human nature an inherent propensity to extract all the good out of all the evil.',
-      author: 'Benjamin Haydon',
-    },
-    {
-      text: 'Music in the soul can be heard by the universe.',
-      author: 'Lao Tzu',
-    },
-    {
-      text: 'What we see depends mainly on what we look for.',
-      author: 'John Lubbock',
-    },
-    {
-      text: 'To hell with circumstances; I create opportunities.',
-      author: 'Bruce Lee',
-    },
-    {
-      text: 'The truest greatness lies in being kind, the truest wisdom in a happy mind.',
-      author: 'Ella Wilcox',
-    },
-    {
-      text: 'An ounce of emotion is equal to a ton of facts.',
-      author: 'John Junor',
-    },
-    {
-      text: 'We need to find the courage to say NO to the things and people that are not serving us if we want to rediscover ourselves and live our lives with authenticity.',
-      author: 'Barbara De Angelis',
-    },
-    {
-      text: 'Great is the art of beginning, but greater is the art of ending.',
-      author: 'Lazurus Long',
-    },
-    {
-      text: 'Simply put, you believer that things or people make you unhappy, but this is not accurate. You make yourself unhappy.',
-      author: 'Wayne Dyer',
-    },
-    {
-      text: 'Nothing will work unless you do.',
-      author: 'Maya Angelou',
-    },
-    {
-      text: 'Our ability to achieve happiness and success depends on the strength of our wings.',
-      author: 'Catherine Pulsifer',
-    },
-    {
-      text: 'To go against the dominant thinking of your friends, of most of the people you see every day, is perhaps the most difficult act of heroism you can perform.',
-      author: 'Theodore H. White',
-    },
-    {
-      text: 'Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow.',
-      author: 'Melody Beattie',
-    },
-    {
-      text: 'Into each life rain must fall but rain can be the giver of life and it is all in your attitude that makes rain produce sunshine.',
-      author: 'Byron Pulsifer',
-    },
-    {
-      text: 'We are all inclined to judge ourselves by our ideals; others, by their acts.',
-      author: 'Harold Nicolson',
-    },
-    {
-      text: 'Nothing is a waste of time if you use the experience wisely.',
-      author: 'Rodin',
-    },
-    {
-      text: 'If one way be better than another, that you may be sure is natures way.',
-      author: 'Aristotle',
-    },
-    {
-      text: 'Here is one quality that one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it.',
-      author: 'Napoleon Hill',
-    },
-    {
-      text: 'It is not in the stars to hold our destiny but in ourselves.',
-      author: 'William Shakespeare',
-    },
-    {
-      text: 'Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant.',
-      author: 'Tony Robbins',
-    },
-    {
-      text: 'I will prepare and some day my chance will come.',
-      author: 'Abraham Lincoln',
-    },
-    {
-      text: 'Sometimes the cards we are dealt are not always fair. However you must keep smiling and moving on.',
-      author: 'Tom Jackson',
-    },
-  ];
+
+  {
+  
+  text: 'La genialidad es uno por ciento de inspiración y noventa y nueve por ciento de transpiración.',
+  
+  author: 'Thomas Edison',
+  
+  },
+  
+  {
+  
+  text: 'Puedes observar mucho simplemente mirando.',
+  
+  author: 'Yogui Berra',
+  
+  },
+  
+  {
+  
+  text: 'Una casa dividida contra sí misma no puede permanecer.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Las dificultades aumentan cuanto más nos acercamos a la meta.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'El destino está en tus manos y en nadie más',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Sé el jefe pero nunca el señor.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Nada sucede a menos que primero soñemos.',
+  
+  author: 'Carl Sandburg',
+  
+  },
+  
+  {
+  
+  text: 'Bien comenzado es la mitad hecho.',
+   
+  
+  
+  
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'La vida es una experiencia de aprendizaje, solo si aprendes.',
+  
+  author: 'Yogui Berra',
+  
+  },
+  
+  {
+  
+  text: 'La autocomplacencia es fatal para el progreso.',
+  
+  author: 'Margaret Sangster',
+  
+  },
+  
+  {
+  
+  text: 'La paz viene de adentro. No lo busques fuera.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Lo que das es lo que recibes.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Solo podemos aprender a amar amando.',
+  
+  author: 'Iris Murdoch',
+  
+  },
+  
+  {
+  
+  text: 'La vida es cambio. El crecimiento es opcional. Elegir sabiamente.',
+  
+  author: 'Karen Clarke',
+  
+  },
+  
+  {
+  
+  text: 'Lo verás cuando lo creas.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Hoy es el mañana que nos preocupaba ayer.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Es más fácil ver los errores en el papel de otra persona.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todo hombre muere. No todos los hombres viven realmente.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Para guiar a la gente camina detrás de ellos.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'No teniendo nada, nada puede perder.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'El problema es solo una oportunidad en ropa de trabajo.',
+  
+  author: 'Henry J. Kaiser',
+  
+  },
+  
+  {
+  
+  text: 'Una piedra que rueda no acumula musgo.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+  
+  text: 'Las ideas son los puntos de partida de todas las fortunas.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Todo en la vida es suerte.',
+  
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'No hacer nada es mejor que estar ocupado sin hacer nada.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Confía en ti mismo. Sabes más de lo que crees.',
+  
+  author: 'Benjamín Spock',
+  
+  },
+  
+  {
+  
+  text: 'Estudia el pasado, si quieres adivinar el futuro.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El día ya está bendecido, encuentra paz dentro de él.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'De error en error se descubre toda la verdad.',
+  
+  author: 'Sigmund Freud',
+  
+  },
+  
+  {
+  
+  text: 'Bien hecho es mejor que bien dicho.',
+  
+  author: 'Benjamin Franklin',
+  
+  },
+  
+  {
+  
+  text: 'Muerde más de lo que puedas masticar, luego mastícalo',
+  
+  author: 'Ella Williams',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Trabaja en tu propia salvación. No depender de los demás.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Un hoy vale dos mañanas.',
+  
+  author: 'Benjamin Franklin',
+  
+  },
+  
+  {
+  
+  text: 'Una vez que eliges la esperanza, todo es posible.',
+  
+  author: 'Christopher Reeve',
+  
+  },
+  
+  {
+  
+  text: 'Dios siempre toma el camino más simple.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Uno falla hacia el éxito.',
+  
+  author: 'Charles Kettering',
+  
+  },
+  
+  {
+  
+  text: 'De pequeños comienzos vienen grandes cosas.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El aprendizaje es un tesoro que seguirá a su dueño a todas partes',
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'Sé como quieras parecer.',
+   
+  
+  
+  
+  
+  author: 'Sócrates',
+  
+  },
+  
+  {
+  
+  text: 'El mundo siempre está en movimiento.',
+  
+  author: 'V. Naipaul',
+  
+  },
+  
+  {
+  
+  text: 'Nunca confundas actividad con logro.',
+  
+  author: 'John Wooden',
+  
+  },
+  
+  {
+  
+  text: 'Lo que te preocupa te domina.',
+  
+  author: 'Haddon Robinson',
+  
+  },
+  
+  {
+  
+  text: 'Uno enfrenta el futuro con el pasado.',
+  
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'Las metas son el combustible en el horno del logro.',
+  
+  author: 'Brian Tracy',
+  
+  },
+  
+  {
+  
+  text: 'Quien siembra virtud cosecha honor.',
+  
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+  
+  text: 'Sé amable siempre que sea posible. Siempre es posible.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Hablar no cocina arroz.',
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'Puede quien se cree capaz.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Una meta sin un plan es solo un deseo.',
+  
+  author: 'Larry Elder',
+  
+  },
+  
+  {
+  
+  text: 'Para tener éxito, primero debemos creer que podemos.',
+  
+  author: 'Michael Korda',
+  
+  },
+  
+  {
+  
+  text: 'Aprende de ayer, vive para hoy, espera para mañana.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Una mala hierba no es más que una flor disfrazada.',
+  
+  author: 'James Lowell',
+  
+  },
+  
+  {
+  
+  text: 'Hazlo o no lo hagas. Aquí no hay intentos.',
+  
+  author: 'Yoda',
+  
+  },
+  
+  {
+  
+  text: 'Todo atrevimiento serio comienza desde adentro.',
+  
+  author: 'Harriet Beecher Stowe',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El mejor maestro es la experiencia que se aprende de los fracasos.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Piensa en lo difícil que sería la física si las partículas pudieran pensar.',
+  
+  author: 'Murray Gell­Mann',
+  
+  },
+  
+  {
+  
+  text: 'El amor es la flor que tienes que dejar crecer.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'No esperes. El momento nunca será el correcto.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo es el consejero más sabio de todos.',
+  
+  author: 'Pericles',
+  
+  },
+  
+  {
+  
+  text: 'Das antes de recibir.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'La sabiduría comienza con el asombro.',
+  
+  author: 'Sócrates',
+  
+  },
+  
+  {
+  
+  text: 'Sin coraje, la sabiduría no da frutos.',
+  
+  author: 'Baltasar Gracian',
+  },
+  
+  {
+  
+  text: 'El cambio en todas las cosas es dulce.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Lo que temes es aquello que requiere acción para vencer.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Cuando el rendimiento supera la ambición, la superposición se llama éxito.',
+  
+  author: 'Cullen Hightower',
+  
+  },
+  
+  {
+  
+  text: 'Cuando los hechos hablan, las palabras no son nada.',
+  
+  author: 'proverbio africano',
+  
+  },
+  
+  {
+  
+  text: 'La verdadera magia en las relaciones significa la ausencia de juicio de los demás.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Nunca pienso en el futuro. Llega muy pronto.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'La habilidad para hacer viene de hacer.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La sabiduría es la parte suprema de la felicidad.',
+   
+  
+  
+  
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'Creo que toda persona nace con talento.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Principios importantes pueden y deben ser inflexibles.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'La realización de una nueva acción trae nueva fuerza.',
+  
+  author: 'Richard Evans',
+  
+  },
+  
+  {
+  
+  text: 'Los años enseñan mucho que los días nunca saben.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra desconfianza es muy cara.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Todos conocen el camino; pocos realmente lo caminan.',
+  
+  author: 'Bodhidharma',
+  
+  },
+  
+  {
+  
+  text: 'El gran talento encuentra la felicidad en la ejecución.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La fe en uno mismo es el camino mejor y más seguro.',
+  
+  author: 'Miguel Ángel',
+  
+  },
+  
+  {
+  
+  text: 'Coraje es ir de fracaso en fracaso sin perder el entusiasmo.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Los dos guerreros más poderosos son la paciencia y el tiempo.',
+  
+  author: 'León Tolstoi',
+  
+  },
+  
+  {
+  
+  text: 'Anticipa lo difícil gestionando lo fácil.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que están libres de pensamientos resentidos seguramente encontrarán la paz.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Un dicho corto a menudo contiene mucha sabiduría.',
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'Se necesita sol y lluvia para hacer un arcoíris.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Una cosa hermosa nunca es perfecta.',
+  
+  author: null,
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Solo haz lo que tu corazón te diga.',
+  
+  author: 'Princesa Diana',
+  
+  },
+  
+  {
+  
+  text: 'La vida es movimiento: ¡respiramos, comemos, caminamos, nos movemos!',
+  
+  author: 'Juan Pierrakos',
+  
+  },
+  
+  {
+  
+  text: 'Nadie puede hacerte sentir inferior sin tu consentimiento.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Argumenta tus limitaciones y seguro que son tuyas.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'La victoria pertenece a los más perseverantes.',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'Ama a todos, confía en unos pocos, no hagas mal a ninguno.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Para ganar, debes esperar ganar.',
+  
+  author: 'Richard Bach',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Un objetivo es un sueño con una fecha límite.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: '¡Puedes hacerlo si crees que puedes!',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Establece metas altas y no te detengas hasta llegar allí.',
+  
+  author: 'Bo Jackson',
+  
+  },
+  
+  {
+  
+  text: 'Cada nuevo día es otra oportunidad para cambiar tu vida.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Sonríe, respira y ve despacio.',
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'Nadie creerá en ti a menos que creas en ti mismo.',
+  
+  author: 'Liberación',
+  
+  },
+  
+  {
+  
+  text: 'Haz más que soñar: trabaja.',
+  
+  author: 'William Arthur Ward',
+  
+  },
+  
+  {
+  
+  text: 'Ningún hombre fue nunca sabio por casualidad.',
+   
+  
+  
+  
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Algunos persiguen la felicidad, otros la crean.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El que es vertiginoso piensa que el mundo da vueltas.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'No arruines el presente con el pasado arruinado.',
+  
+  author: 'Ellen Gilchrist',
+  
+  },
+  
+  {
+  
+  text: 'Haz algo maravilloso, la gente puede imitarlo.',
+  
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'Hacemos lo que hacemos porque creemos.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Haz una cosa todos los días que te asuste.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Si no puedes estar en silencio, sé brillante y reflexivo.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Quien mira afuera, sueña; quien mira dentro, despierta.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'En lo que pensamos, nos convertimos.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La respuesta más corta es hacer.',
+  
+  author: 'Lord Herbert',
+  
+  },
+  
+  {
+  
+  text: 'Todo nuestro conocimiento tiene su origen en nuestras percepciones.',
+  
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+  
+  text: 'Cuanto más fuerte caes, más alto rebotas.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Confiar en nuestra intuición a menudo nos salva del desastre.',
+  
+  author: 'Anne Wilson Schaef',
+  
+  },
+  
+  {
+  
+  text: 'La verdad es poderosa y prevalece.',
+  
+  author: 'Sojourner Truth',
+  
+  },
+  
+  {
+  
+  text: '¡Ilumina el mañana con el hoy!',
+  
+  author: 'Elizabeth Browning',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El silencio es una valla alrededor de la sabiduría.',
+  
+  author: 'proverbio alemán',
+  
+  },
+  
+  {
+  
+  text: 'La sociedad desarrolla el ingenio, pero sólo su contemplación forma el genio.',
+  
+  author: 'Madame de Stael',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas más simples son a menudo las más verdaderas.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Todos sonríen en el mismo idioma.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Ayer me atreví a luchar. Hoy me atrevo a ganar.',
+  
+  author: 'Bernadette Devlin',
+  
+  },
+  
+  {
+  
+  text: 'Ninguna coartada te salvará de aceptar la responsabilidad.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Si puedes soñarlo, puedes hacerlo.',
+  
+  author: 'Walt Disney',
+  
+  },
+  
+  {
+  
+  text: 'Más vale viajar bien que llegar.',
+  
+  author: 'Buda',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La vida se encoge o se expande en proporción al coraje de uno.',
+  
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Tienes que creer en ti mismo.',
+  
+  author: 'Sun Tzu',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra intención crea nuestra realidad.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'El silencio es un verdadero amigo que nunca traiciona.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El carácter se desarrolla en la corriente de la vida.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'De pequeñas bellotas crecen robles poderosos.',
+  
+  author: 'proverbio americano',
+  
+  },
+  
+  {
+  
+  text: 'No puedes detener las olas, pero puedes aprender a surfear.',
+  
+  author: 'Jon Kabat­Zinn',
+  
+  },
+  
+  {
+  
+  text: 'La realidad no se ajusta al ideal, pero lo confirma.',
+   
+  
+  
+  
+  
+  author: 'Gustave Flaubert',
+  
+  },
+  
+  {
+  
+  text: 'Habla bajo, si hablas amor.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Un talento realmente grande encuentra su felicidad en la ejecución.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'La realidad deja mucho a la imaginación.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'El mayor remedio para la ira es la demora.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'El crecimiento mismo contiene el germen de la felicidad.',
+  
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'Puedes hacer lo que es razonable o puedes decidir lo que es posible.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Nada fortalece tanto la autoridad como el silencio.',
+  
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Dondequiera que vayas, ve con todo tu corazón.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Lo único realmente valioso es la intuición.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Buena suerte es otro nombre para la tenacidad de propósito.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Los arcoíris se disculpan por los cielos enojados.',
+  
+  author: 'Sylvia Voirol',
+  
+  },
+  
+  {
+  
+  text: 'La amistad no es una gran cosa. Son un millón de pequeñas cosas.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El tiempo es lo más valioso que un hombre puede gastar.',
+  
+  author: 'Teofrasto',
+  
+  },
+  
+  {
+  
+  text: 'Pase lo que pase, hazte responsable',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'La experiencia es simplemente el nombre que le damos a nuestros errores.',
+  
+  author: 'Oscar Wilde',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Pienso y eso es todo lo que soy.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Un buen plan hoy es mejor que un plan perfecto mañana.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Si el zapato no entra, ¿debemos cambiar el pie?',
+  
+  author: 'Gloria Steinem',
+  
+  },
+  
+  {
+  
+  text: 'Cada día trae sus propios regalos.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Mientras nos detenemos a pensar, a menudo perdemos nuestra oportunidad.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+  
+  text: 'La vida no se trata de encontrarte a ti mismo. La vida se trata de crearte a ti mismo.',
+  
+  author: 'Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'Para traer cualquier cosa a tu vida, imagina que ya está ahí.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Empieza a tejer y Dios te dará el hilo.',
+  
+  author: 'proverbio alemán',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Cuanto más te conoces a ti mismo, más te perdonas',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Alguien recuerda, alguien se preocupa; tu nombre se susurra en las oraciones de alguien.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Sin fe, nada es posible. Con él, nada es imposible.',
+  
+  author: 'Mary Bethune',
+  
+  },
+  
+  {
+  
+  text: 'Una vez que aceptamos nuestros límites, vamos más allá de ellos.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'No te dejes empujar por tus problemas; déjate guiar por tus sueños.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que esperamos con confianza se convierte en nuestra propia profecía autocumplida.',
+  
+  author: 'Brian Tracy',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que puedas imaginar es real.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El miedo es un cuarto oscuro donde se desarrollan los negativos.',
+  
+  author: 'Usman Asif',
+  
+  },
+  
+  {
+  
+  text: 'La sabiduría más verdadera es una determinación resuelta.',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'La vida es la flor para la cual el amor es la miel.',
+  
+  author: 'Víctor Hugo',
+  
+  },
+  
+  {
+  
+  text: 'La libertad es el derecho a vivir como queremos.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: '¡Cambia tus pensamientos, cambia tu vida!',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Nunca ignores un presentimiento, pero nunca creas que es suficiente.',
+  
+  author: 'Robert Heller',
+  
+  },
+  
+  {
+  
+  text: 'La pérdida no es más que cambio, y el cambio es el deleite de la Naturaleza',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Alguien es especial solo si se lo dices.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Hoy es el mañana que te preocupaba ayer',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'No hay camino a la felicidad, la felicidad es el camino.',
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'El día siempre se ve más brillante detrás de una sonrisa.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Un tropezón puede prevenir una caída.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Quien habla más pronto se cansa.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'El que está contento es rico.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Lo que logremos interiormente cambiará la realidad exterior.',
+  
+  author: 'Plutarco',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra fuerza surge de nuestras debilidades.',
+  
+  author: 'Ralph Waldo Emerson',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Debemos convertirnos en el cambio que queremos ver.',
+  
+  author: 'Mahatma Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad se encuentra en hacer, no simplemente en poseer.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Pon tu futuro en buenas manos.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Elegimos nuestro destino en la forma en que tratamos a los demás.',
+  
+  author: 'Ingenio',
+  
+  },
+  
+  {
+  
+  text: 'Ningún copo de nieve en una avalancha se siente responsable.',
+  
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'La fortuna favorece a los valientes.',
+  
+  author: 'Virgilio',
+  
+  },
+  
+  {
+  
+  text: 'Creo en una sola cosa, el poder de la voluntad humana.',
+  
+  author: 'Joseph Stalin',
+  
+  },
+  
+  {
+  
+  text: 'La mejor salida es siempre a través.',
+   
+  
+  
+  
+  
+  author: 'Robert Frost',
+  
+  },
+  
+  {
+  
+  text: 'La mente desaprende con dificultad lo que ha aprendido durante mucho tiempo.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Destruyo a mis enemigos cuando los hago mis amigos.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'No hay jardín sin malas hierbas.',
+  
+  author: 'Thomas Fuller',
+  
+  },
+  
+  {
+  
+  text: 'No hay fracaso excepto en dejar de intentarlo.',
+  
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'Las palabras amables abrirán una puerta de hierro.',
+  
+  author: 'proverbio turco',
+  
+  },
+  
+  {
+  
+  text: 'Los problemas son solo oportunidades con espinas.',
+  
+  author: 'Hugh Miller',
+  
+  },
+  
+  {
+  
+  text: 'La vida es solo una oportunidad para hacer crecer un alma.',
+  
+  author: 'A. Powell Davies',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Las montañas no se pueden superar excepto por caminos sinuosos.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Que el jardín del despertar de nuestros corazones florezca con cientos de flores.',
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'La fortuna se hace amiga de los audaces.',
+  
+  author: 'John Dryden',
+  
+  },
+  
+  {
+  
+  text: 'Mantente fiel a los sueños de tu juventud.',
+  
+  author: 'Friedrich von Schiller',
+  
+  },
+  
+  {
+  
+  text: 'Nunca eres un perdedor hasta que dejas de intentarlo.',
+  
+  author: 'Mike Ditka',
+  
+  },
+  
+  {
+  
+  text: 'La ciencia es conocimiento organizado. La sabiduría es vida organizada.',
+  
+  author: 'Emmanuel Kant',
+  
+  },
+  
+  {
+  
+  text: 'Saber no es suficiente; debemos aplicar!',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Las creencias fuertes ganan hombres fuertes y luego los hacen más fuertes.',
+  
+  author: 'Richard Bach',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El otoño es una segunda primavera cuando cada hoja es una flor.',
+  
+  author: 'Alberto Camus',
+  
+  },
+  
+  {
+  
+  text: 'Si te rindes al viento, puedes montarlo',
+  
+  author: 'Toni Morrison',
+  
+  },
+  
+  {
+  
+  text: 'Mantente a la luz del sol y no podrás ver la sombra.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'Escribe tus planes a lápiz y dale a Dios el borrador.',
+  
+  author: 'Paulo Coelho',
+  
+  },
+  
+  {
+  
+  text: 'La inspiración existe, pero tiene que encontrarnos trabajando.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Elige batallas lo suficientemente grandes para importar, lo suficientemente pequeñas para ganar.',
+  
+  author: 'Jonathan Kozol',
+  
+  },
+  
+  {
+  
+  text: 'No te comprometas. Eres todo lo que tienes.',
+  
+  author: 'Janis Joplin',
+  
+  },
+  
+  {
+  
+  text: 'Un refrán breve que contiene mucha sabiduría.',
+  
+  author: 'Sófocles',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Las dificultades son cosas que muestran a una persona lo que es.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Cuando dudas de tu poder, le das poder a tu duda.',
+  
+  author: 'Honor de Balzac',
+  
+  },
+  
+  {
+  
+  text: 'La causa está oculta. El efecto es visible para todos.',
+  
+  author: 'Ovidio',
+  
+  },
+  
+  {
+  
+  text: 'Una pregunta prudente es la mitad de la sabiduría.',
+  
+  author: 'Francis Bacon',
+  
+  },
+  
+  {
+  
+  text: 'El camino hacia el éxito es tomar medidas masivas y decididas.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'Permito que mi intuición guíe mi camino.',
+  
+  author: 'Manuel Puig',
+  
+  },
+  
+  {
+  
+  text: 'La naturaleza quita toda facultad que no se utilice.',
+  
+  author: 'William R. Inge',
+  
+  },
+  
+  {
+  
+  text: 'Si quieres ser escritor, escribe.',
+   
+  
+  
+  
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'No hay camino a la prosperidad, la prosperidad es el camino.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'O corres el día o el día te corre a ti.',
+  
+  author: 'Jim Rohn',
+  
+  },
+  
+  {
+  
+  text: 'Más vale ser ignorante de un asunto que saberlo a medias.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+  
+  text: 'Sigue tus instintos. Ahí es donde se manifiesta la verdadera sabiduría.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Nunca hubo un buen cuchillo hecho de mal acero.',
+  
+  author: 'Benjamin Franklin',
+  
+  },
+  
+  {
+  
+  text: 'Para lograr grandes cosas, debemos soñar además de actuar.',
+  
+  author: 'Anatole Francia',
+  
+  },
+  
+  {
+  
+  text: 'La paciencia es la compañera de la sabiduría.',
+  
+  author: 'San Agustín',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La mente lo es todo. En lo que piensas te conviertes.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Para disfrutar de la vida, debemos tocar gran parte de ella a la ligera.',
+  
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'Para volar, tenemos que tener resistencia.',
+  
+  author: 'Maya Lin',
+  
+  },
+  
+  {
+  
+  text: 'Lo que ves depende de lo que estás buscando.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El corazón tiene sus razones que la razón no conoce.',
+  
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'Sé grande en el acto, como lo has sido en el pensamiento.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación gobierna el mundo.',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'Las palabras amables no cuestan mucho. Sin embargo, logran mucho.',
+  
+  author: 'Blaise Pascal',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'No hay mayor daño que el tiempo perdido.',
+  
+  author: 'Miguel Ángel',
+  
+  },
+  
+  {
+  
+  text: 'La intuición le dirá a la mente pensante dónde mirar a continuación.',
+  
+  author: 'Jonas Salk',
+  
+  },
+  
+  {
+  
+  text: 'La preocupación le da una gran sombra a una cosa pequeña.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Los miedos no son más que un estado mental.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'El viaje de mil millas comienza con un paso.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Eficiencia es hacer las cosas bien; la eficacia es hacer las cosas correctas.',
+  
+  author: 'Peter Drucker',
+  
+  },
+  
+  {
+  
+  text: 'Arde con el fuego que nunca se extingue.',
+  
+  author: 'Luisa Sigea',
+  
+  },
+  
+  {
+  
+  text: 'No llores porque se acabó. Sonríe porque sucedió.',
+  
+  author: 'Dr. Seuss',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'No es más fácil de hacer. Sí, es más fácil decirlo.',
+  
+  author: 'Jason Fried',
+  
+  },
+  
+  {
+  
+  text: 'Estar equivocado no es nada a menos que continúes recordándolo.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Los jonrones de ayer no ganan los juegos de hoy.',
+  
+  author: 'Babe Ruth',
+  
+  },
+  
+  {
+  
+  text: 'El silencio es profundo como la eternidad, el habla es superficial como el tiempo.',
+  
+  author: 'Carlyle',
+  
+  },
+  
+  {
+  
+  text: 'No se ahoguen unos a otros. Nadie puede crecer en la sombra.',
+  
+  author: 'Leo F. Buscaglia',
+  
+  },
+  
+  {
+  
+  text: 'Una hormiga en movimiento hace más que un buey dormitando',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'No puedes dar la mano con el puño cerrado.',
+  
+  author: 'Indira Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Una buena decisión se basa en el conocimiento y no en los números.',
+   
+  
+  
+  
+  
+  author: 'Platón',
+  
+  },
+  
+  {
+  
+  text: 'El cauteloso rara vez se equivoca',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Si no hay lucha, no hay progreso.',
+  
+  author: 'Frederick Douglass',
+  
+  },
+  
+  {
+  
+  text: 'Donde hay un gran amor, siempre hay milagros.',
+  
+  author: 'Willa Cather',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo que disfrutas desperdiciando, no fue desperdiciado.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'Cada problema tiene un regalo para ti en sus manos.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'La tristeza vuela en las alas del tiempo.',
+  
+  author: 'Jean de la Fontaine',
+  
+  },
+  
+  {
+  
+  text: 'Muchas veces me he arrepentido de mi discurso, nunca de mi silencio.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Nunca dejes para mañana lo que puedas hacer hoy.',
+  
+  author: 'Thomas Jefferson',
+  
+  },
+  
+  {
+  
+  text: 'Las mentes son como paracaídas. Solo funcionan cuando están abiertos.',
+  
+  author: 'Thomas Dewar',
+  
+  },
+  
+  {
+  
+  text: 'Si un hombre hace lo mejor que puede, ¿qué más hay?',
+  
+  author: 'George Patton',
+  
+  },
+  
+  {
+  
+  text: 'El secreto del éxito es la constancia en el propósito.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'La vida es un progreso, no una estación.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Todas las estaciones son hermosas para la persona que lleva dentro la felicidad.',
+  
+  author: 'Horace Friess',
+  
+  },
+  
+  {
+  
+  text: 'Para evitar las críticas, no hagas nada, no digas nada, no seas nada',
+  
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'Todas las cosas cambian; nada perece.',
+  
+  author: 'Ovidio',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La ausencia hace que el corazón crezca más cariño.',
+  
+  author: 'Haynes Bayly',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación es la cometa más alta que uno puede volar.',
+  
+  author: 'Lauren Bacall',
+  
+  },
+  
+  {
+  
+  text: 'El comienzo del conocimiento es el descubrimiento de algo que no entendemos.',
+  
+  author: 'Frank Herbert',
+  
+  },
+  
+  {
+  
+  text: 'El amor no hace que el mundo gire, el amor es lo que hace que el viaje valga la pena.',
+  
+  author: 'Elizabeth Browning',
+  
+  },
+  
+  {
+  
+  text: 'Siempre que hayas eliminado lo imposible, lo que quede, por improbable que sea, debe ser la verdad.',
+  
+  author: 'Arthur Conan Doyle',
+  
+  },
+  
+  {
+  
+  text: 'La buena madera no crece con facilidad; cuanto más fuerte es el viento, más fuertes son los árboles.',
+  
+  author: 'J. Willard Marriot',
+  
+  },
+  
+  {
+  
+  text: 'Creo que somos fundamentalmente iguales y tenemos el mismo potencial básico.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Los vientos y las olas siempre están del lado de los navegantes más hábiles.',
+   
+  
+  
+  
+  
+  author: 'Edward Gibbon',
+  
+  },
+  
+  {
+  
+  text: 'El futuro pertenece a aquellos que creen en la belleza de sus sueños.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Para obtener algo que nunca tuviste, tienes que hacer algo que nunca hiciste',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Sé agradecido cuando no sepas algo porque te da la oportunidad de aprender.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La fuerza no viene de la capacidad física. Viene de una voluntad indomable.',
+  
+  author: 'Mahatma Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Cada desgracia que encuentres llevará consigo la semilla de la buena suerte del mañana.',
+  
+  author: 'Y Mandino',
+  
+  },
+  
+  {
+  
+  text: 'Perdonar es liberar a un prisionero y darte cuenta de que ese prisionero eras tú.',
+  
+  author: 'Lewis B. Smedes',
+  
+  },
+  
+  {
+  
+  text: 'En la separación se encuentra la gran miseria del mundo, en la compasión se encuentra la verdadera fuerza del mundo.',
+  author: 'Buda',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Al creer apasionadamente en algo que aún no existe, lo creamos.',
+  
+  author: 'Nikos Kazantzakis',
+  
+  },
+  
+  {
+  
+  text: 'Dejar ir no es el fin del mundo; es el comienzo de una nueva vida.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todos los grandes artistas con los que he trabajado están motivados por un sueño personal.',
+  
+  author: 'John Eliot',
+  
+  },
+  
+  {
+  
+  text: 'Una de las ventajas de ser desordenado es que uno está constantemente haciendo descubrimientos emocionantes.',
+  
+  author: 'AA Milne',
+  
+  },
+  
+  {
+  
+  text: 'Nunca veo lo que se ha hecho; Sólo veo lo que queda por hacer.',
+  
+  author: 'Marie Curie',
+  
+  },
+  
+  {
+  
+  text: 'Comienza a vivir de una vez y cuenta cada día por separado como una vida por separado.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Si no sabes a dónde vas, probablemente terminarás en otro lugar.',
+  
+  author: 'Lawrence Peter',
+  
+  },
+  
+  {
+  
+  text: 'No es tan importante saberlo todo como apreciar lo que aprendemos.',
+   
+  
+  
+  
+  
+  author: 'Hannah More',
+  
+  },
+  
+  {
+  
+  text: 'El ave del paraíso se posa solo sobre la mano que no agarra.',
+  
+  author: 'John Berry',
+  
+  },
+  
+  {
+  
+  text: 'Piensa como un hombre sabio pero comunícate en el idioma de la gente.',
+  
+  author: 'William Yeats',
+  
+  },
+  
+  {
+  
+  text: 'Practica tú mismo, por el amor de Dios, en las cosas pequeñas, y luego pasa a las más grandes.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Si no se sabe a qué puerto se navega, ningún viento es favorable.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra mayor gloria no es nunca fallar, sino levantarnos cada vez que caemos.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Tener razón está muy sobrevalorado. Hasta un reloj parado acierta dos veces al día.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Estar molesto por lo que no tienes es desperdiciar lo que tienes.',
+  
+  author: 'Ken S. Keyes',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Si hiciéramos las cosas de las que somos capaces, nos sorprenderíamos.',
+  
+  author: 'Thomas Edison',
+  
+  },
+  
+  {
+  
+  text: 'Nada en la vida debe ser temido. Sólo es para ser entendido.',
+  
+  author: 'Marie Curie',
+  
+  },
+  
+  {
+  
+  text: 'Las personas exitosas hacen mejores preguntas y, como resultado, obtienen mejores respuestas.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'El amor no es ciego; simplemente le permite a uno ver cosas que otros no pueden ver.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La vida es un proceso. Somos un proceso. El universo es un proceso.',
+  
+  author: 'Anne Schaef',
+  
+  },
+  
+  {
+  
+  text: 'Creo que de alguna manera aprendemos quiénes somos realmente y luego vivimos con esa decisión.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Aprendemos lo que hemos dicho de aquellos que escuchan nuestro hablar.',
+  
+  author: 'Kenneth Patton',
+  
+  },
+  
+  {
+  
+  text: 'Un poco de conocimiento que actúa vale infinitamente más que mucho conocimiento ocioso.',
+  
+  
+  author: 'Kahlil Gibran',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Si te levantas una vez más de las que te caes, lo superarás.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Las puertas que abrimos y cerramos cada día deciden la vida que vivimos.',
+  
+  author: 'Flora Whittemore',
+  
+  },
+  
+  {
+  
+  text: 'El peor arruinado del mundo es el que ha perdido el entusiasmo.',
+  
+  author: 'HW Arnold',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad llega cuando tu trabajo y tus palabras son de beneficio para ti y para los demás.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No te centres en tomar la decisión correcta, concéntrate en hacer que la decisión sea la correcta.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todo es perfecto en el universo, incluso tu deseo de mejorarlo.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'El universo está lleno de cosas mágicas, que esperan pacientemente a que nuestro ingenio se agudice.',
+  
+  author: 'Eden Phillpotts',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Así como una vela no puede arder sin fuego, los hombres no pueden vivir sin una vida espiritual.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Algo esperado por mucho tiempo toma la forma de lo inesperado cuando por fin llega.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'La acción no siempre trae felicidad; pero no hay felicidad sin acción.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'No creo en el fracaso. No es fracaso si disfrutaste el proceso.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Lo que no quieres que te hagan a ti, no se lo hagas a los demás.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Las palabras cortas son las mejores y las palabras antiguas cuando son cortas son las mejores de todas.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Si enciendes una lámpara para alguien, también iluminará tu camino.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Hice lo mejor que pude: esa es toda la filosofía de vida que uno necesita.',
+  
+  author: 'Lin­yutang',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'A través de la perseverancia, muchas personas obtienen el éxito de lo que parecía destinado a ser un fracaso seguro.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Dar gracias por la lluvia de vida que nos impulsa a alcanzar nuevos horizontes.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Amor es solo una palabra hasta que alguien llega y le da significado.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todos tenemos problemas. La forma en que los resolvemos es lo que nos hace diferentes.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El secreto de una vida rica es tener más comienzos que finales.',
+  
+  author: 'Dave Weinbaum',
+  
+  },
+  
+  {
+  
+  text: 'Solo cuando la mente y el carácter se adormecen, se puede ver el vestido.',
+  
+  author: 'Ralph Waldo Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Si no te gusta algo, cámbialo. Si no puedes cambiarlo, cambia tu actitud.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Repasando lo que has aprendido y aprendiendo de nuevo, eres apto para ser profesor.',
+   
+  
+  
+  
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El mundo es un libro, y aquellos que no viajan leen solo una página.',
+  
+  author: 'San Agustín',
+  
+  },
+  
+  {
+  
+  text: 'Mientras una persona es capaz de auto­renovarse, es un ser vivo.',
+  
+  author: 'Henri­Fredéric Amiel',
+  
+  },
+  
+  {
+  
+  text: 'No le tengo miedo a las tormentas, porque estoy aprendiendo a navegar mi barco.',
+  
+  author: 'Louisa Alcott',
+  
+  },
+  
+  {
+  
+  text: 'Piensen por ustedes mismos y dejen que otros disfruten del privilegio de hacerlo también.',
+  
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'Cómo pasamos nuestros días es, por supuesto, cómo pasamos nuestras vidas.',
+  
+  author: 'Annie Dillard',
+  
+  },
+  
+  {
+  
+  text: 'Nunca ha sido mi objetivo registrar mis sueños, solo realizarlos.',
+  
+  author: 'Man Ray',
+  
+  },
+  
+  {
+  
+  text: 'Los logros más complicados del pensamiento son posibles sin la ayuda de la conciencia.',
+  
+  
+  author: 'Sigmund Freud',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Sé miserable. O motívate a ti mismo. Lo que sea que tengas que hacer, siempre es tu elección.',
+  
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las grandes personas han alcanzado su mayor éxito solo un paso más allá de su mayor fracaso.',
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Si crees que puedes, puedes. Y si crees que no puedes, tienes razón.',
+  
+  author: 'Henry Ford',
+  
+  },
+  
+  {
+  
+  text: 'Mejor haber amado y perdido, que no haber amado nunca.',
+  
+  author: 'St. Agustín',
+  
+  },
+  
+  {
+  
+  text: 'Todo el mundo piensa en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo.',
+  
+  author: 'León Tolstoi',
+  
+  },
+  
+  {
+  
+  text: 'La mejor manera de pagar por un momento encantador es disfrutarlo.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: '¿Tienes enemigos? Bien. Eso significa que has defendido algo, en algún momento de tu vida.',
+  
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Disminuye la velocidad y todo lo que estás persiguiendo vendrá y te atrapará.',
+  
+  author: 'Juan De Paola',
+  
+  },
+  
+  {
+  
+  text: 'Tu peor enemigo no puede hacerte tanto daño como tus propios pensamientos desprevenidos.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Siempre quise ser alguien, pero debí haber sido más específico.',
+  
+  author: 'Lily Tomlin',
+  
+  },
+  
+  {
+  
+  text: 'Sí, todos brillamos, como la luna, las estrellas y el sol',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'El conocimiento es un proceso de acumulación de hechos; la sabiduría reside en su simplificación.',
+  
+  author: 'Martin Fischer',
+  
+  },
+  
+  {
+  
+  text: 'La vida es como andar en bicicleta. Para mantener tu balance debes seguír moviéndote.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Todos deberíamos estar agradecidos por aquellas personas que reavivan el espíritu interior.',
+  
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría pierde la oportunidad porque está vestida con un mono y parece trabajo.',
+  
+  author: 'Thomas Edison',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El sentimiento y el anhelo son las fuerzas motrices detrás de todo esfuerzo humano y todas las creaciones humanas.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Al final retenemos de nuestros estudios solo lo que aplicamos en la práctica.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Si corriges tu mente, el resto de tu vida se acomodará.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'El mundo abre paso al hombre que sabe adónde va.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Cuando tus deseos sean lo suficientemente fuertes, parecerá que posees poderes sobrehumanos para lograr.',
+  
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'La paciencia y la perseverancia tienen un efecto mágico ante el cual las dificultades desaparecen y los obstáculos desaparecen.',
+  
+  author: 'John Adams',
+  
+  },
+  
+  {
+  
+  text: 'No puedo hacer que mis días sean más largos, así que me esfuerzo por hacerlos mejores.',
+  
+  author: 'Henry David Thoreau',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La tensión es quien crees que deberías ser. Relajación es quien eres.',
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'Nunca agaches la cabeza. Mantenlo siempre en alto. Mira el mundo directamente a los ojos.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'Aquel que gana fuerza superando obstáculos posee la única fuerza que puede superar la adversidad.',
+  
+  
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'No podemos hacer todo a la vez, pero podemos hacer algo a la vez.',
+  
+  author: 'Calvin Coolidge',
+  
+  },
+  
+  {
+  
+  text: 'Tienes que hacer tu propio cultivo sin importar la altura de tu abuelo.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Inventa tu mundo. Rodéate de gente, color, sonidos y trabajo que te nutran.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Es fatal entrar en una guerra sin la voluntad de ganarla.',
+  
+  author: 'General Douglas MacArthur',
+  
+  },
+  
+  {
+  
+  text: 'Sé lo que eres. Este es el primer paso para ser mejor de lo que eres.',
+  
+  author: 'Julius Charles Hare',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'No hay nada en una oruga que te diga que va a ser una mariposa.',
+  
+  author: 'Buckminster Fuller',
+  
+  },
+  
+  {
+  
+  text: 'El amor y la compasión abren nuestra propia vida interior, reduciendo el estrés, la desconfianza y la soledad.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Los ideales son una comprensión imaginativa de lo que es deseable en lo que es posible.',
+  
+  
+  author: 'Walter Lippmann',
+  
+  },
+  
+  {
+  
+  text: 'El hombre superior está satisfecho y sereno; el hombre malo siempre está lleno de angustia.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Si pasas demasiado tiempo pensando en algo, nunca lo harás.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'El camino no está en el cielo. El camino esta en el corazón.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las personas son tan felices como deciden serlo',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Tres cosas no se pueden ocultar por mucho tiempo: el sol, la luna y la verdad.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las veces, la ira es en realidad una indicación de debilidad más que de fuerza.',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Antes de fruncir el ceño, asegúrese absolutamente de que no haya sonrisas disponibles.',
+  
+  author: 'Jim Beggs',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre de habilidad y el deseo de lograr algo puede hacer cualquier cosa.',
+  
+  author: 'Donald Kircher',
+  
+  },
+  
+  {
+  
+  text: 'Tú, tú mismo, tanto como cualquier otra persona en el universo entero, mereces tu amor y afecto.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No es raro que las personas pasen toda su vida esperando para empezar a vivir.',
+  
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'No tengas miedo de arriesgarte. Ahí es donde está la fruta.',
+  
+  author: 'H. Jackson Browne',
+  
+  },
+  
+  {
+  
+  text: 'La gente malvada siempre se sorprende al encontrar habilidad en los buenos.',
+  
+  author: 'Marqués Vauvenargues',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La vida está construida de tal manera que un evento no coincide, no puede, no coincidirá con la expectativa.',
+  author: 'Charlotte Bronte',
+  
+  },
+  
+  {
+  
+  text: 'Si cambias la forma en que miras las cosas, las cosas que miras cambian.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Ningún hombre puede tener éxito en una línea de esfuerzo que no le gusta.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'No serás castigado por tu ira, serás castigado por tu ira.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No juzgues cada día por la cosecha que recoges, sino por las semillas que plantas.',
+  
+  author: 'Robert Stevenson',
+  
+  },
+  
+  {
+  
+  text: 'Dicen que el tiempo cambia las cosas, pero en realidad tienes que cambiarlas tú mismo.',
+  
+  author: 'Andy Warhol',
+  
+  },
+  
+  {
+  
+  text: 'Nunca te disculpes por mostrar sentimientos. Cuando hagas así, te disculpas por la verdad.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La verdad en la que crees y a la que te aferras hace que no estés disponible para escuchar nada nuevo.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'La adversidad tiene el efecto de suscitar talentos, que en circunstancias prósperasnhan permanecido inactivos.',
+  
+  author: 'Horacio',
+  
+  },
+  
+  {
+  
+  text: 'Si pasas toda tu vida esperando la tormenta, nunca disfrutarás de la luz del sol.',
+  
+  author: 'Morris Oeste',
+  
+  },
+  
+  {
+  
+  text: 'El único límite para nuestra realización del mañana serán nuestras dudas de hoy.',
+  
+  author: 'Franklin Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Cada acción de nuestra vida toca alguna cuerda que vibrará en la eternidad.',
+  
+  author: 'Edwin Chapin',
+  
+  },
+  
+  {
+  
+  text: 'Dispara a la luna. Incluso si fallas, aterrizarás entre las estrellas.',
+  
+  author: 'Les Brown',
+  
+  },
+  
+  {
+  
+  text: 'No importa lo lento que vayas mientras no te detengas.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Todos los días pueden no ser buenos, pero hay algo bueno en todos los días.',
+  
+  author: null,
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las personas son tan felices como deciden serlo.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Si quisieras tomar, primero debes dar, este es el comienzo de la inteligencia.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Algunas personas piensan que sostener es lo que te hace fuerte, a veces es dejar ir.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Es en nuestros fracasos que basamos un éxito nuevo, diferente y mejor.',
+  
+  author: 'Havelock Ellis',
+  
+  },
+  
+  {
+  
+  text: 'La calidad nunca es un accidente; siempre es el resultado de un esfuerzo inteligente.',
+  
+  author: 'John Ruskin',
+  
+  },
+  
+  {
+  
+  text: 'Estudiar y no pensar es un desperdicio. Pensar y no estudiar es peligroso.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'La vida es una sucesión de lecciones, que hay que vivir para comprender.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El tiempo cambia todo excepto algo dentro de nosotros que siempre se sorprende por el cambio.',
+  
+  
+  author: 'Thomas Hardy',
+  
+  },
+  
+  {
+  
+  text: 'Eres lo suficientemente importante como para pedir y eres lo suficientemente bendecido para recibir de vuelta.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Si no puedes hacer grandes cosas, haz las pequeñas de una manera grandiosa.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Si quieres que tu vida sea más gratificante, tienes que cambiar tu forma de pensar.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'La transformación no ocurre con el vacío; en cambio, ocurre cuando estamos indirecta y directamente conectado con todos los que nos rodean.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'La única diferencia entre tus habilidades y las de los demás es la habilidad de ponerte en sus zapatos e intentarlo de verdad.',
+  
+  author: 'Leonardo Ruíz',
+  
+  },
+  
+  {
+  
+  text: 'El hombre libre es aquel que no teme llegar hasta el final de su pensamiento.',
+  
+  author: 'Leon Blum',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Grandes son aquellos que ven que lo espiritual es más fuerte que cualquier fuerza material, que los pensamientos gobiernan el mundo.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Una vida dedicada a cometer errores no sólo es más honorable sino más útil que una vida gastado en no hacer nada.',
+  author: 'Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'El hombre sabio no acumula sus propios tesoros. Cuanto más da a los demás, más tiene para sí mismo.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'No dejes una piedra sin remover. Siempre es algo, saber que has hecho todo lo que podías.',
+  
+  
+  author: 'Charles Dickens',
+  
+  },
+  
+  {
+  
+  text: 'Al ir más allá de sus propios problemas y cuidar de los demás, gana interior fuerza, confianza en sí mismo, coraje y una mayor sensación de calma.',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Llegamos al amor no encontrando a una persona perfecta, sino aprendiendo a ver perfectamente a una persona imperfecta.',
+  author: 'Sam Keen',
+  
+  },
+  
+  {
+  
+  text: 'Lo que está detrás de nosotros y lo que está delante de nosotros son cosas insignificantes en comparación con lo que está dentro de nosotros.',
+  author: 'Walt Emerson',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Hay cosas tan profundas y complejas que solo la intuición puede alcanzarlas en nuestra etapa de desarrollo como seres humanos.',
+  author: 'John Astin',
+  
+  },
+  
+  {
+  
+  text: 'Un poco más de persistencia, un poco más de esfuerzo, y lo que parecía un fracaso sin esperanza puede convertirse en un éxito glorioso.',
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'No existe la jubilación para un artista, es su forma de vida, por lo que no tiene fin.',
+  
+  author: 'Henry Moore',
+  
+  },
+  
+  {
+  
+  text: 'No me preocuparé de que otros hombres no me conozcan; me preocuparé de mi propia falta de habilidad.',
+  
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: '¿Por qué preocuparse por cosas que no puede controlar cuando puede mantenerse ocupado controlando las cosas que dependen de usted?',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Cuando te contentas con ser simplemente tú mismo y no comparas ni compites, todos te respetarán.',
+  author: 'Laozi',
+  
+  },
+  
+  {
+  
+  text: 'No tengas miedo de la grandeza: algunos nacen grandes, algunos alcanzan la grandeza, y algunos tienen la grandeza empujada sobre ellos.',
+  author: 'William Shakespeare',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El éxito significa tener el coraje, la determinación y la voluntad de convertirse en el persona que crees que estabas destinado a ser.',
+  author: 'George Sheehan',
+  
+  },
+  
+  {
+  
+  text: '¿Quieres saber quién eres? No preguntes. ¡Actúa! La acción te delineará y definirá.',
+  
+  
+  author: 'Thomas Jefferson',
+  
+  },
+  
+  {
+  
+  text: 'Sólo con el corazón se puede ver correctamente, lo esencial es invisible a los ojos.',
+  
+  
+  author: 'Antoine de Saint­Exupéry',
+  
+  },
+  
+  {
+  
+  text: 'Seamos agradecidos con las personas que nos hacen felices; ellos son los encantadores jardineros que hacen florecer nuestras almas.',
+  
+  author: 'Marcel Proust',
+  
+  },
+  
+  {
+  
+  text: 'Haz el mejor uso de lo que está a tu alcance, y toma el resto a medida que suceda.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Los pensamientos que elegimos pensar son las herramientas que usamos para pintar el lienzo de nuestras vidas.',
+  
+  author: 'Louise Hay',
+  
+  },
+  
+  {
+  
+  text: 'No importa cuán cuidadosamente planees tus objetivos, nunca serán más que sueños imposibles a menos que los persigas con entusiasmo.',
+   
+  
+  
+  
+  
+  author: 'W. Piedra Clemente',
+  
+  },
+  
+  {
+  
+  text: 'La razón por la que la mayoría de los objetivos no se logran es que pasamos nuestro tiempo haciendo lo segundo primero.',
+  author: 'Robert McKain',
+  
+  },
+  
+  {
+  
+  text: 'Si tus acciones inspiran a otros a soñar más, aprender más, hacer más y ser más, eres un líder.',
+  
+  
+  author: 'John Quincy Adams',
+  
+  },
+  
+  {
+  
+  text: 'Soy un gran creyente en la suerte y encuentro que cuanto más trabajo, más tengo de ella.',
+  
+  author: 'Thomas Jefferson',
+  
+  },
+  
+  {
+  
+  text: 'No te desperdicies en el rechazo, ni ladres contra lo malo, sino canta la belleza de lo bueno.',
+  
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La persona que nace con un talento que debe usar encontrará su mayor felicidad al usarlo.',
+  
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'La gente buena es buena porque han llegado a la sabiduría a través del fracaso. Nos volvemos muy poca sabiduría del éxito, ya sabes.',
+  author: 'William Saroyan',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Tu destino no es solo el destino; es cómo usas tus propias habilidades desarrolladas para conseguir lo que quieres.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'El hierro se oxida por desuso; el agua pierde su pureza por el estancamiento... al igual que la inacción savia el vigor de la mente.',
+  
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+  
+  text: 'Un pensamiento sutil que está en el error puede dar lugar a una investigación fructífera que puede establecer verdades de gran valor.',
+  
+  author: 'Isaac Asimov',
+  
+  },
+  
+  {
+  
+  text: 'Alégrate de la vida porque te da la oportunidad de amar, trabajar, jugar y mirar las estrellas',
+  
+  
+  author: 'Henry Van Dyke',
+  
+  },
+  
+  {
+  
+  text: 'Tienes que tener cuidado si no sabes a dónde vas, porque es posible que no llegues allí.',
+  
+  
+  author: 'Yogui Berra',
+  
+  },
+  
+  {
+  
+  text: 'Puedes saber si un hombre es inteligente por sus respuestas. Puedes saber si un hombre es sabio por sus preguntas.',
+  
+  author: 'Naguib Mahfouz',
+  
+  },
+  
+  {
+  
+  text: 'La vida es un regalo, y nos ofrece el privilegio, la oportunidad y la responsabilidad de dar algo de vuelta haciéndome más',
+  
+  author: 'Anthony Robbins',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'No puedes dejar que los elogios o las críticas te afecten. Es una debilidad quedar atrapado en cualquiera de los dos.',
+  
+  author: 'John Wooden',
+  
+  },
+  
+  {
+  
+  text: 'Amaré la luz porque me muestra el camino, pero soportaré las tinieblas porque me muestra las estrellas.',
+  
+  author: 'Y Mandino',
+  
+  },
+  
+  {
+  
+  text: 'Nuestras dudas son traidoras y nos hacen perder el bien que muchas veces podríamos ganar, por temor a intentarlo.',
+  
+  author: 'Jane Addams',
+  
+  },
+  
+  {
+  
+  text: 'Por naturaleza, el hombre odia el cambio; rara vez abandonará su antiguo hogar hasta que realmente se le haya caído alrededor de las orejas.',
+  
+  author: 'Thomas Carlyle',
+  
+  },
+  
+  {
+  
+  text: 'Hasta que no te valores a ti mismo, no valorarás tu tiempo. Hasta que no valores tu tiempo, no no haré nada con eso.',
+  
+  author: 'M. Scott Peck',
+  
+  },
+  
+  {
+  
+  text: 'En el momento en que te conformes con menos de lo que mereces, obtendrás incluso menos de lo que te conformaste.',
+  
+  author: 'Maureen Dowd',
+  
+  },
+  
+  {
+  
+  text: 'La etapa más alta de la moralidad a la que podemos llegar es cuando reconocemos que somos debemos controlar nuestros pensamientos.',
+  
+  author: 'Charles Darwin',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Es mejor dar muchos pequeños pasos en la dirección correcta que dar un gran salto adelante solo para tropezar hacia atrás.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Si tenemos una actitud mental positiva, incluso cuando estamos rodeados de hostilidad, no le faltará la paz interior.',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay un éxito para poder vivir tu vida a tu manera.',
+  
+  author: 'Christopher Morley',
+  
+  },
+  
+  {
+  
+  text: 'Las promesas son la forma exclusivamente humana de ordenar el futuro, haciéndolo predecible y confiable en la medida en que esto sea humanamente posible.',
+  author: 'Hannah Arendt',
+  
+  },
+  
+  {
+  
+  text: 'El aprecio es la forma más alta de oración, porque reconoce la presencia del bien donde brille la luz de sus pensamientos agradecidos.',
+  author: 'Alan Cohen',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay un rincón del universo que puedes estar seguro de mejorar, y ese eres tú mismo.',
+  
+  
+  author: 'Aldous Huxley',
+  
+  },
+  
+  {
+  
+  text: 'No estás obligado a ganar. Estás obligado a seguir tratando de hacer lo mejor que puedas todos los días.',
+   
+  
+  
+  
+  
+  author: 'Marian Edelman',
+  
+  },
+  
+  {
+  
+  text: 'Todo el mundo puede saborear el éxito cuando las cosas son fáciles, pero pocos saben cómo saborear la victoria cuando los tiempos se ponen difíciles.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'La escucha profunda es milagrosa tanto para el que escucha como para el que habla. Cuando alguien nos recibe con una escucha sincera, sin juicios e intensamente interesada, nuestros espíritus se expanden.',
+  
+  author: 'Sue Patton Thoele',
+  
+  },
+  
+  {
+  
+  text: 'Puedes ser engañado si confías demasiado, pero vivirás en tormento si no confías lo suficiente.',
+  
+  
+  author: 'Frank Crane',
+  
+  },
+  
+  {
+  
+  text: 'Grande en verdad es la sublimidad de lo Creativo, a la que todos los seres deben su comienzo y que impregna todo el cielo.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que es necesario es aceptar lo imposible, prescindir de lo indispensable, y soportar lo intolerable.',
+  
+  author: 'Kathleen Norris',
+  
+  },
+  
+  {
+  
+  text: 'Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'No puedes encontrarte a ti mismo yendo al pasado. Puedes encontrarte a ti mismo viniendo al presente.',
+  
+  
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'Todos nuestros talentos aumentan con el uso, y todas las facultades, tanto buenas como malas, se fortalecen con el ejercicio.',
+  author: 'Anne Bronte',
+  
+  },
+  
+  {
+  
+  text: 'Para vivir libre y feliz debes sacrificar el aburrimiento. No siempre es un sacrificio fácil.',
+  
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'El zorro tiene muchos trucos. El erizo solo tiene uno. Pero eso es lo mejor de todo.',
+  
+  author: 'Desiderio Erasmo',
+  
+  },
+  
+  {
+  
+  text: 'Por supuesto que no existe una fórmula para el éxito excepto quizás una aceptación incondicional de la vida y lo que trae.',
+  author: 'Arthur Rubinstein',
+  
+  },
+  
+  {
+  
+  text: 'Déjame contarte el secreto que me ha llevado a mi meta: mi fuerza reside únicamente en mi tenacidad',
+  
+  
+  author: 'Louis Pasteur',
+  
+  },
+  
+  {
+  
+  text: 'Algo abre nuestras alas. Algo hace desaparecer el aburrimiento y el dolor. Alguien llena la copa frente a nosotros: Solo saboreamos lo sagrado.',
+  
+  author: 'Rumi',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Nunca debemos olvidar que es a través de nuestras acciones, palabras y pensamientos que tenemos una opción.',
+  
+  author: 'Sogyal Rimpoché',
+  
+  },
+  
+  {
+  
+  text: 'Vemos las cosas no como son, sino como somos nosotros. Nuestra percepción está moldeada por nuestra experiencias previas.',
+  
+  author: 'Dennis Kimbro',
+  
+  },
+  
+  {
+  
+  text: 'El verdadero silencio es el descanso de la mente; es para el espíritu lo que el sueño es para el cuerpo, alimento y refrigerio.',
+  
+  author: 'William Penn',
+  
+  },
+  
+  {
+  
+  text: 'Todo nuestro conocimiento comienza con los sentidos, procede luego al entendimiento, y termina con la razón. No hay nada superior a la razón.',
+  author: 'Emmanuel Kant',
+  
+  },
+  
+  {
+  
+  text: 'El pensamiento se manifiesta como la palabra. La palabra se manifiesta como el hecho. La acción se convierte en hábito. Y el hábito se endurece en el carácter.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Mientras el resto del mundo sale por la puerta, tus mejores amigos son los que entran.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La paciencia es una virtud pero nunca lograrás nada si no ejercitas acción sobre paciencia.',
+  
+  author: 'Byron Pulsifer',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Cualquiera de nosotros puede alcanzar la virtud, si por virtud entendemos simplemente la evitación de los vicios que no nos atraen.',
+  
+  author: 'Robert Lynd',
+  
+  },
+  
+  {
+  
+  text: 'Si el hombre soltero se planta indomablemente en sus instintos, y allí permanece, el enorme el mundo volverá a él.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'El dinero nunca fue una gran motivación para mí, excepto como una forma de llevar la cuenta. La verdadera emoción es jugar el juego.',
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'La amistad con uno mismo es muy importante porque sin ella uno no puede ser amigo de nadie más en el mundo.',
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'La paz no es algo que deseas. Es algo que creas, algo que haces, algo que eres y algo que das.',
+  
+  
+  author: 'Robert Fulghum',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre sabio puede aprender más de una pregunta tonta que un tonto puede aprender de una respuesta sabia.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Cada hombre toma los límites de su propio campo de visión como los límites del mundo.',
+   
+  
+  
+  
+  
+  author: 'Arthur Schopenhauer',
+  
+  },
+  
+  {
+  
+  text: 'Uno no descubre nuevas tierras sin consentir en perder de vista la costa durante mucho tiempo.',
+  
+  
+  author: 'André Gide',
+  
+  },
+  
+  {
+  
+  text: '¿Qué hay de nuevo en el mundo? Nada. ¿Qué es viejo en el mundo? Nada. Todo tiene siempre ha sido y siempre será.',
+  author: 'Sai Baba',
+  
+  },
+  
+  {
+  
+  text: 'El amor genuino debe dirigirse primero a uno mismo si no nos amamos a nosotros mismos, ¿cómo podemos amar a los demás?',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'La vida es como una cloaca. Lo que obtienes depende de lo que pones en él.',
+  
+  author: 'Tom Teacher',
+  
+  },
+  
+  {
+  
+  text: 'Observa que el árbol más rígido se rompe más fácilmente, mientras que el bambú o el sauce sobrevive doblándose con el viento.',
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Aprende todo lo que puedas de los errores de otros. No tendrás tiempo para cometerlos todos tú mismo.',
+  
+  
+  author: 'Alfred Sheinwold',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'No juzgues nada, serás feliz. Perdona todo, serás más feliz. Ama todo, serás más feliz.',
+  
+  
+  author: 'Sri Chinmoy',
+  
+  },
+  
+  {
+  
+  text: 'La gente está constituida de tal manera que todos preferirían emprender lo que ven otros lo hacen, tengan o no aptitudes para ello.',
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Estamos progresando o retrocediendo todo el tiempo. No existe tal cosa como permanecer estacionario en esta vida.',
+  author: 'James Freeman Clarke',
+  
+  },
+  
+  {
+  
+  text: 'La posesión del conocimiento no mata el sentido de la maravilla y el misterio. Hay siempre más misterio.',
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que sucede sucede como debe ser, y si observas cuidadosamente, verás que es así.',
+  
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Lo que pensamos determina lo que nos sucede, así que si queremos cambiar nuestra vida, debemos necesitamos estirar nuestras mentes.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'En una controversia, en el instante en que sentimos ira, ya hemos dejado de luchar por el verdad, y hemos comenzado a luchar por nosotros mismos.',
+  
+  author: 'Buda',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El mayor de todos los errores es no hacer nada porque solo puedes hacer poco haz lo que puedas.',
+  
+  
+  author: 'Sydney Smith',
+  
+  },
+  
+  {
+  
+  text: 'Cuando veas a un hombre de valor, piensa en cómo puedes emularlo. Cuando veas a alguien que es indigno, examínate a ti mismo.',
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Aerodinámicamente, el abejorro no debería poder volar, pero el abejorro no sé eso, así que sigue volando de todos modos.',
+  
+  author: 'Mary Kay Ash',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que intentan hacer algo y fallan son infinitamente mejores que aquellos que intentan nada y triunfar.',
+  author: 'Lloyd Jones',
+  
+  },
+  
+  {
+  
+  text: 'Los copos de nieve son una de las cosas más frágiles de la naturaleza, pero mira lo que pueden hacer cuando se mantienen unidos.',
+  
+  author: 'Vista Kelly',
+  
+  },
+  
+  {
+  
+  text: 'El primer paso para obtener las cosas que quieres de la vida es este: decide lo que quieres.',
+  
+  author: 'Ben Stein',
+  
+  },
+  
+  {
+  
+  text: '¿Por qué compararse con los demás? Nadie en el mundo entero puede hacer un mejor trabajo de siendo tú que tú.',
+  author: null,
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La experiencia no es lo que le sucede a un hombre. Es lo que un hombre hace con lo que le sucede.',
+  
+  
+  author: 'Aldous Huxley',
+  
+  },
+  
+  {
+  
+  text: 'Un buen maestro es como una vela que se consume para iluminar el camino de los demás.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Lo único que se puede hacer con un buen consejo es transmitirlo. Nunca es de utilidad para uno mismo.',
+  
+  author: 'Oscar Wilde',
+  
+  },
+  
+  {
+  
+  text: 'La vida no se mide por las respiraciones que tomamos, sino por los momentos que tomamos nuestro aliento.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La flor más pequeña es un pensamiento, una vida que responde a alguna característica del Gran Todo, de los que tienen una intuición persistente.',
+  author: 'Honor de Balzac',
+  
+  },
+  
+  {
+  
+  text: 'Considera lo difícil que es cambiarte a ti mismo y comprenderás las pocas posibilidades tienes para tratar de cambiar a los demás.',
+  author: 'Jacob Braude',
+  
+  },
+  
+  {
+  
+  text: 'Si no se conforma con nada menos que lo mejor, se sorprenderá de lo que pueden lograr en sus vidas.',
+   
+  
+  
+  
+  
+  author: 'Vince Lombardi',
+  
+  },
+  
+  {
+  
+  text: 'Lo que está detrás de nosotros y lo que está delante de nosotros son cosas pequeñas en comparación con lo que está dentro de nosotros.',
+  
+  author: 'Oliver Holmes',
+  
+  },
+  
+  {
+  
+  text: 'Con la realización del propio potencial y la confianza en uno mismo en la propia capacidad, uno puede construir un mundo mejor.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'No hay nada como volver a un lugar que permanece inalterado para encontrar las formas en las que tú mismo has cambiado.',
+  
+  author: 'Nelson Mandela',
+  
+  },
+  
+  {
+  
+  text: 'Olvídate de todas las razones por las que algo puede no funcionar. Solo necesitas encontrar uno buena razón por la que lo hará.',
+  
+  author: 'Roberto Antonio',
+  
+  },
+  
+  {
+  
+  text: 'Es la marca de una mente educada ser capaz de entretener un pensamiento sin aceptarlo.',
+  
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'El amor nunca se pierde. Si no es correspondido, fluirá hacia atrás y suavizará y purificará el corazón.',
+  
+  
+  author: 'Washington Irving',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Todos vivimos con el objetivo de ser felices; nuestras vidas son todas diferentes y, sin embargo, iguales.',
+  
+  author: 'Ana Frank',
+  
+  },
+  
+  {
+  
+  text: 'Muchas personas piensan en la prosperidad que se relaciona con el dinero solo para olvidar que la verdadera la prosperidad es de la mente.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Ser bello significa ser uno mismo. No necesitas ser aceptado por los demás. Tienes que aceptarte a ti mismo.',
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'No sobrevalores lo que has recibido, ni envidies a los demás. El que envidia a los demás no obtiene paz mental.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Es muy fácil perdonar a otros sus errores; se necesita más agallas para perdonarlos por habiendo sido testigo de los tuyos.',
+  author: 'Jessamyn West',
+  
+  },
+  
+  {
+  
+  text: 'El ejercicio corporal, cuando es obligatorio, no daña el cuerpo; sino el conocimiento que es adquirido bajo compulsión no obtiene control sobre la mente.',
+  author: 'Platón',
+  
+  },
+  
+  {
+  
+  text: 'Sé siempre tú mismo, exprésate, ten fe en ti mismo, no salgas a buscar una personalidad exitosa y duplicarla.',
+  author: 'Bruce Lee',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Veneremos, adoremos, pero erguidos y con los ojos abiertos, lo más alto, no lo más bajo; el futuro, no el pasado!',
+  
+  author: 'Charlotte Gilman',
+  
+  },
+  
+  {
+  
+  text: 'Cada vez que le sonríes a alguien, es una acción de amor, un regalo para esa persona, algo hermoso.',
+  
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Los silencios hacen las verdaderas conversaciones entre amigos. No el dicho sino el nunca la necesidad de decir es lo que cuenta.',
+  
+  author: 'Margaret Runbeck',
+  
+  },
+  
+  {
+  
+  text: 'La clave para transformar nuestros corazones y mentes es tener una comprensión de cómo nuestro los pensamientos y las emociones funcionan.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Si tienes que decirme tus opiniones, dime en qué crees. Tengo muchas dudas propias.',
+  
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'La casualidad siempre es poderosa. Deja que tu anzuelo esté siempre echado; en la piscina donde menos espéralo, habrá un pez.',
+  
+  author: 'Ovidio',
+  
+  },
+  
+  {
+  
+  text: 'Busco constantemente mejorar mis modales y gracia, porque son el azúcar que atrae a todos.',
+  
+  
+  author: 'Y Mandino',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Nunca comprendemos lo poco que necesitamos en este mundo hasta que sabemos que lo hemos perdido',
+  
+  author: 'James Barrie',
+  
+  },
+  
+  {
+  
+  text: 'La verdadera medida de tu riqueza es cuánto valdrías si perdieras todo tu dinero.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Para mantener el cuerpo en buena salud es un deber... de lo contrario no seremos capaces de mantener nuestra mente fuerte y clara.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No pienses en quién tiene razón o quién está equivocado o quién es mejor que. No estés a favor ni en contra.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Soy un hombre de principios fijos e inflexibles, el primero de los cuales es ser flexible en todo momento.',
+  
+  
+  author: 'Everett Dirksen',
+  
+  },
+  
+  {
+  
+  text: 'Hoy regalar una sonrisa a un extraño sin esperarla puede ser la alegría que necesita para tener un gran día.',
+  
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'En el momento en que uno presta mucha atención a algo, incluso a una brizna de hierba, se vuelve un mundo misterioso, asombroso e indescriptiblemente magnífico en sí mismo.',
+  author: 'Henry Miller',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'En el centro de tu ser tienes la respuesta; tu sabes quien eres y tu saber lo que quieres.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Qué maravilloso que nos hayamos encontrado con una paradoja. Ahora tenemos alguna esperanza de avanzar.',
+  author: 'Niels Bohr',
+  
+  },
+  
+  {
+  
+  text: 'Todo el mundo es un genio al menos una vez al año. Un verdadero genio tiene sus ideas originales más juntas.',
+  author: 'Georg Lichtenberg',
+  
+  },
+  
+  {
+  
+  text: 'Los sueños pasan a la realidad de la acción. De las acciones surge de nuevo el sueño; y esta interdependencia produce la forma más elevada de vida.',
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Sin saltos de imaginación, o sueños, perdemos la emoción de las posibilidades. Soñar, después de todo, es una forma de planificación.',
+  
+  author: 'Gloria Steinem',
+  
+  },
+  
+  {
+  
+  text: 'La tristeza puede ser parte de la vida, pero no hay necesidad de dejar que domine toda tu vida.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Adelantarse un poco a las condiciones es uno de los secretos de los negocios, el remolque rara vez llega lejos.',
+   
+  
+  
+  
+  
+  author: 'Charles Schwab',
+  
+  },
+  
+  {
+  
+  text: 'La naturaleza nos dio una lengua y dos oídos para que pudiéramos oír el doble de lo que hablamos.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'No esperes a que tus sentimientos cambien para tomar la acción. Toma la acción y tu los sentimientos cambiarán.',
+  
+  author: 'Bárbara Barón',
+  
+  },
+  
+  {
+  
+  text: 'Siempre eres libre de cambiar de opinión y elegir un futuro diferente, o un pasado diferente.',
+  
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'No naciste ganador, y no naciste perdedor. Eres lo que te haces ser.',
+  
+  
+  author: 'Lou Holtz',
+  
+  },
+  
+  {
+  
+  text: 'Cuida tus visiones y tus sueños ya que son los hijos de tu alma, los planos de tus últimos logros.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Cuida tus visiones y tus sueños ya que son los hijos de tu alma; el planos de tus últimos logros.',
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Ser lo que somos, y llegar a ser lo que somos capaces de llegar a ser, es el único fin de la vida.',
+  
+  
+  author: 'Robert Stevenson',
+  
+  },
+  
+  {
+  
+  text: 'El camino que conduce a una meta no te separa del destino; es esencialmente una parte de ella.',
+  
+  
+  author: 'Charles DeLint',
+  
+  },
+  
+  {
+  
+  text: 'Toma las cosas como son. Golpea cuando tengas que golpear. Patea cuando tengas que patear.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Creo que una forma de vida sencilla y sin pretensiones es lo mejor para todos, lo mejor para ambos para el cuerpo y la mente.',
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Aunque nadie puede volver atrás y comenzar de nuevo, cualquiera puede comenzar desde ahora y hacer un nuevo final.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La mente lo es todo: músculo, piezas de goma. Todo lo que soy, lo soy gracias a mi mente.',
+  
+  author: 'Paavo Nurmi',
+  
+  },
+  
+  {
+  
+  text: 'Qué maravilloso es que nadie necesite esperar un solo momento antes de comenzar a mejorar el mundo.',
+  author: 'Ana Frank',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Un amigo es alguien que entiende tu pasado, cree en tu futuro y te acepta tal como eres.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Es una de las bendiciones de los viejos amigos que puedes permitirte ser estúpido con ellos.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'El que nunca cambia sus opiniones, nunca corrige sus errores, y nunca será más sabio mañana de lo que es hoy.',
+  
+  author: 'Tryon Edwards',
+  
+  },
+  
+  {
+  
+  text: 'Dame seis horas para cortar un árbol y pasaré las primeras cuatro afilando el hacha.',
+  
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Uno debe tener cariño por las personas y confiar en ellas si no quiere hacer la vida un lío.',
+  
+  author: 'EM Forster',
+  
+  },
+  
+  {
+  
+  text: 'No podemos cambiar nuestros recuerdos, pero podemos cambiar su significado y el poder tienen sobre nosotros.',
+  author: 'David Seamans',
+  
+  },
+  
+  {
+  
+  text: 'Estar en la humanidad es bueno. Si seleccionamos otra bondad y por lo tanto estamos lejos de humanidad, ¿cómo podemos ser sabios?',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Darle esperanza a alguien ocurre cuando le enseñas cómo usar las herramientas para hacerlo por sí mismo.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Prefiero arrepentirme de las cosas que he hecho que de las cosas que no he hecho.',
+  
+  author: 'Lucille Ball',
+  
+  },
+  
+  {
+  
+  text: 'El pasado no tiene poder para impedir que estés presente ahora. Solo tu queja sobre el pasado puede hacer eso.',
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'Si las estrellas aparecieran solo una noche cada mil años, cómo se maravillaría y adoraría el hombre.',
+  
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Hay dos tipos de fracasos: los que pensaron y nunca lo hicieron, y los que lo hicieron y nunca pensé.',
+  author: 'Laurence J. Peter',
+  
+  },
+  
+  {
+  
+  text: 'No me interesa la edad. Las personas que me dicen su edad son tontas. Eres tan viejo como te sientes.',
+  
+  
+  author: 'Elizabeth Arden',
+  
+  },
+  
+  {
+  
+  text: 'Encuentro esperanza en los días más oscuros y me concentro en los más brillantes. Yo no juzgo al universo.',
+  
+  author: 'Dalai Lama',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Cuando es obvio que no se pueden alcanzar los objetivos, no ajuste los objetivos, ajuste los pasos de acción.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Nuestras virtudes y nuestros defectos son inseparables, como la fuerza y la materia. Cuando ellos separado, el hombre ya no existe.',
+  
+  author: 'Nikola Tesla',
+  
+  },
+  
+  {
+  
+  text: 'Bienaventurada la persona que está demasiado ocupada para preocuparse durante el día y demasiado somnolienta para preocuparse por la noche.',
+  author: 'Leo Aikman',
+  
+  },
+  
+  {
+  
+  text: 'Puede quien cree que puede, y no puede quien cree que no puede. Este es un inexorable, ley indiscutible.',
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Hoy en día la gente busca el conocimiento, no la sabiduría. El conocimiento es del pasado, la sabiduría es del futuro.',
+  
+  author: 'Vernon Cooper',
+  
+  },
+  
+  {
+  
+  text: 'Un secreto del éxito en la vida es que un hombre esté preparado para su oportunidad cuando se presente.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Las personas toman diferentes caminos en busca de satisfacción y felicidad. El hecho de que no estén en tu camino no significa que se hayan perdido.',
+  
+  author: 'Dalai Lama',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El zapato que le calza a uno le aprieta a otro; no existe una receta para vivir que se adapte a todos los casos.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay dos errores que uno puede cometer en el camino hacia la verdad; no va todo el camino, y no empezar.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Se necesita muy poco para tener una vida feliz; todo está dentro de ti, en tu forma de pensar.',
+  
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Rendirse no siempre significa que eres débil. A veces significa que eres lo suficientemente fuerte como para dejarlo ir.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Trata a las personas como si fueran lo que deberían ser y ayúdalas a convertirse en lo que son capaces de ser.',
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'El regalo más preciado que podemos ofrecer a alguien es nuestra atención. cuando la atención plena abraza a los que amamos, florecerán como flores.',
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'Si te enfocas en los resultados, nunca cambiarás. Si te enfocas en el cambio, obtendrás resultados.',
+   
+  
+  
+  
+  
+  author: 'Jack Dixon',
+  
+  },
+  
+  {
+  
+  text: 'Yo mantendría que las gracias son la forma más alta de pensamiento, y que la gratitud es felicidad duplicada por el asombro.',
+  author: 'GK Chesterton',
+  
+  },
+  
+  {
+  
+  text: 'Hay dos opciones principales en la vida: aceptar las condiciones tal como existen o aceptar la responsabilidad de cambiarlas.',
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo difícil tiene su origen en lo fácil, y lo grande en lo pequeño.',
+  
+  
+  author: 'Lao­Tse',
+  
+  },
+  
+  {
+  
+  text: 'Puedes ser lo que quieras ser. Tienes el poder dentro y te ayudaremos siempre.',
+  
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Hablar de gratitud es cortés y agradable, representar la gratitud es generoso y noble, pero vivir la gratitud es tocar el Cielo.',
+  author: 'Johannes Gaertner',
+  
+  },
+  
+  {
+  
+  text: 'La sabiduría es la recompensa que obtienes por toda una vida de escuchar cuando hubieras preferido hablar.',
+  
+  author: 'Doug Larson',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El mayor placer que conozco es hacer una buena acción a escondidas y que la descubran por accidente.',
+  
+  
+  author: 'Charles Cordero',
+  
+  },
+  
+  {
+  
+  text: 'Cuando uno tira de una sola cosa en la naturaleza, la encuentra unida al resto del mundo.',
+  
+  
+  author: 'John Muir',
+  
+  },
+  
+  {
+  
+  text: 'Valor es lo que se necesita para ponerse de pie y hablar; coraje es también lo que se necesita para sentarse y escuchar.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas más bellas del mundo no se pueden ver ni tocar. Ellos deben ser sentido con el corazón.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'Para vivir una vida pura y desinteresada, uno no debe considerar nada como propio en medio de la abundancia.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Muchos de los fracasos de la vida son personas que no se dieron cuenta de lo cerca que estaban del éxito cuando se dieron por vencidos.',
+  
+  author: 'Thomas Edison',
+  
+  },
+  
+  {
+  
+  text: 'Cuando buscamos descubrir lo mejor en los demás, de alguna manera sacamos lo mejor de nosotros mismos.',
+  
+  author: 'William Ward',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Si aceptas las expectativas de los demás, especialmente las negativas, entonces nunca lo harás. cambiar el resultado.',
+  author: 'Michael Jordan',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre puede cumplir el objeto de su existencia haciendo una pregunta que no puede responder, e intentar una tarea que no puede lograr.',
+  author: 'Oliver Holmes',
+  
+  },
+  
+  {
+  
+  text: 'No me molesta el hecho de que soy desconocido. Me molesta cuando no conozco a los demás.',
+  
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Es un hombre sabio el que no se entristece por las cosas que no tiene, sino que se regocija por los que tiene.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Siempre estoy haciendo lo que no puedo hacer, para poder aprender a hacerlo.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Si estás caminando por el camino correcto y estás dispuesto a seguir caminando, eventualmente progresarás.',
+  author: 'Barack Obama',
+  
+  },
+  
+  {
+  
+  text: 'El mundo es redondo y el lugar que puede parecer el final también puede ser el comienzo.',
+  
+  
+  author: 'Ivy Baker Sacerdote',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Nunca pierdas una oportunidad de hacer felices a los demás, incluso si tienes que dejarlos solo para hacerlo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Dale todo lo que tienes porque nunca sabes si habrá una próxima vez.',
+  
+  author: 'Danielle Ingrum',
+  
+  },
+  
+  {
+  
+  text: 'Tienes que tomarlo como sucede, pero debes intentar que suceda de la manera que quieres tomarlo.',
+  
+  
+  author: 'Proverbio alemán antiguo',
+  
+  },
+  
+  {
+  
+  text: 'Nada está predestinado: los obstáculos de tu pasado pueden convertirse en las puertas que conducen a nuevos comienzos.',
+  author: 'Ralph Blum',
+  
+  },
+  
+  {
+  
+  text: 'No estoy en este mundo para estar a la altura de tus expectativas y tú no estás en este mundo para estar a la altura de las mías.',
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'A veces tu alegría es la fuente de tu sonrisa, pero a veces tu sonrisa puede ser el fuente de tu alegría.',
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'No puedo imaginar que una persona se convierta en un éxito si no le da a este juego de la vida todo lo que tiene.',
+   
+  
+  
+  
+  
+  author: 'Walter Cronkite',
+  
+  },
+  
+  {
+  
+  text: 'La mejor manera de vivir con honor en este mundo es ser lo que pretendemos ser.',
+  
+  author: 'Sócrates',
+  
+  },
+  
+  {
+  
+  text: 'Las condiciones de conquista son siempre fáciles. Solo tenemos que esforzarnos un tiempo, aguantar un tiempo, creer siempre y nunca retroceder.',
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Los grandes elementos esenciales de la felicidad son: algo que hacer, algo que amar y algo que esperar.',
+  author: 'Chalmers',
+  
+  },
+  
+  {
+  
+  text: 'Al vivir profundamente en el momento presente podemos comprender mejor el pasado y podemos prepararnos para un futuro mejor.',
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'No seas demasiado tímido y aprensivo con tus reacciones. Toda la vida es un experimento. El cuantos más experimentos hagas, mejor.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'No vayas por donde el camino te lleve, ve por donde no hay camino y deja un rastro.',
+  
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'No hay deber que menospreciemos tanto como el deber de ser felices. Siendo felices sembramos beneficios anónimos para el mundo.',
+  author: 'Robert Louis Stevenson',
+  
+  },
+  
+  {
+  
+  text: 'Edison falló 10.000 veces antes de hacer la luz eléctrica. No te desanimes si fallas un par de veces.',
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'El ayer es historia. El mañana es un misterio. ¿Y el hoy? El hoy es un regalo por eso lo llaman presente.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La única manera de decir la verdad es hablar con amabilidad. Sólo las palabras de un amor el hombre puede ser escuchado.',
+  
+  author: 'Henry Thoreau',
+  
+  },
+  
+  {
+  
+  text: 'El mayor bien que puedes hacer por otro no es solo compartir tus riquezas sino revelarle las suyas',
+  
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Solo puedes crecer si estás dispuesto a sentirte raro e incómodo cuando intentas algo nuevo.',
+  
+  
+  author: 'Brian Tracy',
+  
+  },
+  
+  {
+  
+  text: 'Para liberarnos de las expectativas de los demás, para devolvernos a nosotros mismos, ahí está el gran y singular poder de respeto por uno mismo.',
+  
+  author: 'Joan Didion',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Es más importante saber a dónde vas que llegar rápido. No confundas actividad con logro.',
+  
+  
+  author: 'Mabel Newcomber',
+  
+  },
+  
+  {
+  
+  text: 'Cuando no sabes lo que crees, todo se convierte en un argumento. Todo es discutible. Pero cuando defiendes algo, las decisiones son obvias.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La intuición es la supra­lógica que elimina todos los procesos rutinarios del pensamiento y salta directamente del problema a la respuesta.',
+  author: 'Robert Graves',
+  
+  },
+  
+  {
+  
+  text: 'Siempre sucede lo que realmente crees; y la creencia en una cosa hace que suceda.',
+  
+  
+  author: 'Frank Wright',
+  
+  },
+  
+  {
+  
+  text: 'Un verdadero amigo es la posesión más preciosa de todas y la que menos pensamos en adquirir.',
+  
+  
+  author: 'Francois de La Rochefoucauld',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay un camino a la felicidad y es dejar de preocuparse por cosas que están más allá del poder de nuestra voluntad.',
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'La apreciación puede alegrar un día, incluso cambiar una vida. Su voluntad de ponerlo en palabras es todo lo que se necesita.',
+  
+  author: 'Margaret Primos',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Cada sesenta segundos que pasas enojado, molesto o enojado, es un minuto completo de felicidad que nunca volverá.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Este mundo, después de toda nuestra ciencia y nuestras ciencias, sigue siendo un milagro; maravilloso, inescrutable, mágico y más, para quien lo piense.',
+  author: 'Thomas Carlyle',
+  
+  },
+  
+  {
+  
+  text: 'Cada gran error tiene un momento intermedio, una fracción de segundo cuando se puede recordar y quizás remediado.',
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'Puedes adoptar la actitud de que no hay nada que puedas hacer, o puedes ver el desafío como tu llamado a la acción.',
+  
+  author: 'Catherine Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad de un hombre en esta vida no consiste en la ausencia sino en el dominio de sus pasiones.',
+  
+  
+  author: 'Alfred Tennyson',
+  
+  },
+  
+  {
+  
+  text: 'Nunca dudes que un pequeño grupo de personas reflexivas y comprometidas pueden cambiar el mundo. En efecto. Es lo único que tiene.',
+  author: 'Margaret Mead',
+  
+  },
+  
+  {
+  
+  text: 'Que tu anzuelo esté siempre echado; en el estanque donde menos te lo esperas, habrá un pez.',
+   
+  
+  
+  
+  
+  author: 'Ovidio',
+  
+  },
+  
+  {
+  
+  text: 'Obtienes paz mental no pensando en ello o imaginándolo, sino aquietándote y relajando la mente inquieta.',
+  author: 'Remez Sasson',
+  
+  },
+  
+  {
+  
+  text: 'Tus amigos te conocerán mejor en el primer minuto que te encuentres que tu tus conocidos te conocerán dentro de mil años.',
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Cuando te contentas con ser simplemente tú mismo y no comparas ni compites, todos te respetarán.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Cuando comienzas a tocar tu corazón o dejas que tu corazón sea tocado, comienzas a descubre que no tiene fondo.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Si amas a alguien, déjalo libre. Si vuelve, es tuyo; si no, nunca lo fue.',
+  
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'La sabiduría es saber qué hacer a continuación; Habilidad es saber cómo hacerlo, y Virtud es hacerlo.',
+  
+  author: 'David Jordán',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Las cosas malas no son las peores cosas que nos pueden pasar. nada es lo peor ¡eso nos puede pasar a nosotros!',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'No se pueden hacer planes válidos para el futuro por aquellos que no tienen la capacidad de vivir ahora.',
+  
+  author: 'Alan Watts',
+  
+  },
+  
+  {
+  
+  text: 'El objetivo de la vida es el autodesarrollo. Para realizar la naturaleza de uno perfectamente, eso es para lo que cada uno de nosotros estamos aquí.',
+  author: 'Oscar Wilde',
+  
+  },
+  
+  {
+  
+  text: 'Para lograr grandes cosas, no solo debemos actuar, sino también soñar; no solo planear, sino también creer.',
+  
+  author: 'Anatole Francia',
+  
+  },
+  
+  {
+  
+  text: 'El primer requisito para el éxito es la capacidad de aplicar sus energías físicas y mentales a un problema incesantemente sin cansarse.',
+  author: 'Thomas Edison',
+  
+  },
+  
+  {
+  
+  text: 'Si pudiéramos aprender a querernos a nosotros mismos, aunque sea un poco, tal vez nuestras crueldades e iras podrían desvanecerse.',
+  author: 'John Steinbeck',
+  
+  },
+  
+  {
+  
+  text: 'Si miramos en la dirección correcta, todo lo que tenemos que hacer es seguir caminando.',
+  
+  author: null,
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Recuerda siempre que no sólo tienes derecho a ser un individuo, tienes un obligación de serlo.',
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Hay dos opciones principales en la vida: aceptar las condiciones tal como existen o aceptar la responsabilidad de cambiarlas.',
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'Si buscas la verdad, no buscarás la victoria por medios deshonrosos, y si encuentras la verdad, serás invencible.',
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'A través de la meditación y prestando atención completa a una cosa a la vez, podemos aprender a dirigir la atención donde elijamos.',
+  author: 'Eknath Easwaran',
+  
+  },
+  
+  {
+  
+  text: 'Nunca podríamos aprender a ser valientes y pacientes si solo hubiera alegría en el mundo.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'Si no es correcto no lo hagas; si no es verdad no lo digas.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'La verdad del asunto es que siempre sabes lo que hay que hacer. La parte difícil es hacerlo.',
+  
+  
+  author: 'Norman Schwarzkopf',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Algunas personas prosperan con cambios enormes y dramáticos. Algunas personas prefieren el cambio lento y ruta constante. Haz lo que sea correcto para ti.',
+  
+  author: 'Julie Morgenstern',
+  
+  },
+  
+  {
+  
+  text: 'El hombre es igualmente incapaz de ver la nada de la que emerge y la infinito en el que está sumergido.',
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'La arrogancia y la rudeza son ruedas de entrenamiento en la bicicleta de la vida para personas débiles que no pueden mantener el equilibrio sin ellas.',
+  
+  author: 'Laura Teresa Márquez',
+  
+  },
+  
+  {
+  
+  text: 'Si eres paciente en un momento de ira, escaparás de cien días de tristeza.',
+  
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'Cuando tienes un elefante agarrado por las patas traseras y está tratando de huir, es mejor dejarlo correr.',
+  
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'La valentía no consiste en arriesgarse sin saberlo, sino en poner el propio ser por delante desafíos que otros tal vez no puedan hacer.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: '¿Pueden las millas realmente separarte de tus amigos... Si quieres estar con alguien que amas, no estás ya allí?',
+  author: 'Richard Bach',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El pobre no es el que no tiene un centavo, sino el que no tiene un sueño.',
+  
+  author: 'Harry Kemp',
+  
+  },
+  
+  {
+  
+  text: 'El mayor bien que puedes hacer por otro no es solo compartir tus riquezas, sino revelarles las suyas',
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'No vivas en el pasado, no sueñes con el futuro, concentra la mente en el momento presente.',
+  
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La paz mental no es la ausencia de conflicto en la vida, sino la capacidad de afrontarlo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Afronta tus deficiencias y reconócelas; pero no dejes que te dominen. Dejar ellos te enseñan paciencia, dulzura, perspicacia.',
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'El cambio es la ley de la vida. Y aquellos que solo miran al pasado o al presente seguramente se perderán el futuro.',
+  author: 'John Kennedy',
+  
+  },
+  
+  {
+  
+  text: 'Tú tienes poder sobre tu mente, no fuera de los eventos. Date cuenta de esto y encontrarás la fuerza.',
+  author: 'Marco Aurelio',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Déjame contarte el secreto que me ha llevado a mi meta: mi fuerza reside únicamente en mi tenacidad.',
+  
+  
+  author: 'Louis Pasteur',
+  
+  },
+  
+  {
+  
+  text: 'Somos lo que pensamos. Todo lo que somos surge con nuestros pensamientos. con nuestros pensamientos, nosotros hacemos el mundo.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'El que se respeta a sí mismo está a salvo de los demás; lleva una cota de malla que nadie puede perforar.',
+  author: 'Henry Longfellow',
+  
+  },
+  
+  {
+  
+  text: 'No siempre puedo controlar lo que sucede afuera. Pero siempre puedo controlar lo que sucede dentro.',
+  
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Lo que importa es el valor que hemos creado en nuestras vidas, las personas que hemos hecho felices y cuánto hemos crecido como personas.',
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'Cuando te ofendas por la culpa de alguien, vuélvete a ti mismo y estudia tu propio fallas Entonces olvidarás tu ira.',
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Todos han sido creados para alguna obra en particular, y el deseo de esa obra ha sido puesto en cada corazón.',
+   
+  
+  
+  
+  
+  author: 'Rumi',
+  
+  },
+  
+  {
+  
+  text: 'Tómese el tiempo para deliberar, pero cuando llegue el momento de la acción, deje de pensar y entre.',
+  
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'Con la realización del propio potencial y la confianza en uno mismo en la propia capacidad, uno puede construir un mundo mejor.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad no está en la mera posesión del dinero; yace en la alegría del logro, en la emoción del esfuerzo creativo.',
+  
+  author: 'Franklin Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'No puedes obligarte a sentir algo que no sientes, pero puedes obligarte a hacer lo correcto a pesar de tus sentimientos.',
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que son bendecidos con el mayor talento no necesariamente superan a los demás. Son las personas con seguimiento las que sobresalen.',
+  author: 'Mary Kay Ash',
+  
+  },
+  
+  {
+  
+  text: 'Trate de no convertirse en un hombre de éxito, sino más bien trate de convertirse en un hombre de valor.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Todo lo difícil tiene su origen en lo fácil, y lo grande en lo pequeño.',
+  
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Los hombres de opinión perversa no conocen la excelencia de lo que está en sus manos, hasta que que alguien se los quite.',
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'No es suficiente tener una buena mente; Lo principal es usarlo bien.',
+  
+  author: 'René Descartes',
+  
+  },
+  
+  {
+  
+  text: 'La responsabilidad no se hereda, es una elección que todos deben hacer en algún momento de su vida.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Nunca hagas cosas que otros pueden hacer y harán, si hay cosas que otros no pueden hacer o no harán.',
+  
+  
+  author: 'Amelia Earhart',
+  
+  },
+  
+  {
+  
+  text: 'No puedo cambiar la dirección del viento, pero puedo ajustar mis velas para llegar siempre a mi destino.',
+  
+  
+  author: 'Jimmy Dean',
+  
+  },
+  
+  {
+  
+  text: 'Las personas de habilidad mediocre a veces logran un éxito sobresaliente porque no se cuando parar. La mayoría de los hombres tienen éxito porque están decididos a hacerlo.',
+  author: 'George Allen',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Una buena cita es un diamante en el dedo de un hombre de ingenio y una piedra en la mano de un tonto.',
+  author: 'Joseph Roux',
+  
+  },
+  
+  {
+  
+  text: 'No se supone que los desafíos de la vida te paralicen, se supone que te ayuden descubre quién eres.',
+  author: 'Bernice Reagan',
+  
+  },
+  
+  {
+  
+  text: 'La mejor manera de vivir con honor en este mundo es ser lo que pretendemos ser.',
+  
+  author: 'Sócrates',
+  
+  },
+  
+  {
+  
+  text: 'Existir es cambiar, cambiar es madurar, madurar es seguir creándose sin cesar.',
+  
+  
+  author: 'Henri Bergson',
+  
+  },
+  
+  {
+  
+  text: 'Trate de no convertirse en un hombre de éxito, sino más bien trate de convertirse en un hombre de valor.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'No puedes crear en el vacío. La vida te da el material y los sueños pueden impulsar nuevos comienzos.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Tu trabajo es descubrir tu mundo y luego con todo tu corazón entregarte a él.',
+  
+  author: 'Buda',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La persona que vive la vida plenamente, brillando con la energía de la vida, es la persona que vive una vida exitosa.',
+  
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'No te alejes de posibles futuros antes de estar seguro de que no tienes nada para aprender de ellos.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Una persona exitosa es aquella que puede sentar una base firme con los ladrillos que otros tirarle a él o ella.',
+  
+  author: 'David Brinkley',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que somos es el resultado de lo que hemos pensado. La mente es todo. Qué creemos que nos convertimos.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Trabaja mientras tengas la luz. Eres responsable del talento que se te ha confiado.',
+  
+  
+  author: 'Henri­Fredéric Amiel',
+  
+  },
+  
+  {
+  
+  text: '¡Qué lejos arroja sus rayos esa pequeña vela! Así brilla una buena acción en un mundo malvado.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Toda adversidad, cada fracaso, cada angustia lleva consigo la semilla de un beneficio igual o mayor.',
+  
+  
+  author: 'Napoleón Hill',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Es en tus momentos de decisión que se forma tu destino.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'Un obstáculo puede ser un peldaño o una piedra de tropiezo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El dolor pasa, pero la belleza permanece.',
+  
+  author: 'Pierre Auguste Renoir',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que puedo decir sobre la vida es, ¡Oh Dios, disfrútala!',
+  
+  author: 'Bob Newhart',
+  
+  },
+  
+  {
+  
+  text: 'La creatividad viene de la confianza. Confía en tus instintos. Y nunca esperes más de lo que trabajas.',
+  
+  author: 'Rita Mae Brown',
+  
+  },
+  
+  {
+  
+  text: 'Tu visión de la vida es un reflejo directo de cuánto te gustas a ti mismo',
+  
+  author: 'Lululemon',
+  
+  },
+  
+  {
+  
+  text: 'Solo tengo tres cosas que enseñar: sencillez, paciencia, compasión. Estos tres son sus mayores tesoros.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'No patinarás si te quedas en la rutina.',
+  
+  author: 'Kin Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'Bloqueas tu sueño cuando permites que tu miedo crezca más que tu fe.',
+  
+  author: 'María Morrissey',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad depende de nosotros mismos.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Dondequiera que un hombre mire, puede encontrar a alguien que lo necesite.',
+  
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'Si uno tiene suerte, una fantasía solitaria puede transformar totalmente un millón de realidades.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Nunca idealices a los demás. Nunca estarán a la altura de tus expectativas.',
+  
+  author: 'Leo Buscaglia',
+  
+  },
+  
+  {
+  
+  text: 'Cuando te das cuenta de que no te falta nada, el mundo entero te pertenece.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad no es algo ya hecho. Eso viene por tus propias acciones.',
+  
+  author: 'Dalai Lama',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El significado no es lo que empiezas sino lo que terminas.',
+  
+  author: 'Peter Elbow',
+  
+  },
+  
+  {
+  
+  text: 'Nadie se ha empobrecido jamás por dar.',
+  
+  author: 'Ana Frank',
+  
+  },
+  
+  {
+  
+  text: 'Sé fiel en las cosas pequeñas porque en ellas reside tu fuerza.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Todo es flujo; nada permanece quieto.',
+  
+  author: 'Heráclito',
+  
+  },
+  
+  {
+  
+  text: 'El que está fijo en una estrella no cambia de opinión.',
+  
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+  
+  text: 'Quien vive en armonía consigo mismo, vive en armonía con el universo.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Los hombres ignorantes no saben qué bien tienen en sus manos hasta que lo tiran.',
+  
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'Cuando la solución es simple, Dios está respondiendo.',
+   
+  
+  
+  
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Todos los logros, todas las riquezas ganadas, tienen su comienzo en una idea.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'No retrocedas cuando estés justo en la meta.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+  
+  text: 'No puedes confiar sin correr riesgos pero tampoco puedes vivir en un capullo.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Toda percepción es también pensamiento, todo razonamiento es también intuición, toda observación es también invención.',
+  author: 'Rudolf Arnheim',
+  
+  },
+  
+  {
+  
+  text: 'El error es la disciplina a través de la cual avanzamos.',
+  
+  author: 'Channing',
+  
+  },
+  
+  {
+  
+  text: 'La verdad siempre es emocionante. Háblalo, entonces. La vida es aburrida sin él.',
+  
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'El hombre superior es modesto en su discurso, pero se excede en sus acciones.',
+  
+  author: 'Confucio',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Cuanto más nos detengamos en nuestras desgracias, mayor será su poder para dañarnos.',
+  
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que jueguen con gatos deben esperar que los rasguñen.',
+  
+  author: 'Siervos',
+  
+  },
+  
+  {
+  
+  text: 'Nunca he visto una cara sonriente que no fuera hermosa.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'En todas las cosas de la naturaleza hay algo de maravilloso.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'El universo es transformación; nuestra vida es lo que hacen nuestros pensamientos.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'La memoria es la madre de toda sabiduría.',
+  
+  author: 'Samuel Johnson',
+  
+  },
+  
+  {
+  
+  text: 'El silencio es el verdadero amigo que nunca traiciona.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Es posible que recuerdes que nada puede traerte el éxito excepto tú mismo.',
+  
+  author: 'Napoleón Hill',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Mira las pequeñas cosas; una pequeña fuga hundirá un gran barco.',
+  
+  author: 'Benjamin Franklin',
+  
+  },
+  
+  {
+  
+  text: 'Dios te ha dado una cara, y tú te haces otra.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Ser agraviado no es nada a menos que continúes recordándolo.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'La amabilidad es la mayor sabiduría.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La acción eliminará las dudas que la teoría no puede resolver.',
+  
+  author: 'Tehyi Hsieh',
+  
+  },
+  
+  {
+  
+  text: 'No te pierdas todos los hermosos colores del arcoíris buscando esa olla de oro.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Tu gran oportunidad puede estar justo donde estás ahora.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'La gente que dice que no se puede hacer no debe interrumpir a los que lo están haciendo.',
+   
+  
+  
+  
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'El día que decidas hacerlo es tu día de suerte.',
+  
+  author: 'proverbio japonés',
+  
+  },
+  
+  {
+  
+  text: 'No debemos decir que todos los errores son tontos.',
+  
+  author: 'Cicerón',
+  
+  },
+  
+  {
+  
+  text: 'Acepta los desafíos, para que puedas sentir la euforia de la victoria.',
+  
+  author: 'George Patton',
+  
+  },
+  
+  {
+  
+  text: 'Más vale entender poco que malinterpretar mucho.',
+  
+  author: 'Anatole Francia',
+  
+  },
+  
+  {
+  
+  text: 'No te ahogas al caer al agua. Te ahogas al quedarte allí.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Nunca tengas miedo de intentarlo, recuerda... Los aficionados construyeron el arca, los profesionales construyeron el Titanic.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La corrección hace mucho, pero el estímulo hace más.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Sepa, primero, quién es usted, y luego adorne usted mismo en consecuencia.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'La mayor aventura que puedes emprender es vivir la vida de tus sueños.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'La vida es 10% lo que te sucede y 90% cómo reaccionas ante ello.',
+  
+  author: 'Charles Swindoll',
+  
+  },
+  
+  {
+  
+  text: 'Querer ser lo que uno puede ser es propósito en la vida.',
+  
+  author: 'Cynthia Ozick',
+  
+  },
+  
+  {
+  
+  text: 'Recuerda que a veces no conseguir lo que quieres es un maravilloso golpe de suerte.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'La historia será amable conmigo porque tengo la intención de escribirla.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Nuestras vidas son la suma total de las decisiones que hemos tomado.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo permanece lo suficiente para cualquiera que lo use.',
+  
+  author: 'Leonardo da Vinci',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Debes dar la bienvenida al cambio como regla, pero no como tu gobernante.',
+  
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'Regala lo que sea que estés haciendo y quienquiera que seas con el regalo de tu atención.',
+  
+  author: 'Jim Rohn',
+  
+  },
+  
+  {
+  
+  text: 'Sé siempre más inteligente que las personas que te contratan.',
+  
+  author: 'Lena Horne',
+  
+  },
+  
+  {
+  
+  text: 'Fórmula para el éxito: bajo promesa y sobreentrega.',
+  
+  author: 'Tom Peters',
+  
+  },
+  
+  {
+  
+  text: 'El ojo ve sólo lo que la mente está preparada para comprender.',
+  
+  author: 'Henri Bergson',
+  
+  },
+  
+  {
+  
+  text: 'La gente rara vez nota la ropa vieja si tienes una gran sonrisa.',
+  
+  author: 'Lee Mildon',
+  
+  },
+  
+  {
+  
+  text: 'Cuanta más luz permitas dentro de ti, más brillante será el mundo en el que vives.',
+  
+  author: 'Shakti Gawain',
+  
+  },
+  
+  {
+  
+  text: 'Nada disminuye la ansiedad más rápido que la acción.',
+   
+  
+  
+  
+  
+  author: 'Walter Anderson',
+  
+  },
+  
+  {
+  
+  text: 'El hombre no puede descubrir nuevos océanos a menos que tenga el coraje de perder de vista la costa.',
+  
+  author: 'André Gide',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que nos irrita de los demás puede llevarnos a comprendernos a nosotros mismos.',
+  
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: '¿Te imaginas lo que haría si pudiera hacer todo lo que puedo?',
+  
+  author: 'Sun Tzu',
+  
+  },
+  
+  {
+  
+  text: 'La ignorancia nunca resuelve una cuestión.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'La conciencia de nuestra propia fuerza nos hace modestos.',
+  
+  author: 'Paul Cézanne',
+  
+  },
+  
+  {
+  
+  text: 'A menudo deben cambiar, quienes serían constantes en felicidad o sabiduría.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'No hay fallas. Solo experiencias y tus reacciones ante ellas.',
+  
+  author: 'Tom Krause',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Tu futuro depende de muchas cosas, pero principalmente de ti.',
+  
+  author: 'Frank Tyger',
+  
+  },
+  
+  {
+  
+  text: 'El miedo crece en la oscuridad; si crees que hay un hombre del saco, enciende la luz.',
+  
+  author: 'Dorothy Thompson',
+  
+  },
+  
+  {
+  
+  text: 'El punto más importante es aceptarte a ti mismo y pararte sobre tus dos pies.',
+  
+  author: 'Shunryu Suzuki',
+  
+  },
+  
+  {
+  
+  text: 'No esperes que el mundo se vea brillante, si habitualmente usas anteojos de color marrón grisáceo.',
+  
+  author: 'Tomás Eliot',
+  
+  },
+  
+  {
+  
+  text: 'Siempre que vayas a pensar de todos modos, piensa en grande.',
+  
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'Sin algunas metas y algunos esfuerzos para alcanzarlas, ningún hombre puede vivir.',
+  
+  author: 'John Dewey',
+  
+  },
+  
+  {
+  
+  text: 'El que obtiene tiene poco. El que esparce tiene mucho.',
+  
+  author: 'Richard Braunstein',
+  
+  },
+  
+  {
+  
+  text: 'Los mitos en los que se cree tienden a convertirse en realidad.',
+  
+  author: 'George Orwell',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El pie siente el pie cuando siente el suelo.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No lo que tenemos sino lo que disfrutamos constituye nuestra abundancia.',
+  
+  author: 'John Petit­Senn',
+  
+  },
+  
+  {
+  
+  text: 'Nunca es demasiado tarde para ser lo que podrías haber sido.',
+  
+  author: 'George Eliot',
+  
+  },
+  
+  {
+  
+  text: 'El comienzo siempre es hoy.',
+  
+  author: 'María Wollstonecraft',
+  
+  },
+  
+  {
+  
+  text: 'A la larga, no obtenemos más de lo que hemos estado dispuestos a arriesgarnos a dar.',
+  
+  author: 'Sheldon Kopp',
+  
+  },
+  
+  {
+  
+  text: 'La confianza en uno mismo es el primer secreto del éxito.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'No mires atrás. Algo podría estar ganando.',
+  
+  author: 'Bolso Paige',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Mira hacia el pasado, con sus imperios cambiantes que surgieron y cayeron, y también podrás prever el futuro',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Una vida dedicada a cometer errores no sólo es más honorable, sino más útil que una vida pasado sin hacer nada.',
+  author: 'George Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'Los hombres no se perturban por las cosas, sino por la opinión que tienen de ellas.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación dispone de todo; crea belleza, justicia y felicidad, que son todo en este mundo.',
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad es una puesta de sol sueca, está ahí para todos, pero la mayoría de nosotros miramos hacia otro lado y la perdemos',
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Una sonrisa es una luz en la ventana de tu rostro para mostrar que tu corazón está en casa',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Espera la primavera como un momento en el que puedes comenzar a ver lo que la naturaleza tiene para ofrecerte una vez más.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Confía en tu propio instinto. Tus errores bien podrían ser tuyos, en lugar de los de otra persona.',
+  
+  
+  author: 'Billy Wilder',
+  
+  },
+  
+  {
+  
+  text: 'El menor movimiento es de importancia para toda la naturaleza. Todo el océano se ve afectado por un guijarro.',
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'Siempre estoy haciendo lo que no puedo hacer, para poder aprender a hacerlo.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Los hombres en general juzgan más por las apariencias que por la realidad. Todos los hombres tienen ojos, pero pocos tienen el don de la penetración.',
+  
+  author: 'Niccolo Maquiavelo',
+  
+  },
+  
+  {
+  
+  text: 'Puedes ser solo alguien en el mundo, pero para alguien más, puedes ser el mundo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Cada artista sumerge su pincel en su propia alma y pinta su propia naturaleza en sus cuadros.',
+  author: 'Henry Ward Beecher',
+  
+  },
+  
+  {
+  
+  text: 'Si tomas cada desafío paso a paso, con fe en cada paso, tu la fuerza y la comprensión aumentarán.',
+  author: 'James Fausto',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La felicidad no se puede viajar, poseer, ganar, usar o consumir. Felicidad es la experiencia espiritual de vivir cada minuto con amor, gracia y gratitud.',
+  
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'Cada uno debe observar cuidadosamente de qué manera lo atrae su corazón, y luego elegir de esa manera con todas sus fuerzas.',
+  author: 'Dicho jasídico',
+  
+  },
+  
+  {
+  
+  text: 'Cuando dejamos de pensar principalmente en nosotros mismos y en nuestra propia conservación, someterse a una transformación verdaderamente heroica de la conciencia.',
+  
+  author: 'Joseph Campbell',
+  
+  },
+  
+  {
+  
+  text: 'Sigue la acción efectiva con una reflexión tranquila. De la tranquila reflexión vendrá incluso acción más eficaz.',
+  
+  author: 'Peter Drucker',
+  
+  },
+  
+  {
+  
+  text: 'No se supone que los desafíos de la vida te paralicen, se supone que te ayuden descubre quién eres.',
+  author: 'Bernice Reagan',
+  
+  },
+  
+  {
+  
+  text: 'Hay una cosa que tienes que aprender sobre nuestro movimiento. Tres personas son mejores que ninguna.',
+  author: 'Fannie Hamer',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad es un perfume que no puedes derramar sobre los demás sin que te caigan unas gotas sobre ti mismo.',
+  author: 'Ralph Waldo Emerson',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'No es el error el que tiene más poder, sino aprender del error para mejorar tus propios atributos.',
+  
+  
+  author: 'Byron Roberts',
+  
+  },
+  
+  {
+  
+  text: 'La cantidad de felicidad que tienes depende de la cantidad de libertad que tienes en tu corazón.',
+  
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'Tu visión se aclarará solo cuando mires dentro de tu corazón. Quien mira afuera, Sueños. Quien mira dentro, despierta.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Ayer es historia. El mañana es un misterio. ¿Y hoy? Hoy es un regalo. Es por eso que lo llamamos el presente.',
+  author: 'Babatunde Olatunji',
+  
+  },
+  
+  {
+  
+  text: 'La forma en que nos comunicamos con los demás y con nosotros mismos determina en última instancia la calidad de nuestras vidas.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'A veces es mejor perder y hacer lo correcto que ganar y hacer lo incorrecto.',
+  
+  
+  author: 'Tony Blair',
+  
+  },
+  
+  {
+  
+  text: 'Encontrémonos siempre con una sonrisa, porque la sonrisa es el comienzo del amor.',
+  
+  author: 'Madre Teresa',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Una curva en el camino no es el final del camino... a menos que no logres dar la vuelta.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto sino un hábito.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Vivir en riesgo es saltar desde el acantilado y construir tus alas en el camino hacia abajo.',
+  
+  author: 'Ray Bradbury',
+  
+  },
+  
+  {
+  
+  text: 'En lo más profundo del invierno, finalmente aprendí que había dentro de mí un verano invencible.',
+  
+  
+  author: 'Alberto Camus',
+  
+  },
+  
+  {
+  
+  text: 'El ingenio reside en reconocer la semejanza entre las cosas que difieren y la diferencia entre cosas que son parecidas.',
+  author: 'Madame de Stael',
+  
+  },
+  
+  {
+  
+  text: 'Un fracaso es un hombre que cometió un error pero no es capaz de sacar provecho de la experiencia.',
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'No puedo darte la fórmula para el éxito, pero puedo darte la fórmula para el fracaso: que es: Trata de complacer a todos.',
+  
+  author: 'Herbert Swope',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Aquel que hace una pregunta es un tonto por cinco minutos; el que no hace una pregunta sigue siendo un tonto para siempre.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El poder de la comprensión intuitiva te protegerá del daño hasta el final de tus días.',
+  
+  
+  author: 'Laozi',
+  
+  },
+  
+  {
+  
+  text: 'Lo mejor del futuro es que solo llega un día a la vez.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Tenemos dos oídos y una boca para poder escuchar el doble de lo que hablamos.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'El miedo al fracaso es una actitud que te mantendrá en el mismo punto de tu vida.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Los amigos son esas personas raras que preguntan cómo estamos y luego esperan escuchar la respuesta.',
+  
+  author: 'Ed Cunningham',
+  
+  },
+  
+  {
+  
+  text: 'Si aprendemos a abrir nuestro corazón, cualquiera, incluidas las personas que nos vuelven locos, puede ser nuestro maestro.',
+  
+  author: 'Pema Chodron',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Las personas crecen a través de la experiencia si se enfrentan a la vida con honestidad y valentía. Esto es cómo se construye el carácter.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Un héroe no es más valiente que un hombre común, pero es más valiente cinco minutos más.',
+  
+  author: 'Ralph Waldo Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Mientras tratamos de enseñarles a nuestros hijos todo sobre la vida, nuestros hijos nos enseñan de qué se trata la vida.',
+  
+  author: 'Ángela Schwindt',
+  
+  },
+  
+  {
+  
+  text: 'Cuando bailas, tu propósito no es llegar a un lugar determinado en la pista. Es disfrutar cada paso del camino.',
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'El Creador no te ha dado el deseo de hacer lo que no tienes la capacidad de hacer.',
+  
+  author: 'Orison Marden',
+  
+  },
+  
+  {
+  
+  text: 'Es tan simple ser sabio. Solo piensa en algo estúpido que decir y luego no lo digas.',
+  
+  author: 'Sam Levenson',
+  
+  },
+  
+  {
+  
+  text: 'Considera que no sólo los pensamientos y emociones negativas destruyen nuestra experiencia de paz, también socavan nuestra salud.',
+  author: 'Dalai Lama',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Hasta que no hagas las paces con quien eres, nunca estarás contento con lo que tienes.',
+  
+  
+  author: 'Doris Mortman',
+  
+  },
+  
+  {
+  
+  text: 'Nadie nos salva sino nosotros mismos. Nadie puede y nadie debe. Nosotros mismos debemos andar el camino.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'En el momento en que uno presta mucha atención a algo, se convierte en un misterio, asombroso, indescriptiblemente magnífico mundo en sí mismo.',
+  author: 'Henry Miller',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad es cuando lo que piensas, lo que dices y lo que haces están en armonía.',
+  
+  author: 'Mohandas Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'El mayor antídoto contra la inseguridad y la sensación de miedo es la compasión que trae uno volver a la base de la propia fuerza interior',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'El coraje es descubrir que es posible que no ganes e intentarlo cuando sabes que puedes perder.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Ser considerado y amable solo lleva unos segundos en comparación con el dolor eterno causado por un gesto grosero.',
+   
+  
+  
+  
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'El propósito del aprendizaje es el crecimiento, y nuestras mentes, a diferencia de nuestros cuerpos, pueden seguir creciendo mientras vivimos.',
+  author: 'Mortimer Adler',
+  
+  },
+  
+  {
+  
+  text: 'Cuando te des cuenta de lo perfecto que es todo, inclinarás la cabeza hacia atrás y te reirás del cielo',
+  
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Por cada falla, hay un curso de acción alternativo. Solo tienes que encontrarlo. Cuando llegues a un control de carretera, toma un desvío.',
+  
+  author: 'Mary Kay Ash',
+  
+  },
+  
+  {
+  
+  text: 'Es sorprendente lo que un hombre puede hacer cuando tiene que hacerlo, y lo poco que la mayoría de los hombres hacen cuando no tienen que hacerlo.',
+  author: 'Walter Linn',
+  
+  },
+  
+  {
+  
+  text: 'Ser consciente de un solo defecto en uno mismo es más útil que ser consciente de un mil en otra persona.',
+  
+  author: 'Tenzin Gyatso',
+  
+  },
+  
+  {
+  
+  text: 'Nadie cometió mayor error que el que no hizo nada porque sólo podía hacer un poco.',
+  
+  
+  author: 'Edmund Burke',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La bondad constante puede lograr mucho. Así como el sol hace que el hielo se derrita, la bondad provoca los malentendidos, la desconfianza y la hostilidad se evaporen.',
+  
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'Las mentes más grandes son capaces de los vicios más grandes así como de las virtudes más grandes.',
+  
+  author: 'René Descartes',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre debe buscar lo que es, y no lo que cree que debería ser.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Las dificultades están destinadas a despertar, no a desalentar. El espíritu humano debe fortalecerse a través del conflicto.',
+  
+  author: 'William Channing',
+  
+  },
+  
+  {
+  
+  text: 'Si no tienes respeto por tus propios valores, ¿cómo puedes ser digno de respeto de los demás?',
+  
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Algunas personas siempre se quejan porque las rosas tienen espinas; estoy agradecido de que las espinas tienen rosas.',
+  
+  author: 'Alphonse Karr',
+  
+  },
+  
+  {
+  
+  text: 'Elegir lo que es difícil todos los días, como si fuera fácil, eso es fe.',
+  
+  author: 'WH Auden',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Habilidad es lo que eres capaz de hacer. La motivación determina lo que haces. Actitud determina lo bien que lo haces.',
+  author: 'Lou Holtz',
+  
+  },
+  
+  {
+  
+  text: 'No te avergüences de tus errores. Nada puede enseñarnos mejor que nuestra comprensión de ellos. Esta es una de las mejores formas de autoeducación.',
+  author: 'Thomas Carlyle',
+  
+  },
+  
+  {
+  
+  text: 'Se pueden encender miles de velas con una sola vela, y la vida de la vela no se acortará. La felicidad nunca disminuye al compartirla.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No me importa tanto lo que soy para los demás como lo que soy para mí mismo. seré rico por mi cuenta, y no tomando prestado.',
+  author: 'Michel de Montaigne',
+  
+  },
+  
+  {
+  
+  text: 'Sabed que aunque en el esquema eterno de las cosas sois pequeños, también sois únicos e insustituible, como lo son todos tus congéneres en todas partes del mundo.',
+  author: 'Margaret Laurence',
+  
+  },
+  
+  {
+  
+  text: 'Hacer todo lo que uno es capaz de hacer, es ser un hombre; hacer todo lo que a uno le gustaría hacer, es ser un dios.',
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'Si sueltas un poco, tendrás un poco de paz. Si sueltas mucho, tendrás mucha paz.',
+  
+  
+  author: 'Ajahn Chah',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'No hay necesidad de templos, no hay necesidad de filosofías complicadas. Mi cerebro y mi corazón son mis templos; mi filosofía es la bondad.',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'El espíritu, la voluntad de ganar y la voluntad de sobresalir, son las cosas que perduran. Estos las cualidades son mucho más importantes que los eventos que ocurren.',
+  author: 'Vicente Lombardi',
+  
+  },
+  
+  {
+  
+  text: 'El hombre no es la suma de lo que tiene, sino la totalidad de lo que aún no tiene, de lo que podría ser ',
+  
+  author: 'Jean­Paul Sartre',
+  
+  },
+  
+  {
+  
+  text: 'No creas lo que tus ojos te están diciendo. Todo lo que muestran es limitación. Mira con tu entendimiento, averigua lo que ya sabes, y verás la manera de volar.',
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Creo que somos los únicos responsables de nuestras elecciones, y tenemos que aceptar las consecuencias de cada acto, palabra y pensamiento a lo largo de nuestra vida.',
+  author: 'Elisabeth Kübler­Ross',
+  
+  },
+  
+  {
+  
+  text: 'Los deseos pueden ser tu mejor vía para conseguir lo que quieres cuando conviertes los deseos en acción. La acción mueve tu deseo al frente del pensamiento a la realidad.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Para entender el corazón y la mente de una persona, no mires lo que ya ha logrado, sino en lo que aspira a hacer.',
+  author: 'Kahlil Gibran',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Soy de la opinión de que mi vida pertenece a la comunidad, y mientras viva es mi privilegio de hacer por ella todo lo que pueda.',
+  author: 'Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación es más importante que el conocimiento. Mientras que el conocimiento define todo lo que sabemos y entendemos actualmente, la imaginación apunta a todo lo que aún podríamos descubrir y crear.',
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Cuando veas a una buena persona, piensa en volverte como él. Cuando ves a alguien que no muy bien, reflexiona sobre tus propios puntos débiles.',
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Si uno está enajenado de sí mismo, también está enajenado de los demás. Si uno está desconectado de sí mismo, entonces no puede tocar a los demás.',
+  
+  author: 'Anne Lindbergh',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las cosas importantes en el mundo han sido realizadas por personas que han seguido intentándolo cuando parecía que no había ninguna esperanza.',
+  author: 'Dale Carnegie',
+  
+  },
+  
+  {
+  
+  text: 'Puedes decir que soy un soñador, pero no soy el único, espero que algún día te unas a nosotros, y el mundo vivirá como uno solo.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad es como una mariposa que, cuando se persigue, siempre está más allá de nuestro alcance, pero que si te sientas en silencio, puede posarse sobre ti.',
+  author: 'Nathaniel Hawthorne',
+  
+  },
+  
+  {
+  
+  text: 'Aquel que experimenta la unidad de la vida ve su propio Sí mismo en todos los seres, y todos los seres en su propio Ser, y mira todo con un ojo imparcial.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'En el cielo, no hay distinción de este y oeste; las personas crean distinciones a partir de sus propias mentes y luego creen que son ciertas.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No puedes cambiar nada en tu vida solo con la intención, que puede convertirse en un esperanza diluida y ocasional de que llegarás al mañana. La intención sin acción es inútil.',
+  
+  
+  author: 'Caroline Myss',
+  
+  },
+  
+  {
+  
+  text: 'Antes de que puedas inspirar con emoción, debes estar inundado por ti mismo. Antes de que puedas mover sus lágrimas, las tuyas deben fluir. Para convencerlos, debes creer tú mismo.',
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'El mayor descubrimiento de nuestra generación es que los seres humanos pueden alterar sus vidas modificando sus actitudes mentales. Tal como piensas, así serás.',
+  author: 'William James',
+  
+  },
+  
+  {
+  
+  text: 'Si uno avanza con confianza en la dirección de su sueño, y se esfuerza por vivir el vida que había imaginado, se encontrará con un éxito inesperado en las horas comunes.',
+  
+  author: 'Henry David Thoreau',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El secreto de la alegría en el trabajo está contenido en una palabra excelencia. para saber como hacer algo bueno es disfrutarlo.',
+  author: 'Pearl Buck',
+  
+  },
+  
+  {
+  
+  text: 'Cuando conozcas a alguien mejor que tú, dirige tus pensamientos a convertirte en su igual. Cuando conozcas a alguien que no sea tan bueno como tú, mira dentro y examínate a ti mismo.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Debemos superar la noción de que debemos ser regulares. Te roba la oportunidad de ser extraordinario y te lleva a lo mediocre.',
+  author: 'Uta Hagen',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de nuestros obstáculos se desvanecerían si, en lugar de acobardarnos ante ellos, deberíamos decidirnos a caminar audazmente a través de ellos.',
+  author: 'Orison Marden',
+  
+  },
+  
+  {
+  
+  text: 'Todo puede ser quitado de un hombre pero... la última de las libertades humanas para elegir la actitud de uno en cualquier conjunto dado de circunstancias, para elegir su propio camino.',
+  author: 'Víctor Frankl',
+  
+  },
+  
+  {
+  
+  text: 'Es mejor tener suficientes ideas para que algunas de ellas estén equivocadas, que estar siempre correcto al no tener ideas en absoluto.',
+  author: 'Edward de Bono',
+  
+  },
+  
+  {
+  
+  text: 'El carácter es como un árbol y la reputación como una sombra. La sombra es lo que pensamos él; el árbol es real.',
+  author: 'Abraham Lincoln',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Al dejarlo ir, todo se hace. El mundo lo ganan aquellos que lo dejan ir. pero cuando tu probar y probar. El mundo está más allá de ganar.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Soy como una estrella fugaz que finalmente ha encontrado su lugar junto a otra en una hermosa constelación, donde brillaremos en los cielos para siempre.',
+  
+  author: 'Amy Tan',
+  
+  },
+  
+  {
+  
+  text: 'No todo lo difícil y peligroso es adecuado para el entrenamiento, sino sólo lo que es conducente al éxito en el logro del objeto de nuestro esfuerzo.',
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'No somos animales. No somos un producto de lo que nos ha sucedido en nuestro pasado. Tenemos el poder de elegir.',
+  
+  author: 'Stephen Covey',
+  
+  },
+  
+  {
+  
+  text: 'La forma más peligrosa de perder el tiempo no es pasarlo divirtiéndote, sino pasarlo haciendo un trabajo falso. Cuando pasas el tiempo divirtiéndote, sabes que estás siendo indulgente contigo mismo.',
+  
+  author: 'Paul Graham',
+  
+  },
+  
+  {
+  
+  text: 'Miles de velas se pueden encender de una sola, y la vida de la vela no será acortado. La felicidad nunca disminuye al compartirla.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Muchas veces la gente mira el lado negativo de lo que siente que no puede hacer. Yo siempre miro el lado positivo de lo que puedo hacer.',
+   
+  
+  
+  
+  
+  author: 'Chuck Norris',
+  
+  },
+  
+  {
+  
+  text: 'Sin pasión, el hombre es una mera fuerza y posibilidad latente, como el pedernal que espera el golpe del hierro antes de que pueda emitir su chispa.',
+  author: 'Amiel',
+  
+  },
+  
+  {
+  
+  text: 'El amor a primera vista es fácil de entender; es cuando dos personas se han estado mirando durante toda la vida que se convierte en un milagro.',
+  
+  author: 'Amy Bloom',
+  
+  },
+  
+  {
+  
+  text: 'Con coraje te atreverás a correr riesgos, ten la fuerza para ser compasivo y la sabiduría para ser humilde. El valor es la base de la integridad.',
+  
+  author: 'Keshavan Nair',
+  
+  },
+  
+  {
+  
+  text: 'El camino correcto no siempre es el camino popular y fácil. De pie por lo correcto cuando es impopular es una verdadera prueba de carácter moral.',
+  author: 'Margaret Smith',
+  
+  },
+  
+  {
+  
+  text: 'Prefiero ser fiel a mí mismo, aun a riesgo de incurrir en el ridículo de los demás, en lugar de ser falso e incurrir en mi propio aborrecimiento.',
+  author: 'Frederick Douglass',
+  
+  },
+  
+  {
+  
+  text: 'Ningún pesimista descubrió jamás los secretos de las estrellas, o navegó a una tierra inexplorada, o abrió un nuevo cielo para el espíritu humano.',
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Cuando te levantes por la mañana, piensa en el precioso privilegio que es estar vivo para respirar, pensar, disfrutar, amar.',
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'El carácter no se puede desarrollar con facilidad y tranquilidad. Sólo a través de la experiencia del juicio y el sufrimiento puede fortalecer el alma, aclarar la visión, inspirar la ambición y lograr el éxito.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'Aunque puede haber tragedia en tu vida, siempre hay una posibilidad de triunfar. Es no importa quién eres, de dónde vienes. La capacidad de triunfar comienza contigo. Siempre.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Debes entrenar tu intuición, debes confiar en la pequeña voz dentro de ti que te dice exactamente qué decir, qué decidir.',
+  author: 'Ingrid Bergman',
+  
+  },
+  
+  {
+  
+  text: 'Acepta las cosas a las que el destino te ata, y ama a las personas con las que el destino trae ustedes juntos, pero háganlo con todo su corazón.',
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Resolvamos ser dueños, no víctimas, de nuestra historia, controlando nuestro propio destino sin ceder a sospechas y emociones ciegas.',
+  author: 'John Kennedy',
+  
+  },
+  
+  {
+  
+  text: 'Nada en la vida es para ser temido, solo es para ser entendido. Ahora es el momento de entender más, para que podamos temer menos.',
+   
+  
+  
+  
+  
+  author: 'Marie Curie',
+  
+  },
+  
+  {
+  
+  text: 'Los padres solo pueden dar buenos consejos o ponerlos en el camino correcto, pero el final la formación del carácter de una persona está en sus propias manos.',
+  author: 'Ana Frank',
+  
+  },
+  
+  {
+  
+  text: 'La adversidad no está en tu contra para que fracases; la adversidad es una forma de construir tu carácter para que puedes tener éxito una y otra vez a través de la perseverancia.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Si te rompes el cuello, si no tienes nada para comer, si tu casa está en llamas, entonces tienes un problema. Todo lo demás son inconvenientes.',
+  
+  author: 'Robert Fulghum',
+  
+  },
+  
+  {
+  
+  text: 'El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. si amas lo que estás haciendo, tendrás éxito.',
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'Si A es el éxito en la vida, entonces A es igual a x más y más z. El trabajo es x; y es juego; y z mantiene la boca cerrada.',
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Mi consejo para usted es que no pregunte por qué o dónde, sino que simplemente disfrute de su helado mientras está en tu plato, esa es mi filosofía.',
+  
+  author: 'Thornton Wilder',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El conflicto es el tábano del pensamiento. Nos incita a la observación ya la memoria. Se instiga a invención. Nos saca de la pasividad de las ovejas y nos pone a observar y a inventar.',
+  author: 'John Dewey',
+  
+  },
+  
+  {
+  
+  text: 'El que vence a otros es fuerte; El que se vence a sí mismo es poderoso.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Cualquier cosa que realmente desees, puedes lograrla, si realmente lo persigues.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Llegar a un punto es el punto de partida a otro.',
+  
+  author: 'John Dewey',
+  
+  },
+  
+  {
+  
+  text: 'El necio busca la felicidad en la distancia, el sabio la cultiva bajo sus pies.',
+  
+  author: 'James Oppenheim',
+  
+  },
+  
+  {
+  
+  text: 'La mayor parte de nuestra felicidad depende de nuestras disposiciones, no de nuestras circunstancias.',
+  
+  author: 'Martha Washington',
+  
+  },
+  
+  {
+  
+  text: 'Solo es posible vivir felices para siempre en el día a día.',
+  
+  author: 'Margaret Bonnano',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre ve en el mundo lo que lleva en su corazón.',
+  
+  author: 'Goethe',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La acción no siempre trae felicidad, pero no hay felicidad sin acción.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Cree en el fondo de tu corazón que estás destinado a hacer grandes cosas.',
+  
+  author: 'Joe Paterno',
+  
+  },
+  
+  {
+  
+  text: 'Tarde o temprano, los que ganan son los que creen que pueden.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'El único límite para tu impacto es tu imaginación y compromiso.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: '¡Eres especial, eres único, eres el mejor!',
+  
+  author: 'Cathy Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Cuatro pasos para el logro: Planificar con determinación. Prepárese en oración. Proceder positivamente. Perseguir persistentemente.',
+  
+  author: 'William Arthur Ward',
+  
+  },
+  
+  {
+  
+  text: 'Conocerse a sí mismo es estudiarse en acción con otra persona.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'No debemos permitirnos ser como el sistema al que nos oponemos.',
+  
+  author: 'Obispo Desmond Tutu',
+  
+  },
+  
+  {
+  
+  text: 'Sonríe, respira y ve despacio.',
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'La realidad es simplemente una ilusión, aunque muy persistente.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Cuando llegues al final de tu cuerda, haz un nudo y aguanta.',
+  
+  author: 'Franklin Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Ten siempre en cuenta la bondad y no las faltas de los demás.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que nos irrita de los demás puede llevarnos a comprendernos a nosotros mismos.',
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Cuando el destino nos da un limón, intentemos hacer limonada.',
+  
+  author: 'Dale Carnegie',
+  
+  },
+  
+  {
+  
+  text: 'Los débiles nunca pueden perdonar. El perdón es el atributo de los fuertes.',
+  
+  author: 'Mohandas Gandhi',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Un hombre es grande por hechos, no por nacimiento.',
+  
+  author: 'Chanakya',
+  
+  },
+  
+  {
+  
+  text: 'El éxito es conseguir lo que quieres. La felicidad es querer lo que tienes.',
+  
+  author: 'Dale Carnegie',
+  
+  },
+  
+  {
+  
+  text: 'La verdad no se trata solo de lo que realmente sucede, sino más bien de cómo se interpreta lo que sucedió.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Un buen descanso es la mitad del trabajo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'No juzgues cada día por la cosecha que cosechas, sino por las semillas que plantas.',
+  
+  author: 'Robert Stevenson',
+  
+  },
+  
+  {
+  
+  text: 'Las pequeñas oportunidades suelen ser el comienzo de grandes empresas.',
+  
+  author: 'Demóstenes',
+  
+  },
+  
+  {
+  
+  text: 'Ser probado es bueno. La vida desafiada puede ser el mejor terapeuta.',
+  
+  author: 'Gail Sheehy',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Ten cuidado: no encuentras lo que no buscas.',
+  
+  author: 'proverbio inglés',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad es la recompensa que obtenemos por vivir con el máximo derecho que conocemos.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Sé tardo de lengua y rápido de vista.',
+  
+  author: 'Siervos',
+  
+  },
+  
+  {
+  
+  text: 'No vale la pena tener libertad si no connota libertad para errar.',
+  
+  author: 'Mohandas Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Siempre he pensado que las acciones de los hombres son los mejores intérpretes de sus pensamientos.',
+  
+  author: 'John Locke',
+  
+  },
+  
+  {
+  
+  text: 'El que obtiene tiene poco. El que esparce tiene mucho.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Atreverse es perder el equilibrio momentáneamente. No atreverse es perderse.',
+  
+  author: 'Soren Kierkegaard',
+  
+  },
+  
+  {
+  
+  text: 'Ningún día en el que aprendes algo es una pérdida total.',
+  
+  author: 'David Eddings',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La paz no se puede mantener por la fuerza. Sólo puede conseguirse mediante la comprensión.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'El verdadero éxito es encontrar el trabajo de tu vida en el trabajo que amas.',
+  
+  author: 'David McCullough',
+  
+  },
+  
+  {
+  
+  text: 'Mejor que mil palabras huecas, es una palabra que trae paz.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Todas las flores de todos los mañanas están en las semillas de hoy.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Tu espacio sagrado es donde puedes encontrarte una y otra vez.',
+  
+  author: 'Joseph Campbell',
+  
+  },
+  
+  {
+  
+  text: 'Como piensas, así serás.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'En tiempo de siembra aprende, en tiempo de cosecha enseña, en invierno disfruta.',
+  
+  author: 'William Blake',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad no viene de tener mucho, sino de estar apegado a poco.',
+  
+  author: 'Cheng Yen',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Cada regalo de un amigo es un deseo para tu felicidad.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Ve a poner tu credo en la escritura. Ni hablar con doble lengua.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Los hombres más sabios siguen su propia dirección.',
+  
+  author: 'Eurípides',
+  
+  },
+  
+  {
+  
+  text: 'La esperanza suscita, como nada más puede suscitar, una pasión por lo posible.',
+  
+  author: 'William Sloane Coffin',
+  
+  },
+  
+  {
+  
+  text: 'Todo tiene belleza, pero no todos la ven.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Nada desaparece hasta que nos ha enseñado lo que necesitamos saber.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Cuando aprendes, enseñas. Cuando tengas, dale.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Solo cuando ya no tenemos miedo empezamos a vivir.',
+   
+  
+  
+  
+  
+  author: 'Dorothy Thompson',
+  
+  },
+  
+  {
+  
+  text: 'Si sonríes cuando no hay nadie más cerca, realmente lo dices en serio',
+  
+  author: 'Andy Rooney',
+  
+  },
+  
+  {
+  
+  text: 'El amor es la única fuerza capaz de transformar a un enemigo en amigo.',
+  
+  author: 'Martin Luther King, Jr.',
+  
+  },
+  
+  {
+  
+  text: 'En todo caos hay un cosmos, en todo desorden un orden secreto.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre no está donde vive sino donde ama.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El precio de la grandeza es la responsabilidad.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'La decisión es un riesgo enraizado en el coraje de ser libre.',
+  
+  author: 'Paul Tillich',
+  
+  },
+  
+  {
+  
+  text: 'Tu mente responderá la mayoría de las preguntas si aprendes a relajarte y esperar la respuesta.',
+  
+  author: 'William Burroughs',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El mundo no te pasa a ti, te pasa a ti.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'No podemos resolver nuestros problemas con el mismo pensamiento que usamos cuando los creamos.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Más poderoso que la voluntad de ganar es el coraje de comenzar.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Aprender es descubrir lo que ya sabes.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Dar las gracias es más que buenos modales. Es buena espiritualidad.',
+  
+  author: 'Alfred Painter',
+  
+  },
+  
+  {
+  
+  text: 'El silencio es una fuente de gran fuerza.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La alegría es el mejor maquillaje',
+  
+  author: 'Anne Lamott',
+  
+  },
+  
+  {
+  
+  text: 'No hay gran genio sin un toque de locura.',
+  
+  author: 'Séneca',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Una jarra se llena gota a gota.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Hasta que no hagas las paces con quien eres, nunca estarás contento con lo que tienes.',
+  
+  
+  author: 'Doris Mortman',
+  
+  },
+  
+  {
+  
+  text: 'Apuntamos por encima de la marca para dar en el blanco.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Estar enojado nunca resuelve nada.',
+  
+  author: 'Catherine Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Todos los hombres que han logrado grandes cosas han sido grandes soñadores.',
+  
+  author: 'Orison Marden',
+  
+  },
+  
+  {
+  
+  text: 'La mediocridad no conoce nada superior a sí mismo, pero el talento reconoce instantáneamente al genio.',
+  
+  author: 'Arthur Conan Doyle',
+  
+  },
+  
+  {
+  
+  text: 'Donde todos piensan igual, nadie piensa mucho.',
+  
+  author: 'Walter Lippmann',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Todo lo que existe es en cierto modo la semilla de lo que será.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Sé menos curioso acerca de las personas y más curioso acerca de las ideas.',
+  
+  author: 'Marie Curie',
+  
+  },
+  
+  {
+  
+  text: 'El corazón tiene ojos de los que el cerebro no sabe nada.',
+  
+  author: 'Charles Perkhurst',
+  
+  },
+  
+  {
+  
+  text: 'Solo aquellos que se atreven a fallar mucho pueden lograr algo grande.',
+  
+  author: 'Robert Kennedy',
+  
+  },
+  
+  {
+  
+  text: 'Pierde una hora por la mañana y te pasarás todo el día buscándolo.',
+  
+  author: 'Richard Whately',
+  
+  },
+  
+  {
+  
+  text: 'Los errores siempre son perdonables, si uno tiene el coraje de admitirlos.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Ve a tu seno: llama allí, y pregunta a tu corazón qué es lo que sabe.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad proviene principalmente de nuestra propia actitud, más que de factores externos.',
+  
+  author: 'Dalai Lama',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Si no cambias de dirección, puedes terminar en el lugar al que te diriges.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Lo que vemos es principalmente lo que buscamos.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Aléjate de lo que podría haber sido y mira lo que será.',
+  
+  author: 'Marsha Petrie Sue',
+  
+  },
+  
+  {
+  
+  text: 'Actúa como si lo que haces marcara la diferencia. Lo hace.',
+  
+  author: 'William James',
+  
+  },
+  
+  {
+  
+  text: 'La pasión crea el deseo de más y la acción alimentada por la pasión crea un futuro.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Haz el bien con sigilo, y ruborízate para encontrar la fama.',
+  
+  author: 'Alexander Pope',
+  
+  },
+  
+  {
+  
+  text: 'La oportunidad a menudo viene disfrazada en forma de desgracia o derrota temporal.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'No hables de lo que has hecho o de lo que vas a hacer.',
+  
+  author: 'Thomas Jefferson',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Más poderoso es el que se tiene a sí mismo en su propio poder.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'No dejamos de jugar porque envejecemos; envejecemos porque dejamos de jugar.',
+  
+  author: 'Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'La experiencia solo se puede ganar haciendo, no pensando o soñando.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Siempre di la verdad. De esa manera, no tienes que recordar lo que dijiste.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'De maravilla en maravilla se abre la existencia.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'El que teme ser vencido está seguro de la derrota.',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'La vida es lo que pasa mientras haces otros planes.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'Hacer lo que amas es la piedra angular para tener abundancia en tu vida.',
+   
+  
+  
+  
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'La amabilidad es la cadena de oro por la cual la sociedad está unida.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Necesitas caos en tu alma para dar a luz a una estrella danzante.',
+  
+  author: 'Nietzsche',
+  
+  },
+  
+  {
+  
+  text: 'No puede ser primavera si tu corazón está lleno de fracasos pasados.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Ningún ayer se desperdicia para aquellos que se entregan al hoy.',
+  
+  author: 'Brendan Francisco',
+  
+  },
+  
+  {
+  
+  text: 'No existen los fracasos, solo las experiencias y tus reacciones ante ellos.',
+  
+  author: 'Tom Krause',
+  
+  },
+  
+  {
+  
+  text: 'La acción es la clave fundamental de todo éxito.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Lo que se necesita para cambiar a una persona es cambiar su conciencia de sí mismo.',
+  
+  author: 'Abraham Maslow',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El pensamiento positivo te permitirá hacer todo mejor que el pensamiento negativo.',
+  
+  author: 'Zig Ziglar',
+  
+  },
+  
+  {
+  
+  text: 'Nunca sabremos todo el bien que una simple sonrisa puede hacer.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Nada es tan fuerte como la mansedumbre. Nada es tan suave como la verdadera fuerza.',
+  
+  author: 'Frances de Sales',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación no es un talento de algunos hombres sino la salud de cada hombre.',
+  
+  author: 'Ralph Waldo Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Debemos abrazar el dolor y quemarlo como combustible para nuestro viaje.',
+  
+  author: 'Kenji Miyazawa',
+  
+  },
+  
+  {
+  
+  text: 'No esperes a que la gente sea amigable. Muéstrales cómo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Una gema no puede ser pulida sin fricción, ni un hombre perfeccionado sin pruebas.',
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'Cada día puede ser un día de triunfo si mantienes tus intereses.',
+  
+  author: 'George Matthew Adams',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El lugar para mejorar el mundo es primero en el propio corazón, la cabeza y las manos.',
+  
+  author: 'Robert M. Pirsig',
+  
+  },
+  
+  {
+  
+  text: 'El pesimista ve dificultad en cada oportunidad. El optimista ve la oportunidad en cada dificultad.',
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Los ganadores simplemente han formado el hábito de hacer cosas que a los perdedores no les gusta hacer.',
+  
+  author: 'Albert Gray',
+  
+  },
+  
+  {
+  
+  text: 'La naturaleza es una nube mutable que es siempre y nunca la misma.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La vida es lo que tú haces de ella. Siempre lo ha sido, siempre lo será.',
+  
+  author: 'Abuela Moisés',
+  
+  },
+  
+  {
+  
+  text: 'La preocupación a menudo le da una gran sombra a una cosa pequeña.',
+  
+  author: 'proverbio sueco',
+  
+  },
+  
+  {
+  
+  text: 'Quiero que seas todo lo que eres tú, en lo profundo del centro de tu ser.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Sabemos lo que somos, pero no sabemos lo que podemos ser.',
+   
+  
+  
+  
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'La libertad es lo que haces con lo que te han hecho.',
+  
+  author: 'Jean­Paul Sartre',
+  
+  },
+  
+  {
+  
+  text: 'La verdad que nos ha hecho libres al final también nos alegrará.',
+  
+  author: 'Félix Adler',
+  
+  },
+  
+  {
+  
+  text: 'El que tiene imaginación sin saber tiene alas pero no pies.',
+  
+  author: 'Joseph Joubert',
+  
+  },
+  
+  {
+  
+  text: 'Quien ama, cree lo imposible.',
+  
+  author: 'Elizabeth Browning',
+  
+  },
+  
+  {
+  
+  text: 'Lo que cuenta no es de dónde vienes, sino hacia dónde vas.',
+  
+  author: 'Ella Fitzgerald',
+  
+  },
+  
+  {
+  
+  text: 'El mayor obstáculo para conectar con nuestra alegría es el resentimiento.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Cuando te enojes usa tu energía para hacer algo productivo.',
+  
+  author: 'C. Pulsificador',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Todos somos algo, pero ninguno lo es todo.',
+  
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'Si no puedes explicarlo de manera simple, es que no lo entiendes lo suficientemente bien.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Quien vive en armonía consigo mismo, vive en armonía con el mundo.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'El que se conoce a sí mismo está iluminado.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Construye una ratonera mejor y el mundo abrirá un camino hasta tu puerta.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Como nuestro caso es nuevo, debemos pensar y actuar de nuevo.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Si no puedes alimentar a cien personas, entonces alimenta solo a una.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'En tres palabras puedo resumir todo lo que he aprendido sobre la vida: continúa.',
+  
+  author: 'Robert Frost',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'No dejes que las decepciones de hoy ensombrezcan los sueños de mañana.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Siempre logras producir un resultado.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'Todo aquello contra lo que te opones te debilita. Todo para lo que eres te empodera.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'A medida que nos arriesgamos, crecemos. Cada nueva experiencia es un riesgo.',
+  
+  author: 'Fran Watson',
+  
+  },
+  
+  {
+  
+  text: 'Quienes somos nunca cambia. Quienes creemos que somos, lo hace.',
+  
+  author: 'María Almanaque',
+  
+  },
+  
+  {
+  
+  text: 'La prueba final de la grandeza está en ser capaz de soportar la crítica sin resentimiento.',
+  
+  
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'Se puede resistir una invasión de ejércitos, pero no una idea cuyo momento ha llegado.',
+  
+  author: 'Víctor Hugo',
+  
+  },
+  
+  {
+  
+  text: 'Nunca dejes que la falta de dinero interfiera con la diversión.',
+   
+  
+  
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'La excelencia no es una habilidad. Es una actitud.',
+  
+  author: 'Ralph Marston',
+  
+  },
+  
+  {
+  
+  text: 'La gente puede dudar de lo que dices, pero creerán lo que haces.',
+  
+  author: 'Lewis Cass',
+  
+  },
+  
+  {
+  
+  text: 'El arma más formidable contra los errores de todo tipo es la razón.',
+  
+  author: 'Thomas Paine',
+  
+  },
+  
+  {
+  
+  text: 'Es importante saber que las palabras no mueven montañas. Trabajo, trabajo exigente mueve montañas.',
+  
+  author: 'Danilo Dolci',
+  
+  },
+  
+  {
+  
+  text: 'Cuidado con las oportunidades perdidas; de lo contrario, puede ser demasiado tarde algún día.',
+  
+  author: 'Franz Liszt',
+  
+  },
+  
+  {
+  
+  text: 'Solo pierdes aquello a lo que te aferras.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La vida es una sucesión de momentos. Vivir cada uno es tener éxito.',
+  
+  author: 'Corita Kent',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La mayoría de las sombras de la vida son causadas por pararse bajo nuestro propio sol.',
+  
+  author: 'Ralph Waldo Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Las buenas acciones nos fortalecen a nosotros mismos e inspiran buenas acciones en los demás.',
+  
+  author: 'Platón',
+  
+  },
+  
+  {
+  
+  text: 'Conozco solo una libertad y esa es la libertad de la mente.',
+  
+  author: 'Antoine de Saint­Exupéry',
+  
+  },
+  
+  {
+  
+  text: 'En medio de cada dificultad se encuentra la oportunidad.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Todo ser humano es author de su propia salud o enfermedad.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'En caso de duda, di la verdad.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Cada gran avance en la ciencia ha surgido de una nueva audacia de la imaginación.',
+  
+  author: 'John Dewey',
+  
+  },
+  
+  {
+  
+  text: 'El camino hacia el éxito es tomar medidas masivas y decididas.',
+  
+  author: 'Anthony Robbins',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La escalera del éxito nunca está repleta en la parte superior.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Quien tiene salud tiene esperanza, y quien tiene esperanza lo tiene todo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todos los grandes logros requieren tiempo.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Ninguna persona es tu amigo que exige tu silencio, o niega tu derecho a crecer.',
+  
+  author: 'Alice Walker',
+  
+  },
+  
+  {
+  
+  text: 'Las imposibilidades son simplemente cosas que aún no hemos aprendido.',
+  
+  author: 'Charles Chesnutt',
+  
+  },
+  
+  {
+  
+  text: 'La visión sin acción es un sueño. La acción sin visión es una pesadilla.',
+  
+  author: 'proverbio japonés',
+  
+  },
+  
+  {
+  
+  text: 'El Hombre Superior es consciente de la Rectitud, el hombre inferior es consciente de la ventaja.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El que te enoja te conquista.',
+   
+  
+  
+  
+  
+  author: 'Elizabeth Kenny',
+  
+  },
+  
+  {
+  
+  text: 'Nunca me preocupo por la acción, solo por la inacción.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Ningún hombre es libre si no es dueño de sí mismo.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Los que saben, hacen. Los que entienden, enseñan.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Si no somos completamente nosotros mismos, verdaderamente en el momento presente, nos perdemos todo.',
+  
+  author: 'Thich Nhat Hanh',
+  
+  },
+  
+  {
+  
+  text: 'Ningún acto de bondad, por pequeño que sea, se desperdicia.',
+  
+  author: 'Esopo',
+  
+  },
+  
+  {
+  
+  text: 'Cada hombre es un volumen si sabes leerlo.',
+  
+  author: 'Channing',
+  
+  },
+  
+  {
+  
+  text: 'Las dificultades de la vida están destinadas a hacernos mejores, no amargos.',
+  
+  author: null,
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Calidad significa hacerlo bien cuando nadie está mirando.',
+  
+  author: 'Henry Ford',
+  
+  },
+  
+  {
+  
+  text: 'Cambia tus palabras. Cambia tu mundo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Los grandes actos se componen de pequeñas acciones.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Las probabilidades de dar en el blanco aumentan dramáticamente cuando lo apuntas.',
+  
+  author: 'Mal Pancoast',
+  
+  },
+  
+  {
+  
+  text: 'Mentes abiertas conducen a puertas abiertas.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Pueden hacer todo porque creen que pueden.',
+  
+  author: 'Virgilio',
+  
+  },
+  
+  {
+  
+  text: 'Tienes que pensar de todos modos, así que ¿por qué no pensar en grande?',
+  
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'En cada espina crece una sabiduría deliciosa, en cada riachuelo fluye una dulce instrucción.',
+  
+  author: 'Edward Young',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Tu cuerpo es precioso. Es nuestro vehículo para despertar. Trátalo con cuidado.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'El que siempre pierde, es el único que obtiene la recompensa.',
+  
+  author: 'Claire Charmont',
+  
+  },
+  
+  {
+  
+  text: 'El futuro está completamente abierto, y lo estamos escribiendo momento a momento.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Cada vez que nos enfrentamos a un miedo, ganamos fuerza, coraje y confianza para hacerlo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Pregúntese el secreto de su éxito. Escucha tu respuesta y practícala.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'No frunzas el ceño porque nunca sabes quién se está enamorando de tu sonrisa.',
+  
+  author: 'Sinvyest Tan',
+  
+  },
+  
+  {
+  
+  text: 'Confía en tus corazonadas. Por lo general, se basan en hechos archivados justo debajo del nivel consciente.',
+  
+  author: 'Joyce Brothers',
+  
+  },
+  
+  {
+  
+  text: 'Nada es finalmente sagrado sino la integridad de tu propia mente.',
+   
+  
+  
+  
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Escucha tu intuición. Te dirá todo lo que necesitas saber.',
+  
+  author: "Anthony D'Angelo",
+  
+  },
+  
+  {
+  
+  text: 'La vida personal profundamente vivida siempre se expande en verdades más allá de sí misma.',
+  
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Cada vez que te sucede algo negativo, hay una lección profunda escondida dentro de ello.',
+  
+  
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'Lo que no se empieza hoy nunca se termina mañana.',
+  
+  author: 'Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra amabilidad puede ser el argumento más persuasivo para lo que creemos.',
+  
+  author: 'Gordon Hinckley',
+  
+  },
+  
+  {
+  
+  text: 'El caos es inherente a todas las cosas compuestas. Esfuérzate con diligencia.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Asegúrate de poner los pies en el lugar correcto, luego mantente firme.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Nunca se logró nada grande sin entusiasmo.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'El significado que elegí, el que cambió mi vida: Superar el miedo, contemplar la maravilla.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Sabe escuchar, y te beneficiarás incluso de los que hablan mal.',
+  
+  author: 'Plutarco',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre no es viejo mientras busca algo.',
+  
+  author: 'Edmond Rostand',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo que crees que te estás perdiendo, también te extraña a ti.',
+  
+  author: 'Ymber Chosen',
+  
+  },
+  
+  {
+  
+  text: 'La vida no se mide por las respiraciones que tomas, sino por sus momentos impresionantes.',
+  
+  author: 'Michael Vance',
+  
+  },
+  
+  {
+  
+  text: 'Mucha sabiduría a menudo va con menos palabras.',
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'Si amas la vida, no pierdas el tiempo, porque el tiempo es de lo que se compone la vida.',
+  
+  author: 'Bruce Lee',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La imaginación es el poder viviente y el principal agente de toda percepción humana.',
+  
+  author: 'Samuel Taylor Coleridge',
+  
+  },
+  
+  {
+  
+  text: 'Es imposible sentirse agradecido y deprimido en el mismo momento.',
+  
+  author: 'Naomi Williams',
+  
+  },
+  
+  {
+  
+  text: 'El progreso siempre implica riesgos. No puedes robar la segunda base y mantener el pie en primera.',
+  
+  
+  author: 'Frederick Wilcox',
+  
+  },
+  
+  {
+  
+  text: 'La libertad, tomada la palabra en su sentido concreto, consiste en la capacidad de elegir.',
+  
+  author: 'Simone Weil',
+  
+  },
+  
+  {
+  
+  text: 'Una cosa bien dicha será ingeniosa en todos los idiomas.',
+  
+  author: 'John Dryden',
+  
+  },
+  
+  {
+  
+  text: 'Haz siempre lo mejor que puedas. Lo que plantes ahora, lo cosecharás más tarde.',
+  
+  author: 'Y Mandino',
+  
+  },
+  
+  {
+  
+  text: 'Mi mamá siempre decía: la vida es como una caja de chocolates, nunca sabes lo que te va a tocar.',
+  
+  
+  author: 'Forrest Gump',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Somos las hojas de una rama, las gotas de un mar, las flores de un jardín.',
+  
+  author: 'Jean Lacordaire',
+  
+  },
+  
+  {
+  
+  text: 'Si llegas a una bifurcación en el camino, tómala.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'No es solo por lo que hacemos por lo que somos responsables, sino también por lo que no hacemos.',
+  
+  
+  author: 'Moliere',
+  
+  },
+  
+  {
+  
+  text: 'Nadie puede hacer todo, pero todos pueden hacer algo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El mundo tiene la costumbre de hacer lugar para el hombre cuyas acciones muestran que él sabe adónde va.',
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'No puedes bañarte dos veces en el mismo río, porque otras aguas fluyen continuamente.',
+  
+  
+  author: 'Heráclito',
+  
+  },
+  
+  {
+  
+  text: 'Excelencia es hacer algo común de una manera poco común.',
+  
+  author: 'Booker Washington',
+  
+  },
+  
+  {
+  
+  text: 'No importa lo duro que sea el pasado, siempre puedes empezar de nuevo.',
+   
+  
+  
+  
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Empiezo con una idea y luego se convierte en otra cosa.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'Quien es feliz, también hará felices a los demás.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Tu trabajo es descubrir tu trabajo y luego con todo tu corazón entregarte a él.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Lo que importa no es lo que te sucede, sino cómo reaccionas ante ello.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Tómatelo con calma, pero tómalo.',
+  
+  author: 'Woody Guthrie',
+  
+  },
+  
+  {
+  
+  text: 'Nunca te disculpes por mostrar sentimientos. Cuando lo haces, te disculpas por la verdad.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Descansa; un campo que ha descansado da una cosecha abundante.',
+  
+  author: 'Ovidio',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La edad no te protege del amor. El amor, en cierta medida, te protege de la edad.',
+  
+  
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Haz lo que puedas. Quiere lo que tiene. Se quien eres.',
+  
+  author: 'Iglesia Forrest',
+  
+  },
+  
+  {
+  
+  text: 'Hay gente que tiene dinero y gente que es rica.',
+  
+  author: 'Coco Chanel',
+  
+  },
+  
+  {
+  
+  text: '¿Por qué preocuparse por el mañana, cuando hoy es todo lo que tenemos?',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Habla cuando estés enojado y harás el mejor discurso del que te arrepentirás.',
+  
+  author: 'Ambrosio Bierce',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas no cambian, nosotros cambiamos.',
+  
+  author: 'Henry Thoreau',
+  
+  },
+  
+  {
+  
+  text: 'El ejercicio de un don extraordinario es el supremo placer de la vida.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'A veces lo más importante en todo un día es el descanso que hacemos entre dos respiraciones profundas.',
+  author: 'Etty Hillesum',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Perdonar es elegir amar. Es la primera habilidad del amor abnegado.',
+  
+  author: 'Mohandas Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Para asegurar una buena salud: come ligero, respira profundamente, vive moderadamente, cultiva la alegría y mantén el interés en la vida.',
+  
+  author: 'William Londres',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las sonrisas comienzan con otra sonrisa.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Nada es más suave o más flexible que el agua, pero nada puede resistirlo.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Es difícil lograr un espíritu de cooperación genuina mientras las personas permanezcan indiferente a los sentimientos y la felicidad de los demás.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'La experiencia mantiene una escuela querida, pero los tontos no aprenderán en ninguna otra.',
+  
+  author: 'Benjamin Franklin',
+  
+  },
+  
+  {
+  
+  text: 'Solo se puede decir que estamos vivos en aquellos momentos en que nuestros corazones son conscientes de nuestros tesoros.',
+  
+  author: 'Thornton Wilder',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Las bellas palabras y una apariencia insinuante rara vez se asocian con la verdadera virtud',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'No dejamos de jugar porque envejecemos, envejecemos porque dejamos de jugar.',
+  
+  author: 'Oliver Holmes',
+  
+  },
+  
+  {
+  
+  text: 'No puedes elegir lados en un mundo redondo.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Mi consejo para usted es que no pregunte por qué o dónde, sino que simplemente disfrute de su helado mientras está en tu plato, esa es mi filosofía.',
+  
+  author: 'Thornton Wilder',
+  
+  },
+  
+  {
+  
+  text: 'La amabilidad es el lenguaje que los sordos pueden oír y los ciegos pueden ver.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Puede que no lo sepa todo, pero de todos modos aún no se sabe todo.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Si pudiéramos ver claramente el milagro de una sola flor, toda nuestra vida cambiaría.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Sin este juego con la fantasía, ninguna obra creativa ha nacido jamás. El la deuda que tenemos con el juego de la imaginación es incalculable.',
+   
+  
+  
+  
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'No puedes recorrer el camino hasta que te hayas convertido en el camino mismo.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Mantén tus ojos en las estrellas y tus pies en el suelo.',
+  
+  author: 'Theodore Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'No tengo miedo del mañana, porque he visto el ayer y amo el hoy.',
+  
+  author: 'William White',
+  
+  },
+  
+  {
+  
+  text: 'Las limitaciones viven sólo en nuestra mente. Pero si usamos nuestra imaginación, nuestras posibilidades se vuelven ilimitadas.',
+  author: 'Jamie Paolinetti',
+  
+  },
+  
+  {
+  
+  text: 'Cuando pierdas, no pierdas la lección.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Si quieres que algo se haga bien, hazlo tú mismo',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+  
+  {
+  
+  text: 'La mayor barrera para el éxito es el miedo al fracaso.',
+  
+  author: 'Eriksson',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La luz del sol es deliciosa, la lluvia es refrescante, el viento nos fortalece, la nieve es estimulante; allá realmente no existe el mal tiempo, solo diferentes tipos de buen tiempo.',
+  author: 'John Ruskin',
+  
+  },
+  
+  {
+  
+  text: 'Si no vas hasta el final, ¿por qué ir?',
+  
+  author: 'Joe Namath',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra mayor gloria no es no caer nunca, sino levantarnos cada vez que caemos.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El principio de la sabiduría se encuentra en la duda; al dudar llegamos a la pregunta, y al buscar podemos llegar a la verdad.',
+  author: 'Pierre Abelardo',
+  
+  },
+  
+  {
+  
+  text: 'Si pudiera alcanzar y sostener una estrella por cada vez que me has hecho sonreír, todo el cielo de la tarde estaría en la palma de mi mano.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Somos formados por nuestros pensamientos; nos convertimos en lo que pensamos. Cuando la mente es pura, la alegría sigue como una sombra que nunca se va.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Manténgase comprometido con sus decisiones, pero sea flexible en su enfoque.',
+  
+  author: 'Tony Robbins',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Un optimista es una persona que ve una luz verde en todas partes, mientras que el pesimista ve sólo el foco rojo... El verdadero sabio es daltónico.',
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'Lo que separa a los ganadores de los perdedores es cómo reacciona una persona ante cada nuevo giro del destino.',
+  
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'Cada hombre tiene su propia vocación; su talento es su llamada. Hay una dirección en la que todos el espacio está abierto para él.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Para cambiar la vida de uno, comience de inmediato, hágalo de manera extravagante, sin excepciones',
+  
+  author: 'William James',
+  
+  },
+  
+  {
+  
+  text: 'Mientras expresamos nuestra gratitud, nunca debemos olvidar que la mayor apreciación es no pronunciar palabras, sino vivir de acuerdo con ellas.',
+  
+  author: 'John F. Kennedy',
+  
+  },
+  
+  {
+  
+  text: 'Al mundo le importa muy poco lo que sabe un hombre o una mujer; lo que cuenta es lo que un hombre o una mujer es capaz de hacer.',
+  
+  author: 'Booker Washington',
+  
+  },
+  
+  {
+  
+  text: 'Cuanto más empinada sea la montaña, más difícil será la subida, mejor será la vista desde la línea de meta',
+  
+  author: null,
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Apunta al éxito, no a la perfección. Nunca renuncies a tu derecho a equivocarte, porque entonces perderás la capacidad de aprender cosas nuevas y seguir adelante con tu vida.',
+  author: 'Dr. David M. Burns',
+  
+  },
+  
+  {
+  
+  text: 'Cuando dejo ir lo que soy, me convierto en lo que podría ser.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La transformación no comienza cuando alguien más te cambia a ti; la transformación es un auto­reelaboración interna de lo que eres ahora a lo que serás.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo no es una medida de la duración de un día, un mes o un año, sino más bien una medida de lo que has logrado.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Dondequiera que un hombre se vuelva, cualquier cosa que un hombre pueda emprender, siempre terminará volviendo al camino que la naturaleza le ha marcado.',
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Aferrarse a la ira es como agarrar un carbón caliente con la intención de arrojárselo a otra persona; tú eres el que se quema.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Cuando no hay un enemigo interior, los enemigos exteriores no pueden hacerte daño.',
+  
+  author: 'proverbio africano',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El que controla a los demás puede ser poderoso, pero el que se ha dominado a sí mismo es aún más poderoso.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'No hay escasez de oportunidades para vivir de lo que amas; solo hay escasez de resolución para hacer que suceda.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Ni un alto grado de inteligencia ni imaginación ni ambos juntos van a la creación del genio. Amor, amor, amor, esa es el alma del genio.',
+  author: 'Wolfgang Amadeus Mozart',
+  
+  },
+  
+  {
+  
+  text: 'Las personas felices y eficientes en este mundo son aquellas que aceptan los problemas como algo normal detalle de la vida humana y decidir capitalizarlo cuando se presente.',
+  author: 'H. Bertram Lewis',
+  
+  },
+  
+  {
+  
+  text: 'Como organizador empiezo desde donde está el mundo, tal como es, no como me gustaría que fuera.',
+  
+  author: 'Saul Alinsky',
+  
+  },
+  
+  {
+  
+  text: 'Eres la única persona en la Tierra que puede usar tu habilidad.',
+  
+  author: 'Zig Ziglar',
+  
+  },
+  
+  {
+  
+  text: 'No dejes que lo que no puedes hacer te impida hacer lo que puedes hacer.',
+  
+  author: null,
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Quejarse no cambia nada, solo actuar lo hace.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'La vida una culminación del pasado, una conciencia del presente, una indicación del futuro más allá del conocimiento, la cualidad que da un toque de divinidad a la materia.',
+  author: 'Charles A. Lindbergh',
+  
+  },
+  
+  {
+  
+  text: 'Disfruta de las pequeñas cosas, porque un día puedes mirar hacia atrás y darte cuenta de que eran las grandes cosas',
+  author: 'Robert Brault',
+  
+  },
+  
+  {
+  
+  text: 'Con cada experiencia, solo tú estás pintando tu propio lienzo, pensamiento por pensamiento, elección por elección.',
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Deja que la belleza de lo que amas sea lo que haces.',
+  
+  author: 'Rumi',
+  
+  },
+  
+  {
+  
+  text: 'El mundo se desvía para dejar pasar a cualquier hombre que sepa adónde va.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'La belleza no está en la cara; la belleza es una luz en el corazón.',
+  
+  author: 'Kahlil Gibran',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Un día de preocupación es más agotador que un día de trabajo.',
+  
+  author: 'John Lubbock',
+  
+  },
+  
+  {
+  
+  text: 'La verdad, la bondad y la belleza no son más que caras diferentes del mismo todo.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Ser grande es ser incomprendido.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Confíe solo en el movimiento. La vida sucede al nivel de los acontecimientos, no de las palabras. Movimiento de confianza.',
+  
+  author: 'Alfred Adler',
+  
+  },
+  
+  {
+  
+  text: 'Nunca, nunca, nunca te rindas',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Las acciones más decisivas de nuestra vida... suelen ser acciones no consideradas.',
+  
+  author: 'André Gide',
+  
+  },
+  
+  {
+  
+  text: 'A medida que crecemos como personas únicas, aprendemos a respetar la singularidad de los demás',
+  
+  author: 'Robert Schuller',
+  
+  },
+  
+  {
+  
+  text: 'El fracaso no significa que seas un fracaso, solo significa que aún no has tenido éxito.',
+   
+  
+  
+  
+  
+  author: 'Robert Schuller',
+  
+  },
+  
+  {
+  
+  text: 'Es la calidad de nuestro trabajo lo que agradará a Dios, no la cantidad.',
+  
+  author: 'Mahatma Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Intenta y falla, pero no dejes de intentarlo.',
+  
+  author: 'Stephen Kaggwa',
+  
+  },
+  
+  {
+  
+  text: 'Primero dite a ti mismo lo que serías; y luego haz lo que tengas que hacer.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'A través del orgullo siempre nos estamos engañando a nosotros mismos. Pero en el fondo, debajo de la superficie de la conciencia media una voz suave y apacible nos dice: Algo está desafinado.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Guarda silencio la mayor parte del tiempo, y habla solo cuando sea necesario, y luego brevemente.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'No temas por el futuro, no llores por el pasado',
+  
+  author: 'Percy Shelley',
+  
+  },
+  
+  {
+  
+  text: 'Somos lo suficientemente divinos para pedir y lo suficientemente importantes para recibir.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Si pateas una piedra con ira, te lastimarás tu propio pie.',
+  
+  author: 'proverbio coreano',
+  
+  },
+  
+  {
+  
+  text: 'Ver las cosas en la semilla, eso es genio.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad que es genuinamente satisfactoria va acompañada del más pleno ejercicio de nuestras facultades y de la más plena realización del mundo en que vivimos.',
+  author: 'Bertrand Russell',
+  
+  },
+  
+  {
+  
+  text: 'Los seres humanos, que son casi únicos por tener la capacidad de aprender de la experiencia de otros, también son notables por su aparente renuencia a hacerlo.',
+  author: 'Douglas Adams',
+  
+  },
+  
+  {
+  
+  text: 'Haz lo mejor de ti mismo, porque eso es todo lo que hay de ti.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'El universo está hecho de historias, no de átomos.',
+  
+  author: 'Muriel Rukeyser',
+  
+  },
+  
+  {
+  
+  text: 'El respeto debe ganarse con acciones, no con años.',
+  
+  author: 'Frank Wright',
+  
+  },
+  
+  {
+  
+  text: 'Escucho y olvido. Veo y recuerdo. Lo hago y lo entiendo.',
+   
+  
+  
+  
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El problema con la mayoría de las personas es que piensan con sus esperanzas o miedos o deseos en lugar de con sus mentes.',
+  
+  author: 'Will Durant',
+  
+  },
+  
+  {
+  
+  text: 'Muchas personas se dan por vencidas justo antes de que estén a punto de lograrlo. Sabes que nunca sabes cuándo el próximo obstáculo será el último.',
+  author: 'Chuck Norris',
+  
+  },
+  
+  {
+  
+  text: 'A veces, el mayor acto de valentía es pequeño.',
+  
+  author: 'Lauren Raffo',
+  
+  },
+  
+  {
+  
+  text: 'La gente no es perezosa. Simplemente tienen objetivos impotentes, es decir, objetivos que no los inspiran.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'No te vuelves bueno tratando de ser bueno, sino encontrando la bondad que es ya dentro de ti.',
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'No pierdas más tiempo discutiendo sobre lo que debe ser un buen hombre. Ser uno.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad a menudo se cuela por una puerta que no sabías que dejaste abierta.',
+   
+  
+  
+  
+  
+  author: 'John Barrymore',
+  
+  },
+  
+  {
+  
+  text: 'Básicamente hay dos tipos de personas. Gente que logra cosas, y gente que dicen haber logrado cosas. El primer grupo está menos concurrido.',
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas que uno más quiere hacer son las cosas que probablemente más valen la pena hacer.',
+  author: 'Winifred Holtby',
+  
+  },
+  
+  {
+  
+  text: 'Siempre ten en cuenta que tu propia resolución de tener éxito es más importante que cualquier otra cosa.',
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Dar ejemplo no es el medio principal para influir en otro, es el único medio.',
+  
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'El Caos y el Orden no son enemigos, solo opuestos.',
+  
+  author: 'Richard Garriot',
+  
+  },
+  
+  {
+  
+  text: 'La perseverancia es un gran elemento del éxito. Si solo golpeas lo suficiente y fuerte suficiente en la puerta, seguro que despertarás a alguien.',
+  author: 'Henry Longfellow',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Solo a través de nuestra conexión con los demás podemos realmente conocer y mejorar el yo. Y solo a través del trabajo en uno mismo podemos comenzar a mejorar nuestra conexión con los demás.',
+  author: 'Harriet Lerner',
+  
+  },
+  
+  {
+  
+  text: 'Aquel que delibera completamente antes de dar un paso, pasará toda su vida sobre una sola pierna.',
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'La paz comienza con una sonrisa.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Sé tu propio héroe, es más barato que una entrada de cine.',
+  
+  author: 'Doug Horton',
+  
+  },
+  
+  {
+  
+  text: 'Vuelve tu rostro hacia el sol y las sombras caerán detrás de ti.',
+  
+  author: 'proverbio maorí',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas salen mejor para aquellos que sacan el máximo partido de cómo salen las cosas.',
+  
+  author: 'Jack Buck',
+  
+  },
+  
+  {
+  
+  text: 'Estamos aquí por una razón. Creo que parte de la razón es arrojar pequeñas antorchas a guiar a la gente a través de la oscuridad.',
+  
+  author: 'Whoopi Goldberg',
+  
+  },
+  
+  {
+  
+  text: 'Para comunicarnos de manera efectiva, debemos darnos cuenta de que todos somos diferentes en la forma en que percibimos el mundo y utilizar esta comprensión como guía para nuestra comunicación con los demás.',
+   
+  
+  
+  
+  
+  author: 'Anthony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'La capacidad nunca alcanzará la demanda.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Nunca más digas que no hay nada hermoso en el mundo. siempre hay algo para hacerte maravillar en la forma de un árbol, el temblor de una hoja.',
+  author: 'Albert Schweitzer',
+  
+  },
+  
+  {
+  
+  text: 'La intuición es la fuerza o actividad misma del alma en su experiencia a través de cualquier cosa ha sido la experiencia del alma misma.',
+  author: 'Henry Reed',
+  
+  },
+  
+  {
+  
+  text: 'Establecer objetivos es el primer paso para convertir lo invisible en visible.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'El valor no es la ausencia de miedo, sino simplemente seguir adelante con dignidad a pesar de ese miedo.',
+  
+  author: 'Pat Riley',
+  
+  },
+  
+  {
+  
+  text: 'Todas las verdades son fáciles de entender una vez que se descubren; el punto es descubrirlos.',
+  
+  
+  author: 'Galileo Galilei',
+  
+  },
+  
+  {
+  
+  text: 'El acto de bondad más pequeño vale más que la intención más grandiosa.',
+   
+  
+  
+  
+  
+  author: 'Oscar Wilde',
+  
+  },
+  
+  {
+  
+  text: 'Sabemos por la ciencia que nada en el universo existe como un ser aislado o entidad independiente.',
+  
+  author: 'Margaret Wheatley',
+  
+  },
+  
+  {
+  
+  text: 'Todo en el universo va por indirección. No hay líneas rectas.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: '¿Para qué vivimos, si no es para hacernos la vida menos difícil?',
+  
+  author: 'George Eliot',
+  
+  },
+  
+  {
+  
+  text: 'Cuando sentimos amor y bondad hacia los demás, no solo hace que los demás se sientan amados y cuidado, pero también nos ayuda a desarrollar la felicidad y la paz interior.',
+  
+  author: 'Tenzin Gyatso',
+  
+  },
+  
+  {
+  
+  text: 'Podemos encontrar muchas derrotas, pero no debemos ser derrotados.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Cada persona, todos los eventos de tu vida están ahí porque los has dibujado allá. Lo que decidas hacer con ellos depende de ti.',
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'La lógica te llevará de A a B. La imaginación te llevará a todas partes.',
+  
+  author: 'Albert Einstein',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Nuestros deseos más profundos son susurros de nuestro auténtico ser. Debemos aprender a respetar a ellos. Debemos aprender a escuchar.',
+  
+  author: 'Sarah Breathnach',
+  
+  },
+  
+  {
+  
+  text: 'El mundo no es más que un lienzo para la imaginación.',
+  
+  author: 'Henry Thoreau',
+  
+  },
+  
+  {
+  
+  text: 'Ese es el riesgo que corres si cambias: que las personas con las que has estado involucrado no como el nuevo tú. Pero vendrán otras personas que lo hagan.',
+  
+  author: 'Lisa Alther',
+  
+  },
+  
+  {
+  
+  text: 'Ser feliz es poder tomar conciencia de uno mismo sin miedo.',
+  
+  author: 'Walter Benjamín',
+  
+  },
+  
+  {
+  
+  text: 'La fuerza para continuar a pesar de las adversidades significa que tienes fe en tus propias habilidades y sabes cómo hacerlo.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Haz lo mejor de ti mismo porque eso es todo lo que hay de ti.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Sé amable primero contigo mismo si deseas ser amable con los demás.',
+  
+  author: 'Lama Yeshe',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Un hombre que no confía en sí mismo nunca puede confiar realmente en nadie más.',
+  
+  author: 'Cardenal Retz',
+  
+  },
+  
+  {
+  
+  text: 'Hacemos nuestras propias fortunas y las llamamos destino.',
+  
+  author: 'Benjamin Disraeli',
+  
+  },
+  
+  {
+  
+  text: 'Los líderes no nacen, se hacen. Y se hacen como cualquier otra cosa, a través del trabajo duro. Y ese es el precio que tenemos que pagar para lograr esa meta, o cualquier meta.',
+  
+  author: 'Vince Lombardi',
+  
+  },
+  
+  {
+  
+  text: 'Se necesita coraje para crecer y convertirse en quien realmente eres.',
+  
+  author: 'EE Cummings',
+  
+  },
+  
+  {
+  
+  text: 'Busca siempre la semilla del triunfo en cada adversidad.',
+  
+  author: 'Y Mandino',
+  
+  },
+  
+  {
+  
+  text: 'En lugar de desear un cambio, primero debes estar preparado para cambiar.',
+  
+  author: 'Catherine Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'No creo en un destino que recae sobre los hombres como sea que actúen; pero sí creo en un destino que cae sobre ellos a menos que actúen.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'La fama suele llegar a aquellos que están pensando en otra cosa.',
+   
+  
+  
+  
+  
+  author: 'Holmes',
+  
+  },
+  
+  {
+  
+  text: 'Primero viene el pensamiento; luego la organización de ese pensamiento, en ideas y planes; entonces transformación de esos planes en realidad. El principio, como observarás, está en tu imaginación.',
+  
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'El hombre superior actúa antes de hablar, y después habla de acuerdo con su acción.',
+  
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Una sola conversación en la mesa con una persona sabia vale un mes de estudio de libros.',
+  
+  
+  author: 'proverbio chino',
+  
+  },
+  
+  {
+  
+  text: 'La diferencia entre lo que hacemos y lo que somos capaces de hacer bastaría para resolver la mayoría de los problemas del mundo.',
+  
+  author: 'Mohandas Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Nunca puedes cruzar el océano a menos que tengas el coraje de perder de vista la costa.',
+  
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Trabaja por algo porque es bueno, no solo porque tiene la oportunidad de tener éxito.',
+  
+  
+  author: 'Václav Havel',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El conocimiento se basa no solo en la verdad, sino también en el error.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Que sea una regla de vida nunca arrepentirse y nunca mirar hacia atrás. El arrepentimiento es una terrible lástima por el esfuerzo; no se puede construir sobre él; es solo para revolcarse.',
+  
+  author: 'Katherine Mansfield',
+  
+  },
+  
+  {
+  
+  text: 'Nunca te arrepientas. Si es bueno, es maravilloso. Si es malo, es experiencia.',
+  
+  author: 'Victoria Holt',
+  
+  },
+  
+  {
+  
+  text: 'Cuando los hechos y las palabras están de acuerdo, el mundo entero se transforma.',
+  
+  author: 'Chuang Tse',
+  
+  },
+  
+  {
+  
+  text: 'Las palabras amables pueden ser cortas y fáciles de pronunciar, pero sus ecos son verdaderamente infinitos.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Porque todo lo que vive es santo, la vida se deleita en la vida.',
+  
+  author: 'William Blake',
+  
+  },
+  
+  {
+  
+  text: 'Lo más importante es transformar nuestras mentes, para una nueva forma de pensar, una nueva perspectiva: debemos esforzarnos por desarrollar un nuevo mundo interior.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra pasión es nuestra fuerza.',
+  
+  author: 'Billie Armstrong',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'En los ríos, el agua que tocas es la última de las que han pasado y la primera de las que que viene; así con el tiempo presente.',
+  author: 'Leonardo da Vinci',
+  
+  },
+  
+  {
+  
+  text: 'La primavera es un tiempo para el renacimiento y el cumplimiento de una nueva vida.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'No le sucede nada a ninguna persona, excepto lo que estaba en su poder para llevar a cabo.',
+  
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Hay dos maneras de deslizarse fácilmente por la vida: creer todo o dudar de todo; ambos caminos nos salvan de pensar.',
+  author: 'Alfred Korzybski',
+  
+  },
+  
+  {
+  
+  text: 'El arte del progreso es preservar el orden en medio del cambio y preservar el cambio en medio del orden.',
+  
+  
+  author: 'Alfred Whitehead',
+  
+  },
+  
+  {
+  
+  text: 'Nos ganamos la vida con lo que recibimos, pero hacemos una vida con lo que damos.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Si quieres estudiarte a ti mismo, mira en los corazones de otras personas. si quieres estudiar otras personas miran dentro de tu propio corazón.',
+  author: 'Friedrich von Schiller',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Máxima de por vida: Te tratan en la vida de la forma en que le enseñas a la gente a tratarte.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'El primer deber de un ser humano es asumir la correcta relación funcional con sociedad más brevemente, para encontrar su verdadero trabajo, y hacerlo.',
+  
+  author: 'Charlotte Perkins Gilman',
+  
+  },
+  
+  {
+  
+  text: 'La clave para el crecimiento es la introducción de dimensiones superiores de conciencia en nuestra conciencia.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'El pensamiento es la flor; idioma el capullo; acción la fruta detrás de él.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La verdadera felicidad significa forjar un espíritu fuerte que es invicto, sin importar cuánto lo intentes nuestras circunstancias.',
+  
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'No hay nada tan inútil como hacer eficientemente lo que no se debe hacer en absoluto.',
+  
+  author: 'Peter Drucker',
+  
+  },
+  
+  {
+  
+  text: 'Me ha impresionado la urgencia de hacer. Saber no es suficiente; debemos aplicar. Estar dispuesto no es suficiente; debemos hacer.',
+  author: 'Leonardo da Vinci',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Todo el mundo es un escenario, y todos los hombres y mujeres meros jugadores. Tienen sus salidas y entradas; Cada hombre en su tiempo juega muchos papeles.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'A medida que nos liberamos de nuestro propio miedo, nuestra presencia automáticamente libera a los demás.',
+  
+  author: 'Nelson Mandela',
+  
+  },
+  
+  {
+  
+  text: 'Las personas más exitosas son aquellas que son buenas en el plan B.',
+  
+  author: 'James Yorke',
+  
+  },
+  
+  {
+  
+  text: 'La crítica es algo que puedes evitar fácilmente si no dices nada, no haces nada y no eres nada.',
+  
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Para volar tan rápido como el pensamiento, debes empezar por saber que ya has llegado.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Los obstáculos son esas cosas que ves cuando quitas la vista de la meta.',
+  
+  author: 'Hannah More',
+  
+  },
+  
+  {
+  
+  text: 'El mayor peligro para la mayoría de nosotros no es que nuestro objetivo sea demasiado alto y no lo alcancemos, sino que sea demasiado bajo y lo logremos.',
+  
+  author: 'Miguel Ángel',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Las grandes ideas a menudo reciben una oposición violenta de mentes mediocres.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Podemos cambiar nuestras vidas. Podemos hacer, tener y ser exactamente lo que deseamos.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'Eres la única persona en la tierra que puede usar tu habilidad.',
+  
+  author: 'Zig Ziglar',
+  
+  },
+  
+  {
+  
+  text: 'Ni el genio, ni la fama, ni el amor muestran la grandeza del alma. Solo la amabilidad puede hacer eso.',
+  
+  
+  author: 'Jean Lacordaire',
+  
+  },
+  
+  {
+  
+  text: 'La menor de las cosas con un significado vale más en la vida que la mayor de las cosas sin él.',
+  
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'La adoración más noble es hacerte tan bueno y tan justo como puedas.',
+  
+  author: 'Isócrates',
+  
+  },
+  
+  {
+  
+  text: 'Aunque nadie puede volver atrás y comenzar de nuevo, cualquiera puede comenzar desde no y hacer un nuevo final.',
+  author: 'Carl Bardo',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Un sueño es tu visión creativa para tu vida en el futuro. Debes salir de tu zona de confort actual y sentirse cómodo con lo desconocido y lo desconocido.',
+  
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'No pienses en ello como un fracaso. Piensa en ello como un éxito liberado por el tiempo.',
+  
+  author: 'Robert Orben',
+  
+  },
+  
+  {
+  
+  text: 'Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto sino un hábito.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Camino despacio, pero nunca camino hacia atrás.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Dividir cada dificultad en tantas partes como sea factible y necesario para resolverla.',
+  
+  author: 'René Descartes',
+  
+  },
+  
+  {
+  
+  text: 'El mejor lugar para encontrar una mano que te ayude es al final de tu propio brazo.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Conocemos la verdad, no solo por la razón, sino por el corazón.',
+  
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'Elegimos nuestras alegrías y tristezas mucho antes de experimentarlas.',
+  
+  author: 'Kahlil Gibran',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Cualquiera puede hacer historia. Solo un gran hombre puede escribirlo.',
+  
+  author: 'Oscar Wilde',
+  
+  },
+  
+  {
+  
+  text: 'Si sé lo que es el amor, es gracias a ti.',
+  
+  author: 'Hermann Hesse',
+  
+  },
+  
+  {
+  
+  text: 'Permite que el mundo viva como elija, y permítete vivir como elijas.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Enfocar tu vida únicamente en ganar dinero muestra una pobreza de ambición. Te pide muy poco a ti mismo. Y te dejará insatisfecho.',
+  author: 'Barack Obama',
+  
+  },
+  
+  {
+  
+  text: 'La compasión y la felicidad no son un signo de debilidad sino un signo de fortaleza.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Es de sentido común tomar un método y probarlo. Si falla, admítalo con franqueza e intente otro. Pero, sobre todo, intenta algo.',
+  author: 'Franklin D. Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Estar aquí ahora. Estar en otro lugar más tarde. ¿Es tan complicado?',
+  
+  author: 'David Bader',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Poder regalar riquezas es obligatorio si deseas poseerlas. Este es el única manera de que seas verdaderamente rico.',
+  
+  author: 'Muhammad Ali',
+  
+  },
+  
+  {
+  
+  text: 'Aprender sin reflexionar es un desperdicio, reflexionar sin aprender es peligroso.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'No le temas tanto al fracaso que te niegues a probar cosas nuevas. El resumen más triste de la vida contiene tres descripciones: podría tener, podría tener y debería tener.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todos los patrones establecidos fijos son incapaces de adaptabilidad o flexibilidad. La verdad está fuera de todos los patrones fijos.',
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'No creo en el fracaso. No es fracaso si disfrutaste el proceso.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Las mejores y más bellas cosas del mundo no se ven, ni se tocan... pero se sienten en el corazón.',
+  
+  author: 'Helen Keller',
+  
+  },
+  
+  {
+  
+  text: 'El éxito en los negocios requiere entrenamiento, disciplina y trabajo duro. Pero si no estás asustado por estas cosas, las oportunidades son tan grandes hoy como siempre.',
+  author: 'David Rockefeller',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El hombre que confía en los hombres cometerá menos errores que el que desconfía de ellos.',
+  
+  author: 'Cavour',
+  
+  },
+  
+  {
+  
+  text: 'Cuanto menos esfuerzo, más rápido y poderoso serás.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'Debemos ser tan corteses con un hombre como lo somos con una imagen, que estamos dispuestos a dar la ventaja de una buena luz.',
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'El sueño siempre corría delante de mí. Para ponerse al día, para vivir por un momento en al unísono, ese fue el milagro.',
+  
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'La cura para el aburrimiento es la curiosidad. No hay cura para la curiosidad.',
+  
+  author: 'Ellen Parr',
+  
+  },
+  
+  {
+  
+  text: 'No podemos hacer grandes cosas, solo pequeñas cosas con gran amor.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Sé como la flor, vuelve tu rostro hacia el sol.',
+  
+  author: 'Kahlil Gibran',
+  
+  },
+  
+  {
+  
+  text: 'Recordar un error es como llevar una carga en la mente.',
+  
+  author: 'Buda',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'El necio busca la felicidad en la distancia; al sabio le crece bajo los pies.',
+  
+  author: 'James Openheim',
+  
+  },
+  
+  {
+  
+  text: 'La gratitud es la flor más bella que brota del alma.',
+  
+  author: 'Henry Beecher',
+  
+  },
+  
+  {
+  
+  text: 'Si miras dentro de tu propio corazón, y no encuentras nada malo allí, ¿qué hay para preocuparse? ¿Qué hay que temer?',
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'No puedes tener lo que no quieres.',
+  
+  author: 'Juan Acosta',
+  
+  },
+  
+  {
+  
+  text: 'No sigas por donde te lleve el camino. Ve, en cambio, donde no hay camino y deja un rastro.',
+  
+  
+  author: 'Ralph Waldo Emerson',
+  
+  },
+  
+  {
+  
+  text: 'No es justo pedir a los demás lo que no estás dispuesto a hacer tú mismo.',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Conocer tu propia oscuridad es el mejor método para lidiar con la oscuridad de otras personas.',
+  author: 'Carl Jung',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Lo mejor en todo sueño noble es el soñador...',
+  
+  author: 'Moncure Conway',
+  
+  },
+  
+  {
+  
+  text: 'Tenemos que tener un sueño si vamos a hacer un sueño realidad.',
+  
+  author: 'Walt Disney',
+  
+  },
+  
+  {
+  
+  text: 'Si quieres que las cosas sean diferentes, quizás la respuesta sea cambiar tú mismo.',
+  
+  
+  author: 'Norman Peale',
+  
+  },
+  
+  {
+  
+  text: 'No hay nada imposible para el que lo intenta.',
+  
+  author: 'Alejandro Magno',
+  
+  },
+  
+  {
+  
+  text: 'La amabilidad es más importante que la sabiduría, y el reconocimiento de esto es el comienzo de la sabiduría.',
+  
+  author: 'Theodore Rubin',
+  
+  },
+  
+  {
+  
+  text: 'Todo gran sueño comienza con un soñador. Recuerda siempre, tienes dentro de ti el la fuerza, la paciencia y la pasión para alcanzar las estrellas y cambiar el mundo.',
+  author: 'Harriet Tubman',
+  
+  },
+  
+  {
+  
+  text: 'El único verdadero fracaso en la vida es no ser fiel a lo mejor que uno conoce.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Cualquiera que no se tome la verdad en serio en los asuntos pequeños, tampoco se puede confiar en los grandes.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'El cambio no vendrá si esperamos a otra persona o en algún otro momento. Somos los que hemos estado esperando. Somos el cambio que buscamos.',
+  author: 'Barack Obama',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que no pueden aprender de la historia están condenados a repetirla.',
+  
+  author: 'George Santayan',
+  
+  },
+  
+  {
+  
+  text: 'El truco está en lo que uno enfatiza. O nos hacemos miserables, o nos hacemos felices. La cantidad de trabajo es la misma.',
+  author: 'Carlos Castaneda',
+  
+  },
+  
+  {
+  
+  text: 'Así como una flor que parece hermosa tiene color pero no perfume, así son las infructuosas palabras de un hombre que las habla pero no las hace.',
+  author: 'Dhammapada',
+  
+  },
+  
+  {
+  
+  text: 'Las cosas que eran difíciles de soportar son dulces de recordar.',
+  
+  author: 'Séneca',
+  
+  },
+  
+  {
+  
+  text: 'Tres cosas en la vida humana son importantes. Lo primero es ser amable. La segunda es ser amable. El tercero es ser amable.',
+  
+  author: 'Henry James',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Por muchas palabras santas que leas, por muchas que hables, ¿de qué te servirán si no actúas sobre ellos?',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Pueden conquistar quienes creen que pueden.',
+  
+  author: 'Virgilio',
+  
+  },
+  
+  {
+  
+  text: 'Aprende a escuchar. La oportunidad podría estar llamando a tu puerta muy suavemente.',
+  
+  author: 'Frank Tyger',
+  
+  },
+  
+  {
+  
+  text: 'Toda acción resulta del pensamiento, por lo que son los pensamientos los que importan.',
+  
+  author: 'Sai Baba',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay dos maneras de vivir tu vida. Uno es como si nada fuera un milagro. El otra es como si todo fuera un milagro.',
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Amo mi pasado. Amo mi presente. No me avergüenzo de lo que he tenido, y no estoy triste porque ya no lo tengo.',
+  author: 'Colette',
+  
+  },
+  
+  {
+  
+  text: 'El prejuicio es una carga que confunde el pasado, amenaza el futuro y hace que el presente inaccesible.',
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Tanto como vemos en los demás lo tenemos en nosotros mismos.',
+  
+  author: 'William Hazlitt',
+  
+  },
+  
+  {
+  
+  text: 'La prosperidad depende más de querer lo que tienes que de tener lo que quieres.',
+  
+  author: 'Geoffrey F. Abert',
+  
+  },
+  
+  {
+  
+  text: 'Cuantos cuidados se pierden cuando uno decide no ser algo sino ser alguien.',
+  
+  
+  author: 'Coco Chanel',
+  
+  },
+  
+  {
+  
+  text: 'El que sabe, no habla. El que habla no sabe.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'No podemos dirigir el viento pero podemos ajustar las velas.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Se puede decir que el misterio eterno del mundo es su comprensibilidad.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'El yo no es algo ya hecho, sino algo en continua formación a través de la elección de la acción.',
+  
+  author: 'John Dewey',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra grandeza no radica tanto en ser capaces de rehacer el mundo como en ser capaces de rehacernos a nosotros mismos.',
+   
+  
+  
+  
+  
+  author: 'Mahatma Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Los momentos de completa apatía son los mejores para las nuevas creaciones.',
+  
+  author: 'Philip Breedveld',
+  
+  },
+  
+  {
+  
+  text: 'El único error real es aquel del que no aprendemos nada.',
+  
+  author: 'John Powell',
+  
+  },
+  
+  {
+  
+  text: 'Soñar con la persona que te gustaría ser es desperdiciar la persona que eres.',
+  
+  author: 'Tim Menchen',
+  
+  },
+  
+  {
+  
+  text: 'Lo importante es esto: poder en cualquier momento sacrificar lo que somos por lo que podríamos llegar a ser.',
+  author: 'Charles Dubois',
+  
+  },
+  
+  {
+  
+  text: 'La gratitud no es solo la mayor de las virtudes, sino la madre de todas las demás.',
+  
+  author: 'Cicerón',
+  
+  },
+  
+  {
+  
+  text: 'Nunca es demasiado tarde. Incluso si vas a morir mañana, mantente recto y claro y sé un ser humano feliz hoy.',
+  author: 'Lama Yeshe',
+  
+  },
+  
+  {
+  
+  text: 'El respeto no es algo que puedas pedir, comprar o pedir prestado. El respeto es lo que ganas de cada persona sin importar su origen o estado.',
+  author: 'Byron Pulsifer',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Las cosas no cambian; cambiamos.',
+  
+  author: 'Henry Thoreau',
+  
+  },
+  
+  {
+  
+  text: 'Debemos aprender nuestros límites. Todos somos algo, pero ninguno lo es todo.',
+  
+  author: 'Blaise Pascal',
+  
+  },
+  
+  {
+  
+  text: 'Aprende sabiduría de los caminos de una plántula. Una plántula que nunca se endurece a través de situaciones estresantes nunca se convertirá en una planta productiva fuerte.',
+  
+  author: 'Stephen Sigmund',
+  
+  },
+  
+  {
+  
+  text: 'Todos nos enfrentamos a una serie de grandes oportunidades brillantemente disfrazadas de situaciones imposibles.',
+  
+  author: 'Charles R. Swindoll',
+  
+  },
+  
+  {
+  
+  text: 'Todos los hombres tienen una dulzura en su vida. Eso es lo que les ayuda a continuar. es hacia que giran cuando se sienten demasiado desgastados.',
+  author: 'Alberto Camus',
+  
+  },
+  
+  {
+  
+  text: 'Sé un buen oyente. Tus oídos nunca te meterán en problemas.',
+  
+  author: 'Frank Tyger',
+  
+  },
+  
+  {
+  
+  text: 'La meditación trae sabiduría; la falta de mediación deja la ignorancia. Conoce bien lo que lleva hacia adelante y lo que te detiene, y elige el camino que conduce a la sabiduría.',
+  author: 'Buda',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Se aprende a hablar hablando, a estudiar estudiando, a correr corriendo, a trabajar laboral; de la misma manera, se aprende a amar amando.',
+  author: 'Anatole Francia',
+  
+  },
+  
+  {
+  
+  text: 'Escuchar bien es un medio de comunicación e influencia tan poderoso como hablar bien.',
+  
+  author: 'John Marshall',
+  
+  },
+  
+  {
+  
+  text: 'Solo hay una felicidad en la vida, amar y ser amado.',
+  
+  author: 'George Arena',
+  
+  },
+  
+  {
+  
+  text: 'Vive a través del sentimiento y vivirás a través del amor. Porque el sentimiento es el lenguaje del alma, y el sentimiento es la verdad.',
+  author: 'Matt Zotti',
+  
+  },
+  
+  {
+  
+  text: 'La amabilidad en las palabras crea confianza. La amabilidad en el pensamiento crea profundidad. La bondad de dar crea amor.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La razón y la libre investigación son los únicos agentes eficaces contra el error.',
+  
+  author: 'Thomas Jefferson',
+  
+  },
+  
+  {
+  
+  text: 'La mejor cura para el cuerpo es una mente tranquila.',
+  
+  author: 'Napoleón Bonaparte',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Ve el lado positivo, el potencial, y haz un esfuerzo.',
+  
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Al aceptarte a ti mismo y ser plenamente lo que eres, tu presencia puede hacer felices a los demás.',
+  
+  
+  author: 'Jane Roberts',
+  
+  },
+  
+  {
+  
+  text: 'Nunca niegues un diagnóstico, pero sí el veredicto negativo que puede acompañarlo.',
+  
+  author: 'Primos normandos',
+  
+  },
+  
+  {
+  
+  text: 'La persona realmente infeliz es la que deja sin hacer lo que puede hacer, y empieza a hacer lo que no entiende; no es de extrañar que lleguen a la pena.',
+  
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'No puedes sentirte solo si te gusta la persona con la que estás a solas.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'No creo en un destino que recae sobre los hombres como sea que actúen; pero sí creo en un destino que recae sobre el hombre a menos que actúe.',
+  author: 'GK Chesterton',
+  
+  },
+  
+  {
+  
+  text: 'Si te propones hablar, siempre pregúntate si es verdad, si es necesario, si es amable.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Arriesgar más de lo que otros creen que es seguro. Cuidar más que otros creen que es prudente. Sueña más de lo que otros creen que es práctico. Espera más de lo que otros creen que es posible.',
+  
+  author: 'Cadete Maxim',
+  
+  },
+  
+  {
+  
+  text: 'El fracaso nunca me superará si mi determinación de tener éxito es lo suficientemente fuerte.',
+  
+  author: 'Y Mandino',
+  
+  },
+  
+  {
+  
+  text: 'Abandona tu apego a tener la razón y, de repente, tu mente estará más abierta. Puedes beneficiarte de los puntos de vista únicos de los demás, sin que tu propio juicio te limite.',
+  
+  
+  author: 'Ralph Marston',
+  
+  },
+  
+  {
+  
+  text: 'Las arrugas deben indicar simplemente dónde han estado las sonrisas.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'Tu actitud, no tu aptitud, determinará tu altitud.',
+  
+  author: 'Zig Ziglar',
+  
+  },
+  
+  {
+  
+  text: 'Déjate llevar en silencio por la atracción más fuerte de lo que realmente amas.',
+  
+  author: 'Rumi',
+  
+  },
+  
+  {
+  
+  text: 'Di mi vida para convertirme en la persona que soy ahora. ¿Valió la pena?',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Da las gracias por un poco y encontrarás mucho.',
+   
+  
+  
+  
+  
+  author: 'Hausa',
+  
+  },
+  
+  {
+  
+  text: 'Tu capacidad de aprender más rápido que tu competencia es tu única ventaja competitiva sostenible.',
+  
+  
+  author: 'Arie de Gues',
+  
+  },
+  
+  {
+  
+  text: 'El perdón no cambia el pasado, pero amplía el futuro.',
+  
+  author: 'Paul Boese',
+  
+  },
+  
+  {
+  
+  text: 'Que el futuro diga la verdad, y evalúe a cada uno según su trabajo y logros. El presente es de ellos; el futuro, por el que realmente he trabajado, es mío.',
+  author: 'Nikola Tesla',
+  
+  },
+  
+  {
+  
+  text: 'La excelencia moral surge como resultado del hábito. Nos volvemos justos al hacer actos justos, moderados al hacer actos moderados, valientes al hacer actos valientes.',
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'El anhelo más profundo de la naturaleza humana es la necesidad de ser apreciado.',
+  
+  author: 'William James',
+  
+  },
+  
+  {
+  
+  text: 'El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.',
+  
+  
+  author: 'Antoine de Saint­Exupéry',
+  
+  },
+  
+  {
+  
+  text: 'Hemos aprendido de memoria la regla de oro; entreguémoslo ahora a la vida.',
+   
+  
+  
+  
+  
+  author: 'Edwin Markham',
+  
+  },
+  
+  {
+  
+  text: 'Es con las palabras como con los rayos del sol. Cuanto más se condensan, más profundamente se queman.',
+  
+  author: 'Robert Southey',
+  
+  },
+  
+  {
+  
+  text: 'Cuando las personas son como otras, tienden a gustarse.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'La sinceridad es el camino del Cielo. El logro de la sinceridad es el camino de los hombres.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Sé el cambio que quieres ver en el mundo.',
+  
+  author: 'Mohandas Gandhi',
+  
+  },
+  
+  {
+  
+  text: 'Cuanto más te importa, más fuerte puedes ser.',
+  
+  author: 'Jim Rohn',
+  
+  },
+  
+  {
+  
+  text: 'Mucha gente quiere viajar contigo en la limusina, pero lo que quieres es alguien que tomará el autobús contigo cuando la limusina se averíe.',
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Solo confía en ti mismo, entonces sabrás cómo vivir.',
+  
+  author: 'Goethe',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Estar completamente vivo, completamente humano y completamente despierto es ser arrojado continuamente del nido.',
+  
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Si no diseñas tu propio plan de vida, lo más probable es que caigas en el plan de otra persona. ¿Y adivina qué han planeado para ti? Poco.',
+  
+  author: 'Jim Rohn',
+  
+  },
+  
+  {
+  
+  text: 'Todo depende de cómo miramos las cosas, y no de cómo son en sí mismas.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Rendirse no siempre significa que eres débil; a veces significa que eres lo suficientemente fuerte como para dejarlo ir.',
+  author: null,
+  },
+  
+  {
+  
+  text: 'Para subir colinas empinadas se requiere un ritmo lento al principio.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Una idea que se desarrolla y se pone en acción es más importante que una idea que existe solo como una idea.',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'No es la posesión de la verdad, sino el éxito que acompaña a la búsqueda de ella, que enriquece al buscador y le trae felicidad.',
+  author: 'Max Planck',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'La verdad es generalmente la mejor reivindicación contra la calumnia.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'Seguir, sin pausa, un objetivo: ahí está el secreto del éxito.',
+  
+  author: 'Anna Pavlova',
+  
+  },
+  
+  {
+  
+  text: 'Y cuando dejamos que brille nuestra propia luz, inconscientemente damos permiso a otras personas para que hagan lo mismo.',
+  
+  author: 'Nelson Mandela',
+  
+  },
+  
+  {
+  
+  text: '¿Qué es una mala hierba? Una planta cuyas virtudes aún no han sido descubiertas.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La creencia consiste en aceptar las afirmaciones del alma; Incredulidad, al negarlos.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Muchas personas han ido más lejos de lo que pensaban que podrían porque alguien más pensaron que podían.',
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Leemos mal el mundo y decimos que nos engaña.',
+  
+  author: 'Rabindranath Tagore',
+  
+  },
+  
+  {
+  
+  text: 'Si tan solo dejáramos de intentar ser felices, la pasaríamos muy bien.',
+   
+  
+  
+  
+  
+  author: 'Edith Warton',
+  
+  },
+  
+  {
+  
+  text: 'Debes hacer las cosas que crees que no puedes hacer',
+  
+  author: 'Eleanor Roosevelt',
+  
+  },
+  
+  {
+  
+  text: 'Sé tú mismo; todos los demás ya están ocupados.',
+  
+  author: 'Oscar Wilde',
+  
+  },
+  
+  {
+  
+  text: 'La marca de tu ignorancia es la profundidad de tu creencia en la injusticia y la tragedia. Lo que la oruga llama el fin del mundo, el Maestro lo llama mariposa.',
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Me alegro de haber prestado tan poca atención a los buenos consejos; si lo hubiera cumplido, podría haber me ha salvado de algunos de mis errores más valiosos.',
+  author: 'Edna la Malvada',
+  
+  },
+  
+  {
+  
+  text: 'La mayoría de las personas son tan felices como deciden serlo.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  
+  text: 'El amor es la llave maestra que abre las puertas de la felicidad.',
+  
+  author: 'Oliver Holmes',
+  
+  },
+  
+  {
+  
+  text: 'La persona que tiene éxito en la vida es la que ve su meta con firmeza y apunta a ello inquebrantablemente. Eso es dedicación.',
+  author: 'Cecil B. DeMille',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Mi reputación crece con cada fracaso.',
+  
+  author: 'George Shaw',
+  
+  },
+  
+  {
+  
+  text: 'Los buenos pensamientos no son mejores que los buenos sueños, a menos que sean ejecutados.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'La felicidad no surge sólo por circunstancias externas; se deriva principalmente de actitudes internas.',
+  author: 'Dalai Lama',
+  
+  },
+  
+  {
+  
+  text: 'Por muchas palabras santas que leas, por muchas que hables, ¿de qué te servirán? haces si no actúas sobre ellos?',
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Para el éxito, la actitud es tan importante como la habilidad.',
+  
+  author: 'Harry Banks',
+  
+  },
+  
+  {
+  
+  text: 'Si vas a lograr la excelencia en las cosas grandes, desarrollas el hábito en las pequeñas asuntos. La excelencia no es una excepción, es una actitud imperante.',
+  author: 'Colin Powell',
+  
+  },
+  
+  {
+  
+  text: 'Una persona que nunca cometió un error, nunca intentó nada nuevo.',
+  
+  author: 'Albert Einstein',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Mejor que mil palabras huecas es una palabra que trae paz.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Las posibilidades son numerosas una vez que decidimos actuar y no reaccionar.',
+  
+  author: 'George Bernard Shaw',
+  
+  },
+  
+  {
+  
+  text: 'Casi todo viene de la nada.',
+  
+  author: 'Henri Amiel',
+  
+  },
+  
+  {
+  
+  text: 'A veces, al perder una batalla, encuentras una nueva forma de ganar la guerra.',
+  
+  author: 'Donald Trump',
+  
+  },
+  
+  {
+  
+  text: 'Escucha lo que sabes en lugar de lo que temes.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Es más fácil vivir a través de otra persona que completarte a ti mismo.',
+  
+  author: 'Betty Friedan',
+  
+  },
+  
+  {
+  
+  text: 'Si estás en una mala situación, no te preocupes, cambiará. Si estás en una buena situación, no te preocupes de que cambie.',
+  
+  author: 'John Simone',
+  
+  },
+  
+  {
+  
+  text: 'Recuerda que el fracaso es un evento, no una persona.',
+   
+  
+  
+  
+  
+  author: 'Zig Ziglar',
+  
+  },
+  
+  {
+  
+  text: 'No te conformes con una relación que no te deja ser tú mismo.',
+  
+  author: 'Oprah Winfrey',
+  
+  },
+  
+  {
+  
+  text: 'Lo que la oruga llama el fin del mundo, el maestro lo llama mariposa.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'En lugar de decir que el hombre es la criatura de las circunstancias, estaría más cerca de la marca para decir que el hombre es el arquitecto de las circunstancias.',
+  
+  author: 'Thomas Carlyle',
+  
+  },
+  
+  {
+  
+  text: 'Si haces lo que siempre has hecho, obtendrás lo que siempre has obtenido.',
+  
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'No esperes a los líderes; hazlo solo, persona a persona.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'El conocimiento tiene tres grados opinión, ciencia, iluminación. El medio o instrumento del primero es el sentido; del segundo, dialéctica; del tercero, la intuición.',
+  author: 'Plotino',
+  
+  },
+  
+  {
+  
+  text: 'El amor vence al tiempo. Para los amantes, un momento puede ser la eternidad, la eternidad puede ser el tictac de un reloj.',
+  author: 'María Parrish',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'Nunca vivimos; estamos siempre en la expectativa de vivir.',
+  
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'Piensa como un hombre de acción; actúa como un hombre de pensamiento.',
+  
+  author: 'Henri L. Bergson',
+  
+  },
+  
+  {
+  
+  text: 'Puedes quejarte porque las rosas tienen espinas, o puedes alegrarte porque las espinas tienen rosas.',
+  
+  
+  author: 'Ziggy',
+  
+  },
+  
+  {
+  
+  text: 'No hay un gran significado cósmico para todos, solo existe el significado que cada uno le da a nuestra vida.',
+  
+  author: 'Anaïs Nin',
+  
+  },
+  
+  {
+  
+  text: 'Un líder es mejor cuando la gente apenas sabe que existe, cuando su trabajo está hecho, su objetivo cumplido, dirán: lo hicimos nosotros mismos.',
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'El tiempo que disfrutó perdiendo no fue en vano.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'Nunca serás feliz si sigues buscando en qué consiste la felicidad. Tú nunca vivirás si buscas el sentido de la vida.',
+  author: 'Alberto Camus',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La sinceridad genuina abre el corazón de las personas, mientras que la manipulación hace que se cierren.',
+  
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'Entregarse fervientemente a los deberes de los hombres y, dentro del respeto espiritual seres, mantenerse alejado de ellos, puede llamarse sabiduría.',
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Los sueños de un hombre son un índice de su grandeza.',
+  
+  author: 'Zadok Rabinowitz',
+  
+  },
+  
+  {
+  
+  text: 'Esta es la prueba final de un caballero: su respeto por aquellos que no pueden ser de ningún valor posible para él.',
+  
+  author: 'William Lyon Phelps',
+  
+  },
+  
+  {
+  
+  text: 'Enseñas mejor lo que más necesitas aprender.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'El esfuerzo continuo, no la fuerza ni la inteligencia, es la clave para desbloquear nuestro potencial.',
+  
+  author: 'Winston Churchill',
+  
+  },
+  
+  {
+  
+  text: 'Los obstáculos son esas cosas espantosas que ves cuando apartas la vista de tu objetivo.',
+  
+  author: 'Henry Ford',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Ve a por ello ahora. El futuro no está prometido a nadie.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Nunca le digas a un joven que no se puede hacer nada. Dios puede haber estado esperando siglos para alguien lo suficientemente ignorante de lo imposible como para hacer eso mismo.',
+  author: 'John Holmes',
+  
+  },
+  
+  {
+  
+  text: 'La audacia no es el acto de la tontería, sino el atributo y la fuerza interior para actuar cuando otros no lo harán para avanzar, no retroceder.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Si miramos al mundo con amor por la vida, el mundo nos revelará su belleza.',
+  
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'Al patinar sobre hielo delgado, nuestra seguridad está en nuestra velocidad.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Cuando descubras tu misión, sentirás su exigencia. te llenará de entusiasmo y unas ganas ardientes de ponernos manos a la obra.',
+  author: 'W. Piedra Clemente',
+  
+  },
+  
+  {
+  
+  text: 'Nunca prometas más de lo que puedes cumplir.',
+  
+  author: 'Publilius Syrus',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Si no persigues lo que quieres, nunca lo tendrás. Si no preguntas, la respuesta siempre es no. Si no das un paso adelante, siempre estás en el mismo lugar.',
+  author: 'Nora Roberts',
+  
+  },
+  
+  {
+  
+  text: 'No puedo creer que Dios nos puso en esta tierra para ser ordinarios.',
+  
+  author: 'Lou Holtz',
+  
+  },
+  
+  {
+  
+  text: 'No hay limitaciones para la mente excepto aquellas que reconocemos.',
+  
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'Es a través de la ciencia que demostramos, pero a través de la intuición que descubrimos.',
+  
+  author: 'Jules Poincaré',
+  
+  },
+  
+  {
+  
+  text: 'No te desanimes por las despedidas. Una despedida es necesaria antes de que os volváis a encontrar. Y el reencuentro, después de momentos o vidas, es seguro para aquellos que son amigos.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Si alguien en tu vida te hablara como te hablas a ti mismo, lo habrías dejado hace mucho tiempo',
+  
+  
+  author: 'Carla Gordon',
+  
+  },
+  
+  {
+  
+  text: 'El cosmos no es ni moral ni inmoral; solo las personas lo son. El que movería el mundo primero debe moverse a sí mismo.',
+  
+  author: 'Edward Ericson',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Si pierdes hoy, gana mañana. En este interminable espíritu de desafío está el corazón de un vencedor.',
+  author: 'Daisaku Ikeda',
+  
+  },
+  
+  {
+  
+  text: 'Hay una forma en la que habla la naturaleza, en la que habla la tierra. La mayoría de las veces simplemente no somos lo suficientemente pacientes, lo suficientemente silenciosos para prestar atención a la historia.',
+  author: 'Linda Hogan',
+  
+  },
+  
+  {
+  
+  text: 'Nunca me digas que el cielo es el límite cuando hay huellas en la luna.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'No puedo decir si las cosas mejorarán si cambiamos; lo que puedo decir es que deben cambiar si quieren mejorar.',
+  author: 'Georg Lichtenberg',
+  
+  },
+  
+  {
+  
+  text: 'La mayor parte del dolor humano es innecesaria. Es autocreado mientras la mente no observada dirija tu vida.',
+  author: 'Eckhart Tolle',
+  
+  },
+  
+  {
+  
+  text: 'Tómatelo con calma, pero tómalo.',
+  
+  author: 'Woody Guthrie',
+  
+  },
+  
+  {
+  
+  text: 'Bienaventurado el hombre que no espera nada, porque nunca será defraudado.',
+  
+  author: 'Alexander Pope',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'El que conoce a los demás es sabio. El que se conoce a sí mismo está iluminado.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La mejor forma de predecir tu futuro es creándolo.',
+  
+  author: 'Peter Drucker',
+  
+  },
+  
+  {
+  
+  text: 'Un jardín es siempre una serie de pérdidas frente a algunos triunfos, como la vida misma.',
+  
+  author: 'May Sarton',
+  
+  },
+  
+  {
+  
+  text: 'Si los hechos son las semillas que luego producen el conocimiento y la sabiduría, entonces las emociones y las impresiones de los sentidos son el suelo fértil en el que deben crecer las semillas.',
+  author: 'Rachel Carson',
+  
+  },
+  
+  {
+  
+  text: 'Nunca confundas movimiento con acción.',
+  
+  author: 'Ernest Hemingway',
+  
+  },
+  
+  {
+  
+  text: 'Uno necesita algo en lo que creer, algo por lo que uno pueda tener todo el corazón entusiasmo. Uno necesita sentir que su vida tiene sentido, que uno es necesario en este mundo.',
+  author: 'Hannah Senesh',
+  
+  },
+  
+  {
+  
+  text: 'Aquel que es demasiado insistente en sus propios puntos de vista, encuentra pocos que estén de acuerdo con él.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La traducción es el paradigma, el modelo de toda escritura. Es la traducción la que demuestra más vívidamente el anhelo de transformación que subyace en todo acto de palabra, ese don supremamente humano.',
+  author: 'Harry Burchell Mathews',
+  
+  },
+  
+  {
+  
+  text: 'La meditación es la disolución de los pensamientos en la conciencia eterna o conciencia pura sin objetivación, conociendo sin pensar, fundiendo la finitud en el infinito.',
+  author: 'Voltaire',
+  
+  },
+  
+  {
+  
+  text: 'El hombre razonable se adapta al mundo; el hombre irrazonable persiste en tratando de adaptar el mundo a sí mismo. Por lo tanto, todo progreso depende del hombre irrazonable.',
+  
+  
+  author: 'George Shaw',
+  
+  },
+  
+  {
+  
+  text: 'Los buenos instintos generalmente te dicen qué hacer mucho antes de que tu cabeza se dé cuenta.',
+  
+  author: 'Michael Burke',
+  
+  },
+  
+  {
+  
+  text: 'No es lo que nos pasa lo que nos hace sufrir, es lo que nos decimos a nosotros mismos sobre lo que sucede.',
+  author: 'Pema Chodron',
+  
+  },
+  
+  {
+  
+  text: 'Aquellos que sueñan de día son conscientes de muchas cosas que escapan a aquellos que sueña solo de noche.',
+  author: 'Edgar Allan Poe',
+  
+  },
+  
+  {
+  
+  text: 'No podemos sostener una antorcha para iluminar el camino de otro sin iluminar el nuestro.',
+  
+  author: 'Ben Sweetland',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Nunca te dan un deseo sin que también te den el poder de hacerlo realidad. Sin embargo, es posible que tengas que trabajar para conseguirlo.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Las palabras amables pueden ser cortas y fáciles de pronunciar, pero sus ecos son verdaderamente infinitos.',
+  
+  author: 'Madre Teresa',
+  
+  },
+  
+  {
+  
+  text: 'Cuenta tus alegrías en lugar de tus aflicciones. Cuenta a tus amigos en lugar de a tus enemigos.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Los sueños se hacen realidad. Sin esa posibilidad, la naturaleza no nos incitaría a tenerlos.',
+  
+  
+  author: 'John Updike',
+  
+  },
+  
+  {
+  
+  text: 'Permanecer en un lugar es el mejor camino para ser tomado y superado por muchos.',
+  
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'La imaginación a menudo nos llevará a mundos que nunca existieron. Pero sin eso no vamos a ninguna parte.',
+  
+  author: 'Carl Sagan',
+  
+  },
+  
+  {
+  
+  text: 'Cuando una puerta de la felicidad se cierra, otra se abre; pero a menudo miramos tanto la puerta cerrada que no vemos la que se ha abierto para nosotros.',
+  author: 'Helen Keller',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Un líder o un hombre de acción en una crisis casi siempre actúa inconscientemente y luego piensa en las razones de su acción.',
+  
+  author: 'Jawaharlal Nehru',
+  
+  },
+  
+  {
+  
+  text: 'No tengo ningún talento especial. Solo soy apasionadamente curioso.',
+  
+  author: 'Albert Einstein',
+  
+  },
+  
+  {
+  
+  text: 'Me esfuerzo por ser sabio cuando no puedo estar alegre, fácil cuando no puedo estar contento, contento con lo que no puede ser reparado y paciente cuando no hay reparación.',
+  author: 'Elizabeth Montagu',
+  
+  },
+  
+  {
+  
+  text: 'La altura de tus logros será igual a la profundidad de tus convicciones.',
+  
+  author: 'Guillermo Scolavino',
+  
+  },
+  
+  {
+  
+  text: 'Si no soy para mí, ¿quién será para mí? Si no soy para los demás, ¿qué soy? Y si no es ahora, ¿cuándo?',
+  
+  
+  author: 'Rabino Hillel',
+  
+  },
+  
+  {
+  
+  text: 'Cuando me atrevo a ser poderoso, a usar mi fuerza al servicio de mi visión, entonces se vuelve cada vez menos importante si tengo miedo.',
+  author: 'Audre Lorde',
+  
+  },
+  
+  {
+  
+  text: 'Todos los grandes hombres están dotados de intuición. Saben sin razonamiento ni análisis, lo que necesitan saber.',
+  author: 'Alexis Carrel',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Para obtener el valor total de la alegría, debes tener a alguien con quien compartirla.',
+  
+  author: 'Mark Twain',
+  
+  },
+  
+  {
+  
+  text: 'A veces nuestro destino se parece a un árbol frutal en invierno. ¿Quién pensaría que esos las ramas volverían a reverdecer y florecer, pero lo esperamos, lo sabemos.',
+  author: 'Johann Wolfgang von Goethe',
+  
+  },
+  
+  {
+  
+  text: 'Perdimos porque nos dijimos que perdimos.',
+  
+  author: 'León Tolstoi',
+  
+  },
+  
+  {
+  
+  text: 'El éxito está determinado por aquellos que prueban lo imposible, posible.',
+  
+  author: 'James Pence',
+  
+  },
+  
+  {
+  
+  text: 'Un buen consejo siempre será ignorado, pero esa no es razón para no darlo.',
+  
+  author: 'Agatha Christie',
+  
+  },
+  
+  {
+  
+  text: 'El ganador no es el que tiene el coche más rápido, es el que se niega a perder.',
+  
+  author: 'Dale Earnhardt',
+  
+  },
+  
+  {
+  
+  text: 'La espiritualidad puede separarse tanto del sectarismo vicioso como de las banalidades irreflexivas. La espiritualidad, he llegado a ver, es nada menos que el amor reflexivo de la vida.',
+  
+  author: 'Robert C. Solomon',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'Nadie tiene un mejor dominio del lenguaje que la persona que mantiene la boca cerrada.',
+  
+  
+  author: 'Sam Rayburn',
+  
+  },
+  
+  {
+  
+  text: 'La única persona que nunca comete errores es la persona que nunca hace nada.',
+  
+  author: 'Denis Waitley',
+  
+  },
+  
+  {
+  
+  text: 'La vida es lo que te sucede mientras estás ocupado haciendo otros planes.',
+  
+  author: 'John Lennon',
+  
+  },
+  
+  {
+  
+  text: 'Descubrir consiste en ver lo que todos han visto y pensar en lo que nadie más ha pensado.',
+  
+  
+  author: 'Jonathan Swift',
+  
+  },
+  
+  {
+  
+  text: 'Si tienes conocimiento, deja que otros enciendan sus velas en él.',
+  
+  author: 'Margaret Fuller',
+  
+  },
+  
+  {
+  
+  text: 'Es imposible que un hombre aprenda lo que cree que ya sabe.',
+  
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Si te encuentras en un hoyo, lo primero que debes hacer es dejar de cavar.',
+  
+  author: 'Will Rogers',
+  
+  },
+  
+  {
+  
+  text: 'No cometer errores no está en el poder del hombre; pero de sus errores y desaciertos los sabios y buenos aprenden sabiduría para el futuro.',
+   
+  
+  
+  
+  
+  author: 'Plutarco',
+  
+  },
+  
+  {
+  
+  text: 'Creo que puedes tener un éxito moderado copiando otra cosa, pero si realmente quieres sacarlo del parque, tienes que hacer algo diferente y correr riesgos.',
+  author: 'Lee Womack',
+  
+  },
+  
+  {
+  
+  text: 'Todo lo que escuchamos es una opinión, no un hecho. Todo lo que vemos es una perspectiva, no la verdad.',
+  
+  author: 'Marco Aurelio',
+  
+  },
+  
+  {
+  
+  text: 'Seis cualidades esenciales que son la clave del éxito: Sinceridad, integridad personal, humildad, cortesía, sabiduría, caridad.',
+  
+  author: 'William Menninger',
+  
+  },
+  
+  {
+  
+  text: 'Tengo una religión cotidiana que funciona para mí. Ámate a ti mismo primero, y todo lo demás encajará.',
+  
+  
+  author: 'Lucille Ball',
+  
+  },
+  
+  {
+  
+  text: 'Fluye con lo que sea que esté sucediendo y deja que tu mente sea libre. Manténgase centrado aceptando lo que sea que estés haciendo Esto es lo máximo.',
+  author: 'Chuang Tse',
+  
+  },
+  
+  {
+  
+  text: 'Nada podría ser peor que el miedo de que uno se había dado por vencido demasiado pronto, y dejado uno esfuerzo no gastado que podría haber salvado el mundo.',
+  
+  author: 'Jane Addams',
+  
+  },
+  
+  {
+   
+  
+  
+  
+  
+  text: 'La energía de la mente es la esencia de la vida.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Comience, sea audaz y aventúrese a ser sabio.',
+  
+  author: 'Horacio',
+  
+  },
+  
+  {
+  
+  text: 'Dale un pescado a un hombre y lo alimentarás por un día. Enséñale a pescar y lo alimentarás para toda la vida.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Un hombre sabio hará más oportunidades de las que encuentra.',
+  
+  author: 'Francis Bacon',
+  
+  },
+  
+  {
+  
+  text: 'Disminuye la velocidad y disfruta de la vida. No solo te pierdes el paisaje al ir demasiado rápido, también te pierdes el sentido de adónde vas y por qué.',
+  author: 'Eddie Cantor',
+  
+  },
+  
+  {
+  
+  text: 'Los milagros vienen en momentos. Esté preparado y dispuesto.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Innumerables son las maravillas del mundo, pero ninguna más maravillosa que el hombre.',
+  
+  author: 'Sófocles',
+  
+  },
+  
+  {
+  
+  text: 'Así es la alegría, o el buen humor, cuanto más se gasta, más queda.',
+  
+  author: 'Ralph Emerson',
+   
+  
+  
+  
+  
+  },
+  
+  {
+  
+  text: 'La verdadera manera de hacernos felices es amar nuestro trabajo y encontrar en él nuestro placer.',
+  author: 'Francoise de Motteville',
+  
+  },
+  
+  {
+  
+  text: 'Cuando juzgas a otro, no lo defines, te defines a ti mismo.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Defiende tus limitaciones y seguro que son tuyas.',
+  
+  author: 'Richard Bach',
+  
+  },
+  
+  {
+  
+  text: 'Quien quiere asegurar el bien de los demás, ya ha asegurado el suyo propio.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'Los sabios hablan porque tienen algo que decir; tontos, porque tienen que decir algo.',
+  
+  
+  author: 'Platón',
+  
+  },
+  
+  {
+  
+  text: 'La vida es muy simple, pero insistimos en complicarla.',
+  
+  author: 'Confucio',
+  
+  },
+  
+  {
+  
+  text: 'El futuro es un espejo opaco. Cualquiera que intente mirar en él no ve nada más que el contorno oscuros de un rostro viejo y preocupado.',
+  
+  author: 'Jim Bishop',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Todo lo que nos irrita de los demás puede llevarnos a una mejor comprensión de nosotros mismos.',
+  
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Cuidado con la verdad a medias. Puede que te hayas quedado con la mitad equivocada.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'El mayor error que puedes cometer en la vida es estar continuamente temiendo que cometerás uno.',
+  
+  
+  author: 'Elbert Hubbard',
+  
+  },
+  
+  {
+  
+  text: 'Nunca me han lastimado nada que no haya dicho.',
+  
+  author: 'Calvin Coolidge',
+  
+  },
+  
+  {
+  
+  text: 'No te enojes porque no puedes hacer a los demás como deseas que sean, ya que no puedes hacerte a ti mismo como deseas ser.',
+  author: 'Thomas Kempis',
+  
+  },
+  
+  {
+  
+  text: 'La adversidad hace que algunos hombres rompan, otros rompan récords.',
+  
+  author: 'William Ward',
+  
+  },
+  
+  {
+  
+  text: 'Una determinación invencible puede lograr casi cualquier cosa y en esto radica el gran distinción entre grandes hombres y pequeños hombres.',
+  author: 'Thomas Fuller',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'El paisaje industrial ya está plagado de restos de empresas que alguna vez fueron exitosas que no pudieron adaptar su visión estratégica a las condiciones alteradas de competencia.',
+  author: 'Abernathy',
+  
+  },
+  
+  {
+  
+  text: 'El ejemplo tiene más seguidores que la razón.',
+  
+  author: 'Christian Bovee',
+  
+  },
+  
+  {
+  
+  text: 'Aquel que desea sobresalir debe esforzarse en aquellas cosas que son en sí mismas las más excelentes.',
+  author: 'Epicteto',
+  
+  },
+  
+  {
+  
+  text: 'Si has cometido errores, siempre hay otra oportunidad para ti. Usted puede tener un empezar de nuevo en cualquier momento que elijas.',
+  
+  author: 'María Pickford',
+  
+  },
+  
+  {
+  
+  text: 'El único Zen que encuentras en la cima de las montañas es el Zen que traes allí.',
+  
+  author: 'Robert Pirsig',
+  
+  },
+  
+  {
+  
+  text: 'La gratitud es riqueza. Queja es pobreza.',
+  
+  author: 'Doris Day',
+  
+  },
+  
+  {
+  
+  text: 'La gente fuerte comete tantos errores como la gente débil. La diferencia es tan fuerte la gente admite sus errores, se ríe de ellos, aprende de ellos. Así es como se vuelven fuertes.',
+  
+  author: 'Richard Needham',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Conocer tu propósito es vivir una vida de dirección, y en esa dirección se encuentra la paz y la tranquilidad.',
+  author: 'Byron Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Puedes mantenerte erguido sin pararte sobre alguien. Puedes ser un vencedor sin tener víctimas.',
+  
+  
+  author: 'Harriet Woods',
+  
+  },
+  
+  {
+  
+  text: 'Los malos tiempos tienen un valor científico. Estas son ocasiones que un buen estudiante no se perdería.',
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'No es quien eres lo que te detiene, es quien crees que no eres.',
+  
+  author: null,
+  
+  },
+  
+  {
+  
+  text: 'Todos los niños son artistas. El problema es cómo seguir siendo un artista una vez que crece.',
+  
+  author: 'Pablo Picasso',
+  
+  },
+  
+  {
+  
+  text: 'O encontraré un camino, o haré uno.',
+  
+  author: 'Philip Sidney',
+  
+  },
+  
+  {
+  
+  text: 'Quien sabe que ya es suficiente, siempre tendrá suficiente.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'La única manera de tener un amigo es siendo uno.',
+   
+  
+  
+  
+  
+  author: 'Ralph Emerson',
+  
+  },
+  
+  {
+  
+  text: 'Si no tuviéramos invierno, la primavera no sería tan agradable; si no lo hiciéramos a veces gusto de la adversidad, la prosperidad no sería tan bienvenida.',
+  author: 'Anne Bradstreet',
+  
+  },
+  
+  {
+  
+  text: 'La alegría es lo que nos sucede cuando nos permitimos reconocer lo buenas que son las cosas en realidad.',
+  author: 'Marianne Williamson',
+  
+  },
+  
+  {
+  
+  text: 'Tu visión se aclarará solo cuando puedas mirar dentro de tu propio corazón. quien mira afuera, sueños; quien mira dentro, despierta.',
+  
+  author: 'Carl Jung',
+  
+  },
+  
+  {
+  
+  text: 'Nunca hay tiempo suficiente para hacerlo todo, pero siempre hay tiempo suficiente para hacer la cosa más importante.',
+  author: 'Brian Tracy',
+  
+  },
+  
+  {
+  
+  text: 'Realmente puedes cambiar el mundo si te preocupas lo suficiente.',
+  
+  author: 'Marian Edelman',
+  
+  },
+  
+  {
+  
+  text: 'Lo que eres es lo que has sido. Lo que serás es lo que haces ahora.',
+  
+  author: 'Buda',
+  
+  },
+  
+  {
+  
+  text: 'Nuestras vidas son la única expresión significativa de lo que creemos y en Quién creer. Y la única riqueza real, para cualquiera de nosotros, reside en nuestra fe.',
+   
+  
+  
+  
+  
+  author: 'Gordon Hinckley',
+  
+  },
+  
+  {
+  
+  text: 'Seguramente hay en la naturaleza humana una propensión inherente a extraer todo el bien de todo el mal.',
+  
+  author: 'Benjamín Haydon',
+  
+  },
+  
+  {
+  
+  text: 'La música en el alma puede ser escuchada por el universo.',
+  
+  author: 'Lao Tse',
+  
+  },
+  
+  {
+  
+  text: 'Lo que vemos depende principalmente de lo que buscamos.',
+  
+  author: 'John Lubbock',
+  
+  },
+  
+  {
+  
+  text: 'Al diablo con las circunstancias; Creo oportunidades.',
+  
+  author: 'Bruce Lee',
+  
+  },
+  
+  {
+  
+  text: 'La verdadera grandeza radica en ser amable, la verdadera sabiduría en una mente feliz.',
+  
+  author: 'Ella Wilcox',
+  
+  },
+  
+  {
+  
+  text: 'Una onza de emoción es igual a una tonelada de hechos.',
+  
+  author: 'Juan Junor',
+  
+  },
+  
+  {
+  
+  text: 'Necesitamos encontrar el coraje para decir NO a las cosas y personas que no están sirviendo nosotros si queremos redescubrirnos y vivir nuestras vidas con autenticidad.',
+  
+  author: 'Bárbara De Angelis',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Grande es el arte del comienzo, pero mayor es el arte del final.',
+  
+  author: 'Lazurus Long',
+  
+  },
+  
+  {
+  
+  text: 'En pocas palabras, crees que las cosas o las personas te hacen infeliz, pero esto no es preciso. Te haces infeliz.',
+  
+  author: 'Wayne Dyer',
+  
+  },
+  
+  {
+  
+  text: 'Nada funcionará a menos que tú lo hagas.',
+  
+  author: 'Maya Angelou',
+  
+  },
+  
+  {
+  
+  text: 'Nuestra capacidad para alcanzar la felicidad y el éxito depende de la fuerza de nuestras alas.',
+  
+  author: 'Catherine Pulsifer',
+  
+  },
+  
+  {
+  
+  text: 'Ir en contra del pensamiento dominante de tus amigos, de la mayoría de las personas que ves todos los días, es quizás el acto de heroísmo más difícil que puedes realizar.',
+  author: 'Theodore H. White',
+  
+  },
+  
+  {
+  
+  text: 'La gratitud le da sentido a nuestro pasado, trae paz para hoy y crea una visión para el mañana.',
+  
+  
+  author: 'Melodía Beattie',
+  
+  },
+  
+  {
+  
+  text: 'En cada vida debe caer la lluvia, pero la lluvia puede ser el dador de la vida y está en tu actitud lo que hace que la lluvia produzca la luz del sol.',
+  author: 'Byron Pulsifer',
+  
+  },
+   
+  
+  
+  
+  
+  {
+  
+  text: 'Todos estamos inclinados a juzgarnos a nosotros mismos por nuestros ideales; otros, por sus actos.',
+  
+  author: 'Harold Nicolson',
+  
+  },
+  
+  {
+  
+  text: 'Nada es una pérdida de tiempo si usas la experiencia sabiamente.',
+  
+  author: 'Rodin',
+  
+  },
+  
+  {
+  
+  text: 'Si una forma es mejor que otra, entonces puedes estar seguro de que es la forma de la naturaleza.',
+  
+  author: 'Aristóteles',
+  
+  },
+  
+  {
+  
+  text: 'Aquí hay una cualidad que uno debe poseer para ganar, y es la definición de propósito, el conocimiento de lo que uno quiere y un ardiente deseo de poseerlo.',
+  author: 'Napoleón Hill',
+  
+  },
+  
+  {
+  
+  text: 'No está en las estrellas sostener nuestro destino sino en nosotros mismos.',
+  
+  author: 'William Shakespeare',
+  
+  },
+  
+  {
+  
+  text: 'Usar el poder de decisión te da la capacidad de superar cualquier excusa para cambiar cualquier parte de tu vida en un instante.',
+  author: 'Tony Robbins',
+  
+  },
+  
+  {
+  
+  text: 'Me prepararé y algún día llegará mi oportunidad.',
+  
+  author: 'Abraham Lincoln',
+  
+  },
+  
+  {
+  text: 'A veces, las cartas que nos reparten no siempre son justas. Sin embargo, debes seguir sonriendo y seguir adelante.',
+  author: 'Tom Jackson',
+  
+  },
+];
