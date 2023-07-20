@@ -2,12 +2,13 @@ import { $, btnReloadWallpaper, input, input_tema } from './Accesibilidad.js';
 import { quotes } from '../data/quotes.js';
 
 let user;
+//Para recargar de nuevo todas las funciones de start, sin recargar la pagina, al dar click
+btnReloadWallpaper.addEventListener('click', () => !JSON.parse($('#favorito')) && start());
 // Al iniciar el main se inician todas estas funciones
 const start = () => {
     getQuote();
     addTime();
     getWallpaper();
-    // nameUser();
   };
 
 //Para buscar
@@ -46,10 +47,20 @@ function addTime() {
     const datenow = date.format(Date.now());
     const now = new Date();
     const timeOfDay = now.getHours() >= 12 ? 'PM' : 'AM';
+    const currentHour = now.getHours();
+    let greeting;
+    if (currentHour >= 5 && currentHour < 12) {
+      greeting = 'Buenos días, Kekero';
+    } else if (currentHour >= 12 && currentHour < 18) {
+      greeting = 'Buenas tardes, Kekero';
+    } else {
+      greeting = 'Buenas noches, Kekero';
+    }
 
     const rootClock = $('.clock');
     rootClock.innerHTML = `
-        <h1 class="font-semibold text-7xl md:text-9xl py-3">${hour} ${timeOfDay}</h1>
+        <p class=" font-extralight-bold text-2xl py-3">${greeting}</p> 
+        <h2 class="font-semibold text-7xl md:text-7xl py-3">${hour} ${timeOfDay}</h2>
         <p class="text-center sm:text-xl mb-6">${datenow}</p>
     `;
 }
