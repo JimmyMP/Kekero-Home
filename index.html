@@ -9,7 +9,159 @@
   <title>Coffe Lounge</title>
   <!-- Estilo general-->
   <style>
-    :root{ --font-family: Inter, system-ui, sans-serif}*{ margin: 0; padding: 0; box-sizing: border-box; font-family: var(--font-family)}[hidden]{ display: none !important}body{ background-color: black; display: grid; grid-template-rows: auto 1fr auto}.notes{ scroll-behavior: smooth}[aria-expanded="true"]{ display: block}[aria-expanded="false"]{ display: none}.content{ display: flex; flex-direction: column; justify-content: center; align-items: center}main{ height: 80vh;}.wallpaper{ inset: 0; z-index: -1; position: fixed; filter: brightness(0.6); -webkit-filter: brightness(0.6)}.quote,.clock{ width: min(800px, 90%); margin: 0 auto; color: white; text-align: center}.quote small{ display: block; margin-block: 1rem}div[contenteditable]{ position: relative; cursor: pointer}[contenteditable][placeholder]:empty:before{ content: attr(placeholder); color: #555}input[type="checkbox"]{ transform: scale(1.5)}input:checked ~ div[contenteditable]{ color: #959595; text-decoration: line-through}::-webkit-scrollbar{ height: 3px; width: 5px}::-webkit-scrollbar-thumb{ background: #ccc; width: 2px; border-radius: 1rem; -webkit-border-radius: 1rem; -moz-border-radius: 1rem; -ms-border-radius: 1rem; -o-border-radius: 1rem}::-webkit-scrollbar-thumb:active{ background-color: #999999}::-webkit-scrollbar-thumb:hover{ background: #747474; box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2)}::-webkit-scrollbar-track{ background: #e1e1e1; border-radius: 1rem; -webkit-border-radius: 1rem; -moz-border-radius: 1rem; -ms-border-radius: 1rem; -o-border-radius: 1rem}::-webkit-scrollbar-track:hover,::-webkit-scrollbar-track:active{ background: #d4d4d4}.dialog-fixed{ -webkit-backdrop-filter: blur(4px); }.tooltip::before{ content: ""; height: 0.6rem; width: 0.6rem; left: 1.2rem; top: -0.2rem; transform: rotate(45deg); position: absolute; z-index: 3; background: white; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg)}.min-h-24{ min-height: 24rem}@media (max-width: 700px) and (orientation: landscape){ div[role="dialog"] .settings{ height: 16rem;}}.justify-center{ justify-content: center}.flex-col{ flex-direction: column}.flex{ display: flex}
+    :root {
+      --font-family: Inter, system-ui, sans-serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: var(--font-family);
+    }
+    
+    [hidden] {
+      display: none !important;
+    }
+    
+    body {
+      background-color: black;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+    
+    .notes {
+      scroll-behavior: smooth;
+    }
+    
+    [aria-expanded="true"] {
+      display: block;
+    }
+    
+    [aria-expanded="false"] {
+      display: none;
+    }
+    
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    main {
+      height: 80vh;
+    }
+    
+    .wallpaper {
+      inset: 0;
+      z-index: -1;
+      position: fixed;
+      filter: brightness(0.6);
+      -webkit-filter: brightness(0.6);
+    }
+    
+    .quote,
+    .clock {
+      width: min(800px, 90%);
+      margin: 0 auto;
+      color: white;
+      text-align: center;
+    }
+    
+    .quote small {
+      display: block;
+      margin-block: 1rem;
+    }
+    
+    div[contenteditable] {
+      position: relative;
+      cursor: pointer;
+    }
+    
+    [contenteditable][placeholder]:empty:before {
+      content: attr(placeholder);
+      color: #555;
+    }
+    
+    input[type="checkbox"] {
+      transform: scale(1.5);
+    }
+    
+    input:checked ~ div[contenteditable] {
+      color: #959595;
+      text-decoration: line-through;
+    }
+    
+    ::-webkit-scrollbar {
+      height: 3px;
+      width: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+      width: 2px;
+      border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb:active {
+      background-color: #999999;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #747474;
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: #e1e1e1;
+      border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-track:hover,
+    ::-webkit-scrollbar-track:active {
+      background: #d4d4d4;
+    }
+    
+    .dialog-fixed {
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px); /* Para compatibilidad con navegadores WebKit */
+    }
+    
+    .tooltip::before {
+      content: "";
+      height: 0.6rem;
+      width: 0.6rem;
+      left: 1.2rem;
+      top: -0.2rem;
+      transform: rotate(45deg);
+      position: absolute;
+      z-index: 3;
+      background: white;
+    }
+    
+    .min-h-24 {
+      min-height: 24rem;
+    }
+    
+    @media (max-width: 700px) and (orientation: landscape) {
+      div[role="dialog"] .settings {
+        height: 16rem;
+      }
+    }
+    
+    .justify-center {
+      justify-content: center;
+    }
+    
+    .flex-col {
+      flex-direction: column;
+    }
+    
+    .flex {
+      display: flex;
+    }
+    
   </style>
   <!-- Estilos importados -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -61,28 +213,16 @@
       </a>
     </div>
 
-    <div aria-label="Crea notas rápidas" class="relative">
-      <button class="block h-10 px-2 m-5 text-white transform bg-transparent rounded-full btn-notes-list motion-safe:hover:scale-150 hover:bg-gray-100 hover:bg-opacity-10 outline-none ring ring-white ring-opacity-50" 
-      id="notes-list" aria-label="Botón de notas" title="Crear Nota">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
-        <path d="M0 0h24v24H0V0z" fill="none"/>
-        <path d="M2 17h2v.5H3v1h1v.5H2v1h3v-4H2v1zm1-9h1V4H2v1h1v3zm-1 3h1.8L2 13.1v.9h3v-1H3.2L5 10.9V10H2v1zm5-6v2h14V5H7zm0 14h14v-2H7v2zm0-6h14v-2H7v2z"/>
-      </svg>
-      </button>
-      <div class="hidden overflow-hidden rounded-md notes-list__list">
-        <div class="absolute z-10 w-3 h-3 transform rotate-45 bg-white top-14 left-9"></div>
-        <div class="absolute z-10 mt-1 bg-white rounded-md shadow-md -left-27 md:left-0 top-14 notes w-72" 
-        role="Lista de notas">
-          <p id="cant-notes" class="px-5 pt-5 text-sm font-medium">No tienes nada pendiente.</p>
-          <div id="notes" class="flex flex-col px-3 py-3 space-y-2">
-          </div>
-          <button id="new-note"
-          class="w-16 px-2 py-2 my-2 ml-5 text-sm font-semibold text-left text-gray-800 rounded-md hover:bg-gray-200 ">
-          +New</button>
-        </div>
-      </div>
+    <div aria-label="Ir a Orce-UNI">
+      <a href="https://www.academico.uni.edu.pe/alumno/inicio"
+      class="flex items-center h-10 px-2 m-5 text-white transform bg-transparent rounded-full motion-safe:hover:scale-150 hover:bg-gray-100 hover:bg-opacity-10 outline-none ring ring-white ring-opacity-50"
+        rel="noopener noreferrer" target="_blank" title="Ir a Orce-UNI" aria-label="Ir a Orce-UNI">
+        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#FFFFFF">
+          <path d="M479-120 189-279v-240L40-600l439-240 441 240v317h-60v-282l-91 46v240L479-120Zm0-308 315-172-315-169-313 169 313 172Zm0 240 230-127v-168L479-360 249-485v170l230 127Zm1-240Zm-1 74Zm0 0Z"/>
+        </svg>
+      </a>
     </div>
-    <div aria-label="Escoger el tema del fondo" class="flex fixed top-0 right-0 items-center">
+    <div aria-label="Escoger el tema del fondo" class="fixed top-0 right-0 items-center hidden sm:flex">
       <p class=" h-10 px-2 py-1 m-5 font-bold text-2xl text-white">Tema: </p>
       <form id="form_tema" class="flex mx-auto h-10 px-2">
         <input id="query_tema"
@@ -114,6 +254,7 @@
   <div class="wallpaper fade-in backgroundTransform"></div>
   <footer id="info-wallpaper" class="flex justify-between w-full px-4 py-2 text-white md:absolute bottom-2">
     <a href="" target="_blank" rel="noopener noreferrer" id="author"></a>
+    <p class="absolute left-1/2 transform -translate-x-1/2 font-semibold">Foto sacada de <a href="https://unsplash.com/es" target="_blank" class=" text-red-600">Unplash</a></p>
     <div class="flex items-center location-wrapper w-36 md:w-[initial]">
       <p class="ml-auto text-right" id="location"></p>
       <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
